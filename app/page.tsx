@@ -21,7 +21,7 @@ export default function Portfolio() {
               <p className="text-2xl md:text-3xl text-muted-foreground font-light">Data Professional</p>
             </div>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              Data Engineer • AI & ML Engineer • Data Analyst • Data Scientist
+              Data Engineer • AI & ML Engineer • Data Analyst
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button size="lg" onClick={() => scrollToSection("projects")} className="text-base">
