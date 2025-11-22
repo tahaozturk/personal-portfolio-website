@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Github, Linkedin, FileText, Cloud } from "lucide-react"
+import { Github, Linkedin, FileText } from "lucide-react"
 
 export default function Portfolio() {
   const scrollToSection = (sectionId: string) => {
@@ -21,7 +21,7 @@ export default function Portfolio() {
               <p className="text-2xl md:text-3xl text-muted-foreground font-light">Data Professional</p>
             </div>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              Data Engineer • ML Practitioner • Analytics & Fraud Detection Specialist
+              Data Engineer • AI & ML Engineer • Data Analyst • Data Scientist
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button size="lg" onClick={() => scrollToSection("projects")} className="text-base">
@@ -40,7 +40,7 @@ export default function Portfolio() {
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/taha-%C3%B6zt%C3%BCrk-8ab52a18a/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
@@ -49,7 +49,7 @@ export default function Portfolio() {
               <span className="text-sm">LinkedIn</span>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/tahaozturk"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
@@ -58,22 +58,13 @@ export default function Portfolio() {
               <span className="text-sm">GitHub</span>
             </a>
             <a
-              href="https://medium.com"
+              href="https://medium.com/@tahaozturk"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
             >
               <FileText className="w-5 h-5" />
               <span className="text-sm">Medium</span>
-            </a>
-            <a
-              href="https://bsky.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
-            >
-              <Cloud className="w-5 h-5" />
-              <span className="text-sm">Bluesky</span>
             </a>
           </div>
         </div>
@@ -180,16 +171,16 @@ export default function Portfolio() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="mailto:taha.ozturk@example.com"
+                href="mailto:taha@taha-ozturk.com"
                 className="inline-flex items-center gap-2 text-lg hover:text-primary transition-colors"
               >
                 <span className="text-muted-foreground">Email:</span>
-                <span>taha.ozturk@example.com</span>
+                <span>taha@taha-ozturk.com</span>
               </a>
             </div>
             <div className="flex flex-wrap gap-4 pt-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/taha-%C3%B6zt%C3%BCrk-8ab52a18a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
@@ -198,7 +189,7 @@ export default function Portfolio() {
                 <span className="text-sm">LinkedIn</span>
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/tahaozturk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
@@ -207,7 +198,7 @@ export default function Portfolio() {
                 <span className="text-sm">GitHub</span>
               </a>
               <a
-                href="https://medium.com"
+                href="https://medium.com/@tahaozturk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
