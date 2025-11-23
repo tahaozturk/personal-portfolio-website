@@ -6,7 +6,10 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
-    "start": "next start"
+    "start": "next start",
+    "export:pages": "node -e \"const fs=require('fs');fs.rmSync('docs',{recursive:true,force:true});fs.cpSync('out','docs',{recursive:true});fs.writeFileSync('docs/.nojekyll','')\"",
+    "deploy:pages": "npm run build && npm run export:pages",
+    "preview:pages": "npx serve docs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
