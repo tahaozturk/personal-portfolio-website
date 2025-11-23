@@ -24,115 +24,131 @@ export default function Portfolio() {
               Data Engineer • AI & ML Engineer • Data Analyst
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button size="lg" onClick={() => scrollToSection("projects")} className="text-base">
-                View Projects
+              <Button size="lg" onClick={() => scrollToSection("apps-courses")} className="text-base">
+                Apps & Courses
               </Button>
               <Button size="lg" variant="outline" onClick={() => scrollToSection("contact")} className="text-base">
                 Get in Touch
               </Button>
             </div>
+            <div className="flex flex-wrap gap-4 pt-6 justify-center md:justify-start">
+              <a
+                href="https://www.linkedin.com/in/taha-%C3%B6zt%C3%BCrk-8ab52a18a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
+              >
+                <Linkedin className="w-5 h-5" />
+                <span className="text-sm">LinkedIn</span>
+              </a>
+              <a
+                href="https://github.com/tahaozturk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
+              >
+                <Github className="w-5 h-5" />
+                <span className="text-sm">GitHub</span>
+              </a>
+              <a
+                href="https://medium.com/@tahaozturk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
+              >
+                <FileText className="w-5 h-5" />
+                <span className="text-sm">Medium</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Social Links Section */}
-      <section className="py-12 px-6 border-t border-border">
-        <div className="max-w-5xl mx-auto">
-          <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-            <a
-              href="https://www.linkedin.com/in/taha-%C3%B6zt%C3%BCrk-8ab52a18a/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
-            >
-              <Linkedin className="w-5 h-5" />
-              <span className="text-sm">LinkedIn</span>
-            </a>
-            <a
-              href="https://github.com/tahaozturk"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
-            >
-              <Github className="w-5 h-5" />
-              <span className="text-sm">GitHub</span>
-            </a>
-            <a
-              href="https://medium.com/@tahaozturk"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
-            >
-              <FileText className="w-5 h-5" />
-              <span className="text-sm">Medium</span>
-            </a>
-          </div>
-        </div>
-      </section>
+      
 
-      {/* Projects Section */}
-      <section id="projects" className="py-24 px-6 border-t border-border">
+      {/* Apps & Courses Section */}
+      <section id="apps-courses" className="py-24 px-6 border-t border-border">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold mb-12">Projects</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            {[
-              {
-                title: "Fraud Detection Pipeline",
-                description:
-                  "Built an end-to-end machine learning pipeline for real-time fraud detection using ensemble methods and feature engineering. Reduced false positives by 40% while maintaining high recall rates.",
-                tags: ["Python", "Scikit-learn", "PostgreSQL", "Docker"],
-              },
-              {
-                title: "Customer Analytics Dashboard",
-                description:
-                  "Developed interactive analytics dashboard for tracking customer behavior patterns and churn prediction. Enabled data-driven decision making for marketing teams.",
-                tags: ["Streamlit", "Pandas", "Plotly", "SQL"],
-              },
-              {
-                title: "ETL Data Warehouse",
-                description:
-                  "Designed and implemented scalable ETL processes for multi-source data integration. Automated data quality checks and validation workflows.",
-                tags: ["Apache Airflow", "dbt", "Snowflake", "Python"],
-              },
-              {
-                title: "NLP Sentiment Analyzer",
-                description:
-                  "Created sentiment analysis model for customer feedback classification. Integrated with production systems for real-time insights into customer satisfaction.",
-                tags: ["NLP", "Transformers", "FastAPI", "ML"],
-              },
-              {
-                title: "Predictive Maintenance System",
-                description:
-                  "Implemented time series forecasting models to predict equipment failures. Optimized maintenance schedules and reduced downtime by 25%.",
-                tags: ["TensorFlow", "Time Series", "Python", "ML"],
-              },
-              {
-                title: "Data Quality Framework",
-                description:
-                  "Built comprehensive data quality monitoring framework with automated alerts and validation rules. Improved data reliability across the organization.",
-                tags: ["Python", "Great Expectations", "SQL", "Monitoring"],
-              },
-            ].map((project, index) => (
-              <Card key={index} className="p-6 hover:border-primary/50 transition-colors">
-                <div className="space-y-4">
-                  <h3 className="text-xl font-semibold">{project.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{project.description}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {project.tags.map((tag, tagIndex) => (
-                      <span
-                        key={tagIndex}
-                        className="px-3 py-1 text-xs rounded-full bg-secondary text-secondary-foreground"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                  <Button variant="ghost" size="sm" className="mt-2">
-                    View on GitHub →
-                  </Button>
-                </div>
-              </Card>
-            ))}
+          <h2 className="text-4xl md:text-5xl font-bold mb-12">Apps & Courses</h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Apps</h3>
+              <div className="grid gap-6">
+                {[
+                  {
+                    title: "Motivation App",
+                    description:
+                      "A mobile app for Android and iOS that helps users set goals, track progress, and stay motivated to achieve them.",
+                    status: "In progress",
+                    tags: ["Mobile", "Android", "iOS", "Productivity"],
+                  },
+                ].map((item, index) => (
+                  <Card key={`app-${index}`} className="p-6 hover:border-primary/50 transition-colors">
+                    <div className="space-y-4">
+                      <div className="flex items-start justify-between">
+                        <h4 className="text-xl font-semibold">{item.title}</h4>
+                        <span className="px-2.5 py-1 text-xs rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 whitespace-nowrap">
+                          {item.status}
+                        </span>
+                      </div>
+                      <p className="text-muted-foreground leading-relaxed">{item.description}</p>
+                      <div className="flex flex-wrap gap-2">
+                        {item.tags.map((tag, tagIndex) => (
+                          <span
+                            key={tagIndex}
+                            className="px-3 py-1 text-xs rounded-full bg-secondary text-secondary-foreground"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                      <Button variant="ghost" size="sm" className="mt-2">
+                        Learn more →
+                      </Button>
+                    </div>
+                  </Card>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Courses</h3>
+              <div className="grid gap-6">
+                {[
+                  {
+                    title: "Solve SQL 50 With Me",
+                    description:
+                      "A step-by-step video playlist where I solve 50 LeetCode SQL problems to build practical querying skills.",
+                    status: "In progress",
+                    tags: ["SQL", "LeetCode", "Education", "Video"],
+                  },
+                ].map((item, index) => (
+                  <Card key={`course-${index}`} className="p-6 hover:border-primary/50 transition-colors">
+                    <div className="space-y-4">
+                      <div className="flex items-start justify-between">
+                        <h4 className="text-xl font-semibold">{item.title}</h4>
+                        <span className="px-2.5 py-1 text-xs rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 whitespace-nowrap">
+                          {item.status}
+                        </span>
+                      </div>
+                      <p className="text-muted-foreground leading-relaxed">{item.description}</p>
+                      <div className="flex flex-wrap gap-2">
+                        {item.tags.map((tag, tagIndex) => (
+                          <span
+                            key={tagIndex}
+                            className="px-3 py-1 text-xs rounded-full bg-secondary text-secondary-foreground"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                      <Button variant="ghost" size="sm" className="mt-2">
+                        Learn more →
+                      </Button>
+                    </div>
+                  </Card>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
