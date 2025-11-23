@@ -143,18 +143,16 @@ export default function Portfolio() {
           <h2 className="text-4xl md:text-5xl font-bold mb-8">About</h2>
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed max-w-3xl">
             <p>
-              I'm a data professional with a passion for transforming raw data into actionable insights. With expertise
-              spanning data engineering, machine learning, and analytics, I specialize in building robust data pipelines
-              and developing intelligent systems for fraud detection and business intelligence.
+            I’m a data professional who has worked across nearly every part of the data ecosystem — from analytics and
+            ETL pipelines to machine learning, cloud infrastructure, and API-driven real-time ML engines. My experience
+            spans industries such as home appliances, automotive, defence, consulting, fintech, banking, insurance, and scheme
+            operations, giving me a broad and adaptable perspective on how data drives impact in different environments.
             </p>
             <p>
-              My work focuses on creating scalable solutions that bridge the gap between data science and production
-              systems. I believe in the power of clean data, well-designed architectures, and continuous learning to
-              solve complex business problems.
-            </p>
-            <p>
-              When I'm not working with data, you'll find me exploring new ML techniques, contributing to open-source
-              projects, or writing about data engineering best practices on Medium.
+              I genuinely enjoy producing things — whether it’s tools, content, or experiments — so beyond my professional work,
+              this website is where I share my personal journey in the data world. Here you’ll find links to my LinkedIn, GitHub,
+              and Medium profiles, along with the apps and data-oriented courses I’ve launched, and those I’ll continue to launch.
+              It’s a curated space for the projects, ideas, and explorations that shape my growth.
             </p>
           </div>
         </div>
@@ -166,8 +164,8 @@ export default function Portfolio() {
           <h2 className="text-4xl md:text-5xl font-bold mb-8">Get in Touch</h2>
           <div className="space-y-8">
             <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-              I'm always interested in discussing data engineering challenges, machine learning projects, or potential
-              collaborations. Feel free to reach out!
+            If you have feedback or suggestions for the projects I build, or if you're
+            interested in sponsoring or supporting my work, feel free to reach out.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
