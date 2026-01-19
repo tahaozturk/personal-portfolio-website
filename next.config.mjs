@@ -11,9 +11,6 @@ const nextConfig = {
 	images: {
 		unoptimized: true,
 	},
-	// Prefix paths when served from project pages
-	basePath: isProd ? `/${repoName}` : '',
-	assetPrefix: isProd ? `/${repoName}/` : '',
 	trailingSlash: true,
 }
 
