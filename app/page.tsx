@@ -81,6 +81,7 @@ export default function Portfolio() {
                       "A mobile app for Android and iOS that helps users set goals, track progress, and stay motivated to achieve them.",
                     status: "In progress",
                     tags: ["Mobile", "Android", "iOS", "Productivity"],
+                    link: "https://motivatemequoteandhabittracker.netlify.app/",
                   },
                 ].map((item, index) => (
                   <Card key={`app-${index}`} className="p-6 hover:border-primary/50 transition-colors">
@@ -102,9 +103,17 @@ export default function Portfolio() {
                           </span>
                         ))}
                       </div>
-                      <Button variant="ghost" size="sm" className="mt-2">
-                        Learn more →
-                      </Button>
+                      {item.link ? (
+                        <a href={item.link} target="_blank" rel="noopener noreferrer">
+                          <Button variant="ghost" size="sm" className="mt-2">
+                            Learn more →
+                          </Button>
+                        </a>
+                      ) : (
+                        <Button variant="ghost" size="sm" className="mt-2" disabled>
+                          Learn more →
+                        </Button>
+                      )}
                     </div>
                   </Card>
                 ))}
