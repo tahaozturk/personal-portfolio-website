@@ -13,21 +13,23 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center px-6 py-12">
-        <div className="max-w-5xl w-full">
+      <section className="min-h-screen flex items-center justify-center px-6 py-12 relative overflow-hidden">
+        <div className="absolute -top-40 left-1/3 w-[600px] h-[600px] bg-primary/6 rounded-full blur-[120px] pointer-events-none" />
+        <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-primary/4 rounded-full blur-[100px] pointer-events-none" />
+        <div className="max-w-5xl w-full relative">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">Taha Öztürk</h1>
-              <p className="text-2xl md:text-3xl text-muted-foreground font-light">Data Professional</p>
+              <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance bg-gradient-to-br from-foreground via-foreground to-primary/80 bg-clip-text text-transparent">Taha Öztürk</h1>
+              <p className="text-2xl md:text-3xl font-light text-foreground/60">Data Professional</p>
             </div>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
               Data Engineer • AI & ML Engineer • Data Analyst
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button size="lg" onClick={() => scrollToSection("apps-courses")} className="text-base">
+              <Button size="lg" onClick={() => scrollToSection("apps-courses")} className="text-base bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 shadow-lg shadow-primary/20">
                 Apps & Courses
               </Button>
-              <Button size="lg" variant="outline" onClick={() => scrollToSection("contact")} className="text-base">
+              <Button size="lg" variant="outline" onClick={() => scrollToSection("contact")} className="text-base hover:border-primary/50 hover:text-primary">
                 Get in Touch
               </Button>
             </div>
@@ -36,7 +38,7 @@ export default function Portfolio() {
                 href="https://www.linkedin.com/in/taha-%C3%B6zt%C3%BCrk-8ab52a18a/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:border-primary/50 hover:text-primary hover:bg-accent transition-all duration-200"
               >
                 <Linkedin className="w-5 h-5" />
                 <span className="text-sm">LinkedIn</span>
@@ -45,7 +47,7 @@ export default function Portfolio() {
                 href="https://github.com/tahaozturk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:border-primary/50 hover:text-primary hover:bg-accent transition-all duration-200"
               >
                 <Github className="w-5 h-5" />
                 <span className="text-sm">GitHub</span>
@@ -54,7 +56,7 @@ export default function Portfolio() {
                 href="https://medium.com/@tahaozturk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:border-primary/50 hover:text-primary hover:bg-accent transition-all duration-200"
               >
                 <FileText className="w-5 h-5" />
                 <span className="text-sm">Medium</span>
@@ -67,7 +69,8 @@ export default function Portfolio() {
 
 
       {/* Apps & Courses Section */}
-      <section id="apps-courses" className="py-24 px-6 border-t border-border">
+      <section id="apps-courses" className="py-24 px-6 border-t border-border/60 relative overflow-hidden">
+        <div className="absolute top-1/2 right-0 w-[300px] h-[300px] bg-primary/3 rounded-full blur-[80px] pointer-events-none" />
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-12">Apps & Courses</h2>
           <div className="grid md:grid-cols-2 gap-12">
@@ -83,7 +86,7 @@ export default function Portfolio() {
                     link: "https://motivatemequoteandhabittracker.netlify.app/",
                   },
                 ].map((item, index) => (
-                  <Card key={`app-${index}`} className="p-6 hover:border-primary/50 transition-colors">
+                  <Card key={`app-${index}`} className="p-6 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
                     <div className="space-y-4">
                       <div className="flex items-start justify-between">
                         <h4 className="text-xl font-semibold">{item.title}</h4>
@@ -127,7 +130,7 @@ export default function Portfolio() {
                     tags: ["SQL", "LeetCode", "Education", "Video"],
                   },
                 ].map((item, index) => (
-                  <Card key={`course-${index}`} className="p-6 hover:border-primary/50 transition-colors">
+                  <Card key={`course-${index}`} className="p-6 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
                     <div className="space-y-4">
                       <div className="flex items-start justify-between">
                         <h4 className="text-xl font-semibold">{item.title}</h4>
@@ -159,7 +162,7 @@ export default function Portfolio() {
       </section>
 
       {/* About Section */}
-      <section className="py-24 px-6 border-t border-border">
+      <section className="py-24 px-6 border-t border-border/60">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">About</h2>
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed max-w-3xl">
@@ -180,7 +183,7 @@ export default function Portfolio() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 px-6 border-t border-border">
+      <section id="contact" className="py-24 px-6 border-t border-border/60">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">Get in Touch</h2>
           <div className="space-y-8">
@@ -202,7 +205,7 @@ export default function Portfolio() {
                 href="https://www.linkedin.com/in/taha-%C3%B6zt%C3%BCrk-8ab52a18a/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:border-primary/50 hover:text-primary hover:bg-accent transition-all duration-200"
               >
                 <Linkedin className="w-5 h-5" />
                 <span className="text-sm">LinkedIn</span>
@@ -211,7 +214,7 @@ export default function Portfolio() {
                 href="https://github.com/tahaozturk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:border-primary/50 hover:text-primary hover:bg-accent transition-all duration-200"
               >
                 <Github className="w-5 h-5" />
                 <span className="text-sm">GitHub</span>
@@ -220,7 +223,7 @@ export default function Portfolio() {
                 href="https://medium.com/@tahaozturk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:bg-accent transition-colors"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:border-primary/50 hover:text-primary hover:bg-accent transition-all duration-200"
               >
                 <FileText className="w-5 h-5" />
                 <span className="text-sm">Medium</span>
@@ -231,9 +234,9 @@ export default function Portfolio() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-6 border-t border-border">
+      <footer className="py-12 px-6 border-t border-border/60">
         <div className="max-w-5xl mx-auto">
-          <p className="text-sm text-muted-foreground text-center">© 2025 Taha Öztürk. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground/60 text-center">© 2025 Taha Öztürk. All rights reserved.</p>
         </div>
       </footer>
     </div>
