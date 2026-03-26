@@ -7,27 +7,46 @@ import "./globals.css"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
-// <CHANGE> Updated metadata for Taha Öztürk's portfolio
 export const metadata: Metadata = {
+  metadataBase: new URL("https://taha-ozturk.com"),
   title: "Taha Öztürk — Data Professional",
-  description: "Data Engineer • ML Practitioner • Analytics & Fraud Detection Specialist",
-  generator: "v0.app",
+  description:
+    "Data Engineer, AI & ML Engineer, and Data Analyst building end-to-end pipelines, machine learning systems, and data-driven products. Explore my apps, courses, and writing.",
+  keywords: [
+    "Taha Öztürk",
+    "Data Engineer",
+    "ML Engineer",
+    "Machine Learning",
+    "Data Analyst",
+    "ETL",
+    "Python",
+    "Fraud Detection",
+    "Analytics",
+    "Portfolio",
+  ],
+  authors: [{ name: "Taha Öztürk", url: "https://taha-ozturk.com" }],
+  openGraph: {
+    type: "website",
+    url: "https://taha-ozturk.com",
+    title: "Taha Öztürk — Data Professional",
+    description:
+      "Data Engineer, AI & ML Engineer, and Data Analyst building end-to-end pipelines, machine learning systems, and data-driven products.",
+    siteName: "Taha Öztürk",
+  },
+  twitter: {
+    card: "summary",
+    title: "Taha Öztürk — Data Professional",
+    description:
+      "Data Engineer, AI & ML Engineer, and Data Analyst building end-to-end pipelines, machine learning systems, and data-driven products.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   icons: {
-    icon: [
-      {
-        url: "machine_learning.jpg",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "data.jpg",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "data.jpg",
-        type: "image/jpg",
-      },
-    ],
-    apple: "data.jpg",
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/apple-icon.png",
   },
 }
 
