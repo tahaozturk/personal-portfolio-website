@@ -85,6 +85,13 @@ export default function Portfolio() {
                     tags: ["Mobile", "Android", "iOS", "Productivity"],
                     link: "https://motivatemequoteandhabittracker.netlify.app/",
                   },
+                  {
+                    title: "Release Note Generator",
+                    description:
+                      "A micro SaaS for generating app store release notes for mobile apps. Connect your GitHub repo and let AI automatically generate polished notes and their localized versions across languages.",
+                    tags: ["SaaS", "AI", "GitHub", "Localization", "Mobile"],
+                    link: "https://release-note-generator-frontend.vercel.app/",
+                  },
                 ].map((item, index) => (
                   <Card key={`app-${index}`} className="p-6 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
                     <div className="space-y-4">
