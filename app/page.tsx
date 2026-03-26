@@ -64,7 +64,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      
+
 
       {/* Apps & Courses Section */}
       <section id="apps-courses" className="py-24 px-6 border-t border-border">
@@ -76,10 +76,9 @@ export default function Portfolio() {
               <div className="grid gap-6">
                 {[
                   {
-                    title: "Motivation App",
+                    title: "MotivateMe",
                     description:
                       "A mobile app for Android and iOS that helps users set goals, track progress, and stay motivated to achieve them.",
-                    status: "In progress",
                     tags: ["Mobile", "Android", "iOS", "Productivity"],
                     link: "https://motivatemequoteandhabittracker.netlify.app/",
                   },
@@ -88,9 +87,6 @@ export default function Portfolio() {
                     <div className="space-y-4">
                       <div className="flex items-start justify-between">
                         <h4 className="text-xl font-semibold">{item.title}</h4>
-                        <span className="px-2.5 py-1 text-xs rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 whitespace-nowrap">
-                          {item.status}
-                        </span>
                       </div>
                       <p className="text-muted-foreground leading-relaxed">{item.description}</p>
                       <div className="flex flex-wrap gap-2">
@@ -106,12 +102,12 @@ export default function Portfolio() {
                       {item.link ? (
                         <a href={item.link} target="_blank" rel="noopener noreferrer">
                           <Button variant="ghost" size="sm" className="mt-2">
-                            Learn more →
+                            Go to app page →
                           </Button>
                         </a>
                       ) : (
                         <Button variant="ghost" size="sm" className="mt-2" disabled>
-                          Learn more →
+                          Go to app page →
                         </Button>
                       )}
                     </div>
@@ -168,10 +164,10 @@ export default function Portfolio() {
           <h2 className="text-4xl md:text-5xl font-bold mb-8">About</h2>
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed max-w-3xl">
             <p>
-            I’m a data professional who has worked across nearly every part of the data ecosystem — from analytics and
-            ETL pipelines to machine learning, cloud infrastructure, and API-driven real-time ML engines. My experience
-            spans industries such as home appliances, automotive, defence, consulting, fintech, banking, insurance, and scheme
-            operations, giving me a broad and adaptable perspective on how data drives impact in different environments.
+              I’m a data professional who has worked across nearly every part of the data ecosystem — from analytics and
+              ETL pipelines to machine learning, cloud infrastructure, and API-driven real-time ML engines. My experience
+              spans industries such as home appliances, automotive, defence, consulting, fintech, banking, insurance, and scheme
+              operations, giving me a broad and adaptable perspective on how data drives impact in different environments.
             </p>
             <p>
               I genuinely enjoy producing things — whether it’s tools, content, or experiments — so beyond my professional work,
@@ -189,8 +185,8 @@ export default function Portfolio() {
           <h2 className="text-4xl md:text-5xl font-bold mb-8">Get in Touch</h2>
           <div className="space-y-8">
             <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            If you have feedback or suggestions for the projects I build, or if you're
-            interested in sponsoring or supporting my work, feel free to reach out.
+              If you have feedback or suggestions for the projects I build, or if you're
+              interested in sponsoring or supporting my work, feel free to reach out.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
