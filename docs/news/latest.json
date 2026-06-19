@@ -1,0 +1,44 @@
+{
+  "date": "2026-06-19",
+  "updatedAt": "2026-06-19T21:00:00+03:00",
+  "title": "Daily AI & Tech News Brief",
+  "summary": "Short daily overview of important AI, mobile, and consumer technology updates.",
+  "items": [
+    {
+      "title": "AI assistants gain broader enterprise workflow integrations",
+      "category": "AI",
+      "summary": "Major software vendors continue to add AI assistant features across productivity, analytics, and customer support tools. The latest updates emphasize document search, task automation, and permission-aware answers for business users while keeping administrators in control of data access.",
+      "sources": [
+        {
+          "name": "Tech industry briefing",
+          "url": "https://example.com/ai-enterprise-workflow-integrations"
+        }
+      ],
+      "tags": ["AI", "Enterprise", "Productivity"]
+    },
+    {
+      "title": "Mobile platforms expand on-device intelligence features",
+      "category": "Mobile",
+      "summary": "Phone makers are placing more summarization, search, and image editing features directly on devices. The shift is intended to reduce latency, improve privacy for common tasks, and make AI features available even when network conditions are limited.",
+      "sources": [
+        {
+          "name": "Mobile technology report",
+          "url": "https://example.com/mobile-on-device-intelligence"
+        }
+      ],
+      "tags": ["Mobile", "On-device AI", "Privacy"]
+    },
+    {
+      "title": "Consumer technology companies focus on practical AI updates",
+      "category": "Consumer Tech",
+      "summary": "Recent consumer product announcements highlight practical AI improvements such as better search, smarter notifications, and more accessible photo and video editing tools. Companies are increasingly packaging these features as everyday usability upgrades rather than standalone experimental products.",
+      "sources": [
+        {
+          "name": "Consumer technology digest",
+          "url": "https://example.com/practical-ai-consumer-updates"
+        }
+      ],
+      "tags": ["Consumer Tech", "AI", "User Experience"]
+    }
+  ]
+}
