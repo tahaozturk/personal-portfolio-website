@@ -1,44 +1,69 @@
 {
-  "date": "2026-06-19",
   "updatedAt": "2026-06-19T21:00:00+03:00",
   "title": "Daily AI & Tech News Brief",
-  "summary": "Short daily overview of important AI, mobile, and consumer technology updates.",
-  "items": [
+  "summary": "Concise AI, mobile, XR, and consumer technology news summaries with source links.",
+  "days": [
     {
-      "title": "AI assistants gain broader enterprise workflow integrations",
-      "category": "AI",
-      "summary": "Major software vendors continue to add AI assistant features across productivity, analytics, and customer support tools. The latest updates emphasize document search, task automation, and permission-aware answers for business users while keeping administrators in control of data access.",
-      "sources": [
+      "date": "2026-06-19",
+      "items": [
         {
-          "name": "Tech industry briefing",
-          "url": "https://example.com/ai-enterprise-workflow-integrations"
+          "title": "AI model providers expand tools for enterprise assistants",
+          "category": "AI",
+          "summary": "Major AI platform providers continue to add workflow, retrieval, and safety controls for enterprise assistants. The updates are aimed at helping teams connect models to business data while keeping deployment and governance requirements visible.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/news/"
+            },
+            {
+              "name": "Google Cloud Blog",
+              "url": "https://cloud.google.com/blog/"
+            }
+          ],
+          "tags": ["AI", "Enterprise", "Assistants"]
+        },
+        {
+          "title": "Smartphone makers emphasize on-device AI features",
+          "category": "Mobile",
+          "summary": "Recent mobile announcements show manufacturers positioning on-device AI as a core phone feature. Camera editing, translation, summarization, and personal assistant capabilities remain the most common consumer-facing examples.",
+          "sources": [
+            {
+              "name": "Samsung Newsroom",
+              "url": "https://news.samsung.com/global/"
+            }
+          ],
+          "tags": ["Mobile", "Android", "On-device AI"]
         }
-      ],
-      "tags": ["AI", "Enterprise", "Productivity"]
+      ]
     },
     {
-      "title": "Mobile platforms expand on-device intelligence features",
-      "category": "Mobile",
-      "summary": "Phone makers are placing more summarization, search, and image editing features directly on devices. The shift is intended to reduce latency, improve privacy for common tasks, and make AI features available even when network conditions are limited.",
-      "sources": [
+      "date": "2026-06-18",
+      "items": [
         {
-          "name": "Mobile technology report",
-          "url": "https://example.com/mobile-on-device-intelligence"
-        }
-      ],
-      "tags": ["Mobile", "On-device AI", "Privacy"]
-    },
-    {
-      "title": "Consumer technology companies focus on practical AI updates",
-      "category": "Consumer Tech",
-      "summary": "Recent consumer product announcements highlight practical AI improvements such as better search, smarter notifications, and more accessible photo and video editing tools. Companies are increasingly packaging these features as everyday usability upgrades rather than standalone experimental products.",
-      "sources": [
+          "title": "XR hardware updates focus on lighter designs and clearer displays",
+          "category": "XR",
+          "summary": "Consumer XR coverage continues to highlight lighter headset and smart glasses designs. Display clarity, battery life, and app ecosystems remain key factors for broader adoption.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/"
+            }
+          ],
+          "tags": ["XR", "Smart Glasses", "Wearables"]
+        },
         {
-          "name": "Consumer technology digest",
-          "url": "https://example.com/practical-ai-consumer-updates"
+          "title": "Consumer technology firms continue privacy-focused feature updates",
+          "category": "Consumer Tech",
+          "summary": "Technology companies are continuing to market privacy controls as part of mainstream product updates. Recent messaging often focuses on account security, device-level protections, and clearer data controls for users.",
+          "sources": [
+            {
+              "name": "Apple Newsroom",
+              "url": "https://www.apple.com/newsroom/"
+            }
+          ],
+          "tags": ["Privacy", "Security", "Consumer Tech"]
         }
-      ],
-      "tags": ["Consumer Tech", "AI", "User Experience"]
+      ]
     }
   ]
 }
