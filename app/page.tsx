@@ -1,8 +1,10 @@
 "use client"
 
+import Link from "next/link"
+
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Github, Linkedin, FileText } from "lucide-react"
+import { Github, Linkedin, FileText, Newspaper } from "lucide-react"
 
 export default function Portfolio() {
   const scrollToSection = (sectionId: string) => {
@@ -31,6 +33,12 @@ export default function Portfolio() {
               </Button>
               <Button size="lg" variant="outline" onClick={() => scrollToSection("contact")} className="text-base hover:border-primary/50 hover:text-primary">
                 Get in Touch
+              </Button>
+              <Button size="lg" variant="secondary" asChild className="text-base hover:bg-primary/10 hover:text-primary">
+                <Link href="/news" className="inline-flex items-center gap-2">
+                  <Newspaper className="h-5 w-5" />
+                  News
+                </Link>
               </Button>
             </div>
             <div className="flex flex-wrap gap-4 pt-6 justify-center md:justify-start">
