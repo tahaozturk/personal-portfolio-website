@@ -1,44 +1,48 @@
 {
   "date": "2026-06-19",
-  "updatedAt": "2026-06-19T21:00:00+03:00",
+  "updatedAt": "2026-06-19T14:10:38+03:00",
   "title": "Daily AI & Tech News Brief",
-  "summary": "Short daily overview of important AI, mobile, and consumer technology updates.",
+  "summary": "A concise roundup of recent AI, mobile, XR, and consumer technology updates with source links.",
   "items": [
     {
-      "title": "AI assistants gain broader enterprise workflow integrations",
-      "category": "AI",
-      "summary": "Major software vendors continue to add AI assistant features across productivity, analytics, and customer support tools. The latest updates emphasize document search, task automation, and permission-aware answers for business users while keeping administrators in control of data access.",
+      "title": "AWE 2026 coverage highlights new smart glasses and AR gadgets",
+      "category": "XR",
+      "summary": "Techloy published a roundup of smart glasses and AR gadgets shown around AWE 2026. The coverage focuses on consumer-facing wearable and augmented reality hardware announcements.",
       "sources": [
         {
-          "name": "Tech industry briefing",
-          "url": "https://example.com/ai-enterprise-workflow-integrations"
+          "name": "Techloy via Google News",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TY0docUpqMmVSazl0dXpEQUdPTjNOU3Y2eTNBMFNQVE9uYl85Z2hGdU1yRzlCY3Q5NGprYWk0bzNaWjloTWVpa1o1Q3ZzdlJLRlpYNzRwd1B5dmF0VUtEZWx0SlVQZUJVM2JZZXJ0UlQ?oc=5"
         }
       ],
-      "tags": ["AI", "Enterprise", "Productivity"]
+      "tags": ["XR", "Smart Glasses", "AR"]
     },
     {
-      "title": "Mobile platforms expand on-device intelligence features",
+      "title": "Samsung teases Galaxy M47 launch in India",
       "category": "Mobile",
-      "summary": "Phone makers are placing more summarization, search, and image editing features directly on devices. The shift is intended to reduce latency, improve privacy for common tasks, and make AI features available even when network conditions are limited.",
+      "summary": "Multiple mobile technology outlets reported that Samsung has teased the Galaxy M47 5G for the Indian market. The reports point to an upcoming launch while tracking expected pricing, design, and specification details.",
       "sources": [
         {
-          "name": "Mobile technology report",
-          "url": "https://example.com/mobile-on-device-intelligence"
+          "name": "SamMobile via Google News",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQXVwdkpsRzZ2SUJvQ0pZTHFucUVyWVJOVThIVC1ieDlVNkJNSGZ3QjVRS2Z5R1ZfaURuTW5EbWlaUFphWXI2VzZiaUIxNEdpVFNOLVRVQnVKbUZ0TUU5N2ZZSm56SUhJdkpYOG9hSHdqSnVIVEFkOWkyUEhHVWdFTVVZYk5rQQ?oc=5"
+        },
+        {
+          "name": "91mobiles via Google News",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBhd2dDM2szNU9yUzBweGhJcnVBTWd0M3NWakdKS0wyTmNCSUw1aHF0aGg3emZEbTRPQXpLLUlVd21sUXVjVDNrS3g1YXUzb1hLS0M3eWxKek1PM0h0WmJrMU9IU0ZDOXVEZXQtYk1JSFJhSDdzUy1yOWdaN0HSAYIBQVVfeXFMTTh3NjVGVGY4SWp6MXFJYWtHNno1d2dtdko4dGcxdXVSZlNXUU9FQ21CcTJQWmQ1S3FIZjVVNlpQLW94cFAzZTM2MG9Gb2hWdGVSVndicUEwbHFwT0NmZy16SFN2elN1aV9VR3owM2FHSHZTSUNGdV9hUUo2VlRBejNHdw?oc=5"
         }
       ],
-      "tags": ["Mobile", "On-device AI", "Privacy"]
+      "tags": ["Android", "Samsung", "Phones"]
     },
     {
-      "title": "Consumer technology companies focus on practical AI updates",
-      "category": "Consumer Tech",
-      "summary": "Recent consumer product announcements highlight practical AI improvements such as better search, smarter notifications, and more accessible photo and video editing tools. Companies are increasingly packaging these features as everyday usability upgrades rather than standalone experimental products.",
+      "title": "A10 Networks acquires TrojAI to expand AI roadmap",
+      "category": "AI Business",
+      "summary": "A10 Networks announced the acquisition of TrojAI as part of its AI roadmap expansion. The deal is positioned around strengthening AI-related capabilities in the company's product direction.",
       "sources": [
         {
-          "name": "Consumer technology digest",
-          "url": "https://example.com/practical-ai-consumer-updates"
+          "name": "India's News.Net via Google News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZG9OWHNuWjFRRnlNQU9xQWdiNDN2QnpGLUhKRC11N2Fkb0k1N1k0NFY2VmJ5V0RlSHJNUmdaZWQ2YVVzaEhiczhyX2NvM3dWa1hsT0V5b1RXdl9fMU1hWlJNWWYxQXc5QS1HODNMemk3X0F5cjlGbUUweVplaGJpV1VreGczY1FPMGdFSWhmM2VJV3hNTFZHWGExMA?oc=5"
         }
       ],
-      "tags": ["Consumer Tech", "AI", "User Experience"]
+      "tags": ["AI", "Acquisition", "Enterprise"]
     }
   ]
 }
