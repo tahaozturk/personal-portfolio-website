@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { ArrowLeft, ExternalLink, RefreshCw } from "lucide-react"
 
@@ -19,13 +19,27 @@ interface NewsItem {
   tags?: string[]
 }
 
-interface NewsBrief {
+interface NewsDay {
+  date: string
+  items: NewsItem[]
+}
+
+interface RollingNewsFeed {
+  updatedAt: string
+  title: string
+  summary: string
+  days: NewsDay[]
+}
+
+interface LegacyNewsBrief {
   date: string
   updatedAt: string
   title: string
   summary: string
   items: NewsItem[]
 }
+
+type NewsFeedResponse = RollingNewsFeed | LegacyNewsBrief
 
 function formatDate(value: string) {
   const date = new Date(value)
@@ -40,8 +54,31 @@ function formatDate(value: string) {
   }).format(date)
 }
 
+function normalizeFeed(feed: NewsFeedResponse): RollingNewsFeed {
+  if ("days" in feed && Array.isArray(feed.days)) {
+    return {
+      updatedAt: feed.updatedAt,
+      title: feed.title,
+      summary: feed.summary,
+      days: feed.days.slice(0, 10),
+    }
+  }
+
+  return {
+    updatedAt: feed.updatedAt,
+    title: feed.title,
+    summary: feed.summary,
+    days: [
+      {
+        date: feed.date,
+        items: feed.items ?? [],
+      },
+    ],
+  }
+}
+
 export default function NewsPage() {
-  const [brief, setBrief] = useState<NewsBrief | null>(null)
+  const [feed, setFeed] = useState<RollingNewsFeed | null>(null)
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -64,10 +101,10 @@ export default function NewsPage() {
           throw new Error(`News feed returned ${response.status}`)
         }
 
-        const data = (await response.json()) as NewsBrief
+        const data = (await response.json()) as NewsFeedResponse
 
         if (isMounted) {
-          setBrief(data)
+          setFeed(normalizeFeed(data))
         }
       } catch (loadError) {
         if (isMounted) {
@@ -87,7 +124,9 @@ export default function NewsPage() {
     }
   }, [])
 
-  const hasItems = Boolean(brief?.items?.length)
+  const visibleDays = useMemo(() => feed?.days.slice(0, 10) ?? [], [feed])
+  const totalItems = useMemo(() => visibleDays.reduce((total, day) => total + day.items.length, 0), [visibleDays])
+  const hasItems = totalItems > 0
 
   return (
     <div className="min-h-screen bg-background">
@@ -105,17 +144,21 @@ export default function NewsPage() {
 
             <div className="space-y-5">
               <div className="inline-flex rounded-full border border-primary/20 bg-primary/10 px-4 py-1 text-sm text-primary">
-                Public news brief
+                Rolling 10-day public news feed
               </div>
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance bg-gradient-to-br from-foreground via-foreground to-primary/80 bg-clip-text text-transparent">
-                {brief?.title ?? "Daily AI & Tech News Brief"}
+                {feed?.title ?? "Daily AI & Tech News Brief"}
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-3xl leading-relaxed">
-                {brief?.summary ?? "A concise runtime-loaded brief covering important AI, mobile, and consumer technology updates."}
+                {feed?.summary ?? "Concise AI, mobile, XR, and consumer technology news summaries with source links."}
               </p>
               <div className="flex flex-wrap gap-3 text-sm text-muted-foreground">
-                {brief?.date ? <span className="rounded-full bg-secondary px-3 py-1">Date: {formatDate(brief.date)}</span> : null}
-                {brief?.updatedAt ? <span className="rounded-full bg-secondary px-3 py-1">Last updated: {formatDate(brief.updatedAt)}</span> : null}
+                {feed?.updatedAt ? <span className="rounded-full bg-secondary px-3 py-1">Last updated: {formatDate(feed.updatedAt)}</span> : null}
+                {feed ? (
+                  <span className="rounded-full bg-secondary px-3 py-1">
+                    {visibleDays.length} {visibleDays.length === 1 ? "day" : "days"} · {totalItems} {totalItems === 1 ? "item" : "items"}
+                  </span>
+                ) : null}
               </div>
             </div>
           </div>
@@ -124,7 +167,7 @@ export default function NewsPage() {
             <Card className="p-8 border-primary/20">
               <div className="flex items-center gap-3 text-muted-foreground">
                 <RefreshCw className="h-5 w-5 animate-spin text-primary" />
-                Loading latest news brief…
+                Loading latest news feed…
               </div>
             </Card>
           ) : null}
@@ -146,51 +189,67 @@ export default function NewsPage() {
               <div className="space-y-3">
                 <h2 className="text-xl font-semibold">No news items available</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  The latest brief is empty. Check back after the next feed update.
+                  The latest feed is empty. Check back after the next feed update.
                 </p>
               </div>
             </Card>
           ) : null}
 
           {hasItems ? (
-            <section className="grid gap-6" aria-label="News items">
-              {brief?.items.map((item, index) => (
-                <Card key={`${item.title}-${index}`} className="p-6 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
-                  <article className="space-y-4">
-                    <div className="space-y-3">
-                      <span className="inline-flex rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
-                        {item.category}
-                      </span>
-                      <h2 className="text-2xl font-semibold tracking-tight">{item.title}</h2>
+            <section className="space-y-10" aria-label="Rolling news feed">
+              {visibleDays.map((day) => (
+                <div key={day.date} className="space-y-5">
+                  <div className="flex flex-wrap items-end justify-between gap-3 border-b border-border/60 pb-3">
+                    <div>
+                      <p className="text-sm uppercase tracking-[0.2em] text-primary">News for</p>
+                      <h2 className="text-3xl font-semibold tracking-tight">{formatDate(day.date)}</h2>
                     </div>
-                    <p className="text-muted-foreground leading-relaxed">{item.summary}</p>
-                    {item.tags?.length ? (
-                      <div className="flex flex-wrap gap-2">
-                        {item.tags.map((tag) => (
-                          <span key={tag} className="px-3 py-1 text-xs rounded-full bg-secondary text-secondary-foreground">
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                    ) : null}
-                    {item.sources.length ? (
-                      <div className="flex flex-wrap gap-3 pt-2">
-                        {item.sources.map((source) => (
-                          <a
-                            key={`${item.title}-${source.url}`}
-                            href={source.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
-                          >
-                            {source.name}
-                            <ExternalLink className="h-3.5 w-3.5" />
-                          </a>
-                        ))}
-                      </div>
-                    ) : null}
-                  </article>
-                </Card>
+                    <span className="rounded-full bg-secondary px-3 py-1 text-sm text-muted-foreground">
+                      {day.items.length} {day.items.length === 1 ? "item" : "items"}
+                    </span>
+                  </div>
+
+                  <div className="grid gap-6">
+                    {day.items.map((item, index) => (
+                      <Card key={`${day.date}-${item.title}-${index}`} className="p-6 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
+                        <article className="space-y-4">
+                          <div className="space-y-3">
+                            <span className="inline-flex rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
+                              {item.category}
+                            </span>
+                            <h3 className="text-2xl font-semibold tracking-tight">{item.title}</h3>
+                          </div>
+                          <p className="text-muted-foreground leading-relaxed">{item.summary}</p>
+                          {item.tags?.length ? (
+                            <div className="flex flex-wrap gap-2">
+                              {item.tags.map((tag) => (
+                                <span key={`${item.title}-${tag}`} className="px-3 py-1 text-xs rounded-full bg-secondary text-secondary-foreground">
+                                  {tag}
+                                </span>
+                              ))}
+                            </div>
+                          ) : null}
+                          {item.sources.length ? (
+                            <div className="flex flex-wrap gap-3 pt-2">
+                              {item.sources.map((source) => (
+                                <a
+                                  key={`${item.title}-${source.url}`}
+                                  href={source.url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+                                >
+                                  {source.name}
+                                  <ExternalLink className="h-3.5 w-3.5" />
+                                </a>
+                              ))}
+                            </div>
+                          ) : null}
+                        </article>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
               ))}
             </section>
           ) : null}
