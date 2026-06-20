@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T21:46:59+03:00",
+  "updatedAt": "2026-06-20T21:48:22+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, XR, and consumer technology news summaries with source links.",
   "days": [
@@ -7,9 +7,9 @@
       "date": "2026-06-20",
       "items": [
         {
-          "title": "Microsoft researchers detail AutoJack attack against AI browsing agents",
+          "title": "Microsoft details AutoJack attack against AI browsing agents",
           "category": "Cybersecurity",
-          "summary": "Microsoft researchers described AutoJack, an exploit chain that can turn an AI browsing agent into a path for host code execution. The report says a malicious web page can interact with a privileged local service on the same machine through the agent, highlighting the security risks of browser-based agent workflows.",
+          "summary": "Microsoft researchers described AutoJack, an exploit chain that can turn an AI browsing agent into a path for host code execution. The report says a malicious web page can use JavaScript to reach a privileged local service on the same machine, highlighting a security risk for agentic browsing systems.",
           "sources": [
             {
               "name": "The Hacker News",
@@ -17,15 +17,15 @@
             }
           ],
           "tags": [
-            "AI",
-            "Cybersecurity",
-            "Agents"
+            "AI Agents",
+            "Security",
+            "Browser Agents"
           ]
         },
         {
-          "title": "Microsoft attributes Mastra AI supply-chain attack to North Korean hackers",
+          "title": "Microsoft links Mastra AI supply-chain attack to North Korean hackers",
           "category": "Cybersecurity",
-          "summary": "Microsoft linked a Mastra AI supply-chain attack affecting more than 140 npm packages to Sapphire Sleet, also known as BlueNoroff. The case is another reminder that AI-related developer tooling and package ecosystems remain attractive targets for state-backed groups.",
+          "summary": "BleepingComputer reported that Microsoft attributed a Mastra AI supply-chain attack affecting more than 140 npm packages to Sapphire Sleet, also known as BlueNoroff. The attribution connects AI developer tooling risk with broader software supply-chain security concerns.",
           "sources": [
             {
               "name": "BleepingComputer",
@@ -34,87 +34,111 @@
           ],
           "tags": [
             "AI",
-            "Cybersecurity",
-            "Open Source"
+            "Supply Chain",
+            "npm",
+            "Security"
           ]
         },
         {
-          "title": "EssilorLuxottica and Applied Materials partner on smart-glasses optics",
+          "title": "Apple smart-glasses timeline reportedly slips while Google glasses move toward fall shipping",
           "category": "XR",
-          "summary": "EssilorLuxottica and Applied Materials are partnering on optics for smart glasses. The collaboration points to continuing investment in display and lens technology as major consumer-tech companies work toward more practical wearable AR devices.",
+          "summary": "The Gadgeteer reported that Apple's smart-glasses plans have slipped toward late 2027, while Google's glasses are expected to ship this fall. The report is a third-party timeline claim, so it should be treated as unconfirmed until the companies announce product details directly.",
           "sources": [
             {
-              "name": "MSN",
-              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdFpWWlJDckpoUVNqLVhmQ3ZfZzBJcFlURWlDUHlNSVpqNGgxbGtsbkNhRmJsUmNsNjllb0k3eHZUcGlaWUpaTEF4MHBOSDZnNUVBWFJxYXo0M3cwVVo2blgzTzJxZGQ0WUtVOXc1Z0IxSWVveDBid3FoeTIwa0dPby1RdTFNWEVUWjFxLXBxWm5OdXZCT0RDa2V5V1JyY3RTYTRMcW1SYXFvTnFyaVl5bDZaMkFtNk5tM3NheQ?oc=5"
+              "name": "The Gadgeteer via Google News",
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa2h5eWVhUDBPVkc0ZzVZVDJqZE55akp6WUUtenRHakdRTW12NkJCVkVib1cwLTU2cnJIZzV1NWRKRDBpSjA1SHpkMFFQV0c0VXczVzZJZW9ncmxQcmNkd2kwS1FVQkl6SkxMbHpoS0tnaDBzYkh2bEdlZEcxaXhacFB4QlJrNmtzVWV5bmh5VDduZXJn?oc=5"
             }
           ],
           "tags": [
             "XR",
             "Smart Glasses",
-            "Consumer Tech"
-          ]
-        },
-        {
-          "title": "Apple adds App Store capabilities for developer growth and subscriptions",
-          "category": "Mobile",
-          "summary": "Apple announced new App Store capabilities intended to give developers more flexibility in marketing apps, acquiring users, and managing subscriptions. The changes are relevant for mobile app developers and creator-tool businesses that depend on App Store distribution.",
-          "sources": [
-            {
-              "name": "Apple Newsroom",
-              "url": "https://www.apple.com/newsroom/2026/06/apple-expands-app-store-capabilities-to-help-developers-grow-and-reach-new-users/"
-            }
-          ],
-          "tags": [
-            "Mobile",
             "Apple",
-            "Developers"
+            "Google"
           ]
         },
         {
-          "title": "Abu Dhabi-backed MGX reportedly explores buying data-center operator DayOne",
-          "category": "AI Business",
-          "summary": "Reuters reported that Abu Dhabi-backed AI investor MGX has explored buying Singapore-based data-center operator DayOne. The report is unconfirmed, but it reflects how AI infrastructure demand continues to drive large data-center investment and consolidation activity.",
+          "title": "Snap smart-glasses coverage highlights high-end AR hardware push",
+          "category": "XR",
+          "summary": "Multiple outlets covered Snap's latest smart-glasses hardware, with reports citing pricing around the $2,000 range. The coverage shows continued industry experimentation with premium AR glasses even as mainstream adoption remains uncertain.",
           "sources": [
             {
-              "name": "Techmeme / Reuters",
-              "url": "https://www.techmeme.com/260619/p22#a260619p22"
+              "name": "ShinyShiny via Google News",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTU8zamhYVWVXVjVZLTQ1VlQ1LWpzOTlzc3lTYWZZdkJKbmp0b1NBd04yalJ2QzVaSlZqVlV4THNjUFV2TnZaTGoxdmJBUjlwVkNWOG5RVFFEdm1oZnBhTVRmbU1LZzA4VjR5WlYxSTJVWDlQWENLa0dEYTQxOHBKclNzNDVabXQ3MmVOVWx3LTBPWGhDRlZwb3M4TzJpOEtB?oc=5"
+            },
+            {
+              "name": "WLIW via Google News",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMmxQcUhMV1p2SzllQU1lQ0M3WWhVeTc1THRrbElpRUJHSzBzUnFjaTJqc0dvcVJPU1p0X2dmNDhsTDdSdWpfQUFVRFlXMXVLOFZERVotc0FHTm5vUDdtY21KZEpPbDhQVTlnX01DTVNPbzdCbHduclYxSENCQ0RVaGJWSDYyUVhwWnRNR2ZCVmJvZw?oc=5"
+            }
+          ],
+          "tags": [
+            "XR",
+            "Snap",
+            "Smart Glasses",
+            "AR"
+          ]
+        },
+        {
+          "title": "EssilorLuxottica and Applied Materials partner on smart-glasses optics",
+          "category": "XR",
+          "summary": "Reports say EssilorLuxottica and Applied Materials are partnering on optics for smart glasses. The partnership points to continued investment in display and optical components that could shape future wearable-device designs.",
+          "sources": [
+            {
+              "name": "MSN via Google News",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdFpWWlJDckpoUVNqLVhmQ3ZfZzBJcFlURWlDUHlNSVpqNGgxbGtsbkNhRmJsUmNsNjllb0k3eHZUcGlaWUpaTEF4MHBOSDZnNUVBWFJxYXo0M3cwVVo2blgzTzJxZGQ0WUtVOXc1Z0IxSWVveDBid3FoeTIwa0dPby1RdTFNWEVUWjFxLXBxWm5OdXZCT0RDa2V5V1JyY3RTYTRMcW1SYXFvTnFyaVl5bDZaMkFtNk5tM3NheQ?oc=5"
+            }
+          ],
+          "tags": [
+            "XR",
+            "Optics",
+            "Wearables"
+          ]
+        },
+        {
+          "title": "WhatsApp tests animated message bubbles in iPhone beta",
+          "category": "Mobile",
+          "summary": "The Tech Portal reported that WhatsApp added animated message bubbles in its latest iPhone beta version. The change is a consumer-facing interface experiment and may evolve before or if it reaches the stable app.",
+          "sources": [
+            {
+              "name": "The Tech Portal via Google News",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPakFIcXRvWExOa3cwOXljVXJaQllxYmQweWxfUDhiNEVDMGRIQ18xNjNZcW5TVm1kS3RDRUxfWm5UUXpXQ1VTZzJOZVpVeml5bVBlbUlBcDN6T0tjaXZXejJhd3NqeklBTldIOTJLdXpiS2gtTWIxMG1yNVZKR1EwZEtrN2JWVTZweGNNcmZlczRId2U5UXg1em9kQnNFOVh2aDV1T1llTnJTUQ?oc=5"
+            }
+          ],
+          "tags": [
+            "WhatsApp",
+            "iOS",
+            "Mobile Apps"
+          ]
+        },
+        {
+          "title": "Google and Samsung system updates reported for Galaxy smartphones",
+          "category": "Mobile",
+          "summary": "Zamin.uz reported that Google and Samsung released important system updates for Galaxy smartphones. The report frames the updates as part of ongoing platform maintenance for Android and Samsung devices.",
+          "sources": [
+            {
+              "name": "Zamin.uz via Google News",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd2Vpd0ZjaHBHWkJ5aU9TRmg3akRvS1o5N3pIaTNuMk9vM3hNcHlDeFk1NEZ5WVdvWi1QYWxCdlN5TFlrLWR0bElRdHNGZzFFaDdHWlZTbVFJNngwdXlVdGI3RXV3VHcxZEs2aVZxNGZhVDJxOWMxRTB5a3BEcmI1MXdWSVFUQXowYlU3UzlVZnJxdTBwbmlCZGQyZUhZYl9CcGZ3LXgyVVd4OU9EbkVoYnZJbk1PSHc2ckFiU0lFZ0tBMGp1T1VvTVNR?oc=5"
+            }
+          ],
+          "tags": [
+            "Android",
+            "Samsung",
+            "Galaxy"
+          ]
+        },
+        {
+          "title": "AI music startup Tringbox raises seed funding",
+          "category": "AI Business",
+          "summary": "Indian Startup News and other outlets reported that AI music startup Tringbox raised seed funding to expand its in-store music platform. The funding coverage shows continued investment interest in specialized AI tools for commercial audio and retail environments.",
+          "sources": [
+            {
+              "name": "Indian Startup News via Google News",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVHYwYnFoMk10YzJLc09BZWdSUWt6WGxMNXd0bWhBMGxSb3NWYUtqUUtITmJkNXBLU3RCNjlZMzhYcWZ6V3ZleEVQMTJWOXdTVWlzS05yWjd0MEpMS3ZDZG92Y1FRUnd3djA3b2hKNnFMX2ZkTGFSYnJTS2k4ZURkVWwzX3NqQ2lRMU9MR1JPREh5Z1VDRGRyZ3FZc3kwRHVxbVVDRnNqMXZCenBMWkVQMjBkb0Z1bG5jWUlVYzRrQTVTVjBBMDVqYnZ3WGpZMi1IZ0Zr0gHTAUFVX3lxTE9UdjBicWgyTXRjMktzT0FlZ1JRa3pYbEw1d3RtaEEwbFJvc1ZhS2pRS0hOYmQ1cEtTdEI2OVkzOFhxZnpXdmV4RVAxMlY5d1NVaXNLTnJaN3QwSkxLdkNkb3ZjUVFSd3d2MDdvaEo2cUxfZmRMYVJiclNLaThlRGRVbDNfc2pDaVExT0xHUk9ESHlnVUNEZHJncVlzeTBEdXFtVUNGc2oxdkJ6cExaRVAyMGRvRnVsbmNZSVVjNGtBNVNWMEEwNWpidndYalkyLUhnRms?oc=5"
             }
           ],
           "tags": [
             "AI",
-            "AI Business",
-            "Infrastructure"
-          ]
-        },
-        {
-          "title": "Allbirds-linked Smartbird outlines plans to become an AI infrastructure company",
-          "category": "AI Business",
-          "summary": "Smartbird CEO Nadia Carlsten discussed the company's plan to move from the Allbirds brand into AI infrastructure, including compute-cluster deployments. The unusual pivot shows how the AI infrastructure boom is pulling in companies from outside traditional cloud and semiconductor markets.",
-          "sources": [
-            {
-              "name": "Techmeme / TechCrunch",
-              "url": "https://www.techmeme.com/260620/p7#a260620p7"
-            }
-          ],
-          "tags": [
-            "AI",
-            "AI Business",
-            "Infrastructure"
-          ]
-        },
-        {
-          "title": "CISA warns Fortinet customers as FortiBleed campaign targets FortiGate devices",
-          "category": "Cybersecurity",
-          "summary": "CISA urged Fortinet customers to secure FortiGate appliances amid malicious activity targeting tens of thousands of internet-exposed devices. The warning is important for organizations running Fortinet infrastructure because edge-device campaigns can quickly become broad access points for attackers.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html"
-            }
-          ],
-          "tags": [
-            "Cybersecurity",
-            "Infrastructure"
+            "Music Tech",
+            "Funding"
           ]
         }
       ]
