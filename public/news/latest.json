@@ -1,8 +1,124 @@
 {
-  "updatedAt": "2026-06-19T21:00:00+03:00",
+  "updatedAt": "2026-06-20T21:46:59+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, XR, and consumer technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-06-20",
+      "items": [
+        {
+          "title": "Microsoft researchers detail AutoJack attack against AI browsing agents",
+          "category": "Cybersecurity",
+          "summary": "Microsoft researchers described AutoJack, an exploit chain that can turn an AI browsing agent into a path for host code execution. The report says a malicious web page can interact with a privileged local service on the same machine through the agent, highlighting the security risks of browser-based agent workflows.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html"
+            }
+          ],
+          "tags": [
+            "AI",
+            "Cybersecurity",
+            "Agents"
+          ]
+        },
+        {
+          "title": "Microsoft attributes Mastra AI supply-chain attack to North Korean hackers",
+          "category": "Cybersecurity",
+          "summary": "Microsoft linked a Mastra AI supply-chain attack affecting more than 140 npm packages to Sapphire Sleet, also known as BlueNoroff. The case is another reminder that AI-related developer tooling and package ecosystems remain attractive targets for state-backed groups.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/"
+            }
+          ],
+          "tags": [
+            "AI",
+            "Cybersecurity",
+            "Open Source"
+          ]
+        },
+        {
+          "title": "EssilorLuxottica and Applied Materials partner on smart-glasses optics",
+          "category": "XR",
+          "summary": "EssilorLuxottica and Applied Materials are partnering on optics for smart glasses. The collaboration points to continuing investment in display and lens technology as major consumer-tech companies work toward more practical wearable AR devices.",
+          "sources": [
+            {
+              "name": "MSN",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdFpWWlJDckpoUVNqLVhmQ3ZfZzBJcFlURWlDUHlNSVpqNGgxbGtsbkNhRmJsUmNsNjllb0k3eHZUcGlaWUpaTEF4MHBOSDZnNUVBWFJxYXo0M3cwVVo2blgzTzJxZGQ0WUtVOXc1Z0IxSWVveDBid3FoeTIwa0dPby1RdTFNWEVUWjFxLXBxWm5OdXZCT0RDa2V5V1JyY3RTYTRMcW1SYXFvTnFyaVl5bDZaMkFtNk5tM3NheQ?oc=5"
+            }
+          ],
+          "tags": [
+            "XR",
+            "Smart Glasses",
+            "Consumer Tech"
+          ]
+        },
+        {
+          "title": "Apple adds App Store capabilities for developer growth and subscriptions",
+          "category": "Mobile",
+          "summary": "Apple announced new App Store capabilities intended to give developers more flexibility in marketing apps, acquiring users, and managing subscriptions. The changes are relevant for mobile app developers and creator-tool businesses that depend on App Store distribution.",
+          "sources": [
+            {
+              "name": "Apple Newsroom",
+              "url": "https://www.apple.com/newsroom/2026/06/apple-expands-app-store-capabilities-to-help-developers-grow-and-reach-new-users/"
+            }
+          ],
+          "tags": [
+            "Mobile",
+            "Apple",
+            "Developers"
+          ]
+        },
+        {
+          "title": "Abu Dhabi-backed MGX reportedly explores buying data-center operator DayOne",
+          "category": "AI Business",
+          "summary": "Reuters reported that Abu Dhabi-backed AI investor MGX has explored buying Singapore-based data-center operator DayOne. The report is unconfirmed, but it reflects how AI infrastructure demand continues to drive large data-center investment and consolidation activity.",
+          "sources": [
+            {
+              "name": "Techmeme / Reuters",
+              "url": "https://www.techmeme.com/260619/p22#a260619p22"
+            }
+          ],
+          "tags": [
+            "AI",
+            "AI Business",
+            "Infrastructure"
+          ]
+        },
+        {
+          "title": "Allbirds-linked Smartbird outlines plans to become an AI infrastructure company",
+          "category": "AI Business",
+          "summary": "Smartbird CEO Nadia Carlsten discussed the company's plan to move from the Allbirds brand into AI infrastructure, including compute-cluster deployments. The unusual pivot shows how the AI infrastructure boom is pulling in companies from outside traditional cloud and semiconductor markets.",
+          "sources": [
+            {
+              "name": "Techmeme / TechCrunch",
+              "url": "https://www.techmeme.com/260620/p7#a260620p7"
+            }
+          ],
+          "tags": [
+            "AI",
+            "AI Business",
+            "Infrastructure"
+          ]
+        },
+        {
+          "title": "CISA warns Fortinet customers as FortiBleed campaign targets FortiGate devices",
+          "category": "Cybersecurity",
+          "summary": "CISA urged Fortinet customers to secure FortiGate appliances amid malicious activity targeting tens of thousands of internet-exposed devices. The warning is important for organizations running Fortinet infrastructure because edge-device campaigns can quickly become broad access points for attackers.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html"
+            }
+          ],
+          "tags": [
+            "Cybersecurity",
+            "Infrastructure"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-19",
       "items": [
@@ -20,7 +136,11 @@
               "url": "https://cloud.google.com/blog/"
             }
           ],
-          "tags": ["AI", "Enterprise", "Assistants"]
+          "tags": [
+            "AI",
+            "Enterprise",
+            "Assistants"
+          ]
         },
         {
           "title": "Smartphone makers emphasize on-device AI features",
@@ -32,7 +152,11 @@
               "url": "https://news.samsung.com/global/"
             }
           ],
-          "tags": ["Mobile", "Android", "On-device AI"]
+          "tags": [
+            "Mobile",
+            "Android",
+            "On-device AI"
+          ]
         }
       ]
     },
@@ -49,7 +173,11 @@
               "url": "https://www.theverge.com/"
             }
           ],
-          "tags": ["XR", "Smart Glasses", "Wearables"]
+          "tags": [
+            "XR",
+            "Smart Glasses",
+            "Wearables"
+          ]
         },
         {
           "title": "Consumer technology firms continue privacy-focused feature updates",
@@ -61,7 +189,11 @@
               "url": "https://www.apple.com/newsroom/"
             }
           ],
-          "tags": ["Privacy", "Security", "Consumer Tech"]
+          "tags": [
+            "Privacy",
+            "Security",
+            "Consumer Tech"
+          ]
         }
       ]
     }
