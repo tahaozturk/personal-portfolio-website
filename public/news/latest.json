@@ -46,7 +46,7 @@
           "sources": [
             {
               "name": "The Gadgeteer",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa2h5eWVhUDBPVkc0ZzVZVDJqZE55akp6WUUtenRHakdRTW12NkJCVkVib1cwLTU2cnJIZzV1NWRKRDBpSjA1SHpkMFFQV0c0VXczVzZJZW9ncmxQcmNkd2kwS1FVQkl6SkxMbHpoS0tnaDBzYkh2bEdlZEcxaXhacFB4QlJrNmtzVWV5bmh5VDduZXJn?oc=5"
+              "url": "https://the-gadgeteer.com"
             }
           ],
           "tags": [
@@ -63,11 +63,11 @@
           "sources": [
             {
               "name": "ShinyShiny",
-              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTU8zamhYVWVXVjVZLTQ1VlQ1LWpzOTlzc3lTYWZZdkJKbmp0b1NBd04yalJ2QzVaSlZqVlV4THNjUFV2TnZaTGoxdmJBUjlwVkNWOG5RVFFEdm1oZnBhTVRmbU1LZzA4VjR5WlYxSTJVWDlQWENLa0dEYTQxOHBKclNzNDVabXQ3MmVOVWx3LTBPWGhDRlZwb3M4TzJpOEtB?oc=5"
+              "url": "https://www.shinyshiny.tv"
             },
             {
               "name": "WLIW",
-              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMmxQcUhMV1p2SzllQU1lQ0M3WWhVeTc1THRrbElpRUJHSzBzUnFjaTJqc0dvcVJPU1p0X2dmNDhsTDdSdWpfQUFVRFlXMXVLOFZERVotc0FHTm5vUDdtY21KZEpPbDhQVTlnX01DTVNPbzdCbHduclYxSENCQ0RVaGJWSDYyUVhwWnRNR2ZCVmJvZw?oc=5"
+              "url": "https://www.wliw.org"
             }
           ],
           "tags": [
@@ -84,7 +84,7 @@
           "sources": [
             {
               "name": "MSN",
-              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdFpWWlJDckpoUVNqLVhmQ3ZfZzBJcFlURWlDUHlNSVpqNGgxbGtsbkNhRmJsUmNsNjllb0k3eHZUcGlaWUpaTEF4MHBOSDZnNUVBWFJxYXo0M3cwVVo2blgzTzJxZGQ0WUtVOXc1Z0IxSWVveDBid3FoeTIwa0dPby1RdTFNWEVUWjFxLXBxWm5OdXZCT0RDa2V5V1JyY3RTYTRMcW1SYXFvTnFyaVl5bDZaMkFtNk5tM3NheQ?oc=5"
+              "url": "https://www.msn.com"
             }
           ],
           "tags": [
@@ -100,7 +100,7 @@
           "sources": [
             {
               "name": "The Tech Portal",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPakFIcXRvWExOa3cwOXljVXJaQllxYmQweWxfUDhiNEVDMGRIQ18xNjNZcW5TVm1kS3RDRUxfWm5UUXpXQ1VTZzJOZVpVeml5bVBlbUlBcDN6T0tjaXZXejJhd3NqeklBTldIOTJLdXpiS2gtTWIxMG1yNVZKR1EwZEtrN2JWVTZweGNNcmZlczRId2U5UXg1em9kQnNFOVh2aDV1T1llTnJTUQ?oc=5"
+              "url": "https://thetechportal.com"
             }
           ],
           "tags": [
@@ -116,7 +116,7 @@
           "sources": [
             {
               "name": "Zamin.uz",
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd2Vpd0ZjaHBHWkJ5aU9TRmg3akRvS1o5N3pIaTNuMk9vM3hNcHlDeFk1NEZ5WVdvWi1QYWxCdlN5TFlrLWR0bElRdHNGZzFFaDdHWlZTbVFJNngwdXlVdGI3RXV3VHcxZEs2aVZxNGZhVDJxOWMxRTB5a3BEcmI1MXdWSVFUQXowYlU3UzlVZnJxdTBwbmlCZGQyZUhZYl9CcGZ3LXgyVVd4OU9EbkVoYnZJbk1PSHc2ckFiU0lFZ0tBMGp1T1VvTVNR?oc=5"
+              "url": "https://zamin.uz"
             }
           ],
           "tags": [
@@ -132,7 +132,7 @@
           "sources": [
             {
               "name": "Indian Startup News",
-              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVHYwYnFoMk10YzJLc09BZWdSUWt6WGxMNXd0bWhBMGxSb3NWYUtqUUtITmJkNXBLU3RCNjlZMzhYcWZ6V3ZleEVQMTJWOXdTVWlzS05yWjd0MEpMS3ZDZG92Y1FRUnd3djA3b2hKNnFMX2ZkTGFSYnJTS2k4ZURkVWwzX3NqQ2lRMU9MR1JPREh5Z1VDRGRyZ3FZc3kwRHVxbVVDRnNqMXZCenBMWkVQMjBkb0Z1bG5jWUlVYzRrQTVTVjBBMDVqYnZ3WGpZMi1IZ0Zr0gHTAUFVX3lxTE9UdjBicWgyTXRjMktzT0FlZ1JRa3pYbEw1d3RtaEEwbFJvc1ZhS2pRS0hOYmQ1cEtTdEI2OVkzOFhxZnpXdmV4RVAxMlY5d1NVaXNLTnJaN3QwSkxLdkNkb3ZjUVFSd3d2MDdvaEo2cUxfZmRMYVJiclNLaThlRGRVbDNfc2pDaVExT0xHUk9ESHlnVUNEZHJncVlzeTBEdXFtVUNGc2oxdkJ6cExaRVAyMGRvRnVsbmNZSVVjNGtBNVNWMEEwNWpidndYalkyLUhnRms?oc=5"
+              "url": "https://indianstartupnews.com"
             }
           ],
           "tags": [
