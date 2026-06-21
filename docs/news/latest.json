@@ -1,8 +1,122 @@
 {
-  "updatedAt": "2026-06-21T20:13:39+03:00",
+  "updatedAt": "2026-06-21T21:03:56+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, XR, and consumer technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-06-21",
+      "items": [
+        {
+          "title": "Microsoft attributes Mastra AI npm supply-chain attack to North Korean hackers",
+          "category": "Cybersecurity",
+          "summary": "Microsoft linked a supply-chain attack involving more than 140 npm packages associated with Mastra AI to Sapphire Sleet, a North Korean threat group also known as BlueNoroff. The report highlights continued risk around developer tooling and package ecosystems used in AI projects.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/"
+            }
+          ],
+          "tags": [
+            "Cybersecurity",
+            "AI",
+            "Open Source"
+          ]
+        },
+        {
+          "title": "AryStinger botnet compromises thousands of outdated D-Link routers",
+          "category": "Cybersecurity",
+          "summary": "Researchers reported a previously undocumented botnet called AryStinger that has infected more than 4,000 outdated D-Link routers worldwide. The compromised devices are being used as proxies for malicious traffic, underscoring the security risks of unsupported network hardware.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/"
+            }
+          ],
+          "tags": [
+            "Cybersecurity",
+            "Consumer Tech"
+          ]
+        },
+        {
+          "title": "Anthropic joins Frontier carbon-removal coalition in $915 million funding push",
+          "category": "AI Business",
+          "summary": "Anthropic has joined Frontier, a coalition supporting carbon-removal projects, as part of a funding push reported at $915 million. The move links major AI infrastructure growth with broader efforts to address the energy and climate impact of scaling data centers.",
+          "sources": [
+            {
+              "name": "Quartz",
+              "url": "https://qz.com"
+            }
+          ],
+          "tags": [
+            "AI",
+            "AI Business"
+          ]
+        },
+        {
+          "title": "ElevenLabs reportedly reaches $11 billion valuation in latest funding round",
+          "category": "AI Business",
+          "summary": "ElevenLabs reportedly secured an $11 billion valuation in its latest funding round. The company is a major player in AI voice generation, and the reported valuation shows continued investor interest in generative-audio tools for creators and enterprises.",
+          "sources": [
+            {
+              "name": "Economic Times Enterprise AI",
+              "url": "https://enterpriseai.economictimes.indiatimes.com"
+            }
+          ],
+          "tags": [
+            "AI",
+            "Creator Tools",
+            "AI Business"
+          ]
+        },
+        {
+          "title": "Xreal unveils Aura smart glasses with Android XR",
+          "category": "XR",
+          "summary": "Xreal unveiled Aura smart glasses built around Android XR, adding another entry to the growing market for lightweight spatial-computing devices. The announcement points to continued competition around smart glasses that combine wearable displays with mobile and AI features.",
+          "sources": [
+            {
+              "name": "Dimsum Daily",
+              "url": "https://www.dimsumdaily.hk"
+            }
+          ],
+          "tags": [
+            "XR",
+            "Smart Glasses",
+            "Consumer Tech"
+          ]
+        },
+        {
+          "title": "Apple smart-glasses timing reported, but remains unconfirmed",
+          "category": "XR",
+          "summary": "PhoneArena reported that Apple has decided on a release window for its smart glasses. The claim is unconfirmed and should be treated as a rumor, but it reflects continued industry attention on Apple's possible entry into AI-enabled wearable displays.",
+          "sources": [
+            {
+              "name": "PhoneArena",
+              "url": "https://www.phonearena.com"
+            }
+          ],
+          "tags": [
+            "XR",
+            "Apple",
+            "Rumor"
+          ]
+        },
+        {
+          "title": "Prinz Eugen ransomware prioritizes recently modified files",
+          "category": "Cybersecurity",
+          "summary": "A new ransomware operation named Prinz Eugen reportedly prioritizes recently modified files when encrypting systems. BleepingComputer noted that the malware leaves no ransom note, which may complicate incident response and recovery efforts.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/"
+            }
+          ],
+          "tags": [
+            "Cybersecurity",
+            "Ransomware"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-20",
       "items": [
