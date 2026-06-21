@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T21:50:08+03:00",
+  "updatedAt": "2026-06-21T20:13:39+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, XR, and consumer technology news summaries with source links.",
   "days": [
@@ -45,7 +45,7 @@
           "summary": "The Gadgeteer reported that Apple's smart-glasses plans have slipped toward late 2027, while Google's glasses are expected to ship this fall. The report is a third-party timeline claim, so it should be treated as unconfirmed until the companies announce product details directly.",
           "sources": [
             {
-              "name": "The Gadgeteer via Google News",
+              "name": "The Gadgeteer",
               "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa2h5eWVhUDBPVkc0ZzVZVDJqZE55akp6WUUtenRHakdRTW12NkJCVkVib1cwLTU2cnJIZzV1NWRKRDBpSjA1SHpkMFFQV0c0VXczVzZJZW9ncmxQcmNkd2kwS1FVQkl6SkxMbHpoS0tnaDBzYkh2bEdlZEcxaXhacFB4QlJrNmtzVWV5bmh5VDduZXJn?oc=5"
             }
           ],
@@ -62,11 +62,11 @@
           "summary": "Multiple outlets covered Snap's latest smart-glasses hardware, with reports citing pricing around the $2,000 range. The coverage shows continued industry experimentation with premium AR glasses even as mainstream adoption remains uncertain.",
           "sources": [
             {
-              "name": "ShinyShiny via Google News",
+              "name": "ShinyShiny",
               "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTU8zamhYVWVXVjVZLTQ1VlQ1LWpzOTlzc3lTYWZZdkJKbmp0b1NBd04yalJ2QzVaSlZqVlV4THNjUFV2TnZaTGoxdmJBUjlwVkNWOG5RVFFEdm1oZnBhTVRmbU1LZzA4VjR5WlYxSTJVWDlQWENLa0dEYTQxOHBKclNzNDVabXQ3MmVOVWx3LTBPWGhDRlZwb3M4TzJpOEtB?oc=5"
             },
             {
-              "name": "WLIW via Google News",
+              "name": "WLIW",
               "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMmxQcUhMV1p2SzllQU1lQ0M3WWhVeTc1THRrbElpRUJHSzBzUnFjaTJqc0dvcVJPU1p0X2dmNDhsTDdSdWpfQUFVRFlXMXVLOFZERVotc0FHTm5vUDdtY21KZEpPbDhQVTlnX01DTVNPbzdCbHduclYxSENCQ0RVaGJWSDYyUVhwWnRNR2ZCVmJvZw?oc=5"
             }
           ],
@@ -83,7 +83,7 @@
           "summary": "Reports say EssilorLuxottica and Applied Materials are partnering on optics for smart glasses. The partnership points to continued investment in display and optical components that could shape future wearable-device designs.",
           "sources": [
             {
-              "name": "MSN via Google News",
+              "name": "MSN",
               "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdFpWWlJDckpoUVNqLVhmQ3ZfZzBJcFlURWlDUHlNSVpqNGgxbGtsbkNhRmJsUmNsNjllb0k3eHZUcGlaWUpaTEF4MHBOSDZnNUVBWFJxYXo0M3cwVVo2blgzTzJxZGQ0WUtVOXc1Z0IxSWVveDBid3FoeTIwa0dPby1RdTFNWEVUWjFxLXBxWm5OdXZCT0RDa2V5V1JyY3RTYTRMcW1SYXFvTnFyaVl5bDZaMkFtNk5tM3NheQ?oc=5"
             }
           ],
@@ -99,7 +99,7 @@
           "summary": "The Tech Portal reported that WhatsApp added animated message bubbles in its latest iPhone beta version. The change is a consumer-facing interface experiment and may evolve before or if it reaches the stable app.",
           "sources": [
             {
-              "name": "The Tech Portal via Google News",
+              "name": "The Tech Portal",
               "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPakFIcXRvWExOa3cwOXljVXJaQllxYmQweWxfUDhiNEVDMGRIQ18xNjNZcW5TVm1kS3RDRUxfWm5UUXpXQ1VTZzJOZVpVeml5bVBlbUlBcDN6T0tjaXZXejJhd3NqeklBTldIOTJLdXpiS2gtTWIxMG1yNVZKR1EwZEtrN2JWVTZweGNNcmZlczRId2U5UXg1em9kQnNFOVh2aDV1T1llTnJTUQ?oc=5"
             }
           ],
@@ -115,7 +115,7 @@
           "summary": "Zamin.uz reported that Google and Samsung released important system updates for Galaxy smartphones. The report frames the updates as part of ongoing platform maintenance for Android and Samsung devices.",
           "sources": [
             {
-              "name": "Zamin.uz via Google News",
+              "name": "Zamin.uz",
               "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd2Vpd0ZjaHBHWkJ5aU9TRmg3akRvS1o5N3pIaTNuMk9vM3hNcHlDeFk1NEZ5WVdvWi1QYWxCdlN5TFlrLWR0bElRdHNGZzFFaDdHWlZTbVFJNngwdXlVdGI3RXV3VHcxZEs2aVZxNGZhVDJxOWMxRTB5a3BEcmI1MXdWSVFUQXowYlU3UzlVZnJxdTBwbmlCZGQyZUhZYl9CcGZ3LXgyVVd4OU9EbkVoYnZJbk1PSHc2ckFiU0lFZ0tBMGp1T1VvTVNR?oc=5"
             }
           ],
@@ -131,7 +131,7 @@
           "summary": "Indian Startup News and other outlets reported that AI music startup Tringbox raised seed funding to expand its in-store music platform. The funding coverage shows continued investment interest in specialized AI tools for commercial audio and retail environments.",
           "sources": [
             {
-              "name": "Indian Startup News via Google News",
+              "name": "Indian Startup News",
               "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVHYwYnFoMk10YzJLc09BZWdSUWt6WGxMNXd0bWhBMGxSb3NWYUtqUUtITmJkNXBLU3RCNjlZMzhYcWZ6V3ZleEVQMTJWOXdTVWlzS05yWjd0MEpMS3ZDZG92Y1FRUnd3djA3b2hKNnFMX2ZkTGFSYnJTS2k4ZURkVWwzX3NqQ2lRMU9MR1JPREh5Z1VDRGRyZ3FZc3kwRHVxbVVDRnNqMXZCenBMWkVQMjBkb0Z1bG5jWUlVYzRrQTVTVjBBMDVqYnZ3WGpZMi1IZ0Zr0gHTAUFVX3lxTE9UdjBicWgyTXRjMktzT0FlZ1JRa3pYbEw1d3RtaEEwbFJvc1ZhS2pRS0hOYmQ1cEtTdEI2OVkzOFhxZnpXdmV4RVAxMlY5d1NVaXNLTnJaN3QwSkxLdkNkb3ZjUVFSd3d2MDdvaEo2cUxfZmRMYVJiclNLaThlRGRVbDNfc2pDaVExT0xHUk9ESHlnVUNEZHJncVlzeTBEdXFtVUNGc2oxdkJ6cExaRVAyMGRvRnVsbmNZSVVjNGtBNVNWMEEwNWpidndYalkyLUhnRms?oc=5"
             }
           ],
