@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T11:28:22+03:00",
+  "updatedAt": "2026-06-22T21:02:47+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, XR, and consumer technology news summaries with source links.",
   "days": [
@@ -7,42 +7,94 @@
       "date": "2026-06-22",
       "items": [
         {
-          "title": "Defense-tech AI funding accelerates in 2026",
-          "category": "AI Business",
-          "summary": "PitchBook data cited by the Financial Times says defense-technology companies building drones, battlefield AI, and related systems have raised $12.3 billion across 175 deals so far in 2026, already above the full-year 2025 total. The trend shows how military and dual-use AI have become a major venture-capital focus.",
-          "sources": [
-            {
-              "name": "Financial Times via Techmeme",
-              "url": "https://www.ft.com/content/cb535f43-d2b7-4d14-82fe-abdd14765dfe"
-            }
-          ],
-          "tags": [
-            "AI",
-            "Defense Tech",
-            "Funding"
-          ]
-        },
-        {
-          "title": "OpenAI says Samsung is rolling out ChatGPT Enterprise and Codex to employees",
-          "category": "Enterprise AI",
-          "summary": "OpenAI announced that Samsung Electronics is deploying ChatGPT Enterprise and Codex to employees worldwide. The rollout is positioned as one of OpenAI's largest enterprise AI deployments and shows Codex moving deeper into corporate software-development workflows.",
+          "title": "OpenAI launches Patch the Planet for open-source security fixes",
+          "category": "AI & Open Source",
+          "summary": "OpenAI announced Patch the Planet, a Daybreak initiative that will help open-source maintainers find, validate, and fix security vulnerabilities using AI plus expert review. The program is notable because it connects agentic AI work with practical software-supply-chain security.",
           "sources": [
             {
               "name": "OpenAI News",
-              "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment"
+              "url": "https://openai.com/index/patch-the-planet"
             }
           ],
           "tags": [
             "OpenAI",
-            "Codex",
-            "Enterprise AI",
-            "Samsung"
+            "Open Source",
+            "Cybersecurity",
+            "AI Agents"
           ]
         },
         {
-          "title": "Qwen posts a new Qwen Image Bench model repository",
+          "title": "Microsoft fixes AutoGen Studio flaw that allowed command execution",
+          "category": "Cybersecurity",
+          "summary": "BleepingComputer reports that Microsoft fixed an AutoGen Studio vulnerability chain called AutoJack. The issue could let a malicious webpage manipulate an AI agent workflow into running commands on the host, underlining why agent tooling needs strong sandboxing and prompt-boundary defenses.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/"
+            }
+          ],
+          "tags": [
+            "Microsoft",
+            "AutoGen",
+            "AI Agents",
+            "Security"
+          ]
+        },
+        {
+          "title": "Canada used a first-of-its-kind warrant to clean botnet-infected devices",
+          "category": "Cybersecurity",
+          "summary": "The Hacker News says Canada's spy agency received court authorization to neutralize two foreign-run botnets on infected servers, routers, and IoT devices located in Canada. The case is important because it shows a more active legal model for disrupting compromised infrastructure.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html"
+            }
+          ],
+          "tags": [
+            "Botnet",
+            "IoT",
+            "Canada",
+            "Cybersecurity"
+          ]
+        },
+        {
+          "title": "EssilorLuxottica and Applied Materials team up on AR smart-glasses optics",
+          "category": "XR & Smart Glasses",
+          "summary": "EssilorLuxottica and Applied Materials signed a long-term development agreement to scale next-generation optical systems for AR and AI-powered smart glasses. The partnership matters because optics remain one of the biggest hardware bottlenecks for lighter, more practical consumer smart glasses.",
+          "sources": [
+            {
+              "name": "Road to VR",
+              "url": "https://roadtovr.com/essilorluxottica-parter-applied-materials-ar-waveguides/"
+            }
+          ],
+          "tags": [
+            "AR",
+            "Smart Glasses",
+            "XR",
+            "Wearables"
+          ]
+        },
+        {
+          "title": "Hugging Face highlights PP-OCRv6 for multilingual OCR",
           "category": "AI Models",
-          "summary": "Qwen's Hugging Face organization now lists Qwen-Image-Bench, a model/resource repository related to image benchmarking. It is an official model-listing signal rather than a full product announcement, but it is relevant for tracking Qwen's multimodal ecosystem.",
+          "summary": "Hugging Face published a post on PP-OCRv6, a family of OCR models covering 50 languages with sizes from 1.5M to 34.5M parameters. It is useful for developers who need document, image-text, or creator-tool pipelines that can run with smaller OCR models.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6"
+            }
+          ],
+          "tags": [
+            "Hugging Face",
+            "OCR",
+            "AI Models",
+            "Multilingual"
+          ]
+        },
+        {
+          "title": "Qwen posts a Qwen Image Bench repository on Hugging Face",
+          "category": "AI Models",
+          "summary": "Qwen's Hugging Face organization now lists Qwen-Image-Bench, a repository related to image benchmarking. It is a model-listing signal rather than a full launch post, but it is relevant for tracking Qwen's multimodal evaluation ecosystem.",
           "sources": [
             {
               "name": "Qwen Models — Hugging Face",
@@ -52,88 +104,8 @@
           "tags": [
             "Qwen",
             "Hugging Face",
-            "AI Models",
-            "Multimodal"
-          ]
-        },
-        {
-          "title": "DeepSeek lists DeepSeek V4 Flash on Hugging Face",
-          "category": "AI Models",
-          "summary": "DeepSeek's official Hugging Face organization now lists DeepSeek-V4-Flash. The listing is a model-repository signal rather than a detailed launch post, but it is useful for monitoring DeepSeek's public model activity.",
-          "sources": [
-            {
-              "name": "DeepSeek Models — Hugging Face",
-              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
-            }
-          ],
-          "tags": [
-            "DeepSeek",
-            "Hugging Face",
-            "AI Models"
-          ]
-        },
-        {
-          "title": "Hugging Face highlights MosaicLeaks research-agent secrecy benchmark",
-          "category": "AI Safety",
-          "summary": "Hugging Face published MosaicLeaks, a benchmark asking whether research agents can keep secrets. The work is relevant to agent security because it tests how AI systems handle confidential information while performing research-style tasks.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks"
-            }
-          ],
-          "tags": [
-            "AI Agents",
-            "AI Safety",
-            "Research"
-          ]
-        },
-        {
-          "title": "AryStinger malware turns legacy routers into a proxy network",
-          "category": "Cybersecurity",
-          "summary": "The Hacker News reports that AryStinger malware has infected thousands of legacy routers and is using them as a distributed reconnaissance and proxy network. The campaign highlights the ongoing risk from outdated home and small-office networking hardware.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html"
-            }
-          ],
-          "tags": [
-            "Cybersecurity",
-            "Malware",
-            "Routers"
-          ]
-        },
-        {
-          "title": "BleepingComputer also tracks AryStinger's D-Link router infections",
-          "category": "Cybersecurity",
-          "summary": "BleepingComputer reports that the AryStinger botnet has compromised more than 4,000 outdated D-Link routers and uses them as proxies for malicious traffic. This provides a second cybersecurity source on the same router-malware trend without letting one outlet dominate the feed.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/"
-            }
-          ],
-          "tags": [
-            "Cybersecurity",
-            "Botnet",
-            "D-Link"
-          ]
-        },
-        {
-          "title": "Subnautica 2 VR mod adds motion-controller support",
-          "category": "XR",
-          "summary": "Road to VR reports that a Subnautica 2 VR mod now includes motion-controller support, letting players interact more directly with the game in VR. It is a consumer XR update rather than a platform launch, but it is relevant to VR software and modding activity.",
-          "sources": [
-            {
-              "name": "Road to VR",
-              "url": "https://roadtovr.com/subnautica-2-vr-mod-vr-controller-support/"
-            }
-          ],
-          "tags": [
-            "VR",
-            "XR",
-            "Gaming"
+            "Multimodal",
+            "Benchmarks"
           ]
         }
       ]
