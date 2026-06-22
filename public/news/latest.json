@@ -1,31 +1,113 @@
 {
-  "updatedAt": "2026-06-21T21:03:56+03:00",
+  "updatedAt": "2026-06-22T11:28:22+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, XR, and consumer technology news summaries with source links.",
   "days": [
     {
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "items": [
         {
-          "title": "Microsoft attributes Mastra AI npm supply-chain attack to North Korean hackers",
-          "category": "Cybersecurity",
-          "summary": "Microsoft linked a supply-chain attack involving more than 140 npm packages associated with Mastra AI to Sapphire Sleet, a North Korean threat group also known as BlueNoroff. The report highlights continued risk around developer tooling and package ecosystems used in AI projects.",
+          "title": "Defense-tech AI funding accelerates in 2026",
+          "category": "AI Business",
+          "summary": "PitchBook data cited by the Financial Times says defense-technology companies building drones, battlefield AI, and related systems have raised $12.3 billion across 175 deals so far in 2026, already above the full-year 2025 total. The trend shows how military and dual-use AI have become a major venture-capital focus.",
           "sources": [
             {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/"
+              "name": "Financial Times via Techmeme",
+              "url": "https://www.ft.com/content/cb535f43-d2b7-4d14-82fe-abdd14765dfe"
+            }
+          ],
+          "tags": [
+            "AI",
+            "Defense Tech",
+            "Funding"
+          ]
+        },
+        {
+          "title": "OpenAI says Samsung is rolling out ChatGPT Enterprise and Codex to employees",
+          "category": "Enterprise AI",
+          "summary": "OpenAI announced that Samsung Electronics is deploying ChatGPT Enterprise and Codex to employees worldwide. The rollout is positioned as one of OpenAI's largest enterprise AI deployments and shows Codex moving deeper into corporate software-development workflows.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "Codex",
+            "Enterprise AI",
+            "Samsung"
+          ]
+        },
+        {
+          "title": "Qwen posts a new Qwen Image Bench model repository",
+          "category": "AI Models",
+          "summary": "Qwen's Hugging Face organization now lists Qwen-Image-Bench, a model/resource repository related to image benchmarking. It is an official model-listing signal rather than a full product announcement, but it is relevant for tracking Qwen's multimodal ecosystem.",
+          "sources": [
+            {
+              "name": "Qwen Models — Hugging Face",
+              "url": "https://huggingface.co/Qwen/Qwen-Image-Bench"
+            }
+          ],
+          "tags": [
+            "Qwen",
+            "Hugging Face",
+            "AI Models",
+            "Multimodal"
+          ]
+        },
+        {
+          "title": "DeepSeek lists DeepSeek V4 Flash on Hugging Face",
+          "category": "AI Models",
+          "summary": "DeepSeek's official Hugging Face organization now lists DeepSeek-V4-Flash. The listing is a model-repository signal rather than a detailed launch post, but it is useful for monitoring DeepSeek's public model activity.",
+          "sources": [
+            {
+              "name": "DeepSeek Models — Hugging Face",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+            }
+          ],
+          "tags": [
+            "DeepSeek",
+            "Hugging Face",
+            "AI Models"
+          ]
+        },
+        {
+          "title": "Hugging Face highlights MosaicLeaks research-agent secrecy benchmark",
+          "category": "AI Safety",
+          "summary": "Hugging Face published MosaicLeaks, a benchmark asking whether research agents can keep secrets. The work is relevant to agent security because it tests how AI systems handle confidential information while performing research-style tasks.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks"
+            }
+          ],
+          "tags": [
+            "AI Agents",
+            "AI Safety",
+            "Research"
+          ]
+        },
+        {
+          "title": "AryStinger malware turns legacy routers into a proxy network",
+          "category": "Cybersecurity",
+          "summary": "The Hacker News reports that AryStinger malware has infected thousands of legacy routers and is using them as a distributed reconnaissance and proxy network. The campaign highlights the ongoing risk from outdated home and small-office networking hardware.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html"
             }
           ],
           "tags": [
             "Cybersecurity",
-            "AI",
-            "Open Source"
+            "Malware",
+            "Routers"
           ]
         },
         {
-          "title": "AryStinger botnet compromises thousands of outdated D-Link routers",
+          "title": "BleepingComputer also tracks AryStinger's D-Link router infections",
           "category": "Cybersecurity",
-          "summary": "Researchers reported a previously undocumented botnet called AryStinger that has infected more than 4,000 outdated D-Link routers worldwide. The compromised devices are being used as proxies for malicious traffic, underscoring the security risks of unsupported network hardware.",
+          "summary": "BleepingComputer reports that the AryStinger botnet has compromised more than 4,000 outdated D-Link routers and uses them as proxies for malicious traffic. This provides a second cybersecurity source on the same router-malware trend without letting one outlet dominate the feed.",
           "sources": [
             {
               "name": "BleepingComputer",
@@ -34,119 +116,24 @@
           ],
           "tags": [
             "Cybersecurity",
-            "Consumer Tech"
+            "Botnet",
+            "D-Link"
           ]
         },
         {
-          "title": "Prinz Eugen ransomware prioritizes recently modified files",
-          "category": "Cybersecurity",
-          "summary": "A new ransomware operation named Prinz Eugen reportedly prioritizes recently modified files when encrypting systems. BleepingComputer noted that the malware leaves no ransom note, which may complicate incident response and recovery efforts.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/"
-            }
-          ],
-          "tags": [
-            "Cybersecurity",
-            "Ransomware"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-20",
-      "items": [
-        {
-          "title": "Microsoft details AutoJack attack against AI browsing agents",
-          "category": "Cybersecurity",
-          "summary": "Microsoft researchers described AutoJack, an exploit chain that can turn an AI browsing agent into a path for host code execution. The report says a malicious web page can use JavaScript to reach a privileged local service on the same machine, highlighting a security risk for agentic browsing systems.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html"
-            }
-          ],
-          "tags": [
-            "AI Agents",
-            "Security",
-            "Browser Agents"
-          ]
-        },
-        {
-          "title": "Microsoft links Mastra AI supply-chain attack to North Korean hackers",
-          "category": "Cybersecurity",
-          "summary": "BleepingComputer reported that Microsoft attributed a Mastra AI supply-chain attack affecting more than 140 npm packages to Sapphire Sleet, also known as BlueNoroff. The attribution connects AI developer tooling risk with broader software supply-chain security concerns.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/"
-            }
-          ],
-          "tags": [
-            "AI",
-            "Supply Chain",
-            "npm",
-            "Security"
-          ]
-        },
-        {
-          "title": "Apple smart-glasses timeline reportedly slips while Google glasses move toward fall shipping",
+          "title": "Subnautica 2 VR mod adds motion-controller support",
           "category": "XR",
-          "summary": "The Gadgeteer reported that Apple's smart-glasses plans have slipped toward late 2027, while Google's glasses are expected to ship this fall. The report is a third-party timeline claim, so it should be treated as unconfirmed until the companies announce product details directly.",
+          "summary": "Road to VR reports that a Subnautica 2 VR mod now includes motion-controller support, letting players interact more directly with the game in VR. It is a consumer XR update rather than a platform launch, but it is relevant to VR software and modding activity.",
           "sources": [
             {
-              "name": "The Gadgeteer",
-              "url": "https://the-gadgeteer.com/2026/05/15/apple-smart-glasses-tracking-for-2026-reveal-2027-launch/"
+              "name": "Road to VR",
+              "url": "https://roadtovr.com/subnautica-2-vr-mod-vr-controller-support/"
             }
           ],
           "tags": [
+            "VR",
             "XR",
-            "Smart Glasses",
-            "Apple",
-            "Google"
-          ]
-        },
-        {
-          "title": "Snap smart-glasses coverage highlights high-end AR hardware push",
-          "category": "XR",
-          "summary": "Multiple outlets covered Snap's latest smart-glasses hardware, with reports citing pricing around the $2,000 range. The coverage shows continued industry experimentation with premium AR glasses even as mainstream adoption remains uncertain.",
-          "sources": [
-            {
-              "name": "ShinyShiny",
-              "url": "https://www.shinyshiny.tv/2026/06/snap-unveils-1995-spec-smart-glasses-spacex-overtakes-amazon.html"
-            },
-            {
-              "name": "WLIW",
-              "url": "https://www.wired.com/story/snaps-new-ar-specs-cost-2195/"
-            }
-          ],
-          "tags": [
-            "XR",
-            "Snap",
-            "Smart Glasses",
-            "AR"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-18",
-      "items": [
-        {
-          "title": "Consumer technology firms continue privacy-focused feature updates",
-          "category": "Consumer Tech",
-          "summary": "Technology companies are continuing to market privacy controls as part of mainstream product updates. Recent messaging often focuses on account security, device-level protections, and clearer data controls for users.",
-          "sources": [
-            {
-              "name": "Apple Newsroom",
-              "url": "https://www.apple.com/newsroom/"
-            }
-          ],
-          "tags": [
-            "Privacy",
-            "Security",
-            "Consumer Tech"
+            "Gaming"
           ]
         }
       ]
