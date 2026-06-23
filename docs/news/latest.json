@@ -1,8 +1,129 @@
 {
-  "updatedAt": "2026-06-23T12:57:06+03:00",
+  "updatedAt": "2026-06-23T21:03:03+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-06-23",
+      "items": [
+        {
+          "title": "Anthropic launches Claude Tag as a Slack-native AI coworker",
+          "category": "AI / Agents",
+          "summary": "Anthropic introduced Claude Tag, a beta agentic assistant for Claude Team and Enterprise customers that works inside Slack, learns workspace context, and can suggest or coordinate follow-up work.",
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/news/introducing-claude-tag"
+            }
+          ],
+          "tags": [
+            "AI",
+            "agents",
+            "Slack",
+            "enterprise"
+          ]
+        },
+        {
+          "title": "OpenAI says GPT-5 Pro helped solve a long-running immunology mystery",
+          "category": "AI / Research",
+          "summary": "OpenAI published a case study describing how GPT-5 Pro helped immunologist Derya Unutmaz reason through a three-year T cell research problem, pointing to possible uses in cancer and autoimmune research workflows.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/gpt-5-immunology-mystery"
+            }
+          ],
+          "tags": [
+            "AI",
+            "GPT-5",
+            "science",
+            "research"
+          ]
+        },
+        {
+          "title": "Hugging Face and IBM Research show CUGA examples for agentic apps",
+          "category": "AI / Developer Tools",
+          "summary": "A new Hugging Face post from IBM Research demonstrates CUGA with two dozen working examples for building agentic applications on a lightweight harness, useful for developers evaluating practical agent patterns.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/ibm-research/cuga-apps"
+            }
+          ],
+          "tags": [
+            "AI",
+            "agents",
+            "developer tools",
+            "open source"
+          ]
+        },
+        {
+          "title": "OSI announces an Open Source AI Fellowship at UN Open Source Week",
+          "category": "Open Source",
+          "summary": "The Open Source Initiative announced an Open Source AI Fellowship during UN Open Source Week, extending its work around open AI definitions, policy, and community governance.",
+          "sources": [
+            {
+              "name": "Open Source Initiative",
+              "url": "https://opensource.org/blog/open-source-ai-fellowship-announced-at-un-open-source-week"
+            }
+          ],
+          "tags": [
+            "open source",
+            "AI policy",
+            "governance"
+          ]
+        },
+        {
+          "title": "Fake AI agent skill reportedly passed security scans and reached 26,000 agents",
+          "category": "Cybersecurity",
+          "summary": "The Hacker News reports that security firm AIR placed a fake AI-agent skill through marketplace and ad channels, where it allegedly passed tested scanners and reached about 26,000 agents, highlighting supply-chain risks for agent ecosystems.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "AI agents",
+            "supply chain"
+          ]
+        },
+        {
+          "title": "Microsoft fixes AutoGen Studio flaw that could enable code execution",
+          "category": "Cybersecurity",
+          "summary": "Microsoft patched an AutoGen Studio vulnerability chain nicknamed AutoJack that could let a malicious webpage manipulate an AI agent into running commands on its host system.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "Microsoft",
+            "AI agents",
+            "patch"
+          ]
+        },
+        {
+          "title": "Scattered Spider hackers plead guilty in UK Transport for London case",
+          "category": "Cybersecurity",
+          "summary": "KrebsOnSecurity reports that two men linked to the Scattered Spider cybercrime group pleaded guilty on the first day of trial over the 2024 attack that disrupted Transport for London.",
+          "sources": [
+            {
+              "name": "KrebsOnSecurity",
+              "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "ransomware",
+            "legal"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-22",
       "items": [
