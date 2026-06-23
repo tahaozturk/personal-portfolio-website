@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-06-22T21:02:47+03:00",
+  "updatedAt": "2026-06-23T12:57:06+03:00",
   "title": "Daily AI & Tech News Brief",
-  "summary": "Concise AI, mobile, XR, and consumer technology news summaries with source links.",
+  "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
     {
       "date": "2026-06-22",
@@ -55,23 +55,6 @@
             "IoT",
             "Canada",
             "Cybersecurity"
-          ]
-        },
-        {
-          "title": "EssilorLuxottica and Applied Materials team up on AR smart-glasses optics",
-          "category": "XR & Smart Glasses",
-          "summary": "EssilorLuxottica and Applied Materials signed a long-term development agreement to scale next-generation optical systems for AR and AI-powered smart glasses. The partnership matters because optics remain one of the biggest hardware bottlenecks for lighter, more practical consumer smart glasses.",
-          "sources": [
-            {
-              "name": "Road to VR",
-              "url": "https://roadtovr.com/essilorluxottica-parter-applied-materials-ar-waveguides/"
-            }
-          ],
-          "tags": [
-            "AR",
-            "Smart Glasses",
-            "XR",
-            "Wearables"
           ]
         },
         {
