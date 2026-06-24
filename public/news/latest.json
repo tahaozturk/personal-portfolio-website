@@ -1,8 +1,130 @@
 {
-  "updatedAt": "2026-06-23T21:03:03+03:00",
+  "updatedAt": "2026-06-24T21:02:19+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-06-24",
+      "items": [
+        {
+          "title": "OpenAI and Broadcom unveil an LLM inference chip",
+          "category": "AI / Hardware",
+          "summary": "OpenAI and Broadcom announced Jalapeño, a custom chip designed for large-language-model inference. The goal is better performance, efficiency, and scale for production AI systems.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip"
+            }
+          ],
+          "tags": [
+            "AI",
+            "LLM",
+            "chips",
+            "inference"
+          ]
+        },
+        {
+          "title": "Google Research studies how reasoning improves LLM recall",
+          "category": "AI / Research",
+          "summary": "Google Research published work on how reasoning steps can unlock parametric knowledge in large language models, pointing to better ways to evaluate and prompt models when answers are already inside their weights.",
+          "sources": [
+            {
+              "name": "Google Research Blog",
+              "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/"
+            }
+          ],
+          "tags": [
+            "AI",
+            "LLM",
+            "research",
+            "reasoning"
+          ]
+        },
+        {
+          "title": "Hugging Face shows NVIDIA NeMo AutoModel fine-tuning workflows",
+          "category": "AI / Developer Tools",
+          "summary": "Hugging Face published a guide to accelerating Transformer fine-tuning with NVIDIA NeMo AutoModel, useful for developers building or adapting models with more efficient training workflows.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel"
+            }
+          ],
+          "tags": [
+            "AI",
+            "developer tools",
+            "fine-tuning",
+            "NVIDIA"
+          ]
+        },
+        {
+          "title": "Runlayer raises $30M to build infrastructure for enterprise AI agents",
+          "category": "AI / Business",
+          "summary": "Runlayer raised a $30 million Series A led by Felicis for its infrastructure and control layer for enterprise AI agents, bringing its total funding to $42 million.",
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/06/24/exclusive-vinod-khosla-felicis-runlayer-nanit-30-million-enterprise-ai/"
+            }
+          ],
+          "tags": [
+            "AI",
+            "agents",
+            "startup",
+            "funding"
+          ]
+        },
+        {
+          "title": "Windows 11 preview update adds Point-in-Time restore",
+          "category": "Consumer Tech / Windows",
+          "summary": "Microsoft's Windows 11 KB5095093 preview update starts rolling out a Point-in-Time restore feature and fixes multiple bugs, giving PC users another recovery option after system problems.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/"
+            }
+          ],
+          "tags": [
+            "Windows 11",
+            "PC",
+            "software update",
+            "recovery"
+          ]
+        },
+        {
+          "title": "Fake AI agent skill reportedly passed scanners and reached 26,000 agents",
+          "category": "Cybersecurity",
+          "summary": "The Hacker News reports that security firm AIR placed a fake AI-agent skill through marketplace and ad channels, where tested scanners marked it safe and it reportedly reached about 26,000 agents.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "AI agents",
+            "supply chain"
+          ]
+        },
+        {
+          "title": "OSI announces an Open Source AI Fellowship",
+          "category": "Open Source",
+          "summary": "The Open Source Initiative announced an Open Source AI Fellowship at UN Open Source Week, extending its work on open AI definitions, policy, and community governance.",
+          "sources": [
+            {
+              "name": "Open Source Initiative",
+              "url": "https://opensource.org/blog/open-source-ai-fellowship-announced-at-un-open-source-week"
+            }
+          ],
+          "tags": [
+            "open source",
+            "AI policy",
+            "governance"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-23",
       "items": [
