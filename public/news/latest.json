@@ -1,8 +1,112 @@
 {
-  "updatedAt": "2026-06-24T21:02:19+03:00",
+  "updatedAt": "2026-06-25T21:06:24+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-06-25",
+      "items": [
+        {
+          "title": "Google Finance exits beta and adds a new Android app",
+          "category": "Consumer platforms",
+          "summary": "Google is rolling out an upgraded Google Finance experience, including a dedicated Android app and new market-tracking features for everyday investors.",
+          "sources": [
+            {
+              "name": "Google AI Blog",
+              "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Android",
+            "finance",
+            "apps"
+          ]
+        },
+        {
+          "title": "OpenAI and Broadcom introduce an LLM inference chip",
+          "category": "AI & chips",
+          "summary": "OpenAI and Broadcom unveiled Jalapeño, a custom chip aimed at making large-language-model inference faster and more efficient at scale.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "Broadcom",
+            "AI chips",
+            "LLM"
+          ]
+        },
+        {
+          "title": "New macOS malware tries to mislead AI analysis tools",
+          "category": "Cybersecurity",
+          "summary": "Researchers found macOS malware that embeds fake errors and prompt-injection-style strings to confuse AI-assisted malware analysis workflows.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/"
+            }
+          ],
+          "tags": [
+            "macOS",
+            "malware",
+            "AI security"
+          ]
+        },
+        {
+          "title": "Popular Chrome ad blocker carried dormant script-injection capability",
+          "category": "Cybersecurity",
+          "summary": "A YouTube ad-blocking Chrome extension with more than 10 million installs was found to include code capable of injecting arbitrary JavaScript.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html"
+            }
+          ],
+          "tags": [
+            "Chrome",
+            "extensions",
+            "security",
+            "YouTube"
+          ]
+        },
+        {
+          "title": "OSI launches an Open Source AI Fellowship at UN Open Source Week",
+          "category": "Open source",
+          "summary": "The Open Source Initiative announced a fellowship focused on open source AI, tying AI governance and open collaboration into UN Open Source Week.",
+          "sources": [
+            {
+              "name": "Open Source Initiative",
+              "url": "https://opensource.org/blog/open-source-ai-fellowship-announced-at-un-open-source-week"
+            }
+          ],
+          "tags": [
+            "open source",
+            "AI",
+            "governance"
+          ]
+        },
+        {
+          "title": "Google Research details linear elastic caching for cloud economics",
+          "category": "AI & infrastructure",
+          "summary": "Google Research published work on linear elastic caching, an approach intended to improve cloud efficiency and economics for large-scale services.",
+          "sources": [
+            {
+              "name": "Google Research Blog",
+              "url": "https://research.google/blog/optimizing-cloud-economics-with-linear-elastic-caching/"
+            }
+          ],
+          "tags": [
+            "Google Research",
+            "cloud",
+            "infrastructure"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-24",
       "items": [
