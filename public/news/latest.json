@@ -1,8 +1,119 @@
 {
-  "updatedAt": "2026-06-26T21:03:30+03:00",
+  "updatedAt": "2026-06-27T21:03:45+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-06-27",
+      "items": [
+        {
+          "title": "OpenAI previews GPT-5.6 Sol with tighter cyber-safety controls",
+          "category": "AI / LLMs",
+          "summary": "OpenAI previewed GPT-5.6 Sol, a next-generation model aimed at stronger coding, science, and cybersecurity work. Access is restricted during the preview and paired with stronger safeguards for sensitive cyber capabilities.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/previewing-gpt-5-6-sol"
+            },
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html"
+            }
+          ],
+          "tags": [
+            "AI",
+            "LLM",
+            "OpenAI",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "Asian AI labs pitch Mythos-like models amid U.S. export limits",
+          "category": "AI / Tech business",
+          "summary": "TechCrunch reports that Sakana AI's Fugu and 360's Tulongfeng are being positioned as alternatives to Anthropic models restricted by U.S. export controls. The story highlights how model access limits are shaping regional AI competition.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/"
+            }
+          ],
+          "tags": [
+            "AI",
+            "models",
+            "Sakana AI",
+            "export controls"
+          ]
+        },
+        {
+          "title": "Qwen posts Qwen-AgentWorld-35B-A3B on Hugging Face",
+          "category": "AI / Agents",
+          "summary": "Qwen's Hugging Face organization now lists Qwen-AgentWorld-35B-A3B. It is an undated model-listing signal rather than a full launch article, but it is relevant for tracking agent-focused open model releases.",
+          "sources": [
+            {
+              "name": "Qwen Models — Hugging Face",
+              "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+            }
+          ],
+          "tags": [
+            "AI agents",
+            "Qwen",
+            "Hugging Face",
+            "models"
+          ]
+        },
+        {
+          "title": "DeepSeek lists DeepSeek-V4-Pro-DSpark on Hugging Face",
+          "category": "AI / Models",
+          "summary": "DeepSeek's Hugging Face organization now lists DeepSeek-V4-Pro-DSpark. Because the listing is undated, treat it as a model-tracking signal rather than a confirmed timed launch announcement.",
+          "sources": [
+            {
+              "name": "DeepSeek Models — Hugging Face",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
+            }
+          ],
+          "tags": [
+            "AI",
+            "DeepSeek",
+            "Hugging Face",
+            "models"
+          ]
+        },
+        {
+          "title": "Google Finance exits beta with a new Android app",
+          "category": "Consumer platforms",
+          "summary": "Google is moving its upgraded Google Finance experience out of beta and launching a dedicated Android app. The update is a practical consumer-platform change for market tracking on phones.",
+          "sources": [
+            {
+              "name": "Google AI Blog",
+              "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Android",
+            "apps",
+            "finance"
+          ]
+        },
+        {
+          "title": "GRC-agent walkthrough shows practical AI automation for security teams",
+          "category": "Cybersecurity / AI agents",
+          "summary": "A BleepingComputer walkthrough explains how a GRC agent can monitor controls, spot evidence gaps, and open remediation tasks. It is a useful example of AI agents moving into repetitive security and compliance workflows.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "AI agents",
+            "GRC",
+            "automation"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-26",
       "items": [
