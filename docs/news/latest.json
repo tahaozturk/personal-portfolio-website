@@ -1,8 +1,102 @@
 {
-  "updatedAt": "2026-06-27T21:03:45+03:00",
+  "updatedAt": "2026-06-28T21:08:48+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-06-28",
+      "items": [
+        {
+          "title": "KDDI email-system breach exposes up to 14.2 million ISP logins",
+          "category": "Cybersecurity",
+          "summary": "Japan's KDDI disclosed that attackers accessed an email system used by several internet service providers, exposing up to 14.2 million email login records. It is a practical account-security story for users who may need password resets and phishing caution.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "data breach",
+            "ISP",
+            "email"
+          ]
+        },
+        {
+          "title": "Firmus and Nvidia plan a 360 MW AI data-center campus in Indonesia",
+          "category": "AI infrastructure",
+          "summary": "Australia-based Firmus is partnering with Nvidia and DayOne on a 360 MW Nvidia DSX AI factory campus in Batam, Indonesia. The project shows how AI infrastructure buildouts are spreading across Southeast Asia, not just the U.S. and Europe.",
+          "sources": [
+            {
+              "name": "Bloomberg via Techmeme",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-28/ai-startup-firmus-to-build-indonesia-data-center-with-nvidia"
+            }
+          ],
+          "tags": [
+            "AI",
+            "Nvidia",
+            "data centers",
+            "Indonesia"
+          ]
+        },
+        {
+          "title": "OpenAI's GPT-5.6 Sol preview highlights stronger cyber safeguards",
+          "category": "AI / LLMs",
+          "summary": "OpenAI's restricted GPT-5.6 Sol preview is being framed around stronger coding, science, and cybersecurity capabilities, with limited access and added safeguards for sensitive cyber use cases. It remains important AI news even though rollout is restricted.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html"
+            },
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/previewing-gpt-5-6-sol"
+            }
+          ],
+          "tags": [
+            "AI",
+            "LLM",
+            "OpenAI",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "Qwen lists Qwen-AgentWorld-35B-A3B on Hugging Face",
+          "category": "AI / Agents",
+          "summary": "Qwen's Hugging Face organization now shows Qwen-AgentWorld-35B-A3B, a model-listing signal for agent-focused open AI work. The page is undated, so treat it as a watchlist item rather than a confirmed launch announcement.",
+          "sources": [
+            {
+              "name": "Qwen Models — Hugging Face",
+              "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+            }
+          ],
+          "tags": [
+            "AI agents",
+            "Qwen",
+            "Hugging Face",
+            "models"
+          ]
+        },
+        {
+          "title": "DeepSeek model listing surfaces eagle3_gemma4_12b_ttt7",
+          "category": "Open model tracking",
+          "summary": "DeepSeek's Hugging Face organization now lists eagle3_gemma4_12b_ttt7. Because the listing has no reliable publication timestamp, it is included only as an open-model tracking signal, not as dated release news.",
+          "sources": [
+            {
+              "name": "DeepSeek Models — Hugging Face",
+              "url": "https://huggingface.co/deepseek-ai/eagle3_gemma4_12b_ttt7"
+            }
+          ],
+          "tags": [
+            "AI",
+            "DeepSeek",
+            "Hugging Face",
+            "open models"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-27",
       "items": [
