@@ -4,7 +4,9 @@ import Link from "next/link"
 
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Github, Linkedin, FileText, Newspaper } from "lucide-react"
+import { Github, Linkedin, FileText, Newspaper, Youtube } from "lucide-react"
+
+const youtubeSubscribeUrl = "https://www.youtube.com/@taha-ozturk?sub_confirmation=1"
 
 export default function Portfolio() {
   const scrollToSection = (sectionId: string) => {
@@ -68,6 +70,15 @@ export default function Portfolio() {
               >
                 <FileText className="w-5 h-5" />
                 <span className="text-sm">Medium</span>
+              </a>
+              <a
+                href={youtubeSubscribeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:border-primary/50 hover:text-primary hover:bg-accent transition-all duration-200"
+              >
+                <Youtube className="w-5 h-5" />
+                <span className="text-sm">Subscribe on YouTube</span>
               </a>
             </div>
           </div>
@@ -242,6 +253,15 @@ export default function Portfolio() {
               >
                 <FileText className="w-5 h-5" />
                 <span className="text-sm">Medium</span>
+              </a>
+              <a
+                href={youtubeSubscribeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:border-primary/50 hover:text-primary hover:bg-accent transition-all duration-200"
+              >
+                <Youtube className="w-5 h-5" />
+                <span className="text-sm">Subscribe on YouTube</span>
               </a>
             </div>
           </div>

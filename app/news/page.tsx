@@ -2,9 +2,11 @@
 
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
-import { ArrowLeft, ExternalLink, RefreshCw } from "lucide-react"
+import { ArrowLeft, ExternalLink, RefreshCw, Youtube } from "lucide-react"
 
 import { Card } from "@/components/ui/card"
+
+const youtubeSubscribeUrl = "https://www.youtube.com/@taha-ozturk?sub_confirmation=1"
 
 interface NewsSource {
   name: string
@@ -160,6 +162,15 @@ export default function NewsPage() {
                   </span>
                 ) : null}
               </div>
+              <a
+                href={youtubeSubscribeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-5 py-2.5 text-sm font-medium text-primary hover:border-primary/50 hover:bg-primary/15 transition-all duration-200"
+              >
+                <Youtube className="h-4 w-4" />
+                Subscribe on YouTube
+              </a>
             </div>
           </div>
 
