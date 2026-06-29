@@ -139,10 +139,21 @@ export default function NewsPage() {
 
         <div className="max-w-5xl mx-auto relative space-y-12">
           <div className="space-y-8">
-            <Link href="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
-              <ArrowLeft className="h-4 w-4" />
-              Back to home
-            </Link>
+            <div className="flex flex-wrap items-center justify-between gap-4">
+              <Link href="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                <ArrowLeft className="h-4 w-4" />
+                Back to home
+              </Link>
+              <a
+                href={youtubeSubscribeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-4 py-2 text-sm font-medium text-red-400 shadow-lg shadow-red-500/10 hover:border-red-400/60 hover:bg-red-500/15 hover:text-red-300 transition-all duration-200"
+              >
+                <Youtube className="h-4 w-4" />
+                YouTube
+              </a>
+            </div>
 
             <div className="space-y-5">
               <div className="inline-flex rounded-full border border-primary/20 bg-primary/10 px-4 py-1 text-sm text-primary">
@@ -162,15 +173,6 @@ export default function NewsPage() {
                   </span>
                 ) : null}
               </div>
-              <a
-                href={youtubeSubscribeUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-5 py-2.5 text-sm font-medium text-primary hover:border-primary/50 hover:bg-primary/15 transition-all duration-200"
-              >
-                <Youtube className="h-4 w-4" />
-                Subscribe on YouTube
-              </a>
             </div>
           </div>
 

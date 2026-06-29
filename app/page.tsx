@@ -78,7 +78,7 @@ export default function Portfolio() {
                 className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:border-primary/50 hover:text-primary hover:bg-accent transition-all duration-200"
               >
                 <Youtube className="w-5 h-5" />
-                <span className="text-sm">Subscribe on YouTube</span>
+                <span className="text-sm">YouTube</span>
               </a>
             </div>
           </div>
@@ -261,7 +261,7 @@ export default function Portfolio() {
                 className="flex items-center gap-2 px-6 py-3 rounded-full border border-border hover:border-primary/50 hover:text-primary hover:bg-accent transition-all duration-200"
               >
                 <Youtube className="w-5 h-5" />
-                <span className="text-sm">Subscribe on YouTube</span>
+                <span className="text-sm">YouTube</span>
               </a>
             </div>
           </div>
