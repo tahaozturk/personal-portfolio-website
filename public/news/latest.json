@@ -1,8 +1,133 @@
 {
-  "updatedAt": "2026-07-01T21:06:04+03:00",
+  "updatedAt": "2026-07-02T21:02:06+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-02",
+      "items": [
+        {
+          "title": "Kling AI raises $2B for AI video generation",
+          "category": "AI / Tech business",
+          "summary": "Kling AI, the AI video company spun out of Kuaishou, raised $2 billion at a reported $15 billion pre-money valuation. The large round shows how much investor attention is still going to video-generation tools and the infrastructure behind them.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-02/china-s-kling-ai-raises-2-billion-to-expand-ai-video-operations"
+            }
+          ],
+          "tags": [
+            "AI",
+            "video generation",
+            "Kling AI",
+            "funding"
+          ]
+        },
+        {
+          "title": "AI agents challenge traditional identity lifecycle management",
+          "category": "Cybersecurity / AI agents",
+          "summary": "The Hacker News highlights a practical enterprise security problem: identity systems were built around employees, managers, and departure dates, while autonomous AI agents may not fit those controls. Teams adopting agents need clearer ownership, permissions, and retirement rules.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/identity-lifecycle-management.html"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "AI agents",
+            "identity management",
+            "enterprise security"
+          ]
+        },
+        {
+          "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+          "category": "AI / Voice tools",
+          "summary": "Hugging Face says it is working with Cerebras to bring Gemma 4 into real-time voice AI workflows. The update is relevant for developers building fast voice assistants, interactive agents, and low-latency audio applications.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai"
+            }
+          ],
+          "tags": [
+            "AI",
+            "voice AI",
+            "Gemma",
+            "Hugging Face",
+            "Cerebras"
+          ]
+        },
+        {
+          "title": "Google summarizes its June AI updates for users and developers",
+          "category": "Consumer software / AI",
+          "summary": "Google published a June roundup of its latest AI updates across products and platforms. It is a useful single source for users tracking practical Google AI changes rather than only research announcements.",
+          "sources": [
+            {
+              "name": "Google Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "AI",
+            "consumer software",
+            "platform updates"
+          ]
+        },
+        {
+          "title": "Google introduces TabFM for zero-shot tabular data modeling",
+          "category": "AI / Research",
+          "summary": "Google Research introduced TabFM, a foundation model designed for zero-shot work on tabular data. The announcement matters for builders who want AI systems that can reason over spreadsheets, databases, and business datasets with less task-specific training.",
+          "sources": [
+            {
+              "name": "Google Research Blog",
+              "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/"
+            }
+          ],
+          "tags": [
+            "AI",
+            "Google Research",
+            "tabular data",
+            "foundation models"
+          ]
+        },
+        {
+          "title": "Medtronic notifies customers after ShinyHunters-linked data breach",
+          "category": "Cybersecurity / Data breach",
+          "summary": "Medtronic is notifying affected customers after a data breach exposed personal information to an unauthorized third party. The incident is another reminder that healthcare and device-adjacent companies remain high-value targets for data theft.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "data breach",
+            "healthcare",
+            "Medtronic"
+          ]
+        },
+        {
+          "title": "OpenAI describes how core dump analysis exposed an 18-year-old bug",
+          "category": "Open source / Engineering",
+          "summary": "OpenAI published an engineering write-up on using large-scale core dump analysis to track rare infrastructure crashes, including a hardware fault and a long-standing software bug. The post is useful for developers interested in reliability debugging at scale.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "engineering",
+            "debugging",
+            "reliability"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-01",
       "items": [
@@ -1001,96 +1126,6 @@
             "cybersecurity",
             "ransomware",
             "legal"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-22",
-      "items": [
-        {
-          "title": "OpenAI launches Patch the Planet for open-source security fixes",
-          "category": "AI & Open Source",
-          "summary": "OpenAI announced Patch the Planet, a Daybreak initiative that will help open-source maintainers find, validate, and fix security vulnerabilities using AI plus expert review. The program is notable because it connects agentic AI work with practical software-supply-chain security.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/patch-the-planet"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "Open Source",
-            "Cybersecurity",
-            "AI Agents"
-          ]
-        },
-        {
-          "title": "Microsoft fixes AutoGen Studio flaw that allowed command execution",
-          "category": "Cybersecurity",
-          "summary": "BleepingComputer reports that Microsoft fixed an AutoGen Studio vulnerability chain called AutoJack. The issue could let a malicious webpage manipulate an AI agent workflow into running commands on the host, underlining why agent tooling needs strong sandboxing and prompt-boundary defenses.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/"
-            }
-          ],
-          "tags": [
-            "Microsoft",
-            "AutoGen",
-            "AI Agents",
-            "Security"
-          ]
-        },
-        {
-          "title": "Canada used a first-of-its-kind warrant to clean botnet-infected devices",
-          "category": "Cybersecurity",
-          "summary": "The Hacker News says Canada's spy agency received court authorization to neutralize two foreign-run botnets on infected servers, routers, and IoT devices located in Canada. The case is important because it shows a more active legal model for disrupting compromised infrastructure.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html"
-            }
-          ],
-          "tags": [
-            "Botnet",
-            "IoT",
-            "Canada",
-            "Cybersecurity"
-          ]
-        },
-        {
-          "title": "Hugging Face highlights PP-OCRv6 for multilingual OCR",
-          "category": "AI Models",
-          "summary": "Hugging Face published a post on PP-OCRv6, a family of OCR models covering 50 languages with sizes from 1.5M to 34.5M parameters. It is useful for developers who need document, image-text, or creator-tool pipelines that can run with smaller OCR models.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6"
-            }
-          ],
-          "tags": [
-            "Hugging Face",
-            "OCR",
-            "AI Models",
-            "Multilingual"
-          ]
-        },
-        {
-          "title": "Qwen posts a Qwen Image Bench repository on Hugging Face",
-          "category": "AI Models",
-          "summary": "Qwen's Hugging Face organization now lists Qwen-Image-Bench, a repository related to image benchmarking. It is a model-listing signal rather than a full launch post, but it is relevant for tracking Qwen's multimodal evaluation ecosystem.",
-          "sources": [
-            {
-              "name": "Qwen Models — Hugging Face",
-              "url": "https://huggingface.co/Qwen/Qwen-Image-Bench"
-            }
-          ],
-          "tags": [
-            "Qwen",
-            "Hugging Face",
-            "Multimodal",
-            "Benchmarks"
           ]
         }
       ]
