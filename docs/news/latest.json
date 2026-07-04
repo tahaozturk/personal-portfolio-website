@@ -1,8 +1,115 @@
 {
-  "updatedAt": "2026-07-03T21:08:14+03:00",
+  "updatedAt": "2026-07-04T21:04:29+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-04",
+      "items": [
+        {
+          "title": "Researchers report an AI-agent-run ransomware attack",
+          "category": "AI / Cybersecurity",
+          "summary": "Researchers say the JadePuffer ransomware case appears to be the first documented attack run end-to-end by a large language model agent. The report is a warning sign for defenders because AI agents can automate reconnaissance, exploitation, and extortion workflows much faster than traditional manual operations.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/"
+            }
+          ],
+          "tags": [
+            "AI agents",
+            "ransomware",
+            "cybersecurity",
+            "LLM"
+          ]
+        },
+        {
+          "title": "FatFs flaws affect millions of embedded devices",
+          "category": "Open source / Cybersecurity",
+          "summary": "runZero disclosed seven vulnerabilities in FatFs, a widely used filesystem library for reading FAT and exFAT media in embedded firmware. The issue matters for device makers and users because vulnerable firmware can be exposed through common removable-storage paths such as USB drives and SD cards.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html"
+            }
+          ],
+          "tags": [
+            "open source",
+            "embedded devices",
+            "firmware",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "FBI seizes NetNut proxy infrastructure tied to Popa botnet",
+          "category": "Cybersecurity",
+          "summary": "The FBI and industry partners seized domains connected to the NetNut residential proxy platform and the Popa botnet. The action is notable because residential proxy networks can hide malicious traffic behind ordinary consumer internet connections, complicating abuse detection.",
+          "sources": [
+            {
+              "name": "KrebsOnSecurity",
+              "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
+            }
+          ],
+          "tags": [
+            "botnet",
+            "proxy networks",
+            "FBI",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "Apple silicon Mac minis are becoming popular AI-agent machines",
+          "category": "AI / Hardware",
+          "summary": "Apple silicon product manager Doug Brooks discussed why Mac minis have become a preferred local machine in some AI labs for agent workflows and on-device AI experiments. The story is useful hardware context for developers and creators tracking practical AI workstations beyond cloud GPUs.",
+          "sources": [
+            {
+              "name": "The Deep View",
+              "url": "https://www.thedeepview.com/articles/how-apple-s-decade-long-bet-on-chips-won-ai"
+            }
+          ],
+          "tags": [
+            "Apple silicon",
+            "Mac mini",
+            "AI agents",
+            "on-device AI"
+          ]
+        },
+        {
+          "title": "Qwen lists Qwen-AgentWorld-35B-A3B on Hugging Face",
+          "category": "AI / Agents",
+          "summary": "Qwen's Hugging Face organization now shows Qwen-AgentWorld-35B-A3B, a model-listing signal for agent-focused open AI work. The page is undated, so treat it as a watchlist item rather than a confirmed timed launch announcement.",
+          "sources": [
+            {
+              "name": "Qwen Models — Hugging Face",
+              "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+            }
+          ],
+          "tags": [
+            "AI agents",
+            "Qwen",
+            "Hugging Face",
+            "models"
+          ]
+        },
+        {
+          "title": "DeepSeek model listing surfaces dspark_qwen3_4b_block7",
+          "category": "Open model tracking",
+          "summary": "DeepSeek's Hugging Face organization now lists dspark_qwen3_4b_block7. Because the listing has no reliable publication timestamp, it is included only as an open-model tracking signal, not as dated release news.",
+          "sources": [
+            {
+              "name": "DeepSeek Models — Hugging Face",
+              "url": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7"
+            }
+          ],
+          "tags": [
+            "AI",
+            "DeepSeek",
+            "Hugging Face",
+            "open models"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-03",
       "items": [
@@ -990,128 +1097,6 @@
             "Google Research",
             "cloud",
             "infrastructure"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "items": [
-        {
-          "title": "OpenAI and Broadcom unveil an LLM inference chip",
-          "category": "AI / Hardware",
-          "summary": "OpenAI and Broadcom announced Jalapeño, a custom chip designed for large-language-model inference. The goal is better performance, efficiency, and scale for production AI systems.",
-          "sources": [
-            {
-              "name": "OpenAI",
-              "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip"
-            }
-          ],
-          "tags": [
-            "AI",
-            "LLM",
-            "chips",
-            "inference"
-          ]
-        },
-        {
-          "title": "Google Research studies how reasoning improves LLM recall",
-          "category": "AI / Research",
-          "summary": "Google Research published work on how reasoning steps can unlock parametric knowledge in large language models, pointing to better ways to evaluate and prompt models when answers are already inside their weights.",
-          "sources": [
-            {
-              "name": "Google Research Blog",
-              "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/"
-            }
-          ],
-          "tags": [
-            "AI",
-            "LLM",
-            "research",
-            "reasoning"
-          ]
-        },
-        {
-          "title": "Hugging Face shows NVIDIA NeMo AutoModel fine-tuning workflows",
-          "category": "AI / Developer Tools",
-          "summary": "Hugging Face published a guide to accelerating Transformer fine-tuning with NVIDIA NeMo AutoModel, useful for developers building or adapting models with more efficient training workflows.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel"
-            }
-          ],
-          "tags": [
-            "AI",
-            "developer tools",
-            "fine-tuning",
-            "NVIDIA"
-          ]
-        },
-        {
-          "title": "Runlayer raises $30M to build infrastructure for enterprise AI agents",
-          "category": "AI / Business",
-          "summary": "Runlayer raised a $30 million Series A led by Felicis for its infrastructure and control layer for enterprise AI agents, bringing its total funding to $42 million.",
-          "sources": [
-            {
-              "name": "Fortune",
-              "url": "https://fortune.com/2026/06/24/exclusive-vinod-khosla-felicis-runlayer-nanit-30-million-enterprise-ai/"
-            }
-          ],
-          "tags": [
-            "AI",
-            "agents",
-            "startup",
-            "funding"
-          ]
-        },
-        {
-          "title": "Windows 11 preview update adds Point-in-Time restore",
-          "category": "Consumer Tech / Windows",
-          "summary": "Microsoft's Windows 11 KB5095093 preview update starts rolling out a Point-in-Time restore feature and fixes multiple bugs, giving PC users another recovery option after system problems.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/"
-            }
-          ],
-          "tags": [
-            "Windows 11",
-            "PC",
-            "software update",
-            "recovery"
-          ]
-        },
-        {
-          "title": "Fake AI agent skill reportedly passed scanners and reached 26,000 agents",
-          "category": "Cybersecurity",
-          "summary": "The Hacker News reports that security firm AIR placed a fake AI-agent skill through marketplace and ad channels, where tested scanners marked it safe and it reportedly reached about 26,000 agents.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "AI agents",
-            "supply chain"
-          ]
-        },
-        {
-          "title": "OSI announces an Open Source AI Fellowship",
-          "category": "Open Source",
-          "summary": "The Open Source Initiative announced an Open Source AI Fellowship at UN Open Source Week, extending its work on open AI definitions, policy, and community governance.",
-          "sources": [
-            {
-              "name": "Open Source Initiative",
-              "url": "https://opensource.org/blog/open-source-ai-fellowship-announced-at-un-open-source-week"
-            }
-          ],
-          "tags": [
-            "open source",
-            "AI policy",
-            "governance"
           ]
         }
       ]
