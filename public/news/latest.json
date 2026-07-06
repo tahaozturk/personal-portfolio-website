@@ -1,8 +1,116 @@
 {
-  "updatedAt": "2026-07-05T21:02:39+03:00",
+  "updatedAt": "2026-07-06T21:03:03+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-06",
+      "items": [
+        {
+          "title": "Tencent releases Apache-licensed Hy3 open model",
+          "category": "AI / Open models",
+          "summary": "Tencent released Hy3, a 295B-parameter open-weight model under the Apache 2.0 license, and says it competes with GLM-5.1 and GLM-5.2 while being smaller. The release is a notable open-model update for developers tracking large LLM alternatives.",
+          "sources": [
+            {
+              "name": "VentureBeat",
+              "url": "https://venturebeat.com/ai/tencents-apache-licensed-hy3-takes-on-glm-5-2-at-half-the-size-and-wins-everywhere-except-coding"
+            }
+          ],
+          "tags": [
+            "AI",
+            "LLM",
+            "open models",
+            "Tencent",
+            "Apache 2.0"
+          ]
+        },
+        {
+          "title": "Qwen lists Qwen-AgentWorld-35B-A3B on Hugging Face",
+          "category": "AI / Agents",
+          "summary": "Qwen's Hugging Face organization now lists Qwen-AgentWorld-35B-A3B, a model-listing signal for agent-focused AI work. The page is undated, so treat it as a watchlist item rather than a confirmed timed launch announcement.",
+          "sources": [
+            {
+              "name": "Qwen Models — Hugging Face",
+              "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+            }
+          ],
+          "tags": [
+            "AI agents",
+            "Qwen",
+            "Hugging Face",
+            "models"
+          ]
+        },
+        {
+          "title": "DeepSeek posts dspark_qwen3_4b_block7 model listing",
+          "category": "AI / Open model tracking",
+          "summary": "DeepSeek's Hugging Face organization now lists dspark_qwen3_4b_block7. Because the listing has no reliable date, it is included as an open-model tracking signal, not as dated release news.",
+          "sources": [
+            {
+              "name": "DeepSeek Models — Hugging Face",
+              "url": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7"
+            }
+          ],
+          "tags": [
+            "AI",
+            "DeepSeek",
+            "Hugging Face",
+            "open models"
+          ]
+        },
+        {
+          "title": "Hugging Face releases LeRobot v0.6.0",
+          "category": "Open source / Robotics",
+          "summary": "Hugging Face published LeRobot v0.6.0 with an “Imagine, Evaluate, Improve” workflow for robotics development. It is relevant open-source tooling news for builders following practical AI software beyond chatbots.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/lerobot-release-v060"
+            }
+          ],
+          "tags": [
+            "open source",
+            "robotics",
+            "Hugging Face",
+            "AI tools"
+          ]
+        },
+        {
+          "title": "Weekly security recap flags proxy botnets, browser ransomware, and AI-agent tricks",
+          "category": "Cybersecurity",
+          "summary": "The Hacker News weekly recap highlights practical threats including proxy botnets, browser-based ransomware, fake proof-of-concept malware, and AI-agent manipulation patterns. The common theme is that ordinary consumer and developer workflows can become security entry points.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "malware",
+            "AI agents",
+            "browser security"
+          ]
+        },
+        {
+          "title": "AI-assisted coding speeds up software faster than security reviews",
+          "category": "Cybersecurity / Developer tools",
+          "summary": "BleepingComputer argues that AI-assisted development can remove review moments where security decisions traditionally happen. It is useful context for teams adopting coding agents and automated software-generation workflows.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "AI coding",
+            "developer tools",
+            "software security"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-05",
       "items": [
@@ -972,117 +1080,6 @@
             "AI agents",
             "GRC",
             "automation"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-26",
-      "items": [
-        {
-          "title": "OpenAI previews GPT-5.6 Sol for limited enterprise testing",
-          "category": "AI / LLMs",
-          "summary": "OpenAI previewed GPT-5.6 Sol, describing stronger coding, science, and cybersecurity capabilities with an upgraded safety stack. Axios reports the broader GPT-5.6 preview is limited to about 20 companies and disclosed to the U.S. government.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/previewing-gpt-5-6-sol"
-            },
-            {
-              "name": "Axios",
-              "url": "https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump"
-            }
-          ],
-          "tags": [
-            "AI",
-            "LLM",
-            "OpenAI",
-            "enterprise"
-          ]
-        },
-        {
-          "title": "Google Finance gets a refreshed app and wider rollout",
-          "category": "Consumer platforms",
-          "summary": "Google is moving its upgraded Google Finance experience out of beta and launching a new Android app, adding practical market-tracking features for everyday users.",
-          "sources": [
-            {
-              "name": "Google AI Blog",
-              "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "Android",
-            "apps",
-            "finance"
-          ]
-        },
-        {
-          "title": "Hugging Face highlights hybrid-model token prediction research",
-          "category": "AI / Research",
-          "summary": "Hugging Face published AllenAI research on which tokens hybrid models predict better, a useful technical look at model behavior and evaluation for AI builders.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction"
-            }
-          ],
-          "tags": [
-            "AI",
-            "research",
-            "models",
-            "Hugging Face"
-          ]
-        },
-        {
-          "title": "GRC agents show how AI can reduce repetitive compliance work",
-          "category": "Cybersecurity / AI agents",
-          "summary": "A BleepingComputer walkthrough explains how an AI agent can continuously monitor controls, identify evidence gaps, and open remediation tasks for governance, risk, and compliance teams.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "AI agents",
-            "GRC",
-            "automation"
-          ]
-        },
-        {
-          "title": "Chinese-speaking APT uses new TinyRCT backdoor in Southeast Asia",
-          "category": "Cybersecurity",
-          "summary": "The Hacker News reports that a Chinese-speaking threat actor is deploying a custom TinyRCT backdoor against government entities and critical infrastructure targets in Southeast Asia.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "APT",
-            "backdoor",
-            "critical infrastructure"
-          ]
-        },
-        {
-          "title": "OSI announces an Open Source AI Fellowship at UN Open Source Week",
-          "category": "Open source",
-          "summary": "The Open Source Initiative announced an Open Source AI Fellowship connected to UN Open Source Week, extending public work on open AI governance and collaboration.",
-          "sources": [
-            {
-              "name": "Open Source Initiative",
-              "url": "https://opensource.org/blog/open-source-ai-fellowship-announced-at-un-open-source-week"
-            }
-          ],
-          "tags": [
-            "open source",
-            "AI",
-            "governance",
-            "fellowship"
           ]
         }
       ]
