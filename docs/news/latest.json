@@ -1,8 +1,138 @@
 {
-  "updatedAt": "2026-07-07T21:09:24+03:00",
+  "updatedAt": "2026-07-10T21:04:20+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-10",
+      "items": [
+        {
+          "title": "Six U-Boot firmware flaws threaten millions of routers and embedded devices",
+          "category": "Cybersecurity",
+          "summary": "Binarly researchers disclosed six new vulnerabilities in U-Boot, the open-source bootloader used in home routers, smart cameras, IoT gear, and data-center server management chips. Four of the flaws can crash devices; two could allow code execution at boot, making patching important for both consumer and enterprise hardware.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "firmware",
+            "U-Boot",
+            "IoT",
+            "embedded"
+          ]
+        },
+        {
+          "title": "New Helix vishing group targets SharePoint with voice phishing and MFA abuse",
+          "category": "Cybersecurity",
+          "summary": "A data-extortion group called Helix is using voice phishing, device code phishing, and MFA abuse to steal data from SharePoint environments. The identity-focused tactics are a practical reminder to verify unexpected calls and MFA prompts, especially in workplace Microsoft 365 setups.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "phishing",
+            "SharePoint",
+            "MFA",
+            "vishing"
+          ]
+        },
+        {
+          "title": "GPT-5.6 becomes the default model for Microsoft 365 Copilot",
+          "category": "AI / LLMs",
+          "summary": "OpenAI announced that GPT-5.6 is now the preferred model powering Microsoft 365 Copilot across Word, Excel, PowerPoint, Chat, and Cowork. The upgrade brings stronger reasoning and output quality to the productivity suite used by millions of enterprise and consumer subscribers.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
+            }
+          ],
+          "tags": [
+            "AI",
+            "LLM",
+            "OpenAI",
+            "Microsoft",
+            "Copilot"
+          ]
+        },
+        {
+          "title": "Ollama raises $88M from Benchmark and Theory Ventures to serve open-model developers",
+          "category": "AI / Open source",
+          "summary": "Ollama, the tool for running open-weight LLMs locally, announced an $88 million funding round from Benchmark, Theory Ventures, 8VC, and Y Combinator. The company reports serving 8.9 million developers, signaling strong momentum for local and open-model AI workflows.",
+          "sources": [
+            {
+              "name": "Ollama Blog",
+              "url": "https://ollama.com/blog/all-aboard-open-models"
+            }
+          ],
+          "tags": [
+            "AI",
+            "open source",
+            "Ollama",
+            "funding",
+            "LLM"
+          ]
+        },
+        {
+          "title": "Privacy groups and Hollywood unions slam Meta's Muse Image over consent concerns",
+          "category": "AI / Tech business",
+          "summary": "Privacy advocates, CAA, and SAG-AFTRA are criticizing Meta's Muse Image, a tool that lets users generate AI images using the likenesses of people with public Instagram accounts. The backlash centers on consent, likeness rights, and the lack of opt-out mechanisms for public-profile holders.",
+          "sources": [
+            {
+              "name": "Axios",
+              "url": "https://www.axios.com/2026/07/10/meta-ai-image-consent"
+            }
+          ],
+          "tags": [
+            "AI",
+            "Meta",
+            "privacy",
+            "image generation",
+            "consent"
+          ]
+        },
+        {
+          "title": "Google Research introduces SensorFM for general-purpose wearable health intelligence",
+          "category": "AI / Wearables",
+          "summary": "Google Research published SensorFM, a generative AI model designed as a general-purpose intelligence and interface layer for wearable health sensor data. It points toward smarter, more unified health features on devices like Pixel Watch and Fitbit.",
+          "sources": [
+            {
+              "name": "Google Research Blog",
+              "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/"
+            }
+          ],
+          "tags": [
+            "AI",
+            "Google",
+            "wearables",
+            "health",
+            "sensors"
+          ]
+        },
+        {
+          "title": "DeepSeek lists dspark_qwen3_4b_block7 on Hugging Face",
+          "category": "Open model tracking",
+          "summary": "DeepSeek's Hugging Face organization now lists dspark_qwen3_4b_block7. Because the listing has no reliable publication timestamp, it is included only as an open-model tracking signal and not as dated release news.",
+          "sources": [
+            {
+              "name": "DeepSeek Models — Hugging Face",
+              "url": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7"
+            }
+          ],
+          "tags": [
+            "AI",
+            "DeepSeek",
+            "Hugging Face",
+            "open models"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-07",
       "items": [
@@ -999,100 +1129,6 @@
             "IPO",
             "M&A",
             "venture capital"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-28",
-      "items": [
-        {
-          "title": "KDDI email-system breach exposes up to 14.2 million ISP logins",
-          "category": "Cybersecurity",
-          "summary": "Japan's KDDI disclosed that attackers accessed an email system used by several internet service providers, exposing up to 14.2 million email login records. It is a practical account-security story for users who may need password resets and phishing caution.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "data breach",
-            "ISP",
-            "email"
-          ]
-        },
-        {
-          "title": "Firmus and Nvidia plan a 360 MW AI data-center campus in Indonesia",
-          "category": "AI infrastructure",
-          "summary": "Australia-based Firmus is partnering with Nvidia and DayOne on a 360 MW Nvidia DSX AI factory campus in Batam, Indonesia. The project shows how AI infrastructure buildouts are spreading across Southeast Asia, not just the U.S. and Europe.",
-          "sources": [
-            {
-              "name": "Bloomberg via Techmeme",
-              "url": "https://www.bloomberg.com/news/articles/2026-06-28/ai-startup-firmus-to-build-indonesia-data-center-with-nvidia"
-            }
-          ],
-          "tags": [
-            "AI",
-            "Nvidia",
-            "data centers",
-            "Indonesia"
-          ]
-        },
-        {
-          "title": "OpenAI's GPT-5.6 Sol preview highlights stronger cyber safeguards",
-          "category": "AI / LLMs",
-          "summary": "OpenAI's restricted GPT-5.6 Sol preview is being framed around stronger coding, science, and cybersecurity capabilities, with limited access and added safeguards for sensitive cyber use cases. It remains important AI news even though rollout is restricted.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html"
-            },
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/previewing-gpt-5-6-sol"
-            }
-          ],
-          "tags": [
-            "AI",
-            "LLM",
-            "OpenAI",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "Qwen lists Qwen-AgentWorld-35B-A3B on Hugging Face",
-          "category": "AI / Agents",
-          "summary": "Qwen's Hugging Face organization now shows Qwen-AgentWorld-35B-A3B, a model-listing signal for agent-focused open AI work. The page is undated, so treat it as a watchlist item rather than a confirmed launch announcement.",
-          "sources": [
-            {
-              "name": "Qwen Models — Hugging Face",
-              "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
-            }
-          ],
-          "tags": [
-            "AI agents",
-            "Qwen",
-            "Hugging Face",
-            "models"
-          ]
-        },
-        {
-          "title": "DeepSeek model listing surfaces eagle3_gemma4_12b_ttt7",
-          "category": "Open model tracking",
-          "summary": "DeepSeek's Hugging Face organization now lists eagle3_gemma4_12b_ttt7. Because the listing has no reliable publication timestamp, it is included only as an open-model tracking signal, not as dated release news.",
-          "sources": [
-            {
-              "name": "DeepSeek Models — Hugging Face",
-              "url": "https://huggingface.co/deepseek-ai/eagle3_gemma4_12b_ttt7"
-            }
-          ],
-          "tags": [
-            "AI",
-            "DeepSeek",
-            "Hugging Face",
-            "open models"
           ]
         }
       ]
