@@ -1,8 +1,85 @@
 {
-  "updatedAt": "2026-07-10T21:04:20+03:00",
+  "updatedAt": "2026-07-11T21:03:28+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-11",
+      "items": [
+        {
+          "title": "Apple sues OpenAI over engineer poaching, revealing tensions around hardware division",
+          "category": "Tech business",
+          "summary": "Apple filed a lawsuit against OpenAI after months of simmering tensions, centered on iPhone engineer Chang Liu's departure to OpenAI's nascent hardware division led by former Apple executive Tang Tan. Bloomberg reports the legal fight highlights the strained relationship between Tan and his former boss John Ternus at Apple.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-11/openai-engineer-s-lol-moment-set-stage-for-legal-fight-with-apple"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "OpenAI",
+            "lawsuit",
+            "hardware",
+            "tech business"
+          ]
+        },
+        {
+          "title": "Ghostcommit attack hides prompt injection in images to fool AI coding agents",
+          "category": "Cybersecurity",
+          "summary": "Researchers demonstrated 'Ghostcommit,' a technique that embeds prompt-injection payloads inside PNG images in git repositories. The attack slipped past AI code reviewers CodeRabbit and Bugbot, which never inspect image files, and tricked a coding agent into reading .env secrets and exfiltrating them to an attacker-controlled server.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "AI agents",
+            "prompt injection",
+            "supply chain",
+            "coding agents"
+          ]
+        },
+        {
+          "title": "Deutsche Telekom details AI-native transformation with OpenAI",
+          "category": "AI / LLMs",
+          "summary": "Deutsche Telekom published a case study on becoming an AI-native telecommunications provider using OpenAI technology, covering customer service automation, employee workflow tools, network operations intelligence, and the future of AI-driven voice interfaces.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/deutsche-telekom"
+            }
+          ],
+          "tags": [
+            "AI",
+            "OpenAI",
+            "Deutsche Telekom",
+            "telecom",
+            "enterprise"
+          ]
+        },
+        {
+          "title": "Hugging Face publishes PyTorch profiling guide part 3: attention optimization",
+          "category": "Developer tools",
+          "summary": "Hugging Face released the third installment of its PyTorch profiling series, focusing on practical attention-mechanism optimization for transformer models. The guide is useful for ML engineers tuning model inference and training performance.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/torch-attention-profile"
+            }
+          ],
+          "tags": [
+            "PyTorch",
+            "profiling",
+            "developer tools",
+            "ML engineering",
+            "Hugging Face"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-10",
       "items": [
@@ -1022,113 +1099,6 @@
             "AI evaluation",
             "open models",
             "open source"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-29",
-      "items": [
-        {
-          "title": "WhatsApp starts username reservations to hide phone numbers",
-          "category": "Consumer platforms / Cybersecurity",
-          "summary": "WhatsApp is rolling out username reservations so people can connect without exposing their phone numbers to everyone. It is a useful privacy update for a mainstream messaging app, especially for chats outside close contacts.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html"
-            }
-          ],
-          "tags": [
-            "WhatsApp",
-            "privacy",
-            "messaging",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "OpenAI maps Europe’s AI workforce transition",
-          "category": "AI / Jobs",
-          "summary": "OpenAI published a report on how AI could reshape jobs across the EU, including roles that may see automation, growth, or workflow changes. The useful takeaway is that AI adoption is being framed as a workforce-planning issue, not only a model-release race.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/mapping-ai-jobs-transition-eu"
-            }
-          ],
-          "tags": [
-            "AI",
-            "OpenAI",
-            "jobs",
-            "Europe"
-          ]
-        },
-        {
-          "title": "Google explains its full-stack approach to AI",
-          "category": "AI / Platforms",
-          "summary": "Google published an explainer on what a full-stack AI strategy means, from infrastructure and models to products. It is a clear official signal of how major AI companies are connecting chips, cloud, research, and user-facing apps.",
-          "sources": [
-            {
-              "name": "Google AI Blog",
-              "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/"
-            }
-          ],
-          "tags": [
-            "AI",
-            "Google",
-            "infrastructure",
-            "platforms"
-          ]
-        },
-        {
-          "title": "Qwen lists Qwen-AgentWorld-35B-A3B on Hugging Face",
-          "category": "AI / Agents",
-          "summary": "Qwen’s Hugging Face organization now shows Qwen-AgentWorld-35B-A3B, a model-listing signal for agent-focused open AI work. Because the listing has no reliable date, treat it as watchlist tracking rather than a confirmed launch announcement.",
-          "sources": [
-            {
-              "name": "Qwen Models — Hugging Face",
-              "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
-            }
-          ],
-          "tags": [
-            "AI agents",
-            "Qwen",
-            "Hugging Face",
-            "open models"
-          ]
-        },
-        {
-          "title": "DeepSeek model listing surfaces eagle3_gemma4_12b_ttt7",
-          "category": "Open model tracking",
-          "summary": "DeepSeek’s Hugging Face organization now lists eagle3_gemma4_12b_ttt7. The page is undated, so it is included as an open-model tracking signal, not as dated release news.",
-          "sources": [
-            {
-              "name": "DeepSeek Models — Hugging Face",
-              "url": "https://huggingface.co/deepseek-ai/eagle3_gemma4_12b_ttt7"
-            }
-          ],
-          "tags": [
-            "AI",
-            "DeepSeek",
-            "Hugging Face",
-            "open models"
-          ]
-        },
-        {
-          "title": "U.S. startup exits rebound to their strongest pace since 2021",
-          "category": "Tech business",
-          "summary": "Crunchbase reports that Q2 saw thirteen U.S. venture-backed startup exits worth at least $1 billion through acquisitions or IPOs, the strongest pace since the 2021 market peak. It is a useful business signal for the AI and tech funding environment.",
-          "sources": [
-            {
-              "name": "Crunchbase News",
-              "url": "https://news.crunchbase.com/public/data-billion-dollar-startup-exits-ma-ipo-spcx-q2-2026/"
-            }
-          ],
-          "tags": [
-            "startups",
-            "IPO",
-            "M&A",
-            "venture capital"
           ]
         }
       ]
