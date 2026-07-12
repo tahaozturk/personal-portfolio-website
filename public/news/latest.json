@@ -1,8 +1,52 @@
 {
-  "updatedAt": "2026-07-11T21:03:28+03:00",
+  "updatedAt": "2026-07-12T21:03:18+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-12",
+      "items": [
+        {
+          "title": "Apple taping out M7 chips with major NPU upgrades, M7 Ultra with 1.5TB RAM, and M8 roadmap for 2028",
+          "category": "Consumer hardware",
+          "summary": "Bloomberg reports Apple is already taping out its M7 chip family with significant Neural Engine upgrades for on-device AI workloads. The roadmap includes an M7 Ultra variant supporting up to 1.5TB of unified memory and an M8 generation targeting 2028. New iPad Pro models and Apple Pencils are also in development alongside the silicon push.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/newsletters/2026-07-12/apple-s-chip-plans-m6-m7-pro-m7-max-m7-ultra-m8-details-touch-macbook-pro"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "M7",
+            "M8",
+            "chip",
+            "NPU",
+            "Mac",
+            "iPad",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Compromised jscrambler npm package drops Rust infostealer during install",
+          "category": "Cybersecurity",
+          "summary": "The jscrambler npm package version 8.14.0 was compromised with a preinstall hook that drops and executes a native infostealer binary targeting Windows, macOS, and Linux. Developers who installed this version on July 11 should audit their systems and rotate exposed credentials immediately.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "npm",
+            "supply chain",
+            "infostealer",
+            "jscrambler"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-11",
       "items": [
@@ -991,114 +1035,6 @@
             "enterprise software",
             "funding",
             "startups"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-30",
-      "items": [
-        {
-          "title": "Google launches Nano Banana 2 Lite and Gemini Omni Flash for developers",
-          "category": "AI / Models",
-          "summary": "Google introduced Nano Banana 2 Lite, a lower-cost text-to-image model designed to generate results in about four seconds, and made Gemini Omni Flash available to developers. The update matters for teams building fast AI image and multimodal features into apps.",
-          "sources": [
-            {
-              "name": "The Keyword",
-              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/"
-            }
-          ],
-          "tags": [
-            "AI",
-            "Google",
-            "Gemini",
-            "image generation",
-            "developers"
-          ]
-        },
-        {
-          "title": "Anthropic introduces Claude Sonnet 5",
-          "category": "AI / LLMs",
-          "summary": "Anthropic announced Claude Sonnet 5, adding another major model update to the competitive AI assistant market. For users and builders, the key point is that model capability and product-choice comparisons are shifting again this week.",
-          "sources": [
-            {
-              "name": "Anthropic News",
-              "url": "https://www.anthropic.com/news/claude-sonnet-5"
-            }
-          ],
-          "tags": [
-            "AI",
-            "Claude",
-            "Anthropic",
-            "LLM"
-          ]
-        },
-        {
-          "title": "Apple updates Creator Studio with faster, more connected creative tools",
-          "category": "Creator tools / Consumer software",
-          "summary": "Apple announced updates to Apple Creator Studio focused on faster workflows, smarter creative features, and better connection across its creative apps. It is practical news for creators who depend on Apple’s editing and production ecosystem.",
-          "sources": [
-            {
-              "name": "Apple Newsroom",
-              "url": "https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected/"
-            }
-          ],
-          "tags": [
-            "Apple",
-            "creator tools",
-            "software",
-            "creative apps"
-          ]
-        },
-        {
-          "title": "GuardFall shows AI coding agents can be exposed to old shell-injection tricks",
-          "category": "Cybersecurity / AI agents",
-          "summary": "Adversa AI researchers describe GuardFall, a bypass that can make open-source AI coding agents run dangerous shell commands despite safety checks. The finding is a useful reminder that agent tooling needs traditional command-injection defenses, not only model-level guardrails.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "AI agents",
-            "shell injection",
-            "developer tools"
-          ]
-        },
-        {
-          "title": "Kali Linux 2026.2 ships with nine new tools and NetHunter updates",
-          "category": "Open source / Cybersecurity",
-          "summary": "Kali Linux 2026.2 is now available with nine new security tools and updates to Kali NetHunter. It is relevant for security professionals, Linux users, and anyone tracking open-source defensive and offensive security tooling.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/"
-            }
-          ],
-          "tags": [
-            "Kali Linux",
-            "open source",
-            "cybersecurity",
-            "Linux"
-          ]
-        },
-        {
-          "title": "Hugging Face adds Every Eval Ever results to model pages",
-          "category": "Open source / AI evaluation",
-          "summary": "Hugging Face is featuring Every Eval Ever community evaluation results directly on model pages. The change should make it easier for developers to compare open models with broader evaluation context before choosing one for an app or workflow.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/eee-community-evals"
-            }
-          ],
-          "tags": [
-            "Hugging Face",
-            "AI evaluation",
-            "open models",
-            "open source"
           ]
         }
       ]
