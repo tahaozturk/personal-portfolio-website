@@ -1,8 +1,85 @@
 {
-  "updatedAt": "2026-07-12T21:03:18+03:00",
+  "updatedAt": "2026-07-13T21:03:46+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-13",
+      "items": [
+        {
+          "title": "Global smartphone shipments hit lowest Q2 level since 2013 amid chip shortage",
+          "category": "Consumer hardware",
+          "summary": "Counterpoint Research reports global smartphone shipments fell 11% year-over-year in Q2 2026, dropping to the lowest second-quarter levels since 2013. The DRAM and NAND shortage is the primary driver, with Samsung returning to the top spot at 24% market share. The decline signals ongoing supply-chain pressure on consumer device availability and pricing.",
+          "sources": [
+            {
+              "name": "Counterpoint Research",
+              "url": "https://techeconomy.ng/samsung-regains-top-spot-as-global-smartphone-shipments-hit-lowest-q2-level-since-2013/"
+            }
+          ],
+          "tags": [
+            "smartphones",
+            "Samsung",
+            "chip shortage",
+            "market research",
+            "consumer hardware"
+          ]
+        },
+        {
+          "title": "MemGhost attack plants persistent false memories in AI agents through a single email",
+          "category": "Cybersecurity",
+          "summary": "Researchers disclosed MemGhost, a new attack that implants persistent false memories into AI agents by sending a single email. When an AI assistant has memory storage and inbox access, a crafted message can trick it into saving a fabricated fact about the user, hide the manipulation, and quietly influence the agent's responses across future sessions. The technique highlights growing risks as AI agents gain more access to personal data and communication channels.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "AI agents",
+            "memory",
+            "email",
+            "prompt injection"
+          ]
+        },
+        {
+          "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits after demand surge",
+          "category": "AI / LLMs",
+          "summary": "OpenAI is temporarily relaxing usage limits for GPT-5.6 Sol after demand for the company's most capable model spiked over the past 48 hours. The move suggests strong adoption and gives paying users more headroom during the surge, while the temporary nature of the change indicates OpenAI is managing capacity constraints.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/"
+            }
+          ],
+          "tags": [
+            "AI",
+            "OpenAI",
+            "GPT-5.6",
+            "LLM",
+            "usage limits"
+          ]
+        },
+        {
+          "title": "CISA publishes postmortem on internal credential leak via public GitHub repository",
+          "category": "Cybersecurity",
+          "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) released a detailed postmortem after a contractor published dozens of internal credentials — including AWS GovCloud keys — in a public GitHub repository where they sat exposed for nearly six months before being discovered. The incident is a practical reminder for organizations to audit public repos, enforce credential scanning, and treat contractor access with the same rigor as internal accounts.",
+          "sources": [
+            {
+              "name": "KrebsOnSecurity",
+              "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "CISA",
+            "GitHub",
+            "credentials",
+            "government"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-12",
       "items": [
@@ -911,130 +988,6 @@
             "engineering",
             "debugging",
             "reliability"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "items": [
-        {
-          "title": "Anthropic introduces Claude Sonnet 5",
-          "category": "AI / LLMs",
-          "summary": "Anthropic announced Claude Sonnet 5, making this the main model-release item in today's brief. It is relevant for developers and AI users watching frontier-model capability and product changes.",
-          "sources": [
-            {
-              "name": "Anthropic News",
-              "url": "https://www.anthropic.com/news/claude-sonnet-5"
-            }
-          ],
-          "tags": [
-            "AI",
-            "LLM",
-            "Anthropic",
-            "Claude"
-          ]
-        },
-        {
-          "title": "Google Research introduces TabFM for zero-shot tabular data tasks",
-          "category": "AI / Research",
-          "summary": "Google Research introduced TabFM, a foundation model aimed at zero-shot work on tabular data. The release is useful for tracking how foundation-model techniques are moving beyond text, images, and code into structured business and scientific datasets.",
-          "sources": [
-            {
-              "name": "Google Research Blog",
-              "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/"
-            }
-          ],
-          "tags": [
-            "AI",
-            "Google Research",
-            "foundation models",
-            "data"
-          ]
-        },
-        {
-          "title": "Hugging Face adds Every Eval Ever results to model pages",
-          "category": "Open source / AI tooling",
-          "summary": "Hugging Face is featuring Every Eval Ever results directly on model pages, making evaluation signals easier to find when comparing open and hosted models. It is a practical open-source ecosystem update for developers choosing models.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/eee-community-evals"
-            }
-          ],
-          "tags": [
-            "open source",
-            "AI",
-            "evaluations",
-            "Hugging Face"
-          ]
-        },
-        {
-          "title": "OpenAI engineering write-up traces rare crashes to an 18-year-old bug",
-          "category": "AI infrastructure",
-          "summary": "OpenAI published a technical post on using large-scale core dump analysis to debug rare infrastructure crashes, ultimately finding a hardware fault and an 18-year-old software bug. It is a useful reliability story for teams building AI systems at scale.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug"
-            }
-          ],
-          "tags": [
-            "AI infrastructure",
-            "OpenAI",
-            "debugging",
-            "reliability"
-          ]
-        },
-        {
-          "title": "Adobe fixes seven maximum-severity flaws in ColdFusion and Campaign Classic",
-          "category": "Cybersecurity",
-          "summary": "Adobe released patches for seven CVSS 10.0 vulnerabilities affecting ColdFusion and Campaign Classic, including issues that could lead to code execution or privilege escalation. Admins running these products should prioritize the updates.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "Adobe",
-            "patches",
-            "ColdFusion"
-          ]
-        },
-        {
-          "title": "Apple Creator Studio gets faster and more connected",
-          "category": "Creator tools",
-          "summary": "Apple announced updates to Apple Creator Studio, describing faster workflows and more connected creative apps. It is the clearest end-user creator-tool update in today's collector output.",
-          "sources": [
-            {
-              "name": "Apple Newsroom",
-              "url": "https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected/"
-            }
-          ],
-          "tags": [
-            "Apple",
-            "creator tools",
-            "apps",
-            "consumer tech"
-          ]
-        },
-        {
-          "title": "Aligned raises $60M for B2B sales workspaces with AI-agent support",
-          "category": "AI / Tech business",
-          "summary": "Aligned raised a $60 million Series B led by PeakSpan Capital and says it now serves more than 1,000 customers. The funding shows continuing demand for AI-agent-assisted enterprise workflows, even outside consumer apps.",
-          "sources": [
-            {
-              "name": "Axios",
-              "url": "https://www.axios.com/pro/enterprise-software-deals/2026/07/01/sales-startup-aligned-enterprise-software"
-            }
-          ],
-          "tags": [
-            "AI agents",
-            "enterprise software",
-            "funding",
-            "startups"
           ]
         }
       ]
