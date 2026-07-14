@@ -1,8 +1,120 @@
 {
-  "updatedAt": "2026-07-13T21:03:46+03:00",
+  "updatedAt": "2026-07-14T21:04:26+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-14",
+      "items": [
+        {
+          "title": "Windows 11 KB5101650 and KB5099414 cumulative updates released for July 2026 Patch Tuesday",
+          "category": "Cybersecurity",
+          "summary": "Microsoft released the July 2026 Patch Tuesday cumulative updates for Windows 11 versions 25H2, 24H2, and 23H2, delivering security vulnerability fixes, bug patches, and several new features. Windows users should install these updates promptly to stay protected against actively exploited flaws.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/"
+            }
+          ],
+          "tags": [
+            "Windows",
+            "Patch Tuesday",
+            "security updates",
+            "Microsoft"
+          ]
+        },
+        {
+          "title": "Data center operator Switch prepares for up to $80B IPO as soon as Q4 2026",
+          "category": "Tech business",
+          "summary": "Reuters reports that data center operator Switch has hired investment banks for a U.S. IPO that could raise up to $10 billion and value the company at roughly $80 billion, targeting as soon as Q4 2026. The filing signals continued strong investor appetite for AI-driven data center infrastructure.",
+          "sources": [
+            {
+              "name": "Reuters via Economic Times",
+              "url": "https://economictimes.indiatimes.com/tech/technology/data-center-firm-switch-taps-banks-for-ipo-that-could-value-it-up-to-80-billion/articleshow/132395339.cms"
+            }
+          ],
+          "tags": [
+            "data centers",
+            "IPO",
+            "Switch",
+            "AI infrastructure",
+            "tech business"
+          ]
+        },
+        {
+          "title": "Madden NFL 27 Arcade Edition coming to Apple Arcade on August 6",
+          "category": "Consumer platforms",
+          "summary": "Apple announced that EA Sports Madden NFL 27 Arcade Edition will join Apple Arcade on August 6, expanding the subscription gaming service's sports lineup with one of gaming's biggest annual franchises. The addition strengthens Apple Arcade's appeal for sports gaming fans on iPhone, iPad, Mac, and Apple TV.",
+          "sources": [
+            {
+              "name": "Apple Newsroom",
+              "url": "https://www.apple.com/newsroom/2026/07/madden-nfl-27-arcade-edition-brings-gridiron-action-to-apple-arcade-on-august-6/"
+            }
+          ],
+          "tags": [
+            "Apple Arcade",
+            "gaming",
+            "Madden NFL",
+            "EA Sports",
+            "Apple"
+          ]
+        },
+        {
+          "title": "Google Images turns 25 with new visual search and AI-powered creation features",
+          "category": "AI / Consumer",
+          "summary": "Google is marking the 25th anniversary of Google Images with a look back at major visual search milestones and new ways to explore and create visual content. The update highlights how AI-powered image understanding and generation continue to evolve as core consumer search features used by billions.",
+          "sources": [
+            {
+              "name": "Google AI Blog",
+              "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "visual search",
+            "AI",
+            "images",
+            "consumer"
+          ]
+        },
+        {
+          "title": "OpenAI publishes framework for managing AI investments in the agentic era",
+          "category": "AI / Enterprise",
+          "summary": "OpenAI shared a guide for enterprises on measuring AI investments by useful work per dollar, improving efficiency, and scaling high-value agentic workflows. The framework is aimed at organizations moving from AI experimentation to production deployment of autonomous AI agents.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/managing-ai-investments-in-agentic-era"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "AI agents",
+            "enterprise",
+            "strategy",
+            "ROI"
+          ]
+        },
+        {
+          "title": "Anthropic introduces Claude for Teachers, bringing AI into K-12 and higher education",
+          "category": "AI / Products",
+          "summary": "Anthropic announced Claude for Teachers, a new product designed to bring the AI assistant into K-12 and higher-education classrooms. The launch signals growing competition among major AI providers to serve education-specific use cases with purpose-built tools for educators and students.",
+          "sources": [
+            {
+              "name": "Anthropic News",
+              "url": "https://www.anthropic.com/news/claude-for-teachers"
+            }
+          ],
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "education",
+            "AI",
+            "teachers"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-13",
       "items": [
@@ -863,131 +975,6 @@
             "AI",
             "evaluations",
             "Hugging Face"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-02",
-      "items": [
-        {
-          "title": "Kling AI raises $2B for AI video generation",
-          "category": "AI / Tech business",
-          "summary": "Kling AI, the AI video company spun out of Kuaishou, raised $2 billion at a reported $15 billion pre-money valuation. The large round shows how much investor attention is still going to video-generation tools and the infrastructure behind them.",
-          "sources": [
-            {
-              "name": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-07-02/china-s-kling-ai-raises-2-billion-to-expand-ai-video-operations"
-            }
-          ],
-          "tags": [
-            "AI",
-            "video generation",
-            "Kling AI",
-            "funding"
-          ]
-        },
-        {
-          "title": "AI agents challenge traditional identity lifecycle management",
-          "category": "Cybersecurity / AI agents",
-          "summary": "The Hacker News highlights a practical enterprise security problem: identity systems were built around employees, managers, and departure dates, while autonomous AI agents may not fit those controls. Teams adopting agents need clearer ownership, permissions, and retirement rules.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/identity-lifecycle-management.html"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "AI agents",
-            "identity management",
-            "enterprise security"
-          ]
-        },
-        {
-          "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-          "category": "AI / Voice tools",
-          "summary": "Hugging Face says it is working with Cerebras to bring Gemma 4 into real-time voice AI workflows. The update is relevant for developers building fast voice assistants, interactive agents, and low-latency audio applications.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai"
-            }
-          ],
-          "tags": [
-            "AI",
-            "voice AI",
-            "Gemma",
-            "Hugging Face",
-            "Cerebras"
-          ]
-        },
-        {
-          "title": "Google summarizes its June AI updates for users and developers",
-          "category": "Consumer software / AI",
-          "summary": "Google published a June roundup of its latest AI updates across products and platforms. It is a useful single source for users tracking practical Google AI changes rather than only research announcements.",
-          "sources": [
-            {
-              "name": "Google Blog",
-              "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "AI",
-            "consumer software",
-            "platform updates"
-          ]
-        },
-        {
-          "title": "Google introduces TabFM for zero-shot tabular data modeling",
-          "category": "AI / Research",
-          "summary": "Google Research introduced TabFM, a foundation model designed for zero-shot work on tabular data. The announcement matters for builders who want AI systems that can reason over spreadsheets, databases, and business datasets with less task-specific training.",
-          "sources": [
-            {
-              "name": "Google Research Blog",
-              "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/"
-            }
-          ],
-          "tags": [
-            "AI",
-            "Google Research",
-            "tabular data",
-            "foundation models"
-          ]
-        },
-        {
-          "title": "Medtronic notifies customers after ShinyHunters-linked data breach",
-          "category": "Cybersecurity / Data breach",
-          "summary": "Medtronic is notifying affected customers after a data breach exposed personal information to an unauthorized third party. The incident is another reminder that healthcare and device-adjacent companies remain high-value targets for data theft.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "data breach",
-            "healthcare",
-            "Medtronic"
-          ]
-        },
-        {
-          "title": "OpenAI describes how core dump analysis exposed an 18-year-old bug",
-          "category": "Open source / Engineering",
-          "summary": "OpenAI published an engineering write-up on using large-scale core dump analysis to track rare infrastructure crashes, including a hardware fault and a long-standing software bug. The post is useful for developers interested in reliability debugging at scale.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "engineering",
-            "debugging",
-            "reliability"
           ]
         }
       ]
