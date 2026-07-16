@@ -1,8 +1,144 @@
 {
-  "updatedAt": "2026-07-15T21:03:33+03:00",
+  "updatedAt": "2026-07-16T21:03:45+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-16",
+      "items": [
+        {
+          "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
+          "category": "Cybersecurity",
+          "summary": "Security researchers disclosed a new attack class where planted content on web pages or GitHub threads can trick AI agents into clicking 'Buy Now' buttons or executing attacker commands. Ask an agent to summarize product reviews and a single planted review can redirect it; ask a coding assistant to apply a maintainer's fix and a fake comment can run a stranger's command on your machine. The technique exploits how agents process untrusted data from web pages, code reviews, and other sources, highlighting growing risks as AI agents gain more autonomy over browsers and terminals.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "AI agents",
+            "prompt injection",
+            "data injection",
+            "agent security"
+          ]
+        },
+        {
+          "title": "Google Gemini CLI Abused as Hacking Agent and Malware Botnet Operator",
+          "category": "Cybersecurity",
+          "summary": "A Russian-speaking threat actor known as 'bandcampro' weaponized Google's open-source Gemini CLI tool to automate hacking tasks and operate a small-scale botnet. The case demonstrates how publicly available AI command-line tools can be repurposed for malicious operations when deployed without proper access controls and monitoring.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "Google",
+            "Gemini",
+            "botnet",
+            "AI misuse"
+          ]
+        },
+        {
+          "title": "Qwen Releases Qwen-AgentWorld-35B-A3B, a New Open Model for AI Agent Environments",
+          "category": "AI / Models",
+          "summary": "Alibaba's Qwen team published Qwen-AgentWorld-35B-A3B on Hugging Face, a 35-billion-parameter model with 3 billion active parameters specifically designed for AI agent environments. The release adds to the growing ecosystem of open-weight models purpose-built for autonomous agent tasks and multi-step reasoning.",
+          "sources": [
+            {
+              "name": "Qwen (Hugging Face)",
+              "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+            }
+          ],
+          "tags": [
+            "AI",
+            "Qwen",
+            "open source",
+            "agent",
+            "Hugging Face",
+            "LLM"
+          ]
+        },
+        {
+          "title": "DeepSeek Releases dspark_qwen3_4b_block7, a Distilled Qwen3 Variant",
+          "category": "AI / Models",
+          "summary": "DeepSeek published dspark_qwen3_4b_block7 on Hugging Face, a distilled variant based on the Qwen3 architecture. The release continues DeepSeek's pattern of contributing efficient, open-weight models that make capable language models more accessible for resource-constrained deployments.",
+          "sources": [
+            {
+              "name": "DeepSeek (Hugging Face)",
+              "url": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7"
+            }
+          ],
+          "tags": [
+            "AI",
+            "DeepSeek",
+            "Qwen3",
+            "open source",
+            "distillation",
+            "LLM"
+          ]
+        },
+        {
+          "title": "Google Search AI Mode Gains Ability to Connect Third-Party Apps for Personalized Results",
+          "category": "AI / Consumer",
+          "summary": "Google announced that users will soon be able to securely link and interact with their go-to services directly within AI Mode in Google Search. The connected-apps feature lets the AI assistant pull context from services like email, calendar, and task managers to deliver more personalized and actionable responses within search results.",
+          "sources": [
+            {
+              "name": "Google AI Blog",
+              "url": "https://blog.google/products-and-platforms/products/search/connected-apps/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Search",
+            "AI Mode",
+            "consumer",
+            "connected apps"
+          ]
+        },
+        {
+          "title": "Google Warns EU Digital Markets Act Rules Risk Undermining Android Security and Privacy",
+          "category": "Consumer platforms",
+          "summary": "Google published a strong statement arguing that current EU Digital Markets Act enforcement decisions risk weakening privacy and security protections for millions of European Android users. The company says it has repeatedly proposed alternative solutions that would satisfy regulatory goals while preserving the user safeguards Europeans rely on.",
+          "sources": [
+            {
+              "name": "Google Android Blog",
+              "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/the-dma-should-not-undercut-security-privacy-for-europeans/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Android",
+            "EU",
+            "DMA",
+            "regulation",
+            "privacy",
+            "security"
+          ]
+        },
+        {
+          "title": "Self Inspection Raises $10M Led by Sheryl Sandberg for AI-Powered Vehicle Inspection via Smartphone",
+          "category": "Tech business",
+          "summary": "San Diego-based Self Inspection raised $10 million in a round led by former Meta COO Sheryl Sandberg. The startup uses AI to assess vehicle body damage using nothing more than a smartphone camera, targeting the auto insurance and repair markets with a mobile-first approach to damage assessment.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/07/16/sheryl-sandberg-leads-10-million-investment-in-ai-powered-vehicle-inspection-service/"
+            }
+          ],
+          "tags": [
+            "AI",
+            "startup",
+            "funding",
+            "vehicle inspection",
+            "computer vision",
+            "TechCrunch"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-15",
       "items": [
@@ -900,113 +1036,6 @@
           "title": "DeepSeek model listing surfaces dspark_qwen3_4b_block7",
           "category": "AI / Open models",
           "summary": "DeepSeek's Hugging Face organization now lists dspark_qwen3_4b_block7. Because the page has no reliable publication timestamp, it is included as an open-model tracking signal, not as a dated release announcement.",
-          "sources": [
-            {
-              "name": "DeepSeek Models — Hugging Face",
-              "url": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7"
-            }
-          ],
-          "tags": [
-            "AI",
-            "DeepSeek",
-            "Hugging Face",
-            "open models"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-04",
-      "items": [
-        {
-          "title": "Researchers report an AI-agent-run ransomware attack",
-          "category": "AI / Cybersecurity",
-          "summary": "Researchers say the JadePuffer ransomware case appears to be the first documented attack run end-to-end by a large language model agent. The report is a warning sign for defenders because AI agents can automate reconnaissance, exploitation, and extortion workflows much faster than traditional manual operations.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/"
-            }
-          ],
-          "tags": [
-            "AI agents",
-            "ransomware",
-            "cybersecurity",
-            "LLM"
-          ]
-        },
-        {
-          "title": "FatFs flaws affect millions of embedded devices",
-          "category": "Open source / Cybersecurity",
-          "summary": "runZero disclosed seven vulnerabilities in FatFs, a widely used filesystem library for reading FAT and exFAT media in embedded firmware. The issue matters for device makers and users because vulnerable firmware can be exposed through common removable-storage paths such as USB drives and SD cards.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html"
-            }
-          ],
-          "tags": [
-            "open source",
-            "embedded devices",
-            "firmware",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "FBI seizes NetNut proxy infrastructure tied to Popa botnet",
-          "category": "Cybersecurity",
-          "summary": "The FBI and industry partners seized domains connected to the NetNut residential proxy platform and the Popa botnet. The action is notable because residential proxy networks can hide malicious traffic behind ordinary consumer internet connections, complicating abuse detection.",
-          "sources": [
-            {
-              "name": "KrebsOnSecurity",
-              "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
-            }
-          ],
-          "tags": [
-            "botnet",
-            "proxy networks",
-            "FBI",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "Apple silicon Mac minis are becoming popular AI-agent machines",
-          "category": "AI / Hardware",
-          "summary": "Apple silicon product manager Doug Brooks discussed why Mac minis have become a preferred local machine in some AI labs for agent workflows and on-device AI experiments. The story is useful hardware context for developers and creators tracking practical AI workstations beyond cloud GPUs.",
-          "sources": [
-            {
-              "name": "The Deep View",
-              "url": "https://www.thedeepview.com/articles/how-apple-s-decade-long-bet-on-chips-won-ai"
-            }
-          ],
-          "tags": [
-            "Apple silicon",
-            "Mac mini",
-            "AI agents",
-            "on-device AI"
-          ]
-        },
-        {
-          "title": "Qwen lists Qwen-AgentWorld-35B-A3B on Hugging Face",
-          "category": "AI / Agents",
-          "summary": "Qwen's Hugging Face organization now shows Qwen-AgentWorld-35B-A3B, a model-listing signal for agent-focused open AI work. The page is undated, so treat it as a watchlist item rather than a confirmed timed launch announcement.",
-          "sources": [
-            {
-              "name": "Qwen Models — Hugging Face",
-              "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
-            }
-          ],
-          "tags": [
-            "AI agents",
-            "Qwen",
-            "Hugging Face",
-            "models"
-          ]
-        },
-        {
-          "title": "DeepSeek model listing surfaces dspark_qwen3_4b_block7",
-          "category": "Open model tracking",
-          "summary": "DeepSeek's Hugging Face organization now lists dspark_qwen3_4b_block7. Because the listing has no reliable publication timestamp, it is included only as an open-model tracking signal, not as dated release news.",
           "sources": [
             {
               "name": "DeepSeek Models — Hugging Face",
