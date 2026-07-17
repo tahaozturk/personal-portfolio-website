@@ -1,8 +1,120 @@
 {
-  "updatedAt": "2026-07-16T21:03:45+03:00",
+  "updatedAt": "2026-07-17T21:04:16+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-17",
+      "items": [
+        {
+          "title": "Kimi K3 Hype Shouldn't Alarm the US About Losing the AI Race to China",
+          "category": "AI / Models",
+          "summary": "Analysis argues that excitement around China's Kimi K3 model should not fuel US fears of losing the AI race. K3 is a capable model but not frontier-level and likely lacks dangerous cyber capabilities, with broader context on NY data center policy and NDAA export controls.",
+          "sources": [
+            {
+              "name": "Transformer",
+              "url": "https://www.transformernews.ai/p/kimi-k3-is-no-reason-for-china-panic-export-controls-xi-jingping"
+            }
+          ],
+          "tags": [
+            "AI",
+            "China",
+            "policy",
+            "Kimi K3",
+            "export controls"
+          ]
+        },
+        {
+          "title": "OpenAI CFO Introduces a Practical Scorecard for Measuring AI ROI",
+          "category": "AI / Enterprise",
+          "summary": "OpenAI CFO Sarah Friar introduces a practical AI scorecard framework to measure return on investment through four dimensions: useful work completed, cost per successful task, dependability, and return on compute.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/a-scorecard-for-the-ai-age"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "ROI",
+            "enterprise",
+            "AI strategy"
+          ]
+        },
+        {
+          "title": "Fine-Tune Video and Image Models at Scale with NVIDIA NeMo Automodel and Diffusers",
+          "category": "AI / Developer Tools",
+          "summary": "Hugging Face and NVIDIA demonstrate how to fine-tune video and image generation models at scale using NVIDIA NeMo Automodel integrated with the Hugging Face Diffusers library, enabling efficient large-scale model customization.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel"
+            }
+          ],
+          "tags": [
+            "NVIDIA",
+            "Hugging Face",
+            "fine-tuning",
+            "diffusion models",
+            "video generation"
+          ]
+        },
+        {
+          "title": "Inside the Search for Clean Residential Proxies for Carding Fraud",
+          "category": "Cybersecurity",
+          "summary": "Residential proxies are no longer sufficient on their own for carding fraud. Cybercriminals increasingly seek 'clean' residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to evade modern fraud detection systems.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/"
+            }
+          ],
+          "tags": [
+            "fraud",
+            "proxies",
+            "carding",
+            "fingerprinting",
+            "cybercrime"
+          ]
+        },
+        {
+          "title": "The Race to Field Military Autonomy Is On — Can Trusted Information Infrastructure Keep Pace?",
+          "category": "Cybersecurity",
+          "summary": "Military forces across the US, UK, and NATO face increasing pressure to field autonomous capabilities faster than ever. New investment, evolving defense strategies, and accelerated acquisition pathways are reshaping how defense capability is delivered and secured.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html"
+            }
+          ],
+          "tags": [
+            "military",
+            "autonomy",
+            "defense",
+            "NATO",
+            "AI"
+          ]
+        },
+        {
+          "title": "Google Redesigns Thousands of Emoji with Noto 3D for Modern Communication",
+          "category": "Consumer platforms",
+          "summary": "On World Emoji Day, Google unveils Noto 3D, a redesigned emoji set featuring thousands of updated emoji built for modern communication across Android and other Google platforms.",
+          "sources": [
+            {
+              "name": "Google Android Blog",
+              "url": "https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Android",
+            "emoji",
+            "design",
+            "Noto"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-16",
       "items": [
@@ -957,96 +1069,6 @@
             "AI coding",
             "developer tools",
             "software security"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-05",
-      "items": [
-        {
-          "title": "Bending Spoons files for Nasdaq after a debt-fueled acquisition run",
-          "category": "Tech business",
-          "summary": "Bending Spoons' planned Nasdaq IPO caps more than a decade of buying and reshaping internet companies, with the Financial Times reporting roughly $4.4 billion in debt. The story matters for consumer tech because the company owns widely used products and shows how app portfolios are being consolidated by highly leveraged operators.",
-          "sources": [
-            {
-              "name": "Financial Times",
-              "url": "https://www.ft.com/content/040aac86-f458-400b-a353-7ff2ee5aa34f"
-            }
-          ],
-          "tags": [
-            "tech business",
-            "IPO",
-            "apps",
-            "Bending Spoons"
-          ]
-        },
-        {
-          "title": "JadePuffer ransomware attack reportedly automated by an AI agent",
-          "category": "Cybersecurity / AI agents",
-          "summary": "Researchers say the JadePuffer ransomware operation used a large language model agent to automate the full attack chain. If confirmed, it is a notable example of agentic AI moving from demos into real cybercrime workflows, raising the bar for defensive monitoring and incident response.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "ransomware",
-            "AI agents",
-            "LLM"
-          ]
-        },
-        {
-          "title": "FatFs vulnerabilities affect millions of embedded devices",
-          "category": "Cybersecurity / Embedded devices",
-          "summary": "runZero disclosed seven unpatched vulnerabilities in FatFs, a filesystem library used in firmware that reads and writes FAT and exFAT media such as USB drives and SD cards. The issue is important for routers, appliances, industrial devices, and other embedded products because remediation depends on firmware vendors shipping updates.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "embedded",
-            "firmware",
-            "FatFs"
-          ]
-        },
-        {
-          "title": "Qwen lists Qwen-AgentWorld-35B-A3B on Hugging Face",
-          "category": "AI / Agents",
-          "summary": "Qwen's Hugging Face organization now shows Qwen-AgentWorld-35B-A3B, a model-listing signal for agent-focused open AI work. The listing is undated, so it should be treated as model-watchlist news rather than a confirmed timed launch announcement.",
-          "sources": [
-            {
-              "name": "Qwen Models — Hugging Face",
-              "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
-            }
-          ],
-          "tags": [
-            "AI agents",
-            "Qwen",
-            "Hugging Face",
-            "open models"
-          ]
-        },
-        {
-          "title": "DeepSeek model listing surfaces dspark_qwen3_4b_block7",
-          "category": "AI / Open models",
-          "summary": "DeepSeek's Hugging Face organization now lists dspark_qwen3_4b_block7. Because the page has no reliable publication timestamp, it is included as an open-model tracking signal, not as a dated release announcement.",
-          "sources": [
-            {
-              "name": "DeepSeek Models — Hugging Face",
-              "url": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7"
-            }
-          ],
-          "tags": [
-            "AI",
-            "DeepSeek",
-            "Hugging Face",
-            "open models"
           ]
         }
       ]
