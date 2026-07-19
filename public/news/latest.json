@@ -1,8 +1,84 @@
 {
-  "updatedAt": "2026-07-18T21:03:44+03:00",
+  "updatedAt": "2026-07-19T21:05:06+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-19",
+      "items": [
+        {
+          "title": "Alibaba Launches Qwen3.8 Max Preview, a 2.4T-Parameter Flagship Model Rivaling Frontier AI",
+          "category": "AI / Models",
+          "summary": "Alibaba launched a preview version of its flagship Qwen3.8 Max model with 2.4 trillion parameters, claiming it rivals frontier AI models and is second only to Fable 5. The company plans to make it open-weight soon, which would significantly expand the open model landscape with a model competitive against the best proprietary systems.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-19/alibaba-s-qwen-unveils-preview-of-flagship-ai-model"
+            }
+          ],
+          "tags": [
+            "Qwen",
+            "Alibaba",
+            "LLM",
+            "open-weight",
+            "AI"
+          ]
+        },
+        {
+          "title": "7-Zip 26.02 Fixes RCE Flaw Exploitable via Malicious Archives — Update Now",
+          "category": "Cybersecurity",
+          "summary": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. The flaw affects one of the most widely used file archivers on Windows, making this a high-priority update for all users.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/"
+            }
+          ],
+          "tags": [
+            "7-Zip",
+            "RCE",
+            "vulnerability",
+            "patch",
+            "Windows"
+          ]
+        },
+        {
+          "title": "Russian UAC-0145 Group Uses ClickFix CAPTCHAs to Trick Ukrainian Users into Self-Infecting with Malware",
+          "category": "Cybersecurity",
+          "summary": "Russian state-sponsored threat group UAC-0145 has been leveraging fake CAPTCHA prompts — a technique known as ClickFix — to trick Ukrainian targets into running PowerShell commands that deploy data-stealing malware on their own machines, according to Ukraine's CERT-UA.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html"
+            }
+          ],
+          "tags": [
+            "malware",
+            "Russia",
+            "Ukraine",
+            "CAPTCHA",
+            "social engineering"
+          ]
+        },
+        {
+          "title": "OnePlus Smartphone Brand Fades Away Without a Final Sendoff",
+          "category": "End-User Tech",
+          "summary": "OnePlus, the brand that once disrupted the flagship phone market with aggressive pricing and enthusiast-focused software, has effectively ended. Its final flagship was widely dismissed as a misfire, and the brand fades without a formal conclusion — ending 'not with a bang, but a whimper.'",
+          "sources": [
+            {
+              "name": "9to5Google",
+              "url": "https://9to5google.com/2026/07/19/oneplus-died-with-a-whimper-not-a-bang/"
+            }
+          ],
+          "tags": [
+            "OnePlus",
+            "smartphones",
+            "Android",
+            "mobile"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-18",
       "items": [
@@ -972,130 +1048,6 @@
             "DeepSeek",
             "Hugging Face",
             "open models"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "items": [
-        {
-          "title": "Google sets August 12 Made by Google event for Pixel 11 and Pixel Watch 5",
-          "category": "Consumer devices",
-          "summary": "Google confirmed a Made by Google event in New York on August 12, where the Pixel 11 phone lineup and Pixel Watch 5 are expected. It is the clearest consumer-hardware signal in today's feed for Android phone and wearable buyers.",
-          "sources": [
-            {
-              "name": "9to5Google",
-              "url": "https://9to5google.com/2026/07/07/made-by-google-2026-invite/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "Pixel",
-            "Android",
-            "wearables"
-          ]
-        },
-        {
-          "title": "Google expands Managed Agents in Gemini API with background tasks and remote MCP",
-          "category": "AI / Agents",
-          "summary": "Google announced new Gemini API Managed Agents features, including background tasks and remote MCP support, aimed at making production AI agents more reliable. The update is useful for developers building agentic apps rather than a generic model-listing note.",
-          "sources": [
-            {
-              "name": "Google AI Blog",
-              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/"
-            }
-          ],
-          "tags": [
-            "AI agents",
-            "Gemini API",
-            "MCP",
-            "developers"
-          ]
-        },
-        {
-          "title": "Hugging Face brings models to Foundry Managed Compute",
-          "category": "AI / Developer tools",
-          "summary": "Hugging Face detailed support for running Hugging Face models on Microsoft Foundry Managed Compute. The integration matters for teams that want managed infrastructure while keeping access to open model workflows and familiar Hugging Face tooling.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute"
-            }
-          ],
-          "tags": [
-            "Hugging Face",
-            "AI",
-            "open models",
-            "developer tools"
-          ]
-        },
-        {
-          "title": "Hidden backdoor found in Tenda router firmware",
-          "category": "Cybersecurity",
-          "summary": "Researchers found a hidden authentication backdoor in several Tenda router firmware versions that could grant administrative access to the web management panel. Router owners and small offices should watch for firmware updates and avoid exposing admin panels to the internet.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "routers",
-            "firmware",
-            "Tenda"
-          ]
-        },
-        {
-          "title": "RedWing malware packages Android bank fraud as a Telegram rental service",
-          "category": "Mobile security",
-          "summary": "The RedWing Android malware operation is being rented through Telegram as a bank-fraud service, lowering the skill needed to steal banking logins and one-time codes. It is a practical warning for Android users to avoid sideloaded apps and review banking-device protections.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html"
-            }
-          ],
-          "tags": [
-            "Android",
-            "malware",
-            "banking",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "Anthropic says Alberta is using Claude to find government cybersecurity vulnerabilities",
-          "category": "AI / Cybersecurity",
-          "summary": "Anthropic published a case study on Alberta's use of Claude to help find and fix vulnerabilities across government systems. It is a notable example of an AI assistant being applied to defensive security work in the public sector.",
-          "sources": [
-            {
-              "name": "Anthropic News",
-              "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity"
-            }
-          ],
-          "tags": [
-            "Claude",
-            "AI",
-            "cybersecurity",
-            "government"
-          ]
-        },
-        {
-          "title": "Google Research highlights collaborative algorithms to reduce traffic congestion",
-          "category": "AI research",
-          "summary": "Google Research described work on collaboration-based approaches for reducing traffic congestion. While research-focused, it is a useful applied-AI item because it connects algorithm design with a real consumer-facing urban mobility problem.",
-          "sources": [
-            {
-              "name": "Google Research Blog",
-              "url": "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/"
-            }
-          ],
-          "tags": [
-            "Google Research",
-            "AI",
-            "algorithms",
-            "mobility"
           ]
         }
       ]
