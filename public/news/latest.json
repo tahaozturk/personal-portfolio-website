@@ -1,8 +1,83 @@
 {
-  "updatedAt": "2026-07-19T21:05:06+03:00",
+  "updatedAt": "2026-07-20T21:05:04+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-20",
+      "items": [
+        {
+          "title": "NVIDIA Introduces Cosmos 3 Edge for Physical AI at the Edge",
+          "category": "AI / Models",
+          "summary": "NVIDIA announced Cosmos 3 Edge, a new family of world foundation models optimized for edge deployment. The models bring physical AI capabilities — including real-time environment understanding and action prediction — to robotics, autonomous vehicles, and industrial systems running on lower-power hardware outside the data center.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/nvidia/cosmos3edge"
+            }
+          ],
+          "tags": [
+            "nvidia",
+            "cosmos",
+            "physical-ai",
+            "edge-computing",
+            "world-models"
+          ]
+        },
+        {
+          "title": "Autonomous AI Agent Used to Breach Hugging Face Infrastructure",
+          "category": "Cybersecurity",
+          "summary": "Hugging Face disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. The incident is among the first confirmed cases of AI agents being weaponized for cyberattacks against major AI platforms.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/"
+            }
+          ],
+          "tags": [
+            "huggingface",
+            "ai-security",
+            "autonomous-agents",
+            "data-breach"
+          ]
+        },
+        {
+          "title": "Russian Intelligence Hijacks IP Cameras to Monitor NATO Military Logistics",
+          "category": "Cybersecurity",
+          "summary": "Russian intelligence services are systematically compromising internet-connected security cameras across Europe and Ukraine to surveil military transport routes, weapons shipments bound for Kyiv, and Ukrainian troop positions, according to new threat intelligence findings.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
+            }
+          ],
+          "tags": [
+            "russia",
+            "iot-security",
+            "espionage",
+            "nato",
+            "ukraine"
+          ]
+        },
+        {
+          "title": "Empirical Security Raises $25M for AI-Powered Threat Prediction Platform",
+          "category": "AI / Enterprise",
+          "summary": "Chicago-based Empirical Security raised a $25 million Series A led by Brightmind Partners to expand its AI-driven exposure management platform. The startup uses AI to predict cyber threats by monitoring exploited vulnerabilities across organizations in real time.",
+          "sources": [
+            {
+              "name": "Axios",
+              "url": "https://www.axios.com/pro/enterprise-software-deals/2026/07/20/cybersecurity-empirical-security-ai-25-million"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "funding",
+            "series-a",
+            "threat-intelligence"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-19",
       "items": [
@@ -918,136 +993,6 @@
             "developer tools",
             "ML engineering",
             "Hugging Face"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-10",
-      "items": [
-        {
-          "title": "Six U-Boot firmware flaws threaten millions of routers and embedded devices",
-          "category": "Cybersecurity",
-          "summary": "Binarly researchers disclosed six new vulnerabilities in U-Boot, the open-source bootloader used in home routers, smart cameras, IoT gear, and data-center server management chips. Four of the flaws can crash devices; two could allow code execution at boot, making patching important for both consumer and enterprise hardware.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "firmware",
-            "U-Boot",
-            "IoT",
-            "embedded"
-          ]
-        },
-        {
-          "title": "New Helix vishing group targets SharePoint with voice phishing and MFA abuse",
-          "category": "Cybersecurity",
-          "summary": "A data-extortion group called Helix is using voice phishing, device code phishing, and MFA abuse to steal data from SharePoint environments. The identity-focused tactics are a practical reminder to verify unexpected calls and MFA prompts, especially in workplace Microsoft 365 setups.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "phishing",
-            "SharePoint",
-            "MFA",
-            "vishing"
-          ]
-        },
-        {
-          "title": "GPT-5.6 becomes the default model for Microsoft 365 Copilot",
-          "category": "AI / LLMs",
-          "summary": "OpenAI announced that GPT-5.6 is now the preferred model powering Microsoft 365 Copilot across Word, Excel, PowerPoint, Chat, and Cowork. The upgrade brings stronger reasoning and output quality to the productivity suite used by millions of enterprise and consumer subscribers.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
-            }
-          ],
-          "tags": [
-            "AI",
-            "LLM",
-            "OpenAI",
-            "Microsoft",
-            "Copilot"
-          ]
-        },
-        {
-          "title": "Ollama raises $88M from Benchmark and Theory Ventures to serve open-model developers",
-          "category": "AI / Open source",
-          "summary": "Ollama, the tool for running open-weight LLMs locally, announced an $88 million funding round from Benchmark, Theory Ventures, 8VC, and Y Combinator. The company reports serving 8.9 million developers, signaling strong momentum for local and open-model AI workflows.",
-          "sources": [
-            {
-              "name": "Ollama Blog",
-              "url": "https://ollama.com/blog/all-aboard-open-models"
-            }
-          ],
-          "tags": [
-            "AI",
-            "open source",
-            "Ollama",
-            "funding",
-            "LLM"
-          ]
-        },
-        {
-          "title": "Privacy groups and Hollywood unions slam Meta's Muse Image over consent concerns",
-          "category": "AI / Tech business",
-          "summary": "Privacy advocates, CAA, and SAG-AFTRA are criticizing Meta's Muse Image, a tool that lets users generate AI images using the likenesses of people with public Instagram accounts. The backlash centers on consent, likeness rights, and the lack of opt-out mechanisms for public-profile holders.",
-          "sources": [
-            {
-              "name": "Axios",
-              "url": "https://www.axios.com/2026/07/10/meta-ai-image-consent"
-            }
-          ],
-          "tags": [
-            "AI",
-            "Meta",
-            "privacy",
-            "image generation",
-            "consent"
-          ]
-        },
-        {
-          "title": "Google Research introduces SensorFM for general-purpose wearable health intelligence",
-          "category": "AI / Wearables",
-          "summary": "Google Research published SensorFM, a generative AI model designed as a general-purpose intelligence and interface layer for wearable health sensor data. It points toward smarter, more unified health features on devices like Pixel Watch and Fitbit.",
-          "sources": [
-            {
-              "name": "Google Research Blog",
-              "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/"
-            }
-          ],
-          "tags": [
-            "AI",
-            "Google",
-            "wearables",
-            "health",
-            "sensors"
-          ]
-        },
-        {
-          "title": "DeepSeek lists dspark_qwen3_4b_block7 on Hugging Face",
-          "category": "Open model tracking",
-          "summary": "DeepSeek's Hugging Face organization now lists dspark_qwen3_4b_block7. Because the listing has no reliable publication timestamp, it is included only as an open-model tracking signal and not as dated release news.",
-          "sources": [
-            {
-              "name": "DeepSeek Models — Hugging Face",
-              "url": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7"
-            }
-          ],
-          "tags": [
-            "AI",
-            "DeepSeek",
-            "Hugging Face",
-            "open models"
           ]
         }
       ]
