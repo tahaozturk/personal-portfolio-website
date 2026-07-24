@@ -1,8 +1,107 @@
 {
-  "updatedAt": "2026-07-23T21:04:25+03:00",
+  "updatedAt": "2026-07-24T21:04:16+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-24",
+      "items": [
+        {
+          "title": "Anthropic Introduces Claude Opus 5",
+          "category": "AI / Models",
+          "summary": "Anthropic announced Claude Opus 5, its newest flagship AI model. The release continues the rapid pace of frontier model development, bringing what is expected to be Anthropic's most capable system to date with improvements across reasoning, coding, and agentic tasks.",
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/news/claude-opus-5"
+            }
+          ],
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "Opus 5",
+            "LLM",
+            "frontier AI"
+          ]
+        },
+        {
+          "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via Phishing",
+          "category": "Cybersecurity",
+          "summary": "Researchers disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could allow attackers to build, authorize, and deploy autonomous AI agents inside a victim's organization using just a single phishing link. The flaw highlights growing security risks as AI agent adoption accelerates in enterprise environments.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "ChatGPT",
+            "AI agents",
+            "vulnerability",
+            "phishing",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "Qualcomm Tells Customers It Plans Double-Digit Price Increases",
+          "category": "End-User Tech",
+          "summary": "Qualcomm, the largest maker of smartphone processors, informed customers it plans to raise prices by double-digit percentages after exhausting its ability to absorb higher supplier costs. The price hikes are expected to ripple through the smartphone and consumer electronics supply chain, potentially leading to more expensive devices for consumers later this year.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-24/qualcomm-tells-customers-that-prices-are-going-up-by-double-digits"
+            }
+          ],
+          "tags": [
+            "Qualcomm",
+            "chips",
+            "smartphones",
+            "pricing",
+            "supply chain",
+            "hardware"
+          ]
+        },
+        {
+          "title": "OpenAI Launches Health in ChatGPT for Personalized Medical Insights",
+          "category": "AI / Products",
+          "summary": "OpenAI launched Health in ChatGPT, a new feature that lets eligible U.S. users securely connect their medical records and Apple Health data to receive personalized health insights and better understand their well-being through conversational AI.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/health-in-chatgpt"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "ChatGPT",
+            "health",
+            "Apple Health",
+            "AI",
+            "personalization"
+          ]
+        },
+        {
+          "title": "Hackers Hijack Hotel Wi-Fi DNS to Steal Microsoft 365 Accounts",
+          "category": "Cybersecurity",
+          "summary": "Attackers are compromising Wi-Fi routers at hotels and conference centers to change DNS settings, redirecting guests to fake Microsoft 365 login pages that steal credentials. Travelers are advised to use VPNs and verify login pages carefully when connecting to public Wi-Fi networks.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/"
+            }
+          ],
+          "tags": [
+            "Wi-Fi",
+            "DNS",
+            "Microsoft 365",
+            "phishing",
+            "hotel security",
+            "cybersecurity"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-23",
       "items": [
@@ -957,118 +1056,6 @@
             "Android",
             "warranty",
             "consumer"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-14",
-      "items": [
-        {
-          "title": "Windows 11 KB5101650 and KB5099414 cumulative updates released for July 2026 Patch Tuesday",
-          "category": "Cybersecurity",
-          "summary": "Microsoft released the July 2026 Patch Tuesday cumulative updates for Windows 11 versions 25H2, 24H2, and 23H2, delivering security vulnerability fixes, bug patches, and several new features. Windows users should install these updates promptly to stay protected against actively exploited flaws.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/"
-            }
-          ],
-          "tags": [
-            "Windows",
-            "Patch Tuesday",
-            "security updates",
-            "Microsoft"
-          ]
-        },
-        {
-          "title": "Data center operator Switch prepares for up to $80B IPO as soon as Q4 2026",
-          "category": "Tech business",
-          "summary": "Reuters reports that data center operator Switch has hired investment banks for a U.S. IPO that could raise up to $10 billion and value the company at roughly $80 billion, targeting as soon as Q4 2026. The filing signals continued strong investor appetite for AI-driven data center infrastructure.",
-          "sources": [
-            {
-              "name": "Reuters via Economic Times",
-              "url": "https://economictimes.indiatimes.com/tech/technology/data-center-firm-switch-taps-banks-for-ipo-that-could-value-it-up-to-80-billion/articleshow/132395339.cms"
-            }
-          ],
-          "tags": [
-            "data centers",
-            "IPO",
-            "Switch",
-            "AI infrastructure",
-            "tech business"
-          ]
-        },
-        {
-          "title": "Madden NFL 27 Arcade Edition coming to Apple Arcade on August 6",
-          "category": "Consumer platforms",
-          "summary": "Apple announced that EA Sports Madden NFL 27 Arcade Edition will join Apple Arcade on August 6, expanding the subscription gaming service's sports lineup with one of gaming's biggest annual franchises. The addition strengthens Apple Arcade's appeal for sports gaming fans on iPhone, iPad, Mac, and Apple TV.",
-          "sources": [
-            {
-              "name": "Apple Newsroom",
-              "url": "https://www.apple.com/newsroom/2026/07/madden-nfl-27-arcade-edition-brings-gridiron-action-to-apple-arcade-on-august-6/"
-            }
-          ],
-          "tags": [
-            "Apple Arcade",
-            "gaming",
-            "Madden NFL",
-            "EA Sports",
-            "Apple"
-          ]
-        },
-        {
-          "title": "Google Images turns 25 with new visual search and AI-powered creation features",
-          "category": "AI / Consumer",
-          "summary": "Google is marking the 25th anniversary of Google Images with a look back at major visual search milestones and new ways to explore and create visual content. The update highlights how AI-powered image understanding and generation continue to evolve as core consumer search features used by billions.",
-          "sources": [
-            {
-              "name": "Google AI Blog",
-              "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "visual search",
-            "AI",
-            "images",
-            "consumer"
-          ]
-        },
-        {
-          "title": "OpenAI publishes framework for managing AI investments in the agentic era",
-          "category": "AI / Enterprise",
-          "summary": "OpenAI shared a guide for enterprises on measuring AI investments by useful work per dollar, improving efficiency, and scaling high-value agentic workflows. The framework is aimed at organizations moving from AI experimentation to production deployment of autonomous AI agents.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/managing-ai-investments-in-agentic-era"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "AI agents",
-            "enterprise",
-            "strategy",
-            "ROI"
-          ]
-        },
-        {
-          "title": "Anthropic introduces Claude for Teachers, bringing AI into K-12 and higher education",
-          "category": "AI / Products",
-          "summary": "Anthropic announced Claude for Teachers, a new product designed to bring the AI assistant into K-12 and higher-education classrooms. The launch signals growing competition among major AI providers to serve education-specific use cases with purpose-built tools for educators and students.",
-          "sources": [
-            {
-              "name": "Anthropic News",
-              "url": "https://www.anthropic.com/news/claude-for-teachers"
-            }
-          ],
-          "tags": [
-            "Anthropic",
-            "Claude",
-            "education",
-            "AI",
-            "teachers"
           ]
         }
       ]
