@@ -1,8 +1,88 @@
 {
-  "updatedAt": "2026-07-24T21:04:16+03:00",
+  "updatedAt": "2026-07-25T21:05:44+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-25",
+      "items": [
+        {
+          "title": "SK Group Chair Says Anthropic Asked SK Hynix for Supplies to Build Its Own Chips",
+          "category": "AI / Business",
+          "summary": "SK Group Chairman Chey Tae Won revealed that Anthropic has asked SK Hynix for chip supplies to manufacture its own semiconductors, calling it remarkable that an AI developer now has chip ambitions. The move signals Anthropic's intent to reduce reliance on external chip suppliers and vertically integrate its AI hardware stack, following a trend set by other major AI labs exploring custom silicon.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-25/sk-cha...hips"
+            }
+          ],
+          "tags": [
+            "Anthropic",
+            "SK Hynix",
+            "chips",
+            "semiconductors",
+            "AI hardware",
+            "custom silicon"
+          ]
+        },
+        {
+          "title": "Insurance Phishing Attacks Evolve Into Real-Time Account Hijacking",
+          "category": "Cybersecurity",
+          "summary": "CTM360 researchers revealed that phishing campaigns targeting insurance and financial institutions have evolved from credential harvesting to real-time account hijacking. Attackers now intercept one-time passwords and session tokens as victims enter them, enabling immediate account takeover rather than delayed exploitation — a shift that demands stronger real-time authentication defenses.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html"
+            }
+          ],
+          "tags": [
+            "phishing",
+            "insurance",
+            "account hijacking",
+            "CTM360",
+            "cybersecurity",
+            "financial fraud"
+          ]
+        },
+        {
+          "title": "Open-Source Hermes AI Agent Used to Automate Attack on Thai Finance Ministry",
+          "category": "Cybersecurity",
+          "summary": "A threat actor leveraged the open-source Hermes AI agent in unattended mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. The incident marks one of the first documented cases of an open-source AI agent framework being weaponized for real-world cyberattacks against government infrastructure, raising new concerns about AI agent security.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/"
+            }
+          ],
+          "tags": [
+            "Hermes",
+            "AI agent",
+            "cyberattack",
+            "Thailand",
+            "automation",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "Open Source Initiative: Openness Made All Modern AI Progress Possible",
+          "category": "Open Source",
+          "summary": "The Open Source Initiative published a reflection arguing that every AI system in today's headlines — proprietary or open source — exists because researchers shared their work openly. From training frameworks to evaluation libraries, open-source software forms the foundation upon which all modern AI systems are built, even as the debate over open-weight model releases continues.",
+          "sources": [
+            {
+              "name": "Open Source Initiative",
+              "url": "https://opensource.org/blog/openness-made-all-of-this-possible"
+            }
+          ],
+          "tags": [
+            "open source",
+            "OSI",
+            "AI",
+            "research",
+            "transparency"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-24",
       "items": [
@@ -906,156 +986,6 @@
             "vehicle inspection",
             "computer vision",
             "TechCrunch"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-15",
-      "items": [
-        {
-          "title": "Hugging Face and IBM Research explore the hidden complexity of model routing",
-          "category": "AI / LLMs",
-          "summary": "Hugging Face and IBM Research published a deep dive on model routing, explaining why what seems like a simple dispatch problem becomes surprisingly complex at production scale. The post covers practical challenges in selecting the right model per query, cost-performance tradeoffs, and architectural patterns for routing across multiple LLMs.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt"
-            }
-          ],
-          "tags": [
-            "AI",
-            "model routing",
-            "Hugging Face",
-            "IBM Research",
-            "LLM"
-          ]
-        },
-        {
-          "title": "OpenAI outlines 'reverse federalism' framework for AI safety governance in the US",
-          "category": "AI / Policy",
-          "summary": "OpenAI published a policy paper arguing for a 'reverse federalism' approach to AI governance, where state-level laws help build a national framework for safe and democratic AI deployment. The post comes as US federal AI legislation remains stalled and states increasingly pass their own AI safety rules.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action"
-            }
-          ],
-          "tags": [
-            "AI",
-            "policy",
-            "regulation",
-            "OpenAI",
-            "safety"
-          ]
-        },
-        {
-          "title": "ASML plans price increases for chipmaking equipment despite TSMC resistance",
-          "category": "Tech business",
-          "summary": "Sources report that ASML has discussed raising prices for its EUV lithography systems with TSMC and plans to charge 10% more for its DUV systems. TSMC is reportedly pushing back, highlighting tension between the world's most advanced chipmaker and its sole supplier of extreme ultraviolet lithography tools.",
-          "sources": [
-            {
-              "name": "The Information",
-              "url": "https://www.theinformation.com/articles/asml-plans-price-increases-chipmaking-equipment-despite-tsmc-resistance"
-            }
-          ],
-          "tags": [
-            "ASML",
-            "TSMC",
-            "chips",
-            "semiconductors",
-            "EUV",
-            "tech business"
-          ]
-        },
-        {
-          "title": "OkoBot malware framework injects seed-phrase phishing into Ledger and Trezor desktop apps",
-          "category": "Cybersecurity",
-          "summary": "A malware framework called OkoBot has been infecting Windows machines since April 2025, and one of its modules tricks hardware wallet owners into entering their recovery phrase directly inside what appears to be the legitimate Ledger or Trezor desktop software. The attack is especially dangerous because the phishing prompt comes from inside the wallet app itself on an already-compromised PC.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "malware",
-            "crypto",
-            "hardware wallet",
-            "phishing"
-          ]
-        },
-        {
-          "title": "SonicWall warns of SMA1000 zero-day flaws actively exploited in attacks",
-          "category": "Cybersecurity",
-          "summary": "SonicWall disclosed that threat actors have been exploiting two SMA1000 vulnerabilities (CVE-2026-15409 and CVE-2026-15410) in zero-day attacks and urges customers to install the newly released security updates immediately. The flaws affect SonicWall's secure access appliances commonly used in enterprise remote-access deployments.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "SonicWall",
-            "zero-day",
-            "CVE",
-            "VPN"
-          ]
-        },
-        {
-          "title": "Microsoft patches a record 570 security flaws in July Patch Tuesday",
-          "category": "Cybersecurity",
-          "summary": "Microsoft released software updates to plug at least 570 security holes across Windows and other products, nearly triple the number fixed in the previous record-setting Patch Tuesday. The scale of this month's release makes it one of the largest single-vendor patch drops ever, and users should prioritize updating all Microsoft-managed devices and services promptly.",
-          "sources": [
-            {
-              "name": "KrebsOnSecurity",
-              "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "Microsoft",
-            "Patch Tuesday",
-            "Windows",
-            "vulnerabilities"
-          ]
-        },
-        {
-          "title": "Major League Soccer returns to Apple TV tomorrow after World Cup break",
-          "category": "Consumer platforms",
-          "summary": "Apple announced that Major League Soccer action resumes on Apple TV on July 16 following the month-long FIFA World Cup break. The MLS Season Pass streaming service continues to be a key differentiator for Apple's sports-content strategy on its Apple TV platform available across iPhone, iPad, Mac, smart TVs, and gaming consoles.",
-          "sources": [
-            {
-              "name": "Apple Newsroom",
-              "url": "https://www.apple.com/newsroom/2026/07/major-league-soccer-returns-to-apple-tv-tomorrow/"
-            }
-          ],
-          "tags": [
-            "Apple",
-            "Apple TV",
-            "MLS",
-            "streaming",
-            "sports"
-          ]
-        },
-        {
-          "title": "Google opens Pixel Care+ enrollment window for Pixel 9 and 10 owners",
-          "category": "Consumer devices",
-          "summary": "Google announced an open enrollment period from July 13 to August 2 for Pixel Care+, letting Pixel 9 and Pixel 10 owners sign up for accidental damage coverage and $0 battery and screen repairs. The program extends device protection options for recent Pixel buyers who didn't purchase coverage at the time of device purchase.",
-          "sources": [
-            {
-              "name": "Google Pixel Blog",
-              "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-care-plus-open-enrollment-2026/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "Pixel",
-            "Android",
-            "warranty",
-            "consumer"
           ]
         }
       ]
