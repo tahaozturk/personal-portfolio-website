@@ -1,8 +1,101 @@
 {
-  "updatedAt": "2026-07-26T21:07:19+03:00",
+  "updatedAt": "2026-07-27T21:05:23+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-27",
+      "items": [
+        {
+          "title": "Microsoft Introduces MAI-Cyber-1-Flash for AI-Powered Vulnerability Detection",
+          "category": "AI / Security",
+          "summary": "Microsoft announced MAI-Cyber-1-Flash, deployed inside its MDASH multi-agent vulnerability identification harness. The company says the new model delivers world-class performance at 50% of the cost of leading models for finding and fixing security flaws.",
+          "sources": [
+            {
+              "name": "Microsoft AI",
+              "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/"
+            }
+          ],
+          "tags": [
+            "AI",
+            "cybersecurity",
+            "Microsoft",
+            "vulnerability detection"
+          ]
+        },
+        {
+          "title": "NVIDIA Cosmos-H-Dreams Brings Real-Time Generative Simulation to Surgical Robotics",
+          "category": "AI / Models",
+          "summary": "NVIDIA introduced Cosmos-H-Dreams, a generative simulation model for real-time surgical robotics training and research. The model is now available on Hugging Face.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams"
+            }
+          ],
+          "tags": [
+            "AI",
+            "NVIDIA",
+            "robotics",
+            "Hugging Face",
+            "simulation"
+          ]
+        },
+        {
+          "title": "Apple Releases iOS 26.6 and macOS Tahoe 26.6 with Security Updates",
+          "category": "End-User Tech",
+          "summary": "Apple rolled out iOS 26.6, iPadOS 26.6, and macOS Tahoe 26.6 with security fixes and optimizations for the upcoming iOS 27. watchOS 26.6, tvOS 26.6, and HomePod 26.6 were also released.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/07/27/ios-26-6-now-available-whats-new/"
+            }
+          ],
+          "tags": [
+            "iOS",
+            "macOS",
+            "Apple",
+            "security updates",
+            "watchOS"
+          ]
+        },
+        {
+          "title": "YouTube Premium to Include Peacock Streaming at No Extra Cost",
+          "category": "Creator Tools",
+          "summary": "YouTube Premium subscribers will gain access to NBCUniversal's Peacock streaming service for free in the coming months, adding another bundled entertainment perk alongside existing benefits like ad-free viewing and background play.",
+          "sources": [
+            {
+              "name": "9to5Google",
+              "url": "https://9to5google.com/2026/07/27/youtube-premium-subscribers-are-getting-peacock-for-free-in-the-coming-months/"
+            }
+          ],
+          "tags": [
+            "YouTube",
+            "streaming",
+            "Peacock",
+            "subscriptions"
+          ]
+        },
+        {
+          "title": "Dysphoria IoT Botnet Evolves with Blockchain C2 and Victim Relays After JackSkid Disruption",
+          "category": "Cybersecurity",
+          "summary": "The Dysphoria IoT botnet has adopted blockchain-based command-and-control and infected-device relay techniques, making it significantly harder to disrupt. Researchers say the evolution follows a March law-enforcement operation against the JackSkid botnet infrastructure.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html"
+            }
+          ],
+          "tags": [
+            "IoT",
+            "botnet",
+            "blockchain",
+            "cybersecurity",
+            "malware"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-26",
       "items": [
@@ -837,118 +930,6 @@
             "Emoji",
             "Google",
             "Design"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-17",
-      "items": [
-        {
-          "title": "Kimi K3 Hype Shouldn't Alarm the US About Losing the AI Race to China",
-          "category": "AI / Models",
-          "summary": "Analysis argues that excitement around China's Kimi K3 model should not fuel US fears of losing the AI race. K3 is a capable model but not frontier-level and likely lacks dangerous cyber capabilities, with broader context on NY data center policy and NDAA export controls.",
-          "sources": [
-            {
-              "name": "Transformer",
-              "url": "https://www.transformernews.ai/p/kimi-k3-is-no-reason-for-china-panic-export-controls-xi-jingping"
-            }
-          ],
-          "tags": [
-            "AI",
-            "China",
-            "policy",
-            "Kimi K3",
-            "export controls"
-          ]
-        },
-        {
-          "title": "OpenAI CFO Introduces a Practical Scorecard for Measuring AI ROI",
-          "category": "AI / Enterprise",
-          "summary": "OpenAI CFO Sarah Friar introduces a practical AI scorecard framework to measure return on investment through four dimensions: useful work completed, cost per successful task, dependability, and return on compute.",
-          "sources": [
-            {
-              "name": "OpenAI",
-              "url": "https://openai.com/index/a-scorecard-for-the-ai-age"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "ROI",
-            "enterprise",
-            "AI strategy"
-          ]
-        },
-        {
-          "title": "Fine-Tune Video and Image Models at Scale with NVIDIA NeMo Automodel and Diffusers",
-          "category": "AI / Developer Tools",
-          "summary": "Hugging Face and NVIDIA demonstrate how to fine-tune video and image generation models at scale using NVIDIA NeMo Automodel integrated with the Hugging Face Diffusers library, enabling efficient large-scale model customization.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel"
-            }
-          ],
-          "tags": [
-            "NVIDIA",
-            "Hugging Face",
-            "fine-tuning",
-            "diffusion models",
-            "video generation"
-          ]
-        },
-        {
-          "title": "Inside the Search for Clean Residential Proxies for Carding Fraud",
-          "category": "Cybersecurity",
-          "summary": "Residential proxies are no longer sufficient on their own for carding fraud. Cybercriminals increasingly seek 'clean' residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to evade modern fraud detection systems.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/"
-            }
-          ],
-          "tags": [
-            "fraud",
-            "proxies",
-            "carding",
-            "fingerprinting",
-            "cybercrime"
-          ]
-        },
-        {
-          "title": "The Race to Field Military Autonomy Is On — Can Trusted Information Infrastructure Keep Pace?",
-          "category": "Cybersecurity",
-          "summary": "Military forces across the US, UK, and NATO face increasing pressure to field autonomous capabilities faster than ever. New investment, evolving defense strategies, and accelerated acquisition pathways are reshaping how defense capability is delivered and secured.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html"
-            }
-          ],
-          "tags": [
-            "military",
-            "autonomy",
-            "defense",
-            "NATO",
-            "AI"
-          ]
-        },
-        {
-          "title": "Google Redesigns Thousands of Emoji with Noto 3D for Modern Communication",
-          "category": "Consumer platforms",
-          "summary": "On World Emoji Day, Google unveils Noto 3D, a redesigned emoji set featuring thousands of updated emoji built for modern communication across Android and other Google platforms.",
-          "sources": [
-            {
-              "name": "Google Android Blog",
-              "url": "https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "Android",
-            "emoji",
-            "design",
-            "Noto"
           ]
         }
       ]
