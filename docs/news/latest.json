@@ -1,8 +1,124 @@
 {
-  "updatedAt": "2026-07-27T21:05:23+03:00",
+  "updatedAt": "2026-07-28T21:04:08+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-28",
+      "items": [
+        {
+          "title": "Google Expands Gemini API Managed Agents with 3.6 Flash, Webhooks, and More",
+          "category": "AI / Developer Tools",
+          "summary": "Google announced new capabilities in Gemini API Managed Agents, including Gemini 3.6 Flash model support, webhooks for integrating external services, and tooling improvements designed to help developers build reliable, production-ready AI agents.",
+          "sources": [
+            {
+              "name": "Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Gemini API",
+            "AI agents",
+            "developer tools",
+            "managed agents"
+          ]
+        },
+        {
+          "title": "Apple Upgrade Hardware Leasing Program Launches in the United States",
+          "category": "End-User Tech",
+          "summary": "Apple Upgrade, a new hardware leasing program, is now available on the Apple Store online, in the Apple Store app, and at Apple Store locations across the United States. The program lets customers lease Apple devices with regular upgrade options.",
+          "sources": [
+            {
+              "name": "Apple Newsroom",
+              "url": "https://www.apple.com/newsroom/2026/07/apple-upgrade-launches-in-the-united-states/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "leasing",
+            "iPhone",
+            "Mac",
+            "consumer hardware"
+          ]
+        },
+        {
+          "title": "Anthropic Publishes Its Position on Open-Weights AI Models",
+          "category": "AI / Policy",
+          "summary": "Anthropic published a formal statement outlining its position on open-weights models, addressing the benefits and risks of publicly released model weights. The statement contributes to the ongoing industry debate about how open AI model releases should be governed.",
+          "sources": [
+            {
+              "name": "Anthropic News",
+              "url": "https://www.anthropic.com/news/position-open-weights-models"
+            }
+          ],
+          "tags": [
+            "Anthropic",
+            "open-weights",
+            "AI policy",
+            "model safety",
+            "open source"
+          ]
+        },
+        {
+          "title": "OpenAI Field Report: How Scientists Use AI Coding Agents to Modernize Research Software",
+          "category": "AI / Research",
+          "summary": "A new OpenAI field report details how scientists are using AI coding agents to modernize scientific computing workflows, accelerating software development and discovery in fields like genomics. The report highlights real-world adoption patterns and productivity gains in research settings.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/scientific-computing-agentic-ai"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "scientific computing",
+            "AI agents",
+            "genomics",
+            "research"
+          ]
+        },
+        {
+          "title": "Tengu Botnet Uses Hardware Watchdog to Survive Process Termination on Linux Devices",
+          "category": "Cybersecurity",
+          "summary": "A new Mirai-derived botnet called Tengu can trigger a hardware watchdog reboot on compromised Linux devices when defenders kill its main process. After reboot, its other persistence mechanisms get another chance to relaunch, making traditional process-kill defenses ineffective. Nozomi Networks Labs observed the technique in active campaigns targeting IoT and Linux systems.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html"
+            }
+          ],
+          "tags": [
+            "botnet",
+            "Linux",
+            "IoT",
+            "Mirai",
+            "Tengu",
+            "cybersecurity",
+            "Nozomi Networks"
+          ]
+        },
+        {
+          "title": "Certighost PoC Exploit Enables Windows Domain Compromise via AD Certificate Services",
+          "category": "Cybersecurity",
+          "summary": "A proof-of-concept exploit has been released for Certighost, a vulnerability in Windows Active Directory Certificate Services that can allow authenticated attackers to potentially compromise a Windows domain. Security teams are advised to review their AD CS configurations and apply available mitigations.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/"
+            }
+          ],
+          "tags": [
+            "Windows",
+            "Active Directory",
+            "Certighost",
+            "PoC",
+            "cybersecurity",
+            "vulnerability"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-27",
       "items": [
@@ -795,141 +911,6 @@
             "smartphones",
             "Android",
             "mobile"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-18",
-      "items": [
-        {
-          "title": "Microsoft Surface Laptop Review: 8GB RAM Is Not Enough for Windows 11",
-          "category": "End-User Tech",
-          "summary": "A review of Microsoft's 13-inch Surface Laptop finds that 8GB of RAM leads to a frustrating Windows 11 experience, with sluggish multitasking and quick memory exhaustion. Multiple PC makers are still unveiling upcoming laptops with only 8GB of RAM, raising concerns about the baseline hardware for modern Windows.",
-          "sources": [
-            {
-              "name": "The Verge",
-              "url": "https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review"
-            }
-          ],
-          "tags": [
-            "Windows",
-            "Laptops",
-            "Hardware"
-          ]
-        },
-        {
-          "title": "WordPress Core 'wp2shell' RCE Flaws Get Public Exploits — Patch Now",
-          "category": "Cybersecurity",
-          "summary": "Public exploits have been released for the critical 'wp2shell' remote code execution vulnerabilities affecting WordPress Core. Administrators are urged to patch immediately as the flaws allow unauthenticated attackers to gain shell access on vulnerable sites.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/"
-            }
-          ],
-          "tags": [
-            "WordPress",
-            "RCE",
-            "Exploit"
-          ]
-        },
-        {
-          "title": "Microsoft Patches a Record 570 Security Flaws in July Update",
-          "category": "Cybersecurity",
-          "summary": "Microsoft's July Patch Tuesday delivered fixes for at least 570 security vulnerabilities across Windows and other software — nearly triple the previous record set last month. The massive update underscores the expanding attack surface of Microsoft's ecosystem.",
-          "sources": [
-            {
-              "name": "KrebsOnSecurity",
-              "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/"
-            }
-          ],
-          "tags": [
-            "Microsoft",
-            "Patch Tuesday",
-            "Vulnerabilities"
-          ]
-        },
-        {
-          "title": "The Race to Field Military Autonomy and the Trust Problem",
-          "category": "AI",
-          "summary": "The U.S., UK, and NATO are accelerating investment in autonomous military capabilities, but the underlying information infrastructure must be trustworthy enough to support battlefield decision-making. New acquisition pathways are rewarding speed, raising difficult questions about verification and reliability of AI in defense.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html"
-            }
-          ],
-          "tags": [
-            "Military AI",
-            "Autonomy",
-            "Defense"
-          ]
-        },
-        {
-          "title": "OpenAI CFO Introduces 'A Scorecard for the AI Age'",
-          "category": "AI",
-          "summary": "OpenAI CFO Sarah Friar proposes a practical framework for measuring AI ROI: useful work completed, cost per successful task, dependability, and return on compute. The scorecard aims to help enterprises move beyond hype and evaluate AI investments with concrete metrics.",
-          "sources": [
-            {
-              "name": "OpenAI",
-              "url": "https://openai.com/index/a-scorecard-for-the-ai-age"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "Enterprise AI",
-            "ROI"
-          ]
-        },
-        {
-          "title": "Qwen Releases AgentWorld-35B-A3B: A 35B Agent-Focused Model",
-          "category": "AI",
-          "summary": "Alibaba's Qwen team has published Qwen-AgentWorld-35B-A3B on Hugging Face, a 35-billion-parameter model with 3 billion active parameters optimized for agentic workflows and tool use. The model targets autonomous task completion and multi-step reasoning scenarios.",
-          "sources": [
-            {
-              "name": "Qwen (Hugging Face)",
-              "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
-            }
-          ],
-          "tags": [
-            "Qwen",
-            "Agents",
-            "Open Model"
-          ]
-        },
-        {
-          "title": "Fine-Tune Video and Image Models at Scale with NVIDIA NeMo Automodel and Diffusers",
-          "category": "AI",
-          "summary": "Hugging Face and NVIDIA demonstrate how to fine-tune diffusion models for video and image generation at production scale using NVIDIA NeMo Automodel integrated with the Hugging Face Diffusers library. The workflow targets teams needing to customize generative models efficiently.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel"
-            }
-          ],
-          "tags": [
-            "NVIDIA",
-            "Diffusers",
-            "Fine-Tuning",
-            "Generative AI"
-          ]
-        },
-        {
-          "title": "Google Redesigns Thousands of Emoji with Noto 3D for Android",
-          "category": "End-User Tech",
-          "summary": "On World Emoji Day, Google unveiled Noto 3D, a complete redesign of thousands of emoji for modern communication on Android. The new emoji set features richer 3D rendering and updated designs reflecting how people communicate today.",
-          "sources": [
-            {
-              "name": "Google Android Blog",
-              "url": "https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/"
-            }
-          ],
-          "tags": [
-            "Android",
-            "Emoji",
-            "Google",
-            "Design"
           ]
         }
       ]
