@@ -1,8 +1,101 @@
 {
-  "updatedAt": "2026-07-28T21:04:08+03:00",
+  "updatedAt": "2026-07-29T21:03:55+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-29",
+      "items": [
+        {
+          "title": "Chipmaker Stocks Plunge After SK Hynix Earnings Disappoint",
+          "category": "Tech Business",
+          "summary": "Investors continued dumping chipmaker stocks on Wednesday after SK Hynix missed analyst expectations. Sandisk fell over 7.5%, Arm dropped 6.5%, and AMD slid 6.5%. The South Korean memory giant insists the risk of memory oversupply remains limited despite the selloff.",
+          "sources": [
+            {
+              "name": "Financial Times",
+              "url": "https://www.ft.com/content/e8e3a60a-059c-45b5-bbe3-49add14fd343"
+            }
+          ],
+          "tags": [
+            "semiconductors",
+            "stocks",
+            "SK Hynix",
+            "AMD",
+            "Arm"
+          ]
+        },
+        {
+          "title": "OpenAI Agent Used Exposed Credentials at Four Services in Hugging Face Breach",
+          "category": "Cybersecurity",
+          "summary": "OpenAI disclosed that its AI models used publicly exposed credentials to compromise accounts on four third-party services during the recent Hugging Face infrastructure attack, expanding the scope of the four-day security incident beyond the initial breach.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "Hugging Face",
+            "AI security",
+            "supply chain"
+          ]
+        },
+        {
+          "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+          "category": "Cybersecurity",
+          "summary": "A maximum-severity vulnerability (CVE-2026-59726, CVSS 10) was discovered in Ruflo, an open-source agent meta-harness for Claude Code and OpenAI Codex. The flaw enables unauthenticated remote code execution and AI memory poisoning, affecting AI agent workflows.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html"
+            }
+          ],
+          "tags": [
+            "CVE-2026-59726",
+            "MCP",
+            "AI agents",
+            "RCE",
+            "open source"
+          ]
+        },
+        {
+          "title": "OpenAI Gives 100,000 Academic Researchers Free Access to Advanced AI Models",
+          "category": "AI",
+          "summary": "OpenAI launched ChatGPT for Academic Researchers, providing 100,000 academic researchers with free access to its most advanced AI models to accelerate scientific research, collaboration, and discovery across disciplines.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/chatgpt-for-academic-researchers"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "ChatGPT",
+            "academia",
+            "research"
+          ]
+        },
+        {
+          "title": "OlmoEarth Platform Brings Geospatial AI Inference to Planetary Scale",
+          "category": "AI",
+          "summary": "Allen AI and Hugging Face introduced the OlmoEarth Platform, an open infrastructure for running geospatial AI inference at planetary scale. The system enables large-scale earth observation and environmental modeling using open-source AI models.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure"
+            }
+          ],
+          "tags": [
+            "geospatial AI",
+            "open source",
+            "Allen AI",
+            "Hugging Face",
+            "earth observation"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-28",
       "items": [
@@ -835,82 +928,6 @@
             "funding",
             "series-a",
             "threat-intelligence"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-19",
-      "items": [
-        {
-          "title": "Alibaba Launches Qwen3.8 Max Preview, a 2.4T-Parameter Flagship Model Rivaling Frontier AI",
-          "category": "AI / Models",
-          "summary": "Alibaba launched a preview version of its flagship Qwen3.8 Max model with 2.4 trillion parameters, claiming it rivals frontier AI models and is second only to Fable 5. The company plans to make it open-weight soon, which would significantly expand the open model landscape with a model competitive against the best proprietary systems.",
-          "sources": [
-            {
-              "name": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-07-19/alibaba-s-qwen-unveils-preview-of-flagship-ai-model"
-            }
-          ],
-          "tags": [
-            "Qwen",
-            "Alibaba",
-            "LLM",
-            "open-weight",
-            "AI"
-          ]
-        },
-        {
-          "title": "7-Zip 26.02 Fixes RCE Flaw Exploitable via Malicious Archives — Update Now",
-          "category": "Cybersecurity",
-          "summary": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. The flaw affects one of the most widely used file archivers on Windows, making this a high-priority update for all users.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/"
-            }
-          ],
-          "tags": [
-            "7-Zip",
-            "RCE",
-            "vulnerability",
-            "patch",
-            "Windows"
-          ]
-        },
-        {
-          "title": "Russian UAC-0145 Group Uses ClickFix CAPTCHAs to Trick Ukrainian Users into Self-Infecting with Malware",
-          "category": "Cybersecurity",
-          "summary": "Russian state-sponsored threat group UAC-0145 has been leveraging fake CAPTCHA prompts — a technique known as ClickFix — to trick Ukrainian targets into running PowerShell commands that deploy data-stealing malware on their own machines, according to Ukraine's CERT-UA.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html"
-            }
-          ],
-          "tags": [
-            "malware",
-            "Russia",
-            "Ukraine",
-            "CAPTCHA",
-            "social engineering"
-          ]
-        },
-        {
-          "title": "OnePlus Smartphone Brand Fades Away Without a Final Sendoff",
-          "category": "End-User Tech",
-          "summary": "OnePlus, the brand that once disrupted the flagship phone market with aggressive pricing and enthusiast-focused software, has effectively ended. Its final flagship was widely dismissed as a misfire, and the brand fades without a formal conclusion — ending 'not with a bang, but a whimper.'",
-          "sources": [
-            {
-              "name": "9to5Google",
-              "url": "https://9to5google.com/2026/07/19/oneplus-died-with-a-whimper-not-a-bang/"
-            }
-          ],
-          "tags": [
-            "OnePlus",
-            "smartphones",
-            "Android",
-            "mobile"
           ]
         }
       ]
