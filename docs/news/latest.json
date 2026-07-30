@@ -1,8 +1,103 @@
 {
-  "updatedAt": "2026-07-29T21:03:55+03:00",
+  "updatedAt": "2026-07-30T21:05:07+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-07-30",
+      "items": [
+        {
+          "title": "Google DeepMind Releases Gemini Robotics 2 for Humanoid Robot Control",
+          "category": "AI",
+          "summary": "Google DeepMind released Gemini Robotics 2, combining multiple AI models into a single system that can control a range of robots including humanoids. The latest version marks a significant step toward 'physical AGI,' enabling robots to understand and interact with the physical world through a unified AI architecture.",
+          "sources": [
+            {
+              "name": "Wired",
+              "url": "https://www.wired.com/story/google-gemini-can-control-humanoid-robots/"
+            }
+          ],
+          "tags": [
+            "Google DeepMind",
+            "Gemini",
+            "robotics",
+            "humanoid robots",
+            "physical AGI"
+          ]
+        },
+        {
+          "title": "OpenAI Lowers GPT-5.6 Pricing with Luna and Terra Efficiency Gains",
+          "category": "AI",
+          "summary": "OpenAI announced lower pricing for GPT-5.6 across its Luna and Terra tiers, citing efficiency improvements that help enterprises deploy AI workflows at scale. The update continues OpenAI's push to make frontier models more cost-effective for production use.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "GPT-5.6",
+            "pricing",
+            "enterprise AI",
+            "Luna",
+            "Terra"
+          ]
+        },
+        {
+          "title": "The Network Has Become the Control Plane for AI Security",
+          "category": "Cybersecurity",
+          "summary": "Network firewalls, long the workhorses of cybersecurity, are being reimagined as the control plane for AI security. As organizations deploy AI models and agents across their infrastructure, network-level controls are evolving to inspect, govern, and protect AI traffic, extending traditional perimeter defenses into the AI era.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html"
+            }
+          ],
+          "tags": [
+            "AI security",
+            "network security",
+            "firewalls",
+            "AI governance"
+          ]
+        },
+        {
+          "title": "Security Experts Warn of Hidden Risks in Generic TV Streaming Sticks",
+          "category": "Cybersecurity",
+          "summary": "A new analysis reveals that generic TV streaming boxes promising unlimited content for a one-time fee may secretly rent users' internet connections to strangers. Security experts have been warning about these devices for years, and the latest investigation provides concrete evidence of the hidden data-sharing and proxy risks consumers face.",
+          "sources": [
+            {
+              "name": "KrebsOnSecurity",
+              "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/"
+            }
+          ],
+          "tags": [
+            "streaming",
+            "cybersecurity",
+            "IoT",
+            "consumer devices",
+            "privacy"
+          ]
+        },
+        {
+          "title": "Why Idle GPUs Are the New Grounded Aircraft in AI Infrastructure",
+          "category": "AI",
+          "summary": "A new analysis from Hugging Face and Dharma AI compares idle GPUs to grounded aircraft — expensive assets that generate no value while sitting unused. The post explores GPU management strategies for AI teams, highlighting the growing importance of utilization efficiency as AI infrastructure costs continue to rise.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/Dharma-AI/gpu-management"
+            }
+          ],
+          "tags": [
+            "GPU",
+            "AI infrastructure",
+            "cloud computing",
+            "cost optimization",
+            "Hugging Face"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-29",
       "items": [
@@ -853,81 +948,6 @@
             "manipulation",
             "datasets",
             "physical AI"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-20",
-      "items": [
-        {
-          "title": "NVIDIA Introduces Cosmos 3 Edge for Physical AI at the Edge",
-          "category": "AI / Models",
-          "summary": "NVIDIA announced Cosmos 3 Edge, a new family of world foundation models optimized for edge deployment. The models bring physical AI capabilities — including real-time environment understanding and action prediction — to robotics, autonomous vehicles, and industrial systems running on lower-power hardware outside the data center.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/nvidia/cosmos3edge"
-            }
-          ],
-          "tags": [
-            "nvidia",
-            "cosmos",
-            "physical-ai",
-            "edge-computing",
-            "world-models"
-          ]
-        },
-        {
-          "title": "Autonomous AI Agent Used to Breach Hugging Face Infrastructure",
-          "category": "Cybersecurity",
-          "summary": "Hugging Face disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. The incident is among the first confirmed cases of AI agents being weaponized for cyberattacks against major AI platforms.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/"
-            }
-          ],
-          "tags": [
-            "huggingface",
-            "ai-security",
-            "autonomous-agents",
-            "data-breach"
-          ]
-        },
-        {
-          "title": "Russian Intelligence Hijacks IP Cameras to Monitor NATO Military Logistics",
-          "category": "Cybersecurity",
-          "summary": "Russian intelligence services are systematically compromising internet-connected security cameras across Europe and Ukraine to surveil military transport routes, weapons shipments bound for Kyiv, and Ukrainian troop positions, according to new threat intelligence findings.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
-            }
-          ],
-          "tags": [
-            "russia",
-            "iot-security",
-            "espionage",
-            "nato",
-            "ukraine"
-          ]
-        },
-        {
-          "title": "Empirical Security Raises $25M for AI-Powered Threat Prediction Platform",
-          "category": "AI / Enterprise",
-          "summary": "Chicago-based Empirical Security raised a $25 million Series A led by Brightmind Partners to expand its AI-driven exposure management platform. The startup uses AI to predict cyber threats by monitoring exploited vulnerabilities across organizations in real time.",
-          "sources": [
-            {
-              "name": "Axios",
-              "url": "https://www.axios.com/pro/enterprise-software-deals/2026/07/20/cybersecurity-empirical-security-ai-25-million"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "funding",
-            "series-a",
-            "threat-intelligence"
           ]
         }
       ]
