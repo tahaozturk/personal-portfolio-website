@@ -1,8 +1,88 @@
 {
-  "updatedAt": "2026-08-01T21:03:13+03:00",
+  "updatedAt": "2026-08-02T21:04:41+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-02",
+      "items": [
+        {
+          "title": "MacBook Air Reportedly Facing Major Supply Shortages Due to AI-Driven Memory Crisis",
+          "category": "Consumer Devices",
+          "summary": "Apple's MacBook Air is reportedly experiencing significant supply shortages as soaring AI server demand drives a global memory crunch. The AI-driven surge in high-bandwidth memory (HBM) consumption is crowding out supply for consumer device RAM, leaving MacBook Air production constrained during the back-to-school season.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/08/02/macbook-air-reportedly-facing-major-supply-shortages-due-to-ai-driven-memory-crisis/"
+            }
+          ],
+          "tags": [
+            "MacBook Air",
+            "Apple",
+            "supply chain",
+            "AI memory",
+            "HBM",
+            "laptops"
+          ]
+        },
+        {
+          "title": "Google Chrome May Soon Block New Tab Hijacker Extensions by Default",
+          "category": "Cybersecurity",
+          "summary": "Google is preparing a new Chrome security feature that would prevent policy-installed extensions from hijacking the New Tab page or changing the default search engine without user consent. The change targets a common attack vector where malicious or unwanted extensions silently redirect users to ad-laden or phishing pages.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/"
+            }
+          ],
+          "tags": [
+            "Google Chrome",
+            "browser security",
+            "extensions",
+            "anti-hijacking",
+            "phishing"
+          ]
+        },
+        {
+          "title": "These App Store Hidden Gems Prove There's Still Room for Great Software in the AI Era",
+          "category": "AI & Software",
+          "summary": "TechCrunch highlights a curated set of standout iOS and macOS apps that demonstrate how indie developers are building thoughtful, polished software despite the industry's pivot toward AI-first experiences. The roundup showcases tools for productivity, creativity, and daily workflows that prioritize user experience over AI gimmicks.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/"
+            }
+          ],
+          "tags": [
+            "App Store",
+            "iOS",
+            "macOS",
+            "indie apps",
+            "software design",
+            "AI era"
+          ]
+        },
+        {
+          "title": "Apple's Rumored AirPods with Cameras Could Debut as Soon as Next Month [Rumor]",
+          "category": "Consumer Devices",
+          "summary": "Apple's long-rumored AirPods with integrated cameras for Visual Intelligence features could launch as early as next month, according to supply chain reports. The cameras would power real-world object recognition and contextual awareness features, bringing visual AI capabilities to Apple's popular earbuds lineup for the first time.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/08/02/airpods-with-cameras-visual-intelligence-could-arrive-this-year/"
+            }
+          ],
+          "tags": [
+            "AirPods",
+            "Apple",
+            "Visual Intelligence",
+            "wearables",
+            "camera",
+            "rumor"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-01",
       "items": [
@@ -887,104 +967,6 @@
             "phishing",
             "hotel security",
             "cybersecurity"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "items": [
-        {
-          "title": "Apple Maps to Power Navigation Experience for Ford UEV Platform",
-          "category": "End-User Tech",
-          "summary": "Apple and Ford announced that Apple Maps will be integrated directly into Ford's UEV Platform through the MapKit for Automotive SDK, bringing Apple's navigation experience to Ford's next-generation electric vehicles with turn-by-turn directions, EV routing, and a familiar interface for iPhone users.",
-          "sources": [
-            {
-              "name": "Apple Newsroom",
-              "url": "https://www.apple.com/newsroom/2026/07/apple-maps-to-power-navigation-experience-for-ford-uev-platform/"
-            }
-          ],
-          "tags": [
-            "Apple",
-            "Ford",
-            "EV",
-            "navigation",
-            "Apple Maps",
-            "CarPlay"
-          ]
-        },
-        {
-          "title": "SymptomAI: Google's Conversational AI Agent for Everyday Symptom Assessment",
-          "category": "AI / Health",
-          "summary": "Google Research introduced SymptomAI, a conversational AI agent designed for everyday symptom assessment. The system aims to help users understand potential health concerns through natural dialogue, representing a step toward accessible AI-powered health triage that could help people make more informed decisions before visiting a doctor.",
-          "sources": [
-            {
-              "name": "Google Research Blog",
-              "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "AI",
-            "health",
-            "symptom assessment",
-            "conversational AI"
-          ]
-        },
-        {
-          "title": "Russian State Hackers Exploit Zimbra Zero-Click Flaw for Email Theft",
-          "category": "Cybersecurity",
-          "summary": "CISA warns that Russian state-sponsored group Laundry Bear (Void Blizzard) is targeting organizations using Zimbra Collaboration email servers, combining phishing attacks with a now-patched zero-click vulnerability to steal sensitive emails. Zimbra administrators are urged to apply the patch immediately to block active exploitation.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/"
-            }
-          ],
-          "tags": [
-            "Russia",
-            "Zimbra",
-            "zero-click",
-            "email theft",
-            "CISA",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "Nunchaku 4-Bit Diffusion Inference Comes to Hugging Face Diffusers",
-          "category": "AI / Open Source",
-          "summary": "Hugging Face announced the integration of Nunchaku 4-bit diffusion inference into the Diffusers library, enabling faster and more memory-efficient image generation. The optimization allows running diffusion models on consumer GPUs with significantly reduced VRAM requirements, making high-quality AI image generation more accessible.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/nunchaku-diffusers"
-            }
-          ],
-          "tags": [
-            "Hugging Face",
-            "Diffusers",
-            "image generation",
-            "quantization",
-            "open source",
-            "Nunchaku"
-          ]
-        },
-        {
-          "title": "Abstract Security Raises $25M Extension for In-Stream Threat Detection Platform",
-          "category": "Cybersecurity",
-          "summary": "Abstract Security raised a $25 million extension to its $15 million Series A, bringing total funding to $48.5 million. The composable security operations startup offers an in-stream threat detection platform that helps organizations identify and respond to threats in real time without disrupting data flows.",
-          "sources": [
-            {
-              "name": "SiliconANGLE",
-              "url": "https://siliconangle.com/2026/07/23/abstract-security-raises-25m-series-extension-recurring-revenue-380/"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "funding",
-            "threat detection",
-            "startup",
-            "Series A"
           ]
         }
       ]
