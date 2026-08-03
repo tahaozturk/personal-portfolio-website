@@ -1,8 +1,125 @@
 {
-  "updatedAt": "2026-08-02T21:04:41+03:00",
+  "updatedAt": "2026-08-03T21:04:35+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-03",
+      "items": [
+        {
+          "title": "China Tightens Chip Design Protection with Punitive Damages for Infringement",
+          "category": "Tech Business",
+          "summary": "China has revised its regulations protecting integrated-circuit layout designs, introducing punitive damages for serious infringement. The new rules take effect October 15 and represent a significant tightening of semiconductor IP protections in the world's largest chip-consuming market.",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/china-steps-up-protection-chip-designs-revised-regulations-2026-08-03/"
+            }
+          ],
+          "tags": [
+            "China",
+            "semiconductors",
+            "chip design",
+            "IP protection",
+            "regulations"
+          ]
+        },
+        {
+          "title": "Alibaba's Qwen Max Model Goes Open-Weight, Claims to Match Anthropic's Claude Fable 5",
+          "category": "AI / Models",
+          "summary": "Alibaba released its Qwen Max model as open-weight, claiming competitive performance against Anthropic's Claude Fable 5. The move marks another escalation in the AI race between Chinese and American labs, with Alibaba positioning open-source access as a strategic advantage.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"
+            }
+          ],
+          "tags": [
+            "Alibaba",
+            "Qwen Max",
+            "open-weight",
+            "Claude Fable 5",
+            "AI models",
+            "China"
+          ]
+        },
+        {
+          "title": "Hugging Face Diffusers Library Vulnerabilities Enable Arbitrary Code Execution from Crafted Models",
+          "category": "Cybersecurity",
+          "summary": "Three high-severity security flaws were disclosed in Hugging Face's Diffusers library that could allow malicious model repositories to execute arbitrary code on machines loading them. The vulnerabilities highlight growing supply-chain risks in the AI ecosystem, where downloading and running community models can compromise entire systems.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html"
+            }
+          ],
+          "tags": [
+            "Hugging Face",
+            "Diffusers",
+            "supply chain",
+            "RCE",
+            "AI security",
+            "CVE"
+          ]
+        },
+        {
+          "title": "Apple Files New Legal Challenge Against UK Encrypted iCloud Backdoor Demand",
+          "category": "Cybersecurity / Privacy",
+          "summary": "Apple filed a new legal complaint with the UK's Investigatory Powers Tribunal over the British government's demand for access to encrypted iCloud backups belonging to UK users. The Home Office previously dropped its original demand covering both UK and US customers after diplomatic pressure, but continues to seek UK-only access.",
+          "sources": [
+            {
+              "name": "MacRumors",
+              "url": "https://www.macrumors.com/2026/08/03/apple-legal-challenge-against-uk-demand/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "iCloud",
+            "encryption",
+            "UK",
+            "privacy",
+            "backdoor"
+          ]
+        },
+        {
+          "title": "Apple Expected to Launch Five New Products at September iPhone Event [Rumor]",
+          "category": "Consumer Devices",
+          "summary": "Apple's annual September iPhone event is one month away, and rumors point to five new product launches including updated iPhone models and possibly new accessories. The event is traditionally Apple's biggest hardware launch of the year.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/08/03/apple-will-launch-five-new-products-next-month-heres-whats-coming/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "iPhone",
+            "September event",
+            "product launch",
+            "rumor"
+          ]
+        },
+        {
+          "title": "Microsoft Tests Richer Android Notification Previews in Windows Phone Link",
+          "category": "Consumer Tech",
+          "summary": "Microsoft is rolling out a new Phone Link experience for Windows that provides richer Android notification previews at a glance, reducing the need to open the full Phone Link app to see message content and alerts from connected Android devices.",
+          "sources": [
+            {
+              "name": "Android Authority",
+              "url": "https://www.androidauthority.com/windows-phone-link-notification-preview-3693965/"
+            }
+          ],
+          "tags": [
+            "Microsoft",
+            "Windows",
+            "Phone Link",
+            "Android",
+            "notifications",
+            "cross-device"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-02",
       "items": [
@@ -868,105 +985,6 @@
             "AI",
             "research",
             "transparency"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "items": [
-        {
-          "title": "Anthropic Introduces Claude Opus 5",
-          "category": "AI / Models",
-          "summary": "Anthropic announced Claude Opus 5, its newest flagship AI model. The release continues the rapid pace of frontier model development, bringing what is expected to be Anthropic's most capable system to date with improvements across reasoning, coding, and agentic tasks.",
-          "sources": [
-            {
-              "name": "Anthropic",
-              "url": "https://www.anthropic.com/news/claude-opus-5"
-            }
-          ],
-          "tags": [
-            "Anthropic",
-            "Claude",
-            "Opus 5",
-            "LLM",
-            "frontier AI"
-          ]
-        },
-        {
-          "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via Phishing",
-          "category": "Cybersecurity",
-          "summary": "Researchers disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could allow attackers to build, authorize, and deploy autonomous AI agents inside a victim's organization using just a single phishing link. The flaw highlights growing security risks as AI agent adoption accelerates in enterprise environments.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "ChatGPT",
-            "AI agents",
-            "vulnerability",
-            "phishing",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "Qualcomm Tells Customers It Plans Double-Digit Price Increases",
-          "category": "End-User Tech",
-          "summary": "Qualcomm, the largest maker of smartphone processors, informed customers it plans to raise prices by double-digit percentages after exhausting its ability to absorb higher supplier costs. The price hikes are expected to ripple through the smartphone and consumer electronics supply chain, potentially leading to more expensive devices for consumers later this year.",
-          "sources": [
-            {
-              "name": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-07-24/qualcomm-tells-customers-that-prices-are-going-up-by-double-digits"
-            }
-          ],
-          "tags": [
-            "Qualcomm",
-            "chips",
-            "smartphones",
-            "pricing",
-            "supply chain",
-            "hardware"
-          ]
-        },
-        {
-          "title": "OpenAI Launches Health in ChatGPT for Personalized Medical Insights",
-          "category": "AI / Products",
-          "summary": "OpenAI launched Health in ChatGPT, a new feature that lets eligible U.S. users securely connect their medical records and Apple Health data to receive personalized health insights and better understand their well-being through conversational AI.",
-          "sources": [
-            {
-              "name": "OpenAI",
-              "url": "https://openai.com/index/health-in-chatgpt"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "ChatGPT",
-            "health",
-            "Apple Health",
-            "AI",
-            "personalization"
-          ]
-        },
-        {
-          "title": "Hackers Hijack Hotel Wi-Fi DNS to Steal Microsoft 365 Accounts",
-          "category": "Cybersecurity",
-          "summary": "Attackers are compromising Wi-Fi routers at hotels and conference centers to change DNS settings, redirecting guests to fake Microsoft 365 login pages that steal credentials. Travelers are advised to use VPNs and verify login pages carefully when connecting to public Wi-Fi networks.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/"
-            }
-          ],
-          "tags": [
-            "Wi-Fi",
-            "DNS",
-            "Microsoft 365",
-            "phishing",
-            "hotel security",
-            "cybersecurity"
           ]
         }
       ]
