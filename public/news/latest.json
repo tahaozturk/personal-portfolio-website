@@ -1,8 +1,104 @@
 {
-  "updatedAt": "2026-08-03T21:04:35+03:00",
+  "updatedAt": "2026-08-04T21:03:00+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-04",
+      "items": [
+        {
+          "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+          "category": "Cybersecurity",
+          "summary": "The Greatness phishing-as-a-service toolkit now supports device code phishing, a technique that abuses the OAuth 2.0 Device Authorization Grant to bypass multi-factor authentication and steal session tokens. The addition makes it easier for attackers to compromise accounts even when MFA is enabled.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html"
+            }
+          ],
+          "tags": [
+            "phishing",
+            "MFA",
+            "OAuth",
+            "cybersecurity",
+            "PhaaS"
+          ]
+        },
+        {
+          "title": "SanDisk and SK Hynix Unveil High Bandwidth Flash Specification for Up to 512GB Modules",
+          "category": "Tech Business",
+          "summary": "SanDisk and SK Hynix announced the open High Bandwidth Flash (HBF) specification, enabling NAND memory modules up to 512GB with bandwidth from 0.4 TB/s to 3.0 TB/s. The spec uses UCIe interconnect and targets next-generation SSDs and memory-hungry workloads including AI inference.",
+          "sources": [
+            {
+              "name": "Tom's Hardware",
+              "url": "https://www.tomshardware.com/pc-components/ssds/sandisk-and-sk-hynix-unveil-hbf-spec-up-to-16-hi-nand-stacks-3-tb-s-bandwidth-ucie"
+            }
+          ],
+          "tags": [
+            "NAND",
+            "memory",
+            "SSD",
+            "SK Hynix",
+            "SanDisk",
+            "hardware"
+          ]
+        },
+        {
+          "title": "OpenAI Details How It Built GPT-Live for Continuous Real-Time Voice AI",
+          "category": "AI / Models",
+          "summary": "OpenAI published a technical deep-dive on GPT-Live, its turnless speech model that enables continuous voice interaction. The system uses a low-latency architecture to deliver faster, more natural conversations without the stop-and-go pattern of traditional voice assistants.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "voice AI",
+            "GPT-Live",
+            "speech",
+            "realtime"
+          ]
+        },
+        {
+          "title": "Liquid AI Releases LFM2.5-2.6B for Deploying Local AI Agents Everywhere",
+          "category": "AI / Models",
+          "summary": "Liquid AI released LFM2.5-2.6B, a compact 2.6-billion-parameter model designed to run AI agents locally on edge devices. The model targets on-device deployment scenarios where cloud connectivity is limited or privacy is critical.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
+            }
+          ],
+          "tags": [
+            "Liquid AI",
+            "edge AI",
+            "on-device",
+            "agents",
+            "small models"
+          ]
+        },
+        {
+          "title": "Google Roundup: Key AI Updates from July 2026 Across Android and More",
+          "category": "End-User Tech",
+          "summary": "Google published its monthly AI update roundup covering July 2026, highlighting new features across Android, Search, Workspace, and developer tools. The recap includes consumer-facing AI improvements rolling out to Pixel and other Android devices.",
+          "sources": [
+            {
+              "name": "Google Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Android",
+            "AI",
+            "Pixel",
+            "monthly roundup"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-03",
       "items": [
@@ -905,86 +1001,6 @@
             "creator tools",
             "video",
             "content creation"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-25",
-      "items": [
-        {
-          "title": "SK Group Chair Says Anthropic Asked SK Hynix for Supplies to Build Its Own Chips",
-          "category": "AI / Business",
-          "summary": "SK Group Chairman Chey Tae Won revealed that Anthropic has asked SK Hynix for chip supplies to manufacture its own semiconductors, calling it remarkable that an AI developer now has chip ambitions. The move signals Anthropic's intent to reduce reliance on external chip suppliers and vertically integrate its AI hardware stack, following a trend set by other major AI labs exploring custom silicon.",
-          "sources": [
-            {
-              "name": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-07-25/sk-cha...hips"
-            }
-          ],
-          "tags": [
-            "Anthropic",
-            "SK Hynix",
-            "chips",
-            "semiconductors",
-            "AI hardware",
-            "custom silicon"
-          ]
-        },
-        {
-          "title": "Insurance Phishing Attacks Evolve Into Real-Time Account Hijacking",
-          "category": "Cybersecurity",
-          "summary": "CTM360 researchers revealed that phishing campaigns targeting insurance and financial institutions have evolved from credential harvesting to real-time account hijacking. Attackers now intercept one-time passwords and session tokens as victims enter them, enabling immediate account takeover rather than delayed exploitation — a shift that demands stronger real-time authentication defenses.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html"
-            }
-          ],
-          "tags": [
-            "phishing",
-            "insurance",
-            "account hijacking",
-            "CTM360",
-            "cybersecurity",
-            "financial fraud"
-          ]
-        },
-        {
-          "title": "Open-Source Hermes AI Agent Used to Automate Attack on Thai Finance Ministry",
-          "category": "Cybersecurity",
-          "summary": "A threat actor leveraged the open-source Hermes AI agent in unattended mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. The incident marks one of the first documented cases of an open-source AI agent framework being weaponized for real-world cyberattacks against government infrastructure, raising new concerns about AI agent security.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/"
-            }
-          ],
-          "tags": [
-            "Hermes",
-            "AI agent",
-            "cyberattack",
-            "Thailand",
-            "automation",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "Open Source Initiative: Openness Made All Modern AI Progress Possible",
-          "category": "Open Source",
-          "summary": "The Open Source Initiative published a reflection arguing that every AI system in today's headlines — proprietary or open source — exists because researchers shared their work openly. From training frameworks to evaluation libraries, open-source software forms the foundation upon which all modern AI systems are built, even as the debate over open-weight model releases continues.",
-          "sources": [
-            {
-              "name": "Open Source Initiative",
-              "url": "https://opensource.org/blog/openness-made-all-of-this-possible"
-            }
-          ],
-          "tags": [
-            "open source",
-            "OSI",
-            "AI",
-            "research",
-            "transparency"
           ]
         }
       ]
