@@ -1,8 +1,132 @@
 {
-  "updatedAt": "2026-08-07T21:04:14+03:00",
+  "updatedAt": "2026-08-08T21:03:36+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-08",
+      "items": [
+        {
+          "title": "South Korea's AI chip boom is reshaping careers, dating, and society",
+          "category": "Tech business",
+          "summary": "Bloomberg reports that South Korea's AI-driven semiconductor boom is reordering society, with chip-factory workers earning $400,000-plus bonuses and supplanting doctors and lawyers as the new elite. The feature shows how AI hardware demand is changing expectations around fairness, careers, and culture.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/features/2026-08-06/ai-sk-hynix-samsung-rewire-south-korea-s-careers-dating-and-culture"
+            }
+          ],
+          "tags": [
+            "AI",
+            "semiconductors",
+            "South Korea",
+            "economy"
+          ]
+        },
+        {
+          "title": "N-able issues N-central hotfix as attackers reach managed systems",
+          "category": "Cybersecurity",
+          "summary": "N-able released fresh hotfixes for N-central after attackers exploiting a recently disclosed RMM vulnerability reached managed downstream systems and maintained persistence. MSPs and their customers should apply the update urgently.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "RMM",
+            "N-able",
+            "supply chain"
+          ]
+        },
+        {
+          "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
+          "category": "Cybersecurity",
+          "summary": "The Head Mare hacktivist group exploited unpatched TrueConf video conferencing servers to replace official client installers with malicious versions that deliver backdoors, a supply-chain attack affecting organizations that rely on the platform for internal communication.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/"
+            }
+          ],
+          "tags": [
+            "cybersecurity",
+            "supply chain",
+            "video conferencing",
+            "hacktivism"
+          ]
+        },
+        {
+          "title": "DeepSeek lists DeepSeek-V4-Flash-0731 on Hugging Face",
+          "category": "AI / Models",
+          "summary": "DeepSeek's Hugging Face organization lists DeepSeek-V4-Flash-0731, a new V4-family model card created on July 31 that had not appeared in prior digests. The listing signals continued iteration on the DeepSeek-V4 line.",
+          "sources": [
+            {
+              "name": "DeepSeek — Hugging Face",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+            }
+          ],
+          "tags": [
+            "AI",
+            "DeepSeek",
+            "models",
+            "Hugging Face"
+          ]
+        },
+        {
+          "title": "TutorMoments: do AI tutors know when to help and when to hold back?",
+          "category": "AI / Research",
+          "summary": "Hugging Face published Allen AI research on TutorMoments, a study examining whether AI tutoring systems can appropriately decide when to intervene versus when to let students work independently, with practical implications for education-technology design.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/allenai/tutormoments"
+            }
+          ],
+          "tags": [
+            "AI",
+            "education",
+            "research",
+            "tutoring"
+          ]
+        },
+        {
+          "title": "OpenAI shares cybersecurity evaluations for Astra model",
+          "category": "AI / Safety",
+          "summary": "OpenAI published preliminary cybersecurity evaluations for its Astra model and outlined steps to strengthen safeguards and security controls for frontier cyber capabilities, part of its ongoing responsible-disclosure and safety practices.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+            }
+          ],
+          "tags": [
+            "AI",
+            "OpenAI",
+            "cybersecurity",
+            "safety"
+          ]
+        },
+        {
+          "title": "Anthropic improves Fable 5's biology safeguards",
+          "category": "AI / Safety",
+          "summary": "Anthropic detailed improvements to biological-safeguard evaluations for its Fable 5 model, part of the company's frontier-safety work and responsible-scaling framework for advanced AI systems.",
+          "sources": [
+            {
+              "name": "Anthropic News",
+              "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+            }
+          ],
+          "tags": [
+            "AI",
+            "Anthropic",
+            "safety",
+            "biology"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-07",
       "items": [
@@ -919,99 +1043,6 @@
             "PoC",
             "cybersecurity",
             "vulnerability"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "items": [
-        {
-          "title": "Microsoft Introduces MAI-Cyber-1-Flash for AI-Powered Vulnerability Detection",
-          "category": "AI / Security",
-          "summary": "Microsoft announced MAI-Cyber-1-Flash, deployed inside its MDASH multi-agent vulnerability identification harness. The company says the new model delivers world-class performance at 50% of the cost of leading models for finding and fixing security flaws.",
-          "sources": [
-            {
-              "name": "Microsoft AI",
-              "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/"
-            }
-          ],
-          "tags": [
-            "AI",
-            "cybersecurity",
-            "Microsoft",
-            "vulnerability detection"
-          ]
-        },
-        {
-          "title": "NVIDIA Cosmos-H-Dreams Brings Real-Time Generative Simulation to Surgical Robotics",
-          "category": "AI / Models",
-          "summary": "NVIDIA introduced Cosmos-H-Dreams, a generative simulation model for real-time surgical robotics training and research. The model is now available on Hugging Face.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams"
-            }
-          ],
-          "tags": [
-            "AI",
-            "NVIDIA",
-            "robotics",
-            "Hugging Face",
-            "simulation"
-          ]
-        },
-        {
-          "title": "Apple Releases iOS 26.6 and macOS Tahoe 26.6 with Security Updates",
-          "category": "End-User Tech",
-          "summary": "Apple rolled out iOS 26.6, iPadOS 26.6, and macOS Tahoe 26.6 with security fixes and optimizations for the upcoming iOS 27. watchOS 26.6, tvOS 26.6, and HomePod 26.6 were also released.",
-          "sources": [
-            {
-              "name": "9to5Mac",
-              "url": "https://9to5mac.com/2026/07/27/ios-26-6-now-available-whats-new/"
-            }
-          ],
-          "tags": [
-            "iOS",
-            "macOS",
-            "Apple",
-            "security updates",
-            "watchOS"
-          ]
-        },
-        {
-          "title": "YouTube Premium to Include Peacock Streaming at No Extra Cost",
-          "category": "Creator Tools",
-          "summary": "YouTube Premium subscribers will gain access to NBCUniversal's Peacock streaming service for free in the coming months, adding another bundled entertainment perk alongside existing benefits like ad-free viewing and background play.",
-          "sources": [
-            {
-              "name": "9to5Google",
-              "url": "https://9to5google.com/2026/07/27/youtube-premium-subscribers-are-getting-peacock-for-free-in-the-coming-months/"
-            }
-          ],
-          "tags": [
-            "YouTube",
-            "streaming",
-            "Peacock",
-            "subscriptions"
-          ]
-        },
-        {
-          "title": "Dysphoria IoT Botnet Evolves with Blockchain C2 and Victim Relays After JackSkid Disruption",
-          "category": "Cybersecurity",
-          "summary": "The Dysphoria IoT botnet has adopted blockchain-based command-and-control and infected-device relay techniques, making it significantly harder to disrupt. Researchers say the evolution follows a March law-enforcement operation against the JackSkid botnet infrastructure.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html"
-            }
-          ],
-          "tags": [
-            "IoT",
-            "botnet",
-            "blockchain",
-            "cybersecurity",
-            "malware"
           ]
         }
       ]
