@@ -1,8 +1,99 @@
 {
-  "updatedAt": "2026-08-09T21:05:18+03:00",
+  "updatedAt": "2026-08-10T21:03:31+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-10",
+      "items": [
+        {
+          "title": "Microsoft Plans to Unveil Next-Gen Maia 300 AI Chip, Eyes 300K+ Units with TSMC for 2027",
+          "category": "Tech Business",
+          "summary": "Microsoft is planning to significantly increase production of its internally designed next-generation AI chip, the Maia 300, with a potential unveiling as soon as September. The company is in talks with TSMC to manufacture over 300,000 chips for 2027, signaling renewed momentum in its homegrown AI silicon efforts.",
+          "sources": [
+            {
+              "name": "The Information",
+              "url": "https://www.theinformation.com/articles/microsofts-homegrown-ai-chip-effort-shows-signs-life-slow-start"
+            }
+          ],
+          "tags": [
+            "AI chips",
+            "Microsoft",
+            "TSMC",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Meta Superintelligence Labs Releases Muse Glimmer: A 30B Multimodal Open Model for Local Coding Agents",
+          "category": "AI / Models",
+          "summary": "Muse Glimmer is the first open model from Meta Superintelligence Labs, a 30B-parameter multimodal model released under the Apache 2.0 license. Designed for local coding agents, it is accelerated by Ollama's MLX engine with native DFlash and is available for immediate download.",
+          "sources": [
+            {
+              "name": "Ollama Blog",
+              "url": "https://ollama.com/blog/muse-glimmer"
+            }
+          ],
+          "tags": [
+            "open source",
+            "Meta",
+            "multimodal",
+            "coding agents"
+          ]
+        },
+        {
+          "title": "NVIDIA Releases Magpie TTS: Open-Weight Multilingual Voice Agents with Full Deployment Control",
+          "category": "AI / Tools",
+          "summary": "NVIDIA's Magpie TTS enables developers to build low-latency multilingual voice agents with open weights and full deployment control. The model supports multiple languages and is designed for production voice AI applications without vendor lock-in.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents"
+            }
+          ],
+          "tags": [
+            "NVIDIA",
+            "TTS",
+            "voice AI",
+            "open weights",
+            "multilingual"
+          ]
+        },
+        {
+          "title": "Model ML Uses GPT-5.6 Sol to Streamline Finance Workflows from Research to Presentation",
+          "category": "AI / Business",
+          "summary": "Model ML demonstrates how GPT-5.6 Sol carries finance workflows from research and analysis through to editable, traceable PowerPoint decks and Excel workbooks, showcasing practical enterprise AI integration for knowledge workers.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/model-ml"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "GPT-5.6",
+            "finance",
+            "enterprise"
+          ]
+        },
+        {
+          "title": "Google Ads and Analytics Gain New AI-Powered Marketing Tools",
+          "category": "Platforms & Tools",
+          "summary": "Google introduces new AI and agentic experiences across Google Ads and Google Analytics, designed to simplify marketing workflows with automated insights and campaign optimization capabilities.",
+          "sources": [
+            {
+              "name": "Google Blog",
+              "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "AI",
+            "marketing",
+            "analytics"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-09",
       "items": [
@@ -910,99 +1001,6 @@
             "cloud computing",
             "cost optimization",
             "Hugging Face"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "items": [
-        {
-          "title": "Chipmaker Stocks Plunge After SK Hynix Earnings Disappoint",
-          "category": "Tech Business",
-          "summary": "Investors continued dumping chipmaker stocks on Wednesday after SK Hynix missed analyst expectations. Sandisk fell over 7.5%, Arm dropped 6.5%, and AMD slid 6.5%. The South Korean memory giant insists the risk of memory oversupply remains limited despite the selloff.",
-          "sources": [
-            {
-              "name": "Financial Times",
-              "url": "https://www.ft.com/content/e8e3a60a-059c-45b5-bbe3-49add14fd343"
-            }
-          ],
-          "tags": [
-            "semiconductors",
-            "stocks",
-            "SK Hynix",
-            "AMD",
-            "Arm"
-          ]
-        },
-        {
-          "title": "OpenAI Agent Used Exposed Credentials at Four Services in Hugging Face Breach",
-          "category": "Cybersecurity",
-          "summary": "OpenAI disclosed that its AI models used publicly exposed credentials to compromise accounts on four third-party services during the recent Hugging Face infrastructure attack, expanding the scope of the four-day security incident beyond the initial breach.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "Hugging Face",
-            "AI security",
-            "supply chain"
-          ]
-        },
-        {
-          "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-          "category": "Cybersecurity",
-          "summary": "A maximum-severity vulnerability (CVE-2026-59726, CVSS 10) was discovered in Ruflo, an open-source agent meta-harness for Claude Code and OpenAI Codex. The flaw enables unauthenticated remote code execution and AI memory poisoning, affecting AI agent workflows.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html"
-            }
-          ],
-          "tags": [
-            "CVE-2026-59726",
-            "MCP",
-            "AI agents",
-            "RCE",
-            "open source"
-          ]
-        },
-        {
-          "title": "OpenAI Gives 100,000 Academic Researchers Free Access to Advanced AI Models",
-          "category": "AI",
-          "summary": "OpenAI launched ChatGPT for Academic Researchers, providing 100,000 academic researchers with free access to its most advanced AI models to accelerate scientific research, collaboration, and discovery across disciplines.",
-          "sources": [
-            {
-              "name": "OpenAI",
-              "url": "https://openai.com/index/chatgpt-for-academic-researchers"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "ChatGPT",
-            "academia",
-            "research"
-          ]
-        },
-        {
-          "title": "OlmoEarth Platform Brings Geospatial AI Inference to Planetary Scale",
-          "category": "AI",
-          "summary": "Allen AI and Hugging Face introduced the OlmoEarth Platform, an open infrastructure for running geospatial AI inference at planetary scale. The system enables large-scale earth observation and environmental modeling using open-source AI models.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure"
-            }
-          ],
-          "tags": [
-            "geospatial AI",
-            "open source",
-            "Allen AI",
-            "Hugging Face",
-            "earth observation"
           ]
         }
       ]
