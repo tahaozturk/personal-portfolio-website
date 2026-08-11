@@ -1,8 +1,142 @@
 {
-  "updatedAt": "2026-08-10T21:03:31+03:00",
+  "updatedAt": "2026-08-11T21:03:55+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-11",
+      "items": [
+        {
+          "title": "SpaceXAI Launches Grok Bot AI Agent App in Beta Across Mac, iOS, Windows, and Linux",
+          "category": "Tech Business",
+          "summary": "SpaceXAI rolls out Grok Bot, a new AI agent desktop and mobile app now in beta on Mac, iOS, Windows, and Linux. Initially available to SuperGrok Heavy, Cursor Ultra, and Cursor Teams Premium subscribers, the launch comes as SpaceXAI and Cursor move toward becoming a single company.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/08/11/grok-bot-is-an-all-new-iphone-and-mac-app-from-spacexai-and-cursor/"
+            }
+          ],
+          "tags": [
+            "SpaceXAI",
+            "Cursor",
+            "AI agents",
+            "Grok Bot",
+            "multi-platform"
+          ]
+        },
+        {
+          "title": "Windows 11 August 2026 Cumulative Updates Patch Security Vulnerabilities and Add Features",
+          "category": "Cybersecurity",
+          "summary": "Microsoft releases the August 2026 Patch Tuesday cumulative updates — KB5121003 for Windows 11 25H2/24H2 and KB5120240 for 23H2 — addressing security vulnerabilities, fixing bugs, and introducing new features across supported Windows 11 versions.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/"
+            }
+          ],
+          "tags": [
+            "Windows 11",
+            "Patch Tuesday",
+            "Microsoft",
+            "cumulative update",
+            "security"
+          ]
+        },
+        {
+          "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+          "category": "Cybersecurity",
+          "summary": "Security researchers reveal an AI-assisted exploit chain (CVE-2026-55040, CVSS 9.1) that achieves unauthenticated remote code execution on Microsoft SharePoint servers. A significant portion of the vulnerability discovery work was performed by an AI agent, highlighting the growing role of AI in offensive security research.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html"
+            }
+          ],
+          "tags": [
+            "SharePoint",
+            "RCE",
+            "CVE-2026-55040",
+            "AI-assisted",
+            "vulnerability",
+            "CVSS 9.1"
+          ]
+        },
+        {
+          "title": "Apple Arcade Adds Block Blast!+ and Art of Fauna: Cozy Puzzles+",
+          "category": "End-User Tech",
+          "summary": "Apple Arcade expands its catalog of puzzle games with Block Blast!+ and Art of Fauna: Cozy Puzzles+, bringing two new titles to Apple's subscription gaming service across iPhone, iPad, Mac, and Apple TV.",
+          "sources": [
+            {
+              "name": "Apple Newsroom",
+              "url": "https://www.apple.com/newsroom/2026/08/apple-arcade-levels-up-with-block-blast-plus-and-art-of-fauna-cozy-puzzles-plus/"
+            }
+          ],
+          "tags": [
+            "Apple Arcade",
+            "puzzle games",
+            "iOS",
+            "gaming",
+            "subscription"
+          ]
+        },
+        {
+          "title": "NVIDIA Nemotron 3.5 Lightning: A 30B Open Model for Persistent AI Agents Now on Ollama",
+          "category": "AI / Models",
+          "summary": "NVIDIA releases Nemotron 3.5 Lightning, a 30 billion parameter (3B active) open model purpose-built for AI agents that stay running, gather context, call tools, and work through multi-step tasks on local hardware. The model is available immediately on Ollama.",
+          "sources": [
+            {
+              "name": "Ollama Blog",
+              "url": "https://ollama.com/blog/nemotron-3-5-lightning"
+            }
+          ],
+          "tags": [
+            "NVIDIA",
+            "Nemotron",
+            "open model",
+            "AI agents",
+            "Ollama",
+            "on-device"
+          ]
+        },
+        {
+          "title": "Google AMIE Demonstrates Real-Time Clinical Video Consultations in First-of-Its-Kind Study",
+          "category": "AI / Research",
+          "summary": "Google Research's AMIE medical AI system achieves a milestone by demonstrating real-time audio-visual clinical consultation capabilities in a first-of-its-kind study. The system advances toward expert-level medical consultations, combining video understanding with clinical reasoning in simulated patient interactions.",
+          "sources": [
+            {
+              "name": "Google Research Blog",
+              "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "AMIE",
+            "medical AI",
+            "clinical AI",
+            "video consultation",
+            "health"
+          ]
+        },
+        {
+          "title": "IBM Research Shows Chain-of-Thought Reasoning Can Be Done with Fewer Tokens",
+          "category": "AI / Research",
+          "summary": "IBM Research introduces ALTK Evolve SLDD, an approach that reduces token consumption in chain-of-thought reasoning while preserving quality. The technique demonstrates that AI models can think efficiently without generating excessive intermediate tokens, lowering inference costs for reasoning-heavy workloads.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd"
+            }
+          ],
+          "tags": [
+            "IBM Research",
+            "chain-of-thought",
+            "inference efficiency",
+            "token reduction",
+            "reasoning"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-10",
       "items": [
@@ -906,101 +1040,6 @@
             "AI safety",
             "cybersecurity evaluations",
             "frontier models"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-30",
-      "items": [
-        {
-          "title": "Google DeepMind Releases Gemini Robotics 2 for Humanoid Robot Control",
-          "category": "AI",
-          "summary": "Google DeepMind released Gemini Robotics 2, combining multiple AI models into a single system that can control a range of robots including humanoids. The latest version marks a significant step toward 'physical AGI,' enabling robots to understand and interact with the physical world through a unified AI architecture.",
-          "sources": [
-            {
-              "name": "Wired",
-              "url": "https://www.wired.com/story/google-gemini-can-control-humanoid-robots/"
-            }
-          ],
-          "tags": [
-            "Google DeepMind",
-            "Gemini",
-            "robotics",
-            "humanoid robots",
-            "physical AGI"
-          ]
-        },
-        {
-          "title": "OpenAI Lowers GPT-5.6 Pricing with Luna and Terra Efficiency Gains",
-          "category": "AI",
-          "summary": "OpenAI announced lower pricing for GPT-5.6 across its Luna and Terra tiers, citing efficiency improvements that help enterprises deploy AI workflows at scale. The update continues OpenAI's push to make frontier models more cost-effective for production use.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "GPT-5.6",
-            "pricing",
-            "enterprise AI",
-            "Luna",
-            "Terra"
-          ]
-        },
-        {
-          "title": "The Network Has Become the Control Plane for AI Security",
-          "category": "Cybersecurity",
-          "summary": "Network firewalls, long the workhorses of cybersecurity, are being reimagined as the control plane for AI security. As organizations deploy AI models and agents across their infrastructure, network-level controls are evolving to inspect, govern, and protect AI traffic, extending traditional perimeter defenses into the AI era.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html"
-            }
-          ],
-          "tags": [
-            "AI security",
-            "network security",
-            "firewalls",
-            "AI governance"
-          ]
-        },
-        {
-          "title": "Security Experts Warn of Hidden Risks in Generic TV Streaming Sticks",
-          "category": "Cybersecurity",
-          "summary": "A new analysis reveals that generic TV streaming boxes promising unlimited content for a one-time fee may secretly rent users' internet connections to strangers. Security experts have been warning about these devices for years, and the latest investigation provides concrete evidence of the hidden data-sharing and proxy risks consumers face.",
-          "sources": [
-            {
-              "name": "KrebsOnSecurity",
-              "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/"
-            }
-          ],
-          "tags": [
-            "streaming",
-            "cybersecurity",
-            "IoT",
-            "consumer devices",
-            "privacy"
-          ]
-        },
-        {
-          "title": "Why Idle GPUs Are the New Grounded Aircraft in AI Infrastructure",
-          "category": "AI",
-          "summary": "A new analysis from Hugging Face and Dharma AI compares idle GPUs to grounded aircraft — expensive assets that generate no value while sitting unused. The post explores GPU management strategies for AI teams, highlighting the growing importance of utilization efficiency as AI infrastructure costs continue to rise.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/Dharma-AI/gpu-management"
-            }
-          ],
-          "tags": [
-            "GPU",
-            "AI infrastructure",
-            "cloud computing",
-            "cost optimization",
-            "Hugging Face"
           ]
         }
       ]
