@@ -1,8 +1,169 @@
 {
-  "updatedAt": "2026-08-11T21:03:55+03:00",
+  "updatedAt": "2026-08-18T21:04:36+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-18",
+      "items": [
+        {
+          "title": "Anthropic's pre-IPO credit facility set to climb past $10 billion",
+          "category": "Tech Business",
+          "summary": "Bloomberg reports that Anthropic's revolving credit facility is set to rise above its roughly $10 billion target as banks compete for roles on the company's upcoming IPO. It is a sign of strong lender demand ahead of one of the most anticipated AI company listings.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-18/anthropic-pre-ipo-credit-facility-set-to-climb-past-10-billion"
+            }
+          ],
+          "tags": [
+            "Anthropic",
+            "IPO",
+            "funding",
+            "AI business"
+          ]
+        },
+        {
+          "title": "Researchers show AI 'mind viruses' can spread between agents",
+          "category": "Cybersecurity / AI",
+          "summary": "Security researchers at Anthropic and Switzerland's EPFL demonstrated that self-propagating payloads can spread from one AI agent to another through the persistent prompt files that autonomous agent harnesses use to carry state between sessions. The work points to a new security risk as AI agents become more common.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html"
+            }
+          ],
+          "tags": [
+            "AI agents",
+            "prompt injection",
+            "cybersecurity",
+            "research"
+          ]
+        },
+        {
+          "title": "Microsoft removes WMIC, a tool abused by cybercriminals, from Windows 11",
+          "category": "Cybersecurity",
+          "summary": "Microsoft has removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, along with this week's beta builds. WMIC is a living-off-the-land binary frequently abused by attackers, so its removal is a small but meaningful security hardening change for Windows users.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/"
+            }
+          ],
+          "tags": [
+            "Windows 11",
+            "Microsoft",
+            "cybersecurity",
+            "LOLBin"
+          ]
+        },
+        {
+          "title": "Apple announces changes for apps in the European Union",
+          "category": "End-User Tech",
+          "summary": "Apple announced changes to its business terms for apps in the European Union, following close collaboration with the European Commission. The update affects how developers distribute and sell apps in the EU, with knock-on effects for iPhone and iPad users in the region.",
+          "sources": [
+            {
+              "name": "Apple Newsroom",
+              "url": "https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "App Store",
+            "EU",
+            "regulation",
+            "iOS"
+          ]
+        },
+        {
+          "title": "Google teams up Gemini and Pixel with five global football clubs",
+          "category": "End-User Tech",
+          "summary": "Google is partnering Gemini and Pixel with five global football clubs to add AI-powered features to the matchday experience, bringing smartphone-based tools to fans. It is a consumer-facing showcase of Gemini features on Pixel devices.",
+          "sources": [
+            {
+              "name": "Google Pixel Blog",
+              "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Gemini",
+            "Pixel",
+            "Android",
+            "football"
+          ]
+        },
+        {
+          "title": "OpenAI partners with CodeAI to build AI literacy for students",
+          "category": "AI / Education",
+          "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly. The collaboration targets preparing the next generation for an AI-driven classroom and workforce.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/partnering-with-codeai"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "AI literacy",
+            "education",
+            "CodeAI"
+          ]
+        },
+        {
+          "title": "Hugging Face covers multi-vector (late interaction) embedding models",
+          "category": "AI / Developer Tools",
+          "summary": "Hugging Face published a guide to multi-vector, late-interaction embedding models with Sentence Transformers, an approach that can improve retrieval quality by scoring queries and documents at the token level. Useful for developers building search and RAG systems.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/multi-vector-encoder"
+            }
+          ],
+          "tags": [
+            "Hugging Face",
+            "embeddings",
+            "RAG",
+            "retrieval",
+            "open source"
+          ]
+        },
+        {
+          "title": "Google Research estimates cardiometabolic risk from smartphone imagery",
+          "category": "AI / Health",
+          "summary": "Google Research published work on estimating cardiometabolic risk from smartphone imagery, going beyond BMI as a health metric. The research points to accessible, phone-based health screening powered by AI.",
+          "sources": [
+            {
+              "name": "Google Research Blog",
+              "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/"
+            }
+          ],
+          "tags": [
+            "Google Research",
+            "health AI",
+            "smartphone",
+            "computer vision"
+          ]
+        },
+        {
+          "title": "Open Source Initiative launches community governance survey",
+          "category": "Open Source",
+          "summary": "The Open Source Initiative invites the open source community to take part in its governance survey to help shape the organization's future direction. The survey is part of OSI's ongoing effort to align its governance with community needs.",
+          "sources": [
+            {
+              "name": "Open Source Initiative",
+              "url": "https://opensource.org/blog/osi-governance-survey"
+            }
+          ],
+          "tags": [
+            "open source",
+            "OSI",
+            "governance",
+            "community"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-11",
       "items": [
@@ -925,121 +1086,6 @@
             "iPhone",
             "Mac",
             "services"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "items": [
-        {
-          "title": "Hacker Uses DeepSeek AI to Autonomously Attack Vulnerable Servers",
-          "category": "AI / Security",
-          "summary": "A Chinese-speaking threat actor is using the DeepSeek AI model alongside the open-source Hermes Agent framework to conduct autonomous cyberattacks on exposed servers with minimal human intervention. The campaign targets vulnerable internet-facing services, showing how readily available AI tools can be weaponized for automated intrusion.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/"
-            }
-          ],
-          "tags": [
-            "DeepSeek",
-            "Hermes Agent",
-            "autonomous attacks",
-            "cybersecurity",
-            "AI"
-          ]
-        },
-        {
-          "title": "MediaTek Plans $5 Billion Financing for AI Data Center Chips",
-          "category": "Tech Business",
-          "summary": "Taiwanese chip designer MediaTek announced a $5 billion discretionary financing budget to expand into AI data center chips, marking a major push beyond its traditional mobile chip business into the growing AI infrastructure market.",
-          "sources": [
-            {
-              "name": "Reuters",
-              "url": "https://www.reuters.com/business/media-telecom/mediatek-plans-5-billion-financing-ai-data-center-chips-2026-07-31/"
-            }
-          ],
-          "tags": [
-            "MediaTek",
-            "AI chips",
-            "data center",
-            "semiconductor",
-            "Taiwan"
-          ]
-        },
-        {
-          "title": "Cheap Android TV Boxes Secretly Turn Owners' Broadband Into Proxy Networks",
-          "category": "Cybersecurity",
-          "summary": "Bitsight researchers uncovered an operation dubbed Fuyao where cheap Android TV boxes ship with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or Vivo phones. The devices then click ads on websites run by the same operators, secretly renting out the owner's internet connection for ad fraud.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html"
-            }
-          ],
-          "tags": [
-            "Android",
-            "TV boxes",
-            "ad fraud",
-            "proxy network",
-            "Fuyao",
-            "Bitsight"
-          ]
-        },
-        {
-          "title": "How avatarin Built a 24/7 Retail Agent with OpenAI GPT-Realtime",
-          "category": "AI",
-          "summary": "Japanese robotics company avatarin used OpenAI's GPT-Realtime to build a 24/7 multilingual shopping assistant for Yamada Denki electronics stores. Within two weeks, 30,000 shoppers used the agent and 92% of surveyed users reported positive experiences.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/avatarin"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "GPT-Realtime",
-            "retail AI",
-            "voice agent",
-            "avatarin",
-            "Japan"
-          ]
-        },
-        {
-          "title": "DeepSeek Releases DeepSeek-V4-Flash-0731 Compact Model",
-          "category": "AI / Models",
-          "summary": "DeepSeek released DeepSeek-V4-Flash-0731, a new compact model in its V4 series optimized for fast inference. The release continues the rapid iteration pace from the Chinese AI lab as it competes with Western frontier model providers.",
-          "sources": [
-            {
-              "name": "DeepSeek (Hugging Face)",
-              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
-            }
-          ],
-          "tags": [
-            "DeepSeek",
-            "V4 Flash",
-            "LLM",
-            "open model",
-            "inference"
-          ]
-        },
-        {
-          "title": "Anthropic Investigates Real-World Incidents in Cybersecurity Evaluations",
-          "category": "AI / Security",
-          "summary": "Anthropic published findings from three real-world cybersecurity incident investigations conducted as part of its frontier red team evaluations. The research examines how advanced AI models might be misused in security contexts and what safeguards can help prevent malicious use.",
-          "sources": [
-            {
-              "name": "Anthropic News",
-              "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
-            }
-          ],
-          "tags": [
-            "Anthropic",
-            "red team",
-            "AI safety",
-            "cybersecurity evaluations",
-            "frontier models"
           ]
         }
       ]
