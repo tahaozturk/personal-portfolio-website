@@ -1,8 +1,134 @@
 {
-  "updatedAt": "2026-08-18T21:04:36+03:00",
+  "updatedAt": "2026-08-19T21:06:26+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-19",
+      "items": [
+        {
+          "title": "Google Pixel 11 Pro Fold review: tougher build, but an iterative upgrade",
+          "category": "End-User Tech",
+          "summary": "The Verge's Google Pixel 11 Pro Fold review finds a tougher body with an IP68 rating and a solid triple rear camera, but describes the hardware upgrade as iterative with a design that feels dated. Useful context for anyone weighing foldable phone options as the category evolves.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Pixel",
+            "foldable",
+            "phone",
+            "review"
+          ]
+        },
+        {
+          "title": "Gemini comes to Chrome on Android for all U.S. users",
+          "category": "End-User Tech",
+          "summary": "Google is rolling out Gemini in Chrome to all Android users in the U.S., bringing AI help and auto-browse features directly into the mobile browser. A practical update for Android users who want AI assistance while browsing.",
+          "sources": [
+            {
+              "name": "Google Android Blog",
+              "url": "https://blog.google/products-and-platforms/products/chrome/gemini-in-chrome-android-auto-browse/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Gemini",
+            "Chrome",
+            "Android",
+            "AI"
+          ]
+        },
+        {
+          "title": "Phishing 3.0: the security fight moves to agent versus agent",
+          "category": "Cybersecurity",
+          "summary": "The Hacker News explains how phishing has moved from malicious payloads into a message's intent, breaking defenses built for a decade-old threat model. The piece argues the fight is now agent versus agent, with AI playing a role on both sides.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html"
+            }
+          ],
+          "tags": [
+            "phishing",
+            "cybersecurity",
+            "AI agents",
+            "email security"
+          ]
+        },
+        {
+          "title": "OpenAI details safeguards pacing model development for cyber-critical capabilities",
+          "category": "AI / Safety",
+          "summary": "OpenAI details how it is strengthening monitoring, alignment, and security for frontier AI models, using new safeguards to guide the pace of model development as cyber-relevant capabilities grow.",
+          "sources": [
+            {
+              "name": "OpenAI News",
+              "url": "https://openai.com/index/pacing-model-development-cyber-capabilities"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "AI safety",
+            "frontier models",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "IBM Research: how much memory does your AI agent actually need?",
+          "category": "AI / Research",
+          "summary": "IBM Research, on the Hugging Face blog, explores how much memory an AI agent actually needs, offering guidance for building memory-efficient agent systems.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm"
+            }
+          ],
+          "tags": [
+            "IBM Research",
+            "AI agents",
+            "memory",
+            "Hugging Face"
+          ]
+        },
+        {
+          "title": "GitHub shows how canvases make agentic workflows visible and cost-efficient",
+          "category": "Developer Tools",
+          "summary": "GitHub explains how canvases make agentic workflows visible, steerable, and more cost-efficient, giving developers a clearer way to guide AI agents through multi-step work.",
+          "sources": [
+            {
+              "name": "GitHub Blog",
+              "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/"
+            }
+          ],
+          "tags": [
+            "GitHub",
+            "Copilot",
+            "AI agents",
+            "developer tools"
+          ]
+        },
+        {
+          "title": "Firefox 154.0 released",
+          "category": "Open Source",
+          "summary": "Mozilla released Firefox 154.0, the latest version of its open-source browser, with the usual round of new features, bug fixes, and security improvements for desktop and mobile.",
+          "sources": [
+            {
+              "name": "Mozilla",
+              "url": "https://www.mozilla.org/en-US/firefox/154.0/releasenotes/"
+            }
+          ],
+          "tags": [
+            "Firefox",
+            "Mozilla",
+            "browser",
+            "open source"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-18",
       "items": [
@@ -988,104 +1114,6 @@
             "wearables",
             "camera",
             "rumor"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "items": [
-        {
-          "title": "OpenAI's Next-Gen Astra Model Produces Novel Results Across 10 Math and CS Problems",
-          "category": "AI / Research",
-          "summary": "OpenAI revealed that Astra, its next-generation model, produced novel results for 10 open problems spanning mathematics, quantum complexity theory, and theoretical computer science. The company published the full paper alongside detailed reasoning walkthroughs for each problem.",
-          "sources": [
-            {
-              "name": "OpenAI",
-              "url": "https://openai.com/index/ten-advances-in-mathematics"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "Astra",
-            "mathematics",
-            "quantum complexity",
-            "AI research",
-            "reasoning"
-          ]
-        },
-        {
-          "title": "Adobe Campaign Classic CVSS 10.0 Flaw Enables Code Execution Without User Interaction",
-          "category": "Cybersecurity",
-          "summary": "Adobe released security updates for a maximum-severity vulnerability (CVE-2026-48449, CVSS 10.0) in Adobe Campaign Classic, its enterprise marketing automation platform. The flaw could allow arbitrary code execution without any user interaction, making immediate patching critical for affected organizations.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html"
-            }
-          ],
-          "tags": [
-            "Adobe",
-            "CVE-2026-48449",
-            "CVSS 10",
-            "Campaign Classic",
-            "RCE",
-            "enterprise security"
-          ]
-        },
-        {
-          "title": "OpenAI Outlines Full-Stack Strategy for Building Abundant Intelligence",
-          "category": "AI / Business",
-          "summary": "OpenAI published a strategic overview describing its full-stack approach to making advanced AI more capable, more affordable, and more widely useful. The post covers model efficiency, infrastructure scaling, and increasing accessibility across OpenAI's product lineup.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/building-abundant-intelligence"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "AI strategy",
-            "scaling",
-            "accessibility",
-            "infrastructure"
-          ]
-        },
-        {
-          "title": "Google Research Introduces Science One Framework for Verifiable Autonomous Research",
-          "category": "AI / Research",
-          "summary": "Google Research introduced Science One, a verifiable autonomous research framework that uses a Chain-of-Evidence approach to produce auditable, reproducible scientific results from AI-driven experimentation. The framework targets general scientific discovery with built-in verification mechanisms.",
-          "sources": [
-            {
-              "name": "Google Research Blog",
-              "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/"
-            }
-          ],
-          "tags": [
-            "Google Research",
-            "Science One",
-            "autonomous research",
-            "Chain-of-Evidence",
-            "scientific AI"
-          ]
-        },
-        {
-          "title": "Apple Reports Fiscal Q3 2026 Results",
-          "category": "Tech Business",
-          "summary": "Apple announced financial results for its fiscal 2026 third quarter ending June 27, 2026. The quarterly report covers performance across iPhone, Mac, iPad, wearables, and services, providing the latest snapshot of Apple's consumer hardware and software ecosystem.",
-          "sources": [
-            {
-              "name": "Apple Newsroom",
-              "url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/"
-            }
-          ],
-          "tags": [
-            "Apple",
-            "earnings",
-            "Q3 2026",
-            "iPhone",
-            "Mac",
-            "services"
           ]
         }
       ]
