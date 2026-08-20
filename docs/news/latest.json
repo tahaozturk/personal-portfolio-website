@@ -1,8 +1,154 @@
 {
-  "updatedAt": "2026-08-19T21:06:26+03:00",
+  "updatedAt": "2026-08-20T21:06:26+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-20",
+      "items": [
+        {
+          "title": "Google's Gemma open models pass 1 billion downloads",
+          "category": "AI / Models",
+          "summary": "Google DeepMind says its Gemma family of open models has surpassed one billion downloads, with developers publishing more than 100,000 Gemma variants over the past two years. A major milestone for open-weight AI, spanning applications from space to underwater research.",
+          "sources": [
+            {
+              "name": "Google Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-one-billion-downloads/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Gemma",
+            "open models",
+            "DeepMind",
+            "AI"
+          ]
+        },
+        {
+          "title": "Critical NetScaler flaw can bypass authentication on Gateway and AAA servers",
+          "category": "Cybersecurity",
+          "summary": "Citrix patched CVE-2026-19490, a critical (CVSS 9.3) authentication-bypass vulnerability affecting certain NetScaler ADC and NetScaler Gateway configurations, including Gateway, AAA, and SAML setups. Administrators should apply the updates promptly to prevent unauthorized access.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html"
+            }
+          ],
+          "tags": [
+            "Citrix",
+            "NetScaler",
+            "CVE-2026-19490",
+            "authentication bypass",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "Hackers poison the arrayref Rust crate to push infostealer malware",
+          "category": "Cybersecurity",
+          "summary": "Attackers compromised the maintainer account behind the widely used Rust crate arrayref, injecting malware that executed on developers' machines during compilation. A reminder of the software supply-chain risk in the open-source ecosystem.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/"
+            }
+          ],
+          "tags": [
+            "Rust",
+            "supply chain",
+            "malware",
+            "open source",
+            "crates"
+          ]
+        },
+        {
+          "title": "Greg Brockman consolidates power at OpenAI",
+          "category": "AI / Tech Business",
+          "summary": "The Verge reports that OpenAI president and co-founder Greg Brockman has quietly amassed more authority through months of leadership changes, emerging as the company's central figure.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "Greg Brockman",
+            "leadership",
+            "AI business"
+          ]
+        },
+        {
+          "title": "Ramp launches Router, its own AI model-routing service",
+          "category": "AI / Tools",
+          "summary": "Ramp released Router, an AI model-routing service that lets companies use and switch between various large language models through a single API. It reflects the growing trend of businesses building their own model-abstraction layers.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/"
+            }
+          ],
+          "tags": [
+            "Ramp",
+            "AI",
+            "model routing",
+            "LLM",
+            "API"
+          ]
+        },
+        {
+          "title": "watchOS 27 adds three new Apple Watch features worth trying",
+          "category": "End-User Tech",
+          "summary": "9to5Mac highlights three new Apple Watch features in watchOS 27 that stand out in beta testing, giving Apple Watch users a preview of what is coming in the fall update.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/08/20/watchos-27-adds-three-new-apple-watch-features-ive-been-loving/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "watchOS",
+            "Apple Watch",
+            "wearables"
+          ]
+        },
+        {
+          "title": "Samsung sets August 27 Galaxy event to unveil a new Galaxy S26 family phone",
+          "category": "End-User Tech",
+          "summary": "Samsung will hold its 'Galaxy Event August 2026' on August 27 to introduce the newest addition to the Galaxy S26 family, designed to bring core S26 camera and AI experiences plus the latest One UI to a broader audience. Reports point to the Galaxy S26 FE.",
+          "sources": [
+            {
+              "name": "Samsung Newsroom",
+              "url": "https://news.samsung.com/global/invitation-galaxy-event-august-2026"
+            }
+          ],
+          "tags": [
+            "Samsung",
+            "Galaxy S26",
+            "smartphone",
+            "Android",
+            "launch"
+          ]
+        },
+        {
+          "title": "Nothing OS 5.0 with Android 17 is 'coming soon'",
+          "category": "End-User Tech",
+          "summary": "Nothing is teasing that its Android 17-based Nothing OS 5.0 update will be announced next week, bringing the next major Android version to Nothing phones.",
+          "sources": [
+            {
+              "name": "Android Authority",
+              "url": "https://www.androidauthority.com/nothing-os-5-0-release-date-3701142/"
+            }
+          ],
+          "tags": [
+            "Nothing",
+            "Android 17",
+            "mobile OS",
+            "update"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-19",
       "items": [
@@ -1034,86 +1180,6 @@
             "Android",
             "notifications",
             "cross-device"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "items": [
-        {
-          "title": "MacBook Air Reportedly Facing Major Supply Shortages Due to AI-Driven Memory Crisis",
-          "category": "Consumer Devices",
-          "summary": "Apple's MacBook Air is reportedly experiencing significant supply shortages as soaring AI server demand drives a global memory crunch. The AI-driven surge in high-bandwidth memory (HBM) consumption is crowding out supply for consumer device RAM, leaving MacBook Air production constrained during the back-to-school season.",
-          "sources": [
-            {
-              "name": "9to5Mac",
-              "url": "https://9to5mac.com/2026/08/02/macbook-air-reportedly-facing-major-supply-shortages-due-to-ai-driven-memory-crisis/"
-            }
-          ],
-          "tags": [
-            "MacBook Air",
-            "Apple",
-            "supply chain",
-            "AI memory",
-            "HBM",
-            "laptops"
-          ]
-        },
-        {
-          "title": "Google Chrome May Soon Block New Tab Hijacker Extensions by Default",
-          "category": "Cybersecurity",
-          "summary": "Google is preparing a new Chrome security feature that would prevent policy-installed extensions from hijacking the New Tab page or changing the default search engine without user consent. The change targets a common attack vector where malicious or unwanted extensions silently redirect users to ad-laden or phishing pages.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/"
-            }
-          ],
-          "tags": [
-            "Google Chrome",
-            "browser security",
-            "extensions",
-            "anti-hijacking",
-            "phishing"
-          ]
-        },
-        {
-          "title": "These App Store Hidden Gems Prove There's Still Room for Great Software in the AI Era",
-          "category": "AI & Software",
-          "summary": "TechCrunch highlights a curated set of standout iOS and macOS apps that demonstrate how indie developers are building thoughtful, polished software despite the industry's pivot toward AI-first experiences. The roundup showcases tools for productivity, creativity, and daily workflows that prioritize user experience over AI gimmicks.",
-          "sources": [
-            {
-              "name": "TechCrunch",
-              "url": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/"
-            }
-          ],
-          "tags": [
-            "App Store",
-            "iOS",
-            "macOS",
-            "indie apps",
-            "software design",
-            "AI era"
-          ]
-        },
-        {
-          "title": "Apple's Rumored AirPods with Cameras Could Debut as Soon as Next Month [Rumor]",
-          "category": "Consumer Devices",
-          "summary": "Apple's long-rumored AirPods with integrated cameras for Visual Intelligence features could launch as early as next month, according to supply chain reports. The cameras would power real-world object recognition and contextual awareness features, bringing visual AI capabilities to Apple's popular earbuds lineup for the first time.",
-          "sources": [
-            {
-              "name": "9to5Mac",
-              "url": "https://9to5mac.com/2026/08/02/airpods-with-cameras-visual-intelligence-could-arrive-this-year/"
-            }
-          ],
-          "tags": [
-            "AirPods",
-            "Apple",
-            "Visual Intelligence",
-            "wearables",
-            "camera",
-            "rumor"
           ]
         }
       ]
