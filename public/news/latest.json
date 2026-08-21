@@ -1,8 +1,85 @@
 {
-  "updatedAt": "2026-08-20T21:06:26+03:00",
+  "updatedAt": "2026-08-21T21:03:34+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-21",
+      "items": [
+        {
+          "title": "Nscale seeks up to $3 billion in US IPO",
+          "category": "Tech Business",
+          "summary": "London-based AI infrastructure startup Nscale is seeking to raise as much as $3 billion in a US IPO that could take place as soon as September, according to people familiar with the matter.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-21/ai-cloud-firm-nscale-is-said-to-seek-up-to-3-billion-in-us-ipo"
+            }
+          ],
+          "tags": [
+            "Nscale",
+            "IPO",
+            "AI infrastructure",
+            "funding",
+            "Tech Business"
+          ]
+        },
+        {
+          "title": "How to use sign-to-text translation on Pixel 11",
+          "category": "End-User Tech",
+          "summary": "Google's new sign-to-text feature, developed in partnership with the Deaf community, translates American Sign Language into text in real time on the Pixel 11, making everyday communication more accessible.",
+          "sources": [
+            {
+              "name": "Google Pixel Blog",
+              "url": "https://blog.google/products-and-platforms/devices/pixel/american-sign-language-sign-to-text-pixel-11/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Pixel 11",
+            "ASL",
+            "accessibility",
+            "Android"
+          ]
+        },
+        {
+          "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
+          "category": "End-User Tech",
+          "summary": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting, and is investigating a fix.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/"
+            }
+          ],
+          "tags": [
+            "Microsoft",
+            "Windows",
+            "gaming",
+            "RGB",
+            "Windows Update"
+          ]
+        },
+        {
+          "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+          "category": "AI / Health",
+          "summary": "Google Research introduces a generative AI tool that helps prioritize candidate biomarkers from wearable sensor data, aiming to surface promising signals for health and biomedical research.",
+          "sources": [
+            {
+              "name": "Google Research Blog",
+              "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/"
+            }
+          ],
+          "tags": [
+            "Google Research",
+            "wearables",
+            "health AI",
+            "biomarkers",
+            "generative AI"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-20",
       "items": [
@@ -1063,123 +1140,6 @@
             "AI",
             "Pixel",
             "monthly roundup"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "items": [
-        {
-          "title": "China Tightens Chip Design Protection with Punitive Damages for Infringement",
-          "category": "Tech Business",
-          "summary": "China has revised its regulations protecting integrated-circuit layout designs, introducing punitive damages for serious infringement. The new rules take effect October 15 and represent a significant tightening of semiconductor IP protections in the world's largest chip-consuming market.",
-          "sources": [
-            {
-              "name": "Reuters",
-              "url": "https://www.reuters.com/world/asia-pacific/china-steps-up-protection-chip-designs-revised-regulations-2026-08-03/"
-            }
-          ],
-          "tags": [
-            "China",
-            "semiconductors",
-            "chip design",
-            "IP protection",
-            "regulations"
-          ]
-        },
-        {
-          "title": "Alibaba's Qwen Max Model Goes Open-Weight, Claims to Match Anthropic's Claude Fable 5",
-          "category": "AI / Models",
-          "summary": "Alibaba released its Qwen Max model as open-weight, claiming competitive performance against Anthropic's Claude Fable 5. The move marks another escalation in the AI race between Chinese and American labs, with Alibaba positioning open-source access as a strategic advantage.",
-          "sources": [
-            {
-              "name": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"
-            }
-          ],
-          "tags": [
-            "Alibaba",
-            "Qwen Max",
-            "open-weight",
-            "Claude Fable 5",
-            "AI models",
-            "China"
-          ]
-        },
-        {
-          "title": "Hugging Face Diffusers Library Vulnerabilities Enable Arbitrary Code Execution from Crafted Models",
-          "category": "Cybersecurity",
-          "summary": "Three high-severity security flaws were disclosed in Hugging Face's Diffusers library that could allow malicious model repositories to execute arbitrary code on machines loading them. The vulnerabilities highlight growing supply-chain risks in the AI ecosystem, where downloading and running community models can compromise entire systems.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html"
-            }
-          ],
-          "tags": [
-            "Hugging Face",
-            "Diffusers",
-            "supply chain",
-            "RCE",
-            "AI security",
-            "CVE"
-          ]
-        },
-        {
-          "title": "Apple Files New Legal Challenge Against UK Encrypted iCloud Backdoor Demand",
-          "category": "Cybersecurity / Privacy",
-          "summary": "Apple filed a new legal complaint with the UK's Investigatory Powers Tribunal over the British government's demand for access to encrypted iCloud backups belonging to UK users. The Home Office previously dropped its original demand covering both UK and US customers after diplomatic pressure, but continues to seek UK-only access.",
-          "sources": [
-            {
-              "name": "MacRumors",
-              "url": "https://www.macrumors.com/2026/08/03/apple-legal-challenge-against-uk-demand/"
-            }
-          ],
-          "tags": [
-            "Apple",
-            "iCloud",
-            "encryption",
-            "UK",
-            "privacy",
-            "backdoor"
-          ]
-        },
-        {
-          "title": "Apple Expected to Launch Five New Products at September iPhone Event [Rumor]",
-          "category": "Consumer Devices",
-          "summary": "Apple's annual September iPhone event is one month away, and rumors point to five new product launches including updated iPhone models and possibly new accessories. The event is traditionally Apple's biggest hardware launch of the year.",
-          "sources": [
-            {
-              "name": "9to5Mac",
-              "url": "https://9to5mac.com/2026/08/03/apple-will-launch-five-new-products-next-month-heres-whats-coming/"
-            }
-          ],
-          "tags": [
-            "Apple",
-            "iPhone",
-            "September event",
-            "product launch",
-            "rumor"
-          ]
-        },
-        {
-          "title": "Microsoft Tests Richer Android Notification Previews in Windows Phone Link",
-          "category": "Consumer Tech",
-          "summary": "Microsoft is rolling out a new Phone Link experience for Windows that provides richer Android notification previews at a glance, reducing the need to open the full Phone Link app to see message content and alerts from connected Android devices.",
-          "sources": [
-            {
-              "name": "Android Authority",
-              "url": "https://www.androidauthority.com/windows-phone-link-notification-preview-3693965/"
-            }
-          ],
-          "tags": [
-            "Microsoft",
-            "Windows",
-            "Phone Link",
-            "Android",
-            "notifications",
-            "cross-device"
           ]
         }
       ]
