@@ -1,8 +1,175 @@
 {
-  "updatedAt": "2026-08-21T21:03:34+03:00",
+  "updatedAt": "2026-08-22T21:05:59+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-22",
+      "items": [
+        {
+          "title": "Are Open Models Catching Up?",
+          "category": "AI / Industry",
+          "summary": "SemiAnalysis compares open and closed models across the eras of frontier AI, finding that with each successive era — from scaling, to reasoning, to agentic — open models have taken roughly half as long to catch up to the leading closed model. The analysis examines whether the open-vs-closed gap is narrowing.",
+          "sources": [
+            {
+              "name": "SemiAnalysis",
+              "url": "https://newsletter.semianalysis.com/p/are-open-models-catching-up"
+            }
+          ],
+          "tags": [
+            "SemiAnalysis",
+            "open source",
+            "LLM",
+            "frontier models",
+            "AI"
+          ]
+        },
+        {
+          "title": "Measuring benchmark optimization in speech recognition",
+          "category": "AI / Research",
+          "summary": "Hugging Face and Hume AI examine how public voice AI benchmarks increasingly report human-level scores that don't match real-world performance, because models get optimized for the tests themselves. Using a VoxPopuli case study, the post shows how to detect and localize this benchmark overfitting.",
+          "sources": [
+            {
+              "name": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/asr-benchmark-optimization"
+            }
+          ],
+          "tags": [
+            "Hugging Face",
+            "speech recognition",
+            "benchmarks",
+            "AI research",
+            "open source"
+          ]
+        },
+        {
+          "title": "DeepSeek releases experimental Flash vision model that rivals Opus 4.8 on agent benchmarks",
+          "category": "AI / Models",
+          "summary": "DeepSeek released V4-Flash-Vision-Exp, an experimental multimodal model that adds image understanding to its V4-Flash text model. On the company's own multimodal agent benchmarks, it approaches Anthropic's Opus 4.8 and sometimes beats it.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/"
+            }
+          ],
+          "tags": [
+            "DeepSeek",
+            "multimodal",
+            "vision",
+            "LLM",
+            "AI"
+          ]
+        },
+        {
+          "title": "Amazon hiked prices for Echo, Fire TV, and Kindle products by up to 60 percent",
+          "category": "End-User Tech",
+          "summary": "Amazon raised prices across its Echo, Fire TV, and Kindle hardware lines by as much as 60 percent, citing higher RAM and storage costs. The increases make popular consumer smart-home and reading devices noticeably more expensive.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv"
+            }
+          ],
+          "tags": [
+            "Amazon",
+            "Echo",
+            "Fire TV",
+            "Kindle",
+            "consumer tech"
+          ]
+        },
+        {
+          "title": "Pixel 11 Pro XL review: Snappier cameras can't hide an iterative upgrade",
+          "category": "End-User Tech",
+          "summary": "TechCrunch reviews Google's Pixel 11 Pro XL, finding snappier cameras and genuinely useful AI features like Rambler, but concludes the upgrades are iterative and may not be enough to tempt owners of recent Pixel models.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Pixel 11 Pro XL",
+            "smartphone",
+            "review",
+            "Android"
+          ]
+        },
+        {
+          "title": "Pixel Camera 11 gets new Quick access dials and Launch mode",
+          "category": "End-User Tech",
+          "summary": "Google's Pixel Camera 11 adds refreshed Quick access dial controls and a Launch mode for faster access to camera settings. The new controls are useful for photographers, though some features are hidden by default.",
+          "sources": [
+            {
+              "name": "Android Authority",
+              "url": "https://www.androidauthority.com/pixel-camera-11-new-quick-access-dials-launch-mode-3701763/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Pixel Camera",
+            "camera",
+            "Android",
+            "creator tools"
+          ]
+        },
+        {
+          "title": "Motorola's GrapheneOS phones will launch in 2027 priced higher than Pixels",
+          "category": "Open Source",
+          "summary": "Motorola will ship phones running GrapheneOS, the privacy-focused Android-based operating system, starting in 2027. The move expands the hardened, de-Googled OS beyond Pixel devices, with pricing expected to come in above comparable Pixels.",
+          "sources": [
+            {
+              "name": "Ars Technica",
+              "url": "https://arstechnica.com/gadgets/2026/08/motorolas-grapheneos-phones-will-launch-in-2027-priced-higher-than-pixels/"
+            }
+          ],
+          "tags": [
+            "Motorola",
+            "GrapheneOS",
+            "privacy",
+            "Android",
+            "open source"
+          ]
+        },
+        {
+          "title": "Hackers infect Android car head units with proxy botnet malware",
+          "category": "Cybersecurity",
+          "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised units into a proxy botnet or uses them for ad fraud. The campaign highlights the security risk in connected in-car systems.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
+            }
+          ],
+          "tags": [
+            "Android",
+            "supply chain",
+            "malware",
+            "botnet",
+            "car head units"
+          ]
+        },
+        {
+          "title": "TikTok agrees to $400 million settlement in U.S. child privacy lawsuit",
+          "category": "Cybersecurity",
+          "summary": "TikTok will pay $400 million to settle a U.S. child privacy lawsuit alleging COPPA violations involving users under 13 and its Kids Mode. The settlement resolves the Department of Justice's 2024 case against the ByteDance-owned platform.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html"
+            }
+          ],
+          "tags": [
+            "TikTok",
+            "COPPA",
+            "child privacy",
+            "settlement",
+            "ByteDance"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-21",
       "items": [
@@ -1044,102 +1211,6 @@
             "ai-safety",
             "biology",
             "safeguards"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "items": [
-        {
-          "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
-          "category": "Cybersecurity",
-          "summary": "The Greatness phishing-as-a-service toolkit now supports device code phishing, a technique that abuses the OAuth 2.0 Device Authorization Grant to bypass multi-factor authentication and steal session tokens. The addition makes it easier for attackers to compromise accounts even when MFA is enabled.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html"
-            }
-          ],
-          "tags": [
-            "phishing",
-            "MFA",
-            "OAuth",
-            "cybersecurity",
-            "PhaaS"
-          ]
-        },
-        {
-          "title": "SanDisk and SK Hynix Unveil High Bandwidth Flash Specification for Up to 512GB Modules",
-          "category": "Tech Business",
-          "summary": "SanDisk and SK Hynix announced the open High Bandwidth Flash (HBF) specification, enabling NAND memory modules up to 512GB with bandwidth from 0.4 TB/s to 3.0 TB/s. The spec uses UCIe interconnect and targets next-generation SSDs and memory-hungry workloads including AI inference.",
-          "sources": [
-            {
-              "name": "Tom's Hardware",
-              "url": "https://www.tomshardware.com/pc-components/ssds/sandisk-and-sk-hynix-unveil-hbf-spec-up-to-16-hi-nand-stacks-3-tb-s-bandwidth-ucie"
-            }
-          ],
-          "tags": [
-            "NAND",
-            "memory",
-            "SSD",
-            "SK Hynix",
-            "SanDisk",
-            "hardware"
-          ]
-        },
-        {
-          "title": "OpenAI Details How It Built GPT-Live for Continuous Real-Time Voice AI",
-          "category": "AI / Models",
-          "summary": "OpenAI published a technical deep-dive on GPT-Live, its turnless speech model that enables continuous voice interaction. The system uses a low-latency architecture to deliver faster, more natural conversations without the stop-and-go pattern of traditional voice assistants.",
-          "sources": [
-            {
-              "name": "OpenAI",
-              "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "voice AI",
-            "GPT-Live",
-            "speech",
-            "realtime"
-          ]
-        },
-        {
-          "title": "Liquid AI Releases LFM2.5-2.6B for Deploying Local AI Agents Everywhere",
-          "category": "AI / Models",
-          "summary": "Liquid AI released LFM2.5-2.6B, a compact 2.6-billion-parameter model designed to run AI agents locally on edge devices. The model targets on-device deployment scenarios where cloud connectivity is limited or privacy is critical.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
-            }
-          ],
-          "tags": [
-            "Liquid AI",
-            "edge AI",
-            "on-device",
-            "agents",
-            "small models"
-          ]
-        },
-        {
-          "title": "Google Roundup: Key AI Updates from July 2026 Across Android and More",
-          "category": "End-User Tech",
-          "summary": "Google published its monthly AI update roundup covering July 2026, highlighting new features across Android, Search, Workspace, and developer tools. The recap includes consumer-facing AI improvements rolling out to Pixel and other Android devices.",
-          "sources": [
-            {
-              "name": "Google Blog",
-              "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "Android",
-            "AI",
-            "Pixel",
-            "monthly roundup"
           ]
         }
       ]
