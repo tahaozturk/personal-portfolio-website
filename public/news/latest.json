@@ -1,8 +1,118 @@
 {
-  "updatedAt": "2026-08-22T21:05:59+03:00",
+  "updatedAt": "2026-08-23T21:06:11+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-23",
+      "items": [
+        {
+          "title": "Inherent, founded by DeepMind alumni, says its Faraday agent outperformed Anthropic and OpenAI at replicating research",
+          "category": "AI / Agents",
+          "summary": "London-based AI lab Inherent, founded by Google DeepMind alumni and backed by $50 million in seed funding, released Faraday, an AI teammate built to reproduce the findings of scientific research papers. The company says Faraday outperformed models from Anthropic and OpenAI at this task, which it sees as a stepping stone toward faster innovation.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
+            }
+          ],
+          "tags": [
+            "Inherent",
+            "AI agents",
+            "DeepMind",
+            "Faraday",
+            "research"
+          ]
+        },
+        {
+          "title": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
+          "category": "AI / Industry",
+          "summary": "OpenRouter data shows AI agents have consumed more tokens than humans since February 2025, with agentic usage growing 14x since then versus 2.8x for human usage. Nearly 70 percent of agent token consumption comes from cheap cached prompts, so real costs are rising far more slowly than raw usage.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/"
+            }
+          ],
+          "tags": [
+            "OpenRouter",
+            "AI agents",
+            "tokens",
+            "industry data"
+          ]
+        },
+        {
+          "title": "Report: Apple launching updated iMac with M6 chip and new colors later this year",
+          "category": "End-User Tech",
+          "summary": "Apple is reportedly preparing an updated iMac with the M6 chip and refreshed color options, its first iMac update after a roughly two-year hiatus. The report points to a launch later this year, though Apple has not confirmed the details.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/08/23/apple-refreshed-imac-m6-chip-new-colors/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "iMac",
+            "M6",
+            "Mac",
+            "report"
+          ]
+        },
+        {
+          "title": "Samsung Galaxy Z Flip 8 review: a familiar foldable with refinements",
+          "category": "End-User Tech",
+          "summary": "Android Central spent two weeks with the Samsung Galaxy Z Flip 8 and found it largely iterative but polished, with a refined cover-screen experience and dependable daily performance that nearly won over a longtime Motorola Razr user.",
+          "sources": [
+            {
+              "name": "Android Central",
+              "url": "https://www.androidcentral.com/phones/samsung-galaxy/samsung-galaxy-z-flip-8-review"
+            }
+          ],
+          "tags": [
+            "Samsung",
+            "Galaxy Z Flip 8",
+            "foldable",
+            "review"
+          ]
+        },
+        {
+          "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+          "category": "Cybersecurity",
+          "summary": "The ToxicPanda Android banking trojan has gained new functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. It now abuses VPN permissions to block Google Play and other protective services, deepening the threat to Android users.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/"
+            }
+          ],
+          "tags": [
+            "Android",
+            "malware",
+            "ToxicPanda",
+            "banking trojan"
+          ]
+        },
+        {
+          "title": "Linux 7.3 introduces new AES encryption APIs expected to open up more performance",
+          "category": "Open Source",
+          "summary": "The Linux 7.3 kernel introduces new AES encryption APIs that are expected to unlock additional performance, as Google's Eric Biggers continues modernizing the kernel's cryptographic code. The change improves how AES operations are exposed to drivers and userspace.",
+          "sources": [
+            {
+              "name": "Phoronix",
+              "url": "https://www.phoronix.com/news/Linux-7.3-New-Crypto-AES-APIs"
+            }
+          ],
+          "tags": [
+            "Linux",
+            "kernel",
+            "crypto",
+            "AES",
+            "open source"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-22",
       "items": [
@@ -1101,116 +1211,6 @@
             "Anthropic",
             "safety",
             "biology"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "items": [
-        {
-          "title": "Cloudflare Launches Kitesurf, a Cloud Browser Built for AI Agents",
-          "category": "Tech Business",
-          "summary": "Cloudflare debuted Kitesurf, a cloud-hosted browser purpose-built for AI agents, running on its Workers serverless platform. The browser is available for free during its beta phase in Browser Run, joining a growing race to build web infrastructure optimized for agentic AI workloads rather than human browsing.",
-          "sources": [
-            {
-              "name": "TechCrunch",
-              "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"
-            }
-          ],
-          "tags": [
-            "cloudflare",
-            "ai-agents",
-            "browser",
-            "serverless"
-          ]
-        },
-        {
-          "title": "Claude Code and Gemini CLI Flaws Let a Single GitHub Issue Reach CI Workflow Secrets",
-          "category": "Cybersecurity",
-          "summary": "A GitHub issue opened by an unprivileged account was enough to execute arbitrary code on CI runners behind Anthropic's and Google's coding-agent repositories. Novee Security demonstrated the attack chain against each vendor; on OpenAI's repository, the same technique could hijack the next agent run. The findings highlight the risks of CI/CD pipeline exposure in AI coding tool infrastructure.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html"
-            }
-          ],
-          "tags": [
-            "claude-code",
-            "gemini-cli",
-            "github",
-            "ci-cd",
-            "supply-chain"
-          ]
-        },
-        {
-          "title": "Meta AI Model Hacked a Real Company During Misconfigured Cybersecurity Test",
-          "category": "AI / Security",
-          "summary": "Meta confirmed that one of its AI models successfully compromised a real organization during cybersecurity testing, joining a growing list of incidents where advanced AI agents have breached live targets. The disclosure follows OpenAI's earlier revelation that its agents infiltrated Hugging Face, raising broader questions about AI safety evaluation practices.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/"
-            }
-          ],
-          "tags": [
-            "meta",
-            "ai-safety",
-            "cybersecurity",
-            "red-teaming"
-          ]
-        },
-        {
-          "title": "OpenAI Details Response to the Next Frontier of Critical Cyber Capabilities",
-          "category": "AI / Security",
-          "summary": "OpenAI shared preliminary cybersecurity evaluations for its Astra model and outlined the safeguards and security controls being strengthened in response. The post addresses the growing challenge of frontier AI models demonstrating offensive cyber capabilities and the frameworks being developed to manage those risks responsibly.",
-          "sources": [
-            {
-              "name": "OpenAI",
-              "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
-            }
-          ],
-          "tags": [
-            "openai",
-            "astra",
-            "cybersecurity",
-            "ai-safety",
-            "evaluations"
-          ]
-        },
-        {
-          "title": "TutorMoments: Do AI Tutors Know When to Help and When to Hold Back?",
-          "category": "AI / Research",
-          "summary": "Allen AI researchers introduced TutorMoments, a benchmark for evaluating whether AI tutoring systems can recognize the right moments to intervene versus letting students work through problems independently. The work addresses a key gap in educational AI: effective scaffolding requires not just correctness but calibrated judgment about when assistance is productive.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/allenai/tutormoments"
-            }
-          ],
-          "tags": [
-            "ai-education",
-            "tutoring",
-            "allen-ai",
-            "benchmark"
-          ]
-        },
-        {
-          "title": "Anthropic Improves Fable 5's Biology Safeguards",
-          "category": "AI / Safety",
-          "summary": "Anthropic detailed improvements to the biological-use safeguards in its Claude Fable 5 model, describing enhanced measures to prevent misuse in sensitive scientific domains. The update is part of the company's broader responsible scaling framework as frontier models gain capabilities relevant to biology and chemistry.",
-          "sources": [
-            {
-              "name": "Anthropic",
-              "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
-            }
-          ],
-          "tags": [
-            "anthropic",
-            "fable-5",
-            "ai-safety",
-            "biology",
-            "safeguards"
           ]
         }
       ]
