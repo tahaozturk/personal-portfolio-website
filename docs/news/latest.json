@@ -1,8 +1,157 @@
 {
-  "updatedAt": "2026-08-23T21:06:11+03:00",
+  "updatedAt": "2026-08-24T21:07:21+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-24",
+      "items": [
+        {
+          "title": "Hugging Face reportedly in talks to be acquired for $13 billion",
+          "category": "AI / Tech Business",
+          "summary": "Open-source AI platform Hugging Face is reportedly in talks to be acquired for around $13 billion, according to TechCrunch. The company is said to have fielded acquisition offers at that valuation, though its founders' sense of responsibility to the community has raised doubts about whether a sale will actually happen.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/"
+            }
+          ],
+          "tags": [
+            "Hugging Face",
+            "acquisition",
+            "open source",
+            "AI",
+            "reported"
+          ]
+        },
+        {
+          "title": "Apple releases iOS 27 beta 7 as it tests a major Siri AI upgrade",
+          "category": "End-User Tech",
+          "summary": "Apple released the seventh iOS 27 beta for developers, continuing to test a major Siri upgrade powered by Apple Intelligence. The release is part of Apple's summer beta cycle ahead of the public launch this fall.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/08/24/ios-27-beta-7/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "iOS 27",
+            "Siri",
+            "Apple Intelligence",
+            "beta"
+          ]
+        },
+        {
+          "title": "Cerebras unveils CS-4 with double the performance on the same chip",
+          "category": "AI / Hardware",
+          "summary": "Cerebras introduced its CS-4 AI accelerator, which CEO Andrew Feldman calls the fastest AI system in the industry. The company says the new wafer-scale system delivers roughly double the performance of its predecessor.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip/"
+            }
+          ],
+          "tags": [
+            "Cerebras",
+            "AI hardware",
+            "chip",
+            "accelerator",
+            "CS-4"
+          ]
+        },
+        {
+          "title": "Critical Keycloak password reset flaw could let attackers take over any account",
+          "category": "Cybersecurity",
+          "summary": "A critical Keycloak vulnerability (CVE-2026-18963) could let unauthenticated attackers skip the emailed action token and reset any user's password in affected configurations. Administrators are urged to apply the patch immediately.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html"
+            }
+          ],
+          "tags": [
+            "Keycloak",
+            "CVE-2026-18963",
+            "authentication",
+            "vulnerability",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "Microsoft: August updates break printing and PDF export in WPF apps",
+          "category": "End-User Tech",
+          "summary": "Microsoft confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. The company is investigating a fix for the regression.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/"
+            }
+          ],
+          "tags": [
+            "Microsoft",
+            "Windows",
+            ".NET",
+            "WPF",
+            "Windows Update"
+          ]
+        },
+        {
+          "title": "GNU Emacs 31.1 released with mouse control enabled by default",
+          "category": "Open Source",
+          "summary": "The GNU project released Emacs 31.1, the newest feature update to the popular extensible text editor. It enables mouse control by default and adds a new theme for first-time users.",
+          "sources": [
+            {
+              "name": "Phoronix",
+              "url": "https://www.phoronix.com/news/GNU-Emacs-31.1-Released"
+            }
+          ],
+          "tags": [
+            "Emacs",
+            "GNU",
+            "open source",
+            "release",
+            "editor"
+          ]
+        },
+        {
+          "title": "Shokz launches OpenFit Air 2 open-ear earbuds, nearly 20 percent lighter",
+          "category": "End-User Tech",
+          "summary": "Shokz launched the OpenFit Air 2, its new open-ear earbuds that are nearly 20 percent lighter than the previous generation. The design reduces pressure and heat buildup for more comfortable all-day wear.",
+          "sources": [
+            {
+              "name": "Engadget",
+              "url": "https://www.engadget.com/2232481/new-shokz-openfit-air-2-earbuds/"
+            }
+          ],
+          "tags": [
+            "Shokz",
+            "earbuds",
+            "open-ear",
+            "audio",
+            "consumer tech"
+          ]
+        },
+        {
+          "title": "YouTube plans big expansion of 24/7 Stations feeds",
+          "category": "End-User Tech",
+          "summary": "YouTube is planning a major expansion of its 24/7 Stations feeds, which will soon include podcasts and creator content beyond the music videos currently available.",
+          "sources": [
+            {
+              "name": "Android Authority",
+              "url": "https://www.androidauthority.com/youtube-stations-expansion-3702269/"
+            }
+          ],
+          "tags": [
+            "YouTube",
+            "Stations",
+            "creator",
+            "streaming",
+            "platform"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-23",
       "items": [
@@ -1087,130 +1236,6 @@
             "wearable",
             "ceramic",
             "rumor"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-08",
-      "items": [
-        {
-          "title": "South Korea's AI chip boom is reshaping careers, dating, and society",
-          "category": "Tech business",
-          "summary": "Bloomberg reports that South Korea's AI-driven semiconductor boom is reordering society, with chip-factory workers earning $400,000-plus bonuses and supplanting doctors and lawyers as the new elite. The feature shows how AI hardware demand is changing expectations around fairness, careers, and culture.",
-          "sources": [
-            {
-              "name": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/features/2026-08-06/ai-sk-hynix-samsung-rewire-south-korea-s-careers-dating-and-culture"
-            }
-          ],
-          "tags": [
-            "AI",
-            "semiconductors",
-            "South Korea",
-            "economy"
-          ]
-        },
-        {
-          "title": "N-able issues N-central hotfix as attackers reach managed systems",
-          "category": "Cybersecurity",
-          "summary": "N-able released fresh hotfixes for N-central after attackers exploiting a recently disclosed RMM vulnerability reached managed downstream systems and maintained persistence. MSPs and their customers should apply the update urgently.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "RMM",
-            "N-able",
-            "supply chain"
-          ]
-        },
-        {
-          "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
-          "category": "Cybersecurity",
-          "summary": "The Head Mare hacktivist group exploited unpatched TrueConf video conferencing servers to replace official client installers with malicious versions that deliver backdoors, a supply-chain attack affecting organizations that rely on the platform for internal communication.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/"
-            }
-          ],
-          "tags": [
-            "cybersecurity",
-            "supply chain",
-            "video conferencing",
-            "hacktivism"
-          ]
-        },
-        {
-          "title": "DeepSeek lists DeepSeek-V4-Flash-0731 on Hugging Face",
-          "category": "AI / Models",
-          "summary": "DeepSeek's Hugging Face organization lists DeepSeek-V4-Flash-0731, a new V4-family model card created on July 31 that had not appeared in prior digests. The listing signals continued iteration on the DeepSeek-V4 line.",
-          "sources": [
-            {
-              "name": "DeepSeek — Hugging Face",
-              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
-            }
-          ],
-          "tags": [
-            "AI",
-            "DeepSeek",
-            "models",
-            "Hugging Face"
-          ]
-        },
-        {
-          "title": "TutorMoments: do AI tutors know when to help and when to hold back?",
-          "category": "AI / Research",
-          "summary": "Hugging Face published Allen AI research on TutorMoments, a study examining whether AI tutoring systems can appropriately decide when to intervene versus when to let students work independently, with practical implications for education-technology design.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/allenai/tutormoments"
-            }
-          ],
-          "tags": [
-            "AI",
-            "education",
-            "research",
-            "tutoring"
-          ]
-        },
-        {
-          "title": "OpenAI shares cybersecurity evaluations for Astra model",
-          "category": "AI / Safety",
-          "summary": "OpenAI published preliminary cybersecurity evaluations for its Astra model and outlined steps to strengthen safeguards and security controls for frontier cyber capabilities, part of its ongoing responsible-disclosure and safety practices.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
-            }
-          ],
-          "tags": [
-            "AI",
-            "OpenAI",
-            "cybersecurity",
-            "safety"
-          ]
-        },
-        {
-          "title": "Anthropic improves Fable 5's biology safeguards",
-          "category": "AI / Safety",
-          "summary": "Anthropic detailed improvements to biological-safeguard evaluations for its Fable 5 model, part of the company's frontier-safety work and responsible-scaling framework for advanced AI systems.",
-          "sources": [
-            {
-              "name": "Anthropic News",
-              "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
-            }
-          ],
-          "tags": [
-            "AI",
-            "Anthropic",
-            "safety",
-            "biology"
           ]
         }
       ]
