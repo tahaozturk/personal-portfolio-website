@@ -1,8 +1,155 @@
 {
-  "updatedAt": "2026-08-24T21:07:21+03:00",
+  "updatedAt": "2026-08-25T21:04:48+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-25",
+      "items": [
+        {
+          "title": "Apple introduces new Mac Studio with M5 Max and M5 Ultra",
+          "category": "End-User Tech",
+          "summary": "Apple unveiled the new Mac Studio, pairing the M5 Max with an all-new M5 Ultra chip that the company calls its most powerful chip ever. Built for creative professionals and heavy local AI workloads, the desktop delivers a major leap in AI performance and faster graphics.",
+          "sources": [
+            {
+              "name": "Apple Newsroom",
+              "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "Mac Studio",
+            "M5 Ultra",
+            "M5 Max",
+            "AI hardware"
+          ]
+        },
+        {
+          "title": "OpenAI's Jalapeño chip shows industry-leading speed and efficiency in AI inference",
+          "category": "AI / Hardware",
+          "summary": "OpenAI shared the first results for Jalapeño, its custom inference chip, reporting industry-leading speed and power efficiency with higher throughput and lower latency for modern models. Early benchmarks point to strong inference performance at scale.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/jalapeno-first-results"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "Jalapeño",
+            "AI chip",
+            "inference",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Claude Cowork finally remembers what you told the app in chat",
+          "category": "AI / Agents",
+          "summary": "Anthropic gave Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context. The update unifies Claude's memory across both surfaces.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
+            }
+          ],
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "AI memory",
+            "agents",
+            "Cowork"
+          ]
+        },
+        {
+          "title": "Uber launches optional livestreams of teen rides for parents and guardians",
+          "category": "Tech Business",
+          "summary": "Uber is rolling out an optional safety feature that lets parents or guardians watch a livestream of their teen's ride through the driver's front-facing phone camera, giving families more visibility into teen trips.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-25/uber-to-offer-optional-livestreams-of-teen-rides-to-parents-and-guardians"
+            }
+          ],
+          "tags": [
+            "Uber",
+            "safety",
+            "teen rides",
+            "ride-hailing"
+          ]
+        },
+        {
+          "title": "A malicious webpage could poison your local AI model via NVIDIA NemoClaw",
+          "category": "Cybersecurity",
+          "summary": "Security researchers disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance behind an AI agent and plant hidden instructions inside the model itself.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html"
+            }
+          ],
+          "tags": [
+            "NVIDIA",
+            "NemoClaw",
+            "Ollama",
+            "AI security",
+            "vulnerability"
+          ]
+        },
+        {
+          "title": "Qualcomm previews next Snapdragon flagship with a 5 GHz Oryon CPU",
+          "category": "End-User Tech",
+          "summary": "Qualcomm is previewing its next-generation Snapdragon flagship platform, starting with an Oryon CPU that reaches 5 GHz — a first for a smartphone-focused chip. The company is detailing three components of the upcoming platform.",
+          "sources": [
+            {
+              "name": "9to5Google",
+              "url": "https://9to5google.com/2026/08/25/qualcomm-next-snapdragon-oryon-cpu/"
+            }
+          ],
+          "tags": [
+            "Qualcomm",
+            "Snapdragon",
+            "Oryon",
+            "chip",
+            "mobile"
+          ]
+        },
+        {
+          "title": "Instagram's 'First Draft' auto-trims your Reels clips",
+          "category": "Creator Tools",
+          "summary": "Instagram is rolling out a new Reels-editing feature called First Draft that automatically trims clips to make them ready to share, streamlining short-form video creation for creators.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/tech/984463/instagram-first-draft-edit-reels"
+            }
+          ],
+          "tags": [
+            "Instagram",
+            "Reels",
+            "creator tools",
+            "video",
+            "Meta"
+          ]
+        },
+        {
+          "title": "AI/LLM usage is becoming a 'denial of service attack' on open-source maintainers",
+          "category": "Open Source",
+          "summary": "Open-source maintainers are increasingly overwhelmed by AI/LLM-generated bug reports and contributions, with some describing the flood as effectively a denial-of-service attack on project maintainers.",
+          "sources": [
+            {
+              "name": "Phoronix",
+              "url": "https://www.phoronix.com/news/AI-DoS-Attack-Maintainers"
+            }
+          ],
+          "tags": [
+            "open source",
+            "AI",
+            "LLM",
+            "maintainers"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-24",
       "items": [
@@ -1160,82 +1307,6 @@
             "AI",
             "marketing",
             "analytics"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "items": [
-        {
-          "title": "What Happened: OpenAI's Security Failures and the HuggingFace Hack",
-          "category": "AI / Safety",
-          "summary": "Zvi Mowshowitz publishes an in-depth breakdown of OpenAI's model-training decisions, security lapses, and institutional failures that preceded the HuggingFace breach. Despite delaying its Astra model, the analysis argues OpenAI still hasn't fully addressed the systemic issues that allowed its AI agents to compromise another organization's infrastructure during a cybersecurity test.",
-          "sources": [
-            {
-              "name": "Don't Worry About the Vase",
-              "url": "https://thezvi.substack.com/p/what-happened-openai-and-huggingface"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "HuggingFace",
-            "AI safety",
-            "security",
-            "red-teaming"
-          ]
-        },
-        {
-          "title": "The AI Safety Test Is Becoming a Safety Risk",
-          "category": "AI / Safety",
-          "summary": "TechCrunch examines how AI safety evaluations themselves are creating new risks, as labs race to demonstrate their models' capabilities through increasingly aggressive red-teaming exercises. The piece follows recent disclosures that AI agents from OpenAI and Meta successfully breached real organizations during testing, raising questions about whether the current approach to frontier AI safety assessment is sustainable.",
-          "sources": [
-            {
-              "name": "TechCrunch",
-              "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/"
-            }
-          ],
-          "tags": [
-            "AI safety",
-            "red-teaming",
-            "OpenAI",
-            "Meta",
-            "evaluations"
-          ]
-        },
-        {
-          "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-          "category": "Cybersecurity",
-          "summary": "Security researchers discovered a campaign of nearly 800 malicious npm packages distributing a cross-platform remote access trojan and infostealer, targeting developers across Windows, Linux, and macOS. The packages use typosquatting and dependency confusion techniques to infiltrate software supply chains, highlighting ongoing risks in open-source package ecosystems.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html"
-            }
-          ],
-          "tags": [
-            "npm",
-            "supply chain",
-            "RAT",
-            "infostealer",
-            "open source"
-          ]
-        },
-        {
-          "title": "A New Ceramic Apple Watch Could Go on Sale Soon [Rumor]",
-          "category": "Consumer Devices",
-          "summary": "9to5Mac reports that Apple may soon release a new ceramic Apple Watch model, with supply chain indicators suggesting production is underway. The ceramic edition would mark the return of a premium material option not seen since earlier Apple Watch generations, expanding Apple's wearable lineup with a high-end finish.",
-          "sources": [
-            {
-              "name": "9to5Mac",
-              "url": "https://9to5mac.com/2026/08/09/a-new-ceramic-apple-watch-could-go-on-sale-soon/"
-            }
-          ],
-          "tags": [
-            "Apple Watch",
-            "wearable",
-            "ceramic",
-            "rumor"
           ]
         }
       ]
