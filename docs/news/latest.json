@@ -1,8 +1,142 @@
 {
-  "updatedAt": "2026-08-25T21:04:48+03:00",
+  "updatedAt": "2026-08-26T21:06:04+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-26",
+      "items": [
+        {
+          "title": "Amazon to acquire DuckLabs, adding the team behind DuckDB",
+          "category": "Tech Business",
+          "summary": "Amazon is acquiring DuckLabs, the Amsterdam company behind DuckDB, the fast-growing open-source database used to analyze large datasets without a cloud data warehouse. The team joins AWS, but DuckDB itself stays free and open source under an independent foundation.",
+          "sources": [
+            {
+              "name": "GeekWire",
+              "url": "https://www.geekwire.com/2026/amazon-acquires-ducklabs-adding-the-team-behind-duckdb-amid-broader-shakeup-in-cloud-data/"
+            }
+          ],
+          "tags": [
+            "Amazon",
+            "DuckDB",
+            "DuckLabs",
+            "open source",
+            "database",
+            "AWS"
+          ]
+        },
+        {
+          "title": "Apple announces September 9 iPhone launch event",
+          "category": "End-User Tech",
+          "summary": "Apple announced a September 9 launch event with a \"Surprise and shine\" tagline, where it is expected to introduce new iPhones, potentially including a long-rumored foldable model. It will be the first Apple event under incoming CEO John Ternus, who takes over from Tim Cook on September 1.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/tech/983407/apple-iphone-launch-event-2026-date"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "iPhone",
+            "event",
+            "foldable",
+            "John Ternus"
+          ]
+        },
+        {
+          "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
+          "category": "AI / Models",
+          "summary": "Alibaba's Qwen team is previewing its Qwen4 architecture with Qwen3.8-Flash-Next, a mixture-of-experts model that activates just 6 of 125 billion parameters per token. At one-ninth the training cost, it beats larger competitors like DeepSeek-V4-Flash and Claude Opus 4.6 on coding and office benchmarks.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency/"
+            }
+          ],
+          "tags": [
+            "Alibaba",
+            "Qwen",
+            "LLM",
+            "MoE",
+            "open model",
+            "AI"
+          ]
+        },
+        {
+          "title": "US seizes domains of Chinese botnet used to hack NASA, Justice Department, and the Senate",
+          "category": "Cybersecurity",
+          "summary": "The FBI seized domains associated with a botnet that let Chinese-backed hackers breach several US government departments, including NASA, the Justice Department, and the Senate.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/26/us-seizes-domains-of-chinese-botnet-used-to-hack-nasa-justice-department-and-the-senate/"
+            }
+          ],
+          "tags": [
+            "FBI",
+            "botnet",
+            "China",
+            "hacking",
+            "government",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "You can officially buy the Pixel 11 phones and Pixel Watch 5",
+          "category": "End-User Tech",
+          "summary": "Google's Pixel 11 phones and Pixel Watch 5 are now available on the Google Store and through retail partners, marking the official retail launch of the new devices.",
+          "sources": [
+            {
+              "name": "Google",
+              "url": "https://blog.google/products-and-platforms/devices/pixel/buy-pixel-11-phones-pixel-5-watch/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Pixel 11",
+            "Pixel Watch 5",
+            "smartphone",
+            "smartwatch"
+          ]
+        },
+        {
+          "title": "Ubiquiti patches three max severity security vulnerabilities",
+          "category": "Cybersecurity",
+          "summary": "Ubiquiti released security patches for three maximum-severity vulnerabilities that attackers can exploit remotely without privileges. Administrators are advised to update affected networking devices promptly.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/"
+            }
+          ],
+          "tags": [
+            "Ubiquiti",
+            "vulnerability",
+            "networking",
+            "patch",
+            "security"
+          ]
+        },
+        {
+          "title": "Claude Desktop support with Ollama",
+          "category": "Open Source",
+          "summary": "Claude Desktop can now be configured to use Ollama as a third-party gateway provider, making it possible to run open models inside Anthropic's Claude app.",
+          "sources": [
+            {
+              "name": "Ollama",
+              "url": "https://ollama.com/blog/claude-desktop"
+            }
+          ],
+          "tags": [
+            "Ollama",
+            "Claude Desktop",
+            "open source",
+            "LLM",
+            "Anthropic"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-25",
       "items": [
@@ -1216,97 +1350,6 @@
             "inference efficiency",
             "token reduction",
             "reasoning"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-10",
-      "items": [
-        {
-          "title": "Microsoft Plans to Unveil Next-Gen Maia 300 AI Chip, Eyes 300K+ Units with TSMC for 2027",
-          "category": "Tech Business",
-          "summary": "Microsoft is planning to significantly increase production of its internally designed next-generation AI chip, the Maia 300, with a potential unveiling as soon as September. The company is in talks with TSMC to manufacture over 300,000 chips for 2027, signaling renewed momentum in its homegrown AI silicon efforts.",
-          "sources": [
-            {
-              "name": "The Information",
-              "url": "https://www.theinformation.com/articles/microsofts-homegrown-ai-chip-effort-shows-signs-life-slow-start"
-            }
-          ],
-          "tags": [
-            "AI chips",
-            "Microsoft",
-            "TSMC",
-            "hardware"
-          ]
-        },
-        {
-          "title": "Meta Superintelligence Labs Releases Muse Glimmer: A 30B Multimodal Open Model for Local Coding Agents",
-          "category": "AI / Models",
-          "summary": "Muse Glimmer is the first open model from Meta Superintelligence Labs, a 30B-parameter multimodal model released under the Apache 2.0 license. Designed for local coding agents, it is accelerated by Ollama's MLX engine with native DFlash and is available for immediate download.",
-          "sources": [
-            {
-              "name": "Ollama Blog",
-              "url": "https://ollama.com/blog/muse-glimmer"
-            }
-          ],
-          "tags": [
-            "open source",
-            "Meta",
-            "multimodal",
-            "coding agents"
-          ]
-        },
-        {
-          "title": "NVIDIA Releases Magpie TTS: Open-Weight Multilingual Voice Agents with Full Deployment Control",
-          "category": "AI / Tools",
-          "summary": "NVIDIA's Magpie TTS enables developers to build low-latency multilingual voice agents with open weights and full deployment control. The model supports multiple languages and is designed for production voice AI applications without vendor lock-in.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents"
-            }
-          ],
-          "tags": [
-            "NVIDIA",
-            "TTS",
-            "voice AI",
-            "open weights",
-            "multilingual"
-          ]
-        },
-        {
-          "title": "Model ML Uses GPT-5.6 Sol to Streamline Finance Workflows from Research to Presentation",
-          "category": "AI / Business",
-          "summary": "Model ML demonstrates how GPT-5.6 Sol carries finance workflows from research and analysis through to editable, traceable PowerPoint decks and Excel workbooks, showcasing practical enterprise AI integration for knowledge workers.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/model-ml"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "GPT-5.6",
-            "finance",
-            "enterprise"
-          ]
-        },
-        {
-          "title": "Google Ads and Analytics Gain New AI-Powered Marketing Tools",
-          "category": "Platforms & Tools",
-          "summary": "Google introduces new AI and agentic experiences across Google Ads and Google Analytics, designed to simplify marketing workflows with automated insights and campaign optimization capabilities.",
-          "sources": [
-            {
-              "name": "Google Blog",
-              "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "AI",
-            "marketing",
-            "analytics"
           ]
         }
       ]
