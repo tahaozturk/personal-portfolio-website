@@ -1,8 +1,177 @@
 {
-  "updatedAt": "2026-08-26T21:06:04+03:00",
+  "updatedAt": "2026-08-27T21:07:00+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-27",
+      "items": [
+        {
+          "title": "Nvidia to acquire open-source AI platform Hugging Face for $12.9 billion",
+          "category": "Tech Business",
+          "summary": "Nvidia is set to acquire Hugging Face, the open-source AI platform, for about $12.9 billion, The Decoder reports — roughly 80 times the company's annual revenue. The deal advances Nvidia's push to invest billions in open AI models even as closed labs like OpenAI and Anthropic shift away from Nvidia hardware.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/nvidia-snaps-up-hugging-face-for-12-9-billion-as-closed-ai-labs-pull-away/"
+            }
+          ],
+          "tags": [
+            "Nvidia",
+            "Hugging Face",
+            "acquisition",
+            "open source",
+            "AI",
+            "reported"
+          ]
+        },
+        {
+          "title": "Google DeepMind pilots the world's first double-blind AI evaluations",
+          "category": "AI / Models",
+          "summary": "Google DeepMind is piloting double-blind AI evaluations that run external evaluations inside a cryptographically secure environment, aiming to stop benchmark contamination while protecting proprietary model IP. The approach is meant to build trust in benchmarks for closed models.",
+          "sources": [
+            {
+              "name": "Google DeepMind",
+              "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
+            }
+          ],
+          "tags": [
+            "Google DeepMind",
+            "AI",
+            "benchmark",
+            "evaluation",
+            "model"
+          ]
+        },
+        {
+          "title": "Anthropic previews a Model Hardware Standard for AI agents to operate physical devices",
+          "category": "AI / Hardware",
+          "summary": "Anthropic opened a research preview of the Model Hardware Standard (MHS), a shared specification that lets AI agents safely operate physical devices. The preview is available to a first group of scientific research labs and advanced manufacturers.",
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+            }
+          ],
+          "tags": [
+            "Anthropic",
+            "AI agents",
+            "hardware",
+            "standard"
+          ]
+        },
+        {
+          "title": "Samsung launches Galaxy S26 FE, its new value-focused flagship phone",
+          "category": "End-User Tech",
+          "summary": "Samsung introduced the Galaxy S26 FE, the first phone in the Galaxy S26 lineup to ship with One UI 9. The Fan Edition pairs an advanced camera with the latest flagship experience, focused on the features users care about most.",
+          "sources": [
+            {
+              "name": "Samsung Newsroom",
+              "url": "https://news.samsung.com/global/samsung-galaxy-s26-fe-delivering-the-latest-flagship-experience-focused-on-what-matters-most"
+            }
+          ],
+          "tags": [
+            "Samsung",
+            "Galaxy S26 FE",
+            "smartphone",
+            "One UI 9",
+            "Android"
+          ]
+        },
+        {
+          "title": "Adobe Photoshop adds a prompt-based 'AI Assisted Editor' mode",
+          "category": "Creator Tools",
+          "summary": "Adobe announced a beta for AI Assisted Editor, a new optional mode in Photoshop with a simplified, prompt-based interface for editing images. It lets users describe edits in natural language instead of relying on traditional tools.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/08/27/adobe-photoshop-adds-optional-ai-assisted-editor-mode-for-fully-prompt-based-image-editing/"
+            }
+          ],
+          "tags": [
+            "Adobe",
+            "Photoshop",
+            "AI",
+            "creator tools",
+            "image editing"
+          ]
+        },
+        {
+          "title": "Google's AI Mode adds flight tracking, hotel booking, and travel planning",
+          "category": "End-User Tech",
+          "summary": "Google is turning AI Mode in Search into a travel assistant, adding the ability to book hotels, track airfares, and view miles and rewards. The update brings trip planning directly into Google Search.",
+          "sources": [
+            {
+              "name": "Google",
+              "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "AI Mode",
+            "Search",
+            "travel",
+            "AI"
+          ]
+        },
+        {
+          "title": "Next.js patches critical flaws enabling unauthenticated remote code execution",
+          "category": "Cybersecurity",
+          "summary": "Vercel released patches for two critical vulnerabilities in Next.js that allow unauthenticated remote code execution — one exploitable through specially crafted AVIF images and another through a path traversal flaw on Windows. Developers are advised to update promptly.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html"
+            }
+          ],
+          "tags": [
+            "Next.js",
+            "Vercel",
+            "RCE",
+            "vulnerability",
+            "patch",
+            "security"
+          ]
+        },
+        {
+          "title": "Two alleged 'TeamPCP' hackers arrested in Australia over supply-chain attacks",
+          "category": "Cybersecurity",
+          "summary": "Australian authorities arrested two men believed to be members of TeamPCP, a cybercrime group blamed for the longest-running spree of software supply-chain attacks to date. The arrests were announced by the Australian Federal Police.",
+          "sources": [
+            {
+              "name": "KrebsOnSecurity",
+              "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/"
+            }
+          ],
+          "tags": [
+            "TeamPCP",
+            "supply chain",
+            "arrest",
+            "Australia",
+            "hacking",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "AMD jumps to ROCm 10.0 with ROCm.AI for open-source GPU compute",
+          "category": "Open Source",
+          "summary": "AMD is moving its ROCm open-source GPU compute stack straight from version 7.14 to ROCm 10.0, introducing ROCm.AI. The update advances AMD's open software platform for AI and HPC workloads.",
+          "sources": [
+            {
+              "name": "Phoronix",
+              "url": "https://www.phoronix.com/news/AMD-ROCm-10.0"
+            }
+          ],
+          "tags": [
+            "AMD",
+            "ROCm",
+            "open source",
+            "GPU",
+            "AI"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-26",
       "items": [
@@ -1216,140 +1385,6 @@
             "OSI",
             "governance",
             "community"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "items": [
-        {
-          "title": "SpaceXAI Launches Grok Bot AI Agent App in Beta Across Mac, iOS, Windows, and Linux",
-          "category": "Tech Business",
-          "summary": "SpaceXAI rolls out Grok Bot, a new AI agent desktop and mobile app now in beta on Mac, iOS, Windows, and Linux. Initially available to SuperGrok Heavy, Cursor Ultra, and Cursor Teams Premium subscribers, the launch comes as SpaceXAI and Cursor move toward becoming a single company.",
-          "sources": [
-            {
-              "name": "9to5Mac",
-              "url": "https://9to5mac.com/2026/08/11/grok-bot-is-an-all-new-iphone-and-mac-app-from-spacexai-and-cursor/"
-            }
-          ],
-          "tags": [
-            "SpaceXAI",
-            "Cursor",
-            "AI agents",
-            "Grok Bot",
-            "multi-platform"
-          ]
-        },
-        {
-          "title": "Windows 11 August 2026 Cumulative Updates Patch Security Vulnerabilities and Add Features",
-          "category": "Cybersecurity",
-          "summary": "Microsoft releases the August 2026 Patch Tuesday cumulative updates — KB5121003 for Windows 11 25H2/24H2 and KB5120240 for 23H2 — addressing security vulnerabilities, fixing bugs, and introducing new features across supported Windows 11 versions.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/"
-            }
-          ],
-          "tags": [
-            "Windows 11",
-            "Patch Tuesday",
-            "Microsoft",
-            "cumulative update",
-            "security"
-          ]
-        },
-        {
-          "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
-          "category": "Cybersecurity",
-          "summary": "Security researchers reveal an AI-assisted exploit chain (CVE-2026-55040, CVSS 9.1) that achieves unauthenticated remote code execution on Microsoft SharePoint servers. A significant portion of the vulnerability discovery work was performed by an AI agent, highlighting the growing role of AI in offensive security research.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html"
-            }
-          ],
-          "tags": [
-            "SharePoint",
-            "RCE",
-            "CVE-2026-55040",
-            "AI-assisted",
-            "vulnerability",
-            "CVSS 9.1"
-          ]
-        },
-        {
-          "title": "Apple Arcade Adds Block Blast!+ and Art of Fauna: Cozy Puzzles+",
-          "category": "End-User Tech",
-          "summary": "Apple Arcade expands its catalog of puzzle games with Block Blast!+ and Art of Fauna: Cozy Puzzles+, bringing two new titles to Apple's subscription gaming service across iPhone, iPad, Mac, and Apple TV.",
-          "sources": [
-            {
-              "name": "Apple Newsroom",
-              "url": "https://www.apple.com/newsroom/2026/08/apple-arcade-levels-up-with-block-blast-plus-and-art-of-fauna-cozy-puzzles-plus/"
-            }
-          ],
-          "tags": [
-            "Apple Arcade",
-            "puzzle games",
-            "iOS",
-            "gaming",
-            "subscription"
-          ]
-        },
-        {
-          "title": "NVIDIA Nemotron 3.5 Lightning: A 30B Open Model for Persistent AI Agents Now on Ollama",
-          "category": "AI / Models",
-          "summary": "NVIDIA releases Nemotron 3.5 Lightning, a 30 billion parameter (3B active) open model purpose-built for AI agents that stay running, gather context, call tools, and work through multi-step tasks on local hardware. The model is available immediately on Ollama.",
-          "sources": [
-            {
-              "name": "Ollama Blog",
-              "url": "https://ollama.com/blog/nemotron-3-5-lightning"
-            }
-          ],
-          "tags": [
-            "NVIDIA",
-            "Nemotron",
-            "open model",
-            "AI agents",
-            "Ollama",
-            "on-device"
-          ]
-        },
-        {
-          "title": "Google AMIE Demonstrates Real-Time Clinical Video Consultations in First-of-Its-Kind Study",
-          "category": "AI / Research",
-          "summary": "Google Research's AMIE medical AI system achieves a milestone by demonstrating real-time audio-visual clinical consultation capabilities in a first-of-its-kind study. The system advances toward expert-level medical consultations, combining video understanding with clinical reasoning in simulated patient interactions.",
-          "sources": [
-            {
-              "name": "Google Research Blog",
-              "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "AMIE",
-            "medical AI",
-            "clinical AI",
-            "video consultation",
-            "health"
-          ]
-        },
-        {
-          "title": "IBM Research Shows Chain-of-Thought Reasoning Can Be Done with Fewer Tokens",
-          "category": "AI / Research",
-          "summary": "IBM Research introduces ALTK Evolve SLDD, an approach that reduces token consumption in chain-of-thought reasoning while preserving quality. The technique demonstrates that AI models can think efficiently without generating excessive intermediate tokens, lowering inference costs for reasoning-heavy workloads.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd"
-            }
-          ],
-          "tags": [
-            "IBM Research",
-            "chain-of-thought",
-            "inference efficiency",
-            "token reduction",
-            "reasoning"
           ]
         }
       ]
