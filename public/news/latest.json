@@ -1,8 +1,168 @@
 {
-  "updatedAt": "2026-08-27T21:07:00+03:00",
+  "updatedAt": "2026-08-28T21:07:31+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-28",
+      "items": [
+        {
+          "title": "a16z launches a $1.1 billion 'Machine Age' fund for AI hardware",
+          "category": "Tech Business",
+          "summary": "Andreessen Horowitz has raised a $1.1 billion \"Machine Age\" fund focused on hardware, aiming to \"accelerate the physical buildout of AI.\" The firm, best known for its software focus, is now putting more money behind the physical infrastructure powering AI.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/"
+            }
+          ],
+          "tags": [
+            "a16z",
+            "Andreessen Horowitz",
+            "AI hardware",
+            "funding"
+          ]
+        },
+        {
+          "title": "Google Research introduces GlucoFM, a foundation model for continuous glucose monitoring",
+          "category": "AI / Models",
+          "summary": "Google Research unveiled GlucoFM, a foundation model for continuous glucose monitoring. The health-focused AI model is designed to improve how continuous glucose data is modeled and interpreted.",
+          "sources": [
+            {
+              "name": "Google Research",
+              "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "GlucoFM",
+            "health",
+            "AI",
+            "foundation model"
+          ]
+        },
+        {
+          "title": "US court rules Pentagon's blacklisting of Anthropic was unlawful",
+          "category": "AI / Policy",
+          "summary": "A federal court in San Francisco ruled that the Pentagon unlawfully classified Anthropic as a supply-chain risk, finding the Department of Defense blacklisted the company in retaliation for its public criticism of government AI policy. The designation formally remains in place while a parallel case is pending.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/u-s-court-rules-pentagons-blacklisting-of-anthropic-was-unlawful/"
+            }
+          ],
+          "tags": [
+            "Anthropic",
+            "Pentagon",
+            "AI policy",
+            "lawsuit"
+          ]
+        },
+        {
+          "title": "Apple TV+ rises to $14.99 a month after its fourth price hike in four years",
+          "category": "End-User Tech",
+          "summary": "Apple is raising the price of Apple TV+ from $12.99 to $14.99 per month, its fourth price increase in four years. The change adds to a recent run of subscription price increases across Apple's services.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/tech/986130/apple-tv-plus-price-hike"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "Apple TV+",
+            "subscription",
+            "price"
+          ]
+        },
+        {
+          "title": "WhatsApp rolls out new chat themes and animated wallpapers on iOS",
+          "category": "End-User Tech",
+          "summary": "WhatsApp is rolling out new chat themes to iPhone users, including animated wallpapers. The feature was previously spotted in testing and is now reaching users on iOS.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/08/28/whatsapp-rolls-out-new-chat-themes-on-ios-including-animated-wallpapers/"
+            }
+          ],
+          "tags": [
+            "WhatsApp",
+            "iOS",
+            "messaging",
+            "themes"
+          ]
+        },
+        {
+          "title": "Galaxy Watch 8 owners in the US can now try the One UI 9 Watch beta",
+          "category": "End-User Tech",
+          "summary": "Samsung has opened the One UI 9 Watch beta to Galaxy Watch 8 and Watch 8 Classic owners in the US. The update brings visual enhancements and workout upgrades to the smartwatches.",
+          "sources": [
+            {
+              "name": "Android Authority",
+              "url": "https://www.androidauthority.com/samsung-galaxy-watch-8-classic-one-ui-9-watch-beta-us-3704399/"
+            }
+          ],
+          "tags": [
+            "Samsung",
+            "Galaxy Watch 8",
+            "One UI 9 Watch",
+            "wearables"
+          ]
+        },
+        {
+          "title": "Windows 11 KB5120998 preview update brings 35 changes and fixes",
+          "category": "End-User Tech",
+          "summary": "Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, with 35 changes including improvements to the Start menu, taskbar, and Windows search.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/"
+            }
+          ],
+          "tags": [
+            "Microsoft",
+            "Windows 11",
+            "update"
+          ]
+        },
+        {
+          "title": "ServiceNow patches three CVSS 10.0 AI Platform flaws",
+          "category": "Cybersecurity",
+          "summary": "ServiceNow patched four security flaws in its AI Platform, three of them rated 10.0 on the CVSS scale and exploitable by unauthenticated attackers to execute code, run SQL injection, or escalate privileges.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html"
+            }
+          ],
+          "tags": [
+            "ServiceNow",
+            "vulnerability",
+            "CVSS",
+            "security",
+            "patch"
+          ]
+        },
+        {
+          "title": "DXVK 3.1 released with DXGI incremental presentation and D3D11 buffer render targets",
+          "category": "Open Source",
+          "summary": "DXVK 3.1 is out as the newest feature release for the Direct3D-to-Vulkan translation layer used in Valve's Steam Play (Proton). The update adds DXGI incremental presentation and D3D11 buffer render targets support.",
+          "sources": [
+            {
+              "name": "Phoronix",
+              "url": "https://www.phoronix.com/news/DXVK-3.1-Released"
+            }
+          ],
+          "tags": [
+            "DXVK",
+            "Vulkan",
+            "Linux",
+            "open source",
+            "gaming"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-27",
       "items": [
@@ -1224,167 +1384,6 @@
             "Mozilla",
             "browser",
             "open source"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "items": [
-        {
-          "title": "Anthropic's pre-IPO credit facility set to climb past $10 billion",
-          "category": "Tech Business",
-          "summary": "Bloomberg reports that Anthropic's revolving credit facility is set to rise above its roughly $10 billion target as banks compete for roles on the company's upcoming IPO. It is a sign of strong lender demand ahead of one of the most anticipated AI company listings.",
-          "sources": [
-            {
-              "name": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-08-18/anthropic-pre-ipo-credit-facility-set-to-climb-past-10-billion"
-            }
-          ],
-          "tags": [
-            "Anthropic",
-            "IPO",
-            "funding",
-            "AI business"
-          ]
-        },
-        {
-          "title": "Researchers show AI 'mind viruses' can spread between agents",
-          "category": "Cybersecurity / AI",
-          "summary": "Security researchers at Anthropic and Switzerland's EPFL demonstrated that self-propagating payloads can spread from one AI agent to another through the persistent prompt files that autonomous agent harnesses use to carry state between sessions. The work points to a new security risk as AI agents become more common.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html"
-            }
-          ],
-          "tags": [
-            "AI agents",
-            "prompt injection",
-            "cybersecurity",
-            "research"
-          ]
-        },
-        {
-          "title": "Microsoft removes WMIC, a tool abused by cybercriminals, from Windows 11",
-          "category": "Cybersecurity",
-          "summary": "Microsoft has removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, along with this week's beta builds. WMIC is a living-off-the-land binary frequently abused by attackers, so its removal is a small but meaningful security hardening change for Windows users.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/"
-            }
-          ],
-          "tags": [
-            "Windows 11",
-            "Microsoft",
-            "cybersecurity",
-            "LOLBin"
-          ]
-        },
-        {
-          "title": "Apple announces changes for apps in the European Union",
-          "category": "End-User Tech",
-          "summary": "Apple announced changes to its business terms for apps in the European Union, following close collaboration with the European Commission. The update affects how developers distribute and sell apps in the EU, with knock-on effects for iPhone and iPad users in the region.",
-          "sources": [
-            {
-              "name": "Apple Newsroom",
-              "url": "https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/"
-            }
-          ],
-          "tags": [
-            "Apple",
-            "App Store",
-            "EU",
-            "regulation",
-            "iOS"
-          ]
-        },
-        {
-          "title": "Google teams up Gemini and Pixel with five global football clubs",
-          "category": "End-User Tech",
-          "summary": "Google is partnering Gemini and Pixel with five global football clubs to add AI-powered features to the matchday experience, bringing smartphone-based tools to fans. It is a consumer-facing showcase of Gemini features on Pixel devices.",
-          "sources": [
-            {
-              "name": "Google Pixel Blog",
-              "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "Gemini",
-            "Pixel",
-            "Android",
-            "football"
-          ]
-        },
-        {
-          "title": "OpenAI partners with CodeAI to build AI literacy for students",
-          "category": "AI / Education",
-          "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly. The collaboration targets preparing the next generation for an AI-driven classroom and workforce.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/partnering-with-codeai"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "AI literacy",
-            "education",
-            "CodeAI"
-          ]
-        },
-        {
-          "title": "Hugging Face covers multi-vector (late interaction) embedding models",
-          "category": "AI / Developer Tools",
-          "summary": "Hugging Face published a guide to multi-vector, late-interaction embedding models with Sentence Transformers, an approach that can improve retrieval quality by scoring queries and documents at the token level. Useful for developers building search and RAG systems.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/multi-vector-encoder"
-            }
-          ],
-          "tags": [
-            "Hugging Face",
-            "embeddings",
-            "RAG",
-            "retrieval",
-            "open source"
-          ]
-        },
-        {
-          "title": "Google Research estimates cardiometabolic risk from smartphone imagery",
-          "category": "AI / Health",
-          "summary": "Google Research published work on estimating cardiometabolic risk from smartphone imagery, going beyond BMI as a health metric. The research points to accessible, phone-based health screening powered by AI.",
-          "sources": [
-            {
-              "name": "Google Research Blog",
-              "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/"
-            }
-          ],
-          "tags": [
-            "Google Research",
-            "health AI",
-            "smartphone",
-            "computer vision"
-          ]
-        },
-        {
-          "title": "Open Source Initiative launches community governance survey",
-          "category": "Open Source",
-          "summary": "The Open Source Initiative invites the open source community to take part in its governance survey to help shape the organization's future direction. The survey is part of OSI's ongoing effort to align its governance with community needs.",
-          "sources": [
-            {
-              "name": "Open Source Initiative",
-              "url": "https://opensource.org/blog/osi-governance-survey"
-            }
-          ],
-          "tags": [
-            "open source",
-            "OSI",
-            "governance",
-            "community"
           ]
         }
       ]
