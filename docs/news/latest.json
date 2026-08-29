@@ -1,8 +1,149 @@
 {
-  "updatedAt": "2026-08-28T21:07:31+03:00",
+  "updatedAt": "2026-08-29T21:05:55+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-29",
+      "items": [
+        {
+          "title": "OpenAI cuts off Cursor after SpaceX acquisition",
+          "category": "AI & Agents",
+          "summary": "OpenAI is cutting off access to its models for Cursor, the popular AI coding tool, after Cursor's acquisition by SpaceX, citing Elon Musk's track record of breaking contracts. Cursor co-founder Michael Truell downplayed the move, noting OpenAI models account for only about five percent of the tool's AI traffic.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "Cursor",
+            "SpaceX",
+            "AI coding"
+          ]
+        },
+        {
+          "title": "AI cloud provider Lambda raises $1B in debt to buy more chips",
+          "category": "Tech Business",
+          "summary": "Neocloud Lambda has raised $1 billion in private debt to buy Nvidia AI chips and lease them to Microsoft. It is the latest in a string of large loans, underscoring the high cost of building out AI infrastructure.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
+            }
+          ],
+          "tags": [
+            "Lambda",
+            "Nvidia",
+            "AI infrastructure",
+            "funding"
+          ]
+        },
+        {
+          "title": "Android 17 QPR2 Beta 4 rolls out with Pixel bug fixes",
+          "category": "End-User Tech",
+          "summary": "Google is rolling out Android 17 QPR2 Beta 4 to Pixel devices, bringing a batch of bug fixes along with new status-bar customization options for notification and system icons.",
+          "sources": [
+            {
+              "name": "9to5Google",
+              "url": "https://9to5google.com/2026/08/28/android-17-qpr2-beta-4-pixel/"
+            }
+          ],
+          "tags": [
+            "Android 17",
+            "Pixel",
+            "Google",
+            "mobile OS"
+          ]
+        },
+        {
+          "title": "Google Search now auto-expands AI Overviews",
+          "category": "End-User Tech",
+          "summary": "Google Search has started automatically expanding AI Overviews at the top of results for some queries, surfacing the AI-generated answer without a click. The change pushes AI responses further to the front of the search experience.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Search",
+            "AI Overviews"
+          ]
+        },
+        {
+          "title": "Apple CarPlay gains a new AI chatbot app",
+          "category": "End-User Tech",
+          "summary": "With iOS 26.4, Apple opened CarPlay to conversational apps, and a new AI chatbot app is now arriving in cars ahead of the broader Siri AI rollout.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/08/29/apple-carplay-gaining-a-new-ai-chatbot-app-before-siri-ai-arrives/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "CarPlay",
+            "AI",
+            "Siri"
+          ]
+        },
+        {
+          "title": "PaperCut ships second emergency patch for actively exploited flaws",
+          "category": "Cybersecurity",
+          "summary": "PaperCut released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software, after researchers found ways to bypass the initial fixes.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/"
+            }
+          ],
+          "tags": [
+            "PaperCut",
+            "vulnerability",
+            "patch",
+            "security"
+          ]
+        },
+        {
+          "title": "Five critical WordPress plugin and theme flaws enable site takeover or RCE",
+          "category": "Cybersecurity",
+          "summary": "Researchers disclosed critical vulnerabilities across five WordPress plugins and themes, including WPMU DEV, Avada, TranslatePress, Pods, and GiveWP, that can be chained to take over admin accounts or execute code remotely.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html"
+            }
+          ],
+          "tags": [
+            "WordPress",
+            "vulnerability",
+            "RCE",
+            "plugins",
+            "security"
+          ]
+        },
+        {
+          "title": "Debian votes to allow 'responsible use of generative AI'",
+          "category": "Open Source",
+          "summary": "Debian developers voted in a general resolution to permit the responsible use of generative AI and large language models within the project, setting a policy for how AI tooling may be used in development.",
+          "sources": [
+            {
+              "name": "LWN.net",
+              "url": "https://lwn.net/Articles/1091231/"
+            }
+          ],
+          "tags": [
+            "Debian",
+            "open source",
+            "generative AI",
+            "LLM"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-28",
       "items": [
@@ -1258,132 +1399,6 @@
             "Android 17",
             "mobile OS",
             "update"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "items": [
-        {
-          "title": "Google Pixel 11 Pro Fold review: tougher build, but an iterative upgrade",
-          "category": "End-User Tech",
-          "summary": "The Verge's Google Pixel 11 Pro Fold review finds a tougher body with an IP68 rating and a solid triple rear camera, but describes the hardware upgrade as iterative with a design that feels dated. Useful context for anyone weighing foldable phone options as the category evolves.",
-          "sources": [
-            {
-              "name": "The Verge",
-              "url": "https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review"
-            }
-          ],
-          "tags": [
-            "Google",
-            "Pixel",
-            "foldable",
-            "phone",
-            "review"
-          ]
-        },
-        {
-          "title": "Gemini comes to Chrome on Android for all U.S. users",
-          "category": "End-User Tech",
-          "summary": "Google is rolling out Gemini in Chrome to all Android users in the U.S., bringing AI help and auto-browse features directly into the mobile browser. A practical update for Android users who want AI assistance while browsing.",
-          "sources": [
-            {
-              "name": "Google Android Blog",
-              "url": "https://blog.google/products-and-platforms/products/chrome/gemini-in-chrome-android-auto-browse/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "Gemini",
-            "Chrome",
-            "Android",
-            "AI"
-          ]
-        },
-        {
-          "title": "Phishing 3.0: the security fight moves to agent versus agent",
-          "category": "Cybersecurity",
-          "summary": "The Hacker News explains how phishing has moved from malicious payloads into a message's intent, breaking defenses built for a decade-old threat model. The piece argues the fight is now agent versus agent, with AI playing a role on both sides.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html"
-            }
-          ],
-          "tags": [
-            "phishing",
-            "cybersecurity",
-            "AI agents",
-            "email security"
-          ]
-        },
-        {
-          "title": "OpenAI details safeguards pacing model development for cyber-critical capabilities",
-          "category": "AI / Safety",
-          "summary": "OpenAI details how it is strengthening monitoring, alignment, and security for frontier AI models, using new safeguards to guide the pace of model development as cyber-relevant capabilities grow.",
-          "sources": [
-            {
-              "name": "OpenAI News",
-              "url": "https://openai.com/index/pacing-model-development-cyber-capabilities"
-            }
-          ],
-          "tags": [
-            "OpenAI",
-            "AI safety",
-            "frontier models",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "IBM Research: how much memory does your AI agent actually need?",
-          "category": "AI / Research",
-          "summary": "IBM Research, on the Hugging Face blog, explores how much memory an AI agent actually needs, offering guidance for building memory-efficient agent systems.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm"
-            }
-          ],
-          "tags": [
-            "IBM Research",
-            "AI agents",
-            "memory",
-            "Hugging Face"
-          ]
-        },
-        {
-          "title": "GitHub shows how canvases make agentic workflows visible and cost-efficient",
-          "category": "Developer Tools",
-          "summary": "GitHub explains how canvases make agentic workflows visible, steerable, and more cost-efficient, giving developers a clearer way to guide AI agents through multi-step work.",
-          "sources": [
-            {
-              "name": "GitHub Blog",
-              "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/"
-            }
-          ],
-          "tags": [
-            "GitHub",
-            "Copilot",
-            "AI agents",
-            "developer tools"
-          ]
-        },
-        {
-          "title": "Firefox 154.0 released",
-          "category": "Open Source",
-          "summary": "Mozilla released Firefox 154.0, the latest version of its open-source browser, with the usual round of new features, bug fixes, and security improvements for desktop and mobile.",
-          "sources": [
-            {
-              "name": "Mozilla",
-              "url": "https://www.mozilla.org/en-US/firefox/154.0/releasenotes/"
-            }
-          ],
-          "tags": [
-            "Firefox",
-            "Mozilla",
-            "browser",
-            "open source"
           ]
         }
       ]
