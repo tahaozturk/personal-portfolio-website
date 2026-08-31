@@ -1,8 +1,170 @@
 {
-  "updatedAt": "2026-08-30T21:03:56+03:00",
+  "updatedAt": "2026-08-31T21:05:54+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-08-31",
+      "items": [
+        {
+          "title": "Tim Cook steps down as Apple CEO; John Ternus takes over",
+          "category": "Tech Business",
+          "summary": "Tim Cook is stepping down as Apple's CEO on September 1 after 15 years leading the company, with hardware engineering chief John Ternus set to become the next CEO. Cook will remain at Apple as executive chairman. In his farewell memo, Cook framed Ternus as a product builder with deep experience across the iPhone, Mac, AirPods, and other major hardware lines.",
+          "sources": [
+            {
+              "name": "MacRumors",
+              "url": "https://www.macrumors.com/2026/08/31/tim-cook-steps-down-as-apple-ceo-tomorrow/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "Tim Cook",
+            "John Ternus",
+            "CEO",
+            "leadership"
+          ]
+        },
+        {
+          "title": "China's CXMT makes its first HBM3E memory chips, closing the AI memory gap",
+          "category": "Tech Business",
+          "summary": "China's leading memory-chip maker, ChangXin Memory Technologies (CXMT), has begun producing HBM3E high-bandwidth memory in small quantities, a major advance for China's semiconductor industry. HBM3E is the fast memory used in many current AI processors, and CXMT plans to expand production in 2027.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap/"
+            }
+          ],
+          "tags": [
+            "CXMT",
+            "HBM3E",
+            "memory chips",
+            "semiconductors",
+            "China"
+          ]
+        },
+        {
+          "title": "ChatGPT ads hit a $1 billion annualized run rate",
+          "category": "AI & Agents",
+          "summary": "OpenAI says its ChatGPT Ads business has reached a $1 billion annualized revenue run rate and is expanding globally. The company frames the ads push as supporting broader access to AI through free and affordable options.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "ChatGPT",
+            "ads",
+            "revenue"
+          ]
+        },
+        {
+          "title": "Google Research introduces TimesFM-3, a zero-shot model for multivariate forecasting",
+          "category": "AI / Models",
+          "summary": "Google Research has introduced TimesFM-3, the latest in its TimesFM family of foundation models for time-series forecasting. The new model performs zero-shot multivariate forecasting, predicting multiple related time series at once without task-specific training.",
+          "sources": [
+            {
+              "name": "Google Research",
+              "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/"
+            }
+          ],
+          "tags": [
+            "Google Research",
+            "TimesFM",
+            "time series",
+            "forecasting",
+            "foundation model"
+          ]
+        },
+        {
+          "title": "iOS 27 beta 8 arrives as Apple tests a major Siri AI upgrade",
+          "category": "End-User Tech",
+          "summary": "Apple has released the eighth developer beta of iOS 27, continuing its summer beta cycle. The update arrives as Apple tests a major Siri AI upgrade ahead of the public release later this year.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/08/31/ios-27-beta-8/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "iOS 27",
+            "Siri",
+            "beta",
+            "mobile OS"
+          ]
+        },
+        {
+          "title": "VLC media player crosses 7 billion downloads",
+          "category": "End-User Tech",
+          "summary": "The free and open-source VLC media player has passed 7 billion lifetime downloads. The milestone underscores the enduring popularity of the offline media player amid a wave of paid streaming services.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/"
+            }
+          ],
+          "tags": [
+            "VLC",
+            "media player",
+            "open source",
+            "milestone"
+          ]
+        },
+        {
+          "title": "Microsoft Exchange Online outage causes email failures and auth issues",
+          "category": "Cybersecurity",
+          "summary": "Microsoft is investigating a widespread Exchange Online service issue causing authentication problems, email delays and failures, and other issues for customers. The outage has disrupted email access for businesses relying on the service.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/"
+            }
+          ],
+          "tags": [
+            "Microsoft",
+            "Exchange Online",
+            "outage",
+            "email"
+          ]
+        },
+        {
+          "title": "Linux 7.3 brings new hardware support and faster Btrfs",
+          "category": "Open Source",
+          "summary": "The Linux 7.3 kernel merge window has closed, with the upcoming release introducing a new Ryzen AI Halo LED/RGB driver, improved hardware support, and faster Btrfs performance. Linux 7.3 is expected to arrive in the second half of October.",
+          "sources": [
+            {
+              "name": "Phoronix",
+              "url": "https://www.phoronix.com/review/linux-73-features"
+            }
+          ],
+          "tags": [
+            "Linux",
+            "kernel",
+            "Btrfs",
+            "open source"
+          ]
+        },
+        {
+          "title": "OpenShot 4.0 video editor released",
+          "category": "Open Source",
+          "summary": "Version 4.0 of the OpenShot video editor has been released. OpenShot is a free and open-source, cross-platform video editor for Linux, macOS, and Windows.",
+          "sources": [
+            {
+              "name": "LWN.net",
+              "url": "https://lwn.net/Articles/1091606/"
+            }
+          ],
+          "tags": [
+            "OpenShot",
+            "video editor",
+            "open source",
+            "creator tool"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-30",
       "items": [
@@ -1323,83 +1485,6 @@
             "child privacy",
             "settlement",
             "ByteDance"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "items": [
-        {
-          "title": "Nscale seeks up to $3 billion in US IPO",
-          "category": "Tech Business",
-          "summary": "London-based AI infrastructure startup Nscale is seeking to raise as much as $3 billion in a US IPO that could take place as soon as September, according to people familiar with the matter.",
-          "sources": [
-            {
-              "name": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-08-21/ai-cloud-firm-nscale-is-said-to-seek-up-to-3-billion-in-us-ipo"
-            }
-          ],
-          "tags": [
-            "Nscale",
-            "IPO",
-            "AI infrastructure",
-            "funding",
-            "Tech Business"
-          ]
-        },
-        {
-          "title": "How to use sign-to-text translation on Pixel 11",
-          "category": "End-User Tech",
-          "summary": "Google's new sign-to-text feature, developed in partnership with the Deaf community, translates American Sign Language into text in real time on the Pixel 11, making everyday communication more accessible.",
-          "sources": [
-            {
-              "name": "Google Pixel Blog",
-              "url": "https://blog.google/products-and-platforms/devices/pixel/american-sign-language-sign-to-text-pixel-11/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "Pixel 11",
-            "ASL",
-            "accessibility",
-            "Android"
-          ]
-        },
-        {
-          "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
-          "category": "End-User Tech",
-          "summary": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting, and is investigating a fix.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/"
-            }
-          ],
-          "tags": [
-            "Microsoft",
-            "Windows",
-            "gaming",
-            "RGB",
-            "Windows Update"
-          ]
-        },
-        {
-          "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
-          "category": "AI / Health",
-          "summary": "Google Research introduces a generative AI tool that helps prioritize candidate biomarkers from wearable sensor data, aiming to surface promising signals for health and biomedical research.",
-          "sources": [
-            {
-              "name": "Google Research Blog",
-              "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/"
-            }
-          ],
-          "tags": [
-            "Google Research",
-            "wearables",
-            "health AI",
-            "biomarkers",
-            "generative AI"
           ]
         }
       ]
