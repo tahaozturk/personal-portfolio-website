@@ -1,8 +1,175 @@
 {
-  "updatedAt": "2026-08-31T21:05:54+03:00",
+  "updatedAt": "2026-09-01T21:06:20+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-09-01",
+      "items": [
+        {
+          "title": "SB Energy, the OpenAI-backed AI power company, files for an IPO",
+          "category": "Tech Business",
+          "summary": "SB Energy, the AI power infrastructure company backed by SoftBank, OpenAI, and Nvidia, has filed for an initial public offering. The filing discloses that the company is \"substantially dependent\" on OpenAI and has not yet generated revenue from its data center business, none of which is operational yet.",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/01/sb-energy-ipo-softbank-open-ai-nvidia.html"
+            }
+          ],
+          "tags": [
+            "SB Energy",
+            "OpenAI",
+            "Nvidia",
+            "SoftBank",
+            "IPO",
+            "AI infrastructure"
+          ]
+        },
+        {
+          "title": "GoPro to be acquired for $285M and pivot toward defense and robotics",
+          "category": "Tech Business",
+          "summary": "Action-camera maker GoPro is being acquired for $285 million in a deal that keeps the company publicly listed. GoPro will continue to support its existing consumer products while expanding into defense, government, robotics, and aerospace.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/09/01/gopro-to-be-acquired-for-285m-will-remain-a-public-company/"
+            }
+          ],
+          "tags": [
+            "GoPro",
+            "acquisition",
+            "cameras",
+            "defense",
+            "robotics"
+          ]
+        },
+        {
+          "title": "Google launches Pics, an AI image creation and editing tool for Workspace",
+          "category": "AI",
+          "summary": "Google has launched Google Pics, a new image creation and editing tool now available in Google Workspace and built on its latest Nano Banana model. The tool is designed to let users easily generate and edit images directly within their Workspace apps.",
+          "sources": [
+            {
+              "name": "Google",
+              "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Google Pics",
+            "Nano Banana",
+            "image generation",
+            "AI",
+            "Workspace"
+          ]
+        },
+        {
+          "title": "Google's September Android Drop adds tracker-free Find Hub and Motion Assist",
+          "category": "End-User Tech",
+          "summary": "Google is rolling out its September Android feature drop, adding the ability to locate items in Find Hub without a tracker tag, Motion Assist to help reduce motion sickness, and Google Keep notes and themes coming to Google Messages.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/tech/987339/google-september-android-drop-motion-assist-gemini-find-hub"
+            }
+          ],
+          "tags": [
+            "Android",
+            "Google",
+            "Find Hub",
+            "Motion Assist",
+            "mobile OS"
+          ]
+        },
+        {
+          "title": "Sonos launches new 'Ultra' Ace headphones and Beam soundbar",
+          "category": "End-User Tech",
+          "summary": "Sonos has announced new \"Ultra\"-branded hardware, including the Ace Ultra headphones and Beam Ultra soundbar, alongside a Sonos 27 software update that adds several new features.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/09/01/sonos-launches-new-ultra-headphones-and-soundbar-plus-more/"
+            }
+          ],
+          "tags": [
+            "Sonos",
+            "headphones",
+            "soundbar",
+            "audio",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Attackers steal METR API key and consume $600,000 in AI credits",
+          "category": "Cybersecurity",
+          "summary": "AI safety research non-profit METR disclosed that attackers stole an API key and consumed roughly $600,000 worth of AI credits across two security incidents, while a later campaign failed to access internal data.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html"
+            }
+          ],
+          "tags": [
+            "METR",
+            "API key",
+            "AI security",
+            "breach"
+          ]
+        },
+        {
+          "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+          "category": "Cybersecurity",
+          "summary": "Attackers are exploiting a critical unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys including OpenAI and AWS secrets.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/"
+            }
+          ],
+          "tags": [
+            "Langflow",
+            "CVE-2026-0768",
+            "RCE",
+            "AI security",
+            "vulnerability"
+          ]
+        },
+        {
+          "title": "Hugging Face releases 200+ WebGPU kernels for running AI locally",
+          "category": "Open Source",
+          "summary": "Hugging Face has introduced @huggingface/kernels, a collection of more than 200 WebGPU kernels designed to run AI workloads locally in the browser. The library aims to make client-side, local AI more practical without dedicated GPU hardware.",
+          "sources": [
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/blog/webgpu-kernels"
+            }
+          ],
+          "tags": [
+            "Hugging Face",
+            "WebGPU",
+            "kernels",
+            "local AI",
+            "open source"
+          ]
+        },
+        {
+          "title": "Firefox 155 released with tracker-block counter and container reordering",
+          "category": "Open Source",
+          "summary": "Mozilla has released Firefox 155. Notable changes include a count of blocked ad trackers in the address bar, container reordering, and a change requiring explicit user action for mailto: links, along with developer, bug, and security fixes.",
+          "sources": [
+            {
+              "name": "LWN.net",
+              "url": "https://lwn.net/Articles/1091926/"
+            }
+          ],
+          "tags": [
+            "Firefox",
+            "Mozilla",
+            "browser",
+            "open source"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-31",
       "items": [
@@ -1318,173 +1485,6 @@
             "crypto",
             "AES",
             "open source"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "items": [
-        {
-          "title": "Are Open Models Catching Up?",
-          "category": "AI / Industry",
-          "summary": "SemiAnalysis compares open and closed models across the eras of frontier AI, finding that with each successive era — from scaling, to reasoning, to agentic — open models have taken roughly half as long to catch up to the leading closed model. The analysis examines whether the open-vs-closed gap is narrowing.",
-          "sources": [
-            {
-              "name": "SemiAnalysis",
-              "url": "https://newsletter.semianalysis.com/p/are-open-models-catching-up"
-            }
-          ],
-          "tags": [
-            "SemiAnalysis",
-            "open source",
-            "LLM",
-            "frontier models",
-            "AI"
-          ]
-        },
-        {
-          "title": "Measuring benchmark optimization in speech recognition",
-          "category": "AI / Research",
-          "summary": "Hugging Face and Hume AI examine how public voice AI benchmarks increasingly report human-level scores that don't match real-world performance, because models get optimized for the tests themselves. Using a VoxPopuli case study, the post shows how to detect and localize this benchmark overfitting.",
-          "sources": [
-            {
-              "name": "Hugging Face Blog",
-              "url": "https://huggingface.co/blog/asr-benchmark-optimization"
-            }
-          ],
-          "tags": [
-            "Hugging Face",
-            "speech recognition",
-            "benchmarks",
-            "AI research",
-            "open source"
-          ]
-        },
-        {
-          "title": "DeepSeek releases experimental Flash vision model that rivals Opus 4.8 on agent benchmarks",
-          "category": "AI / Models",
-          "summary": "DeepSeek released V4-Flash-Vision-Exp, an experimental multimodal model that adds image understanding to its V4-Flash text model. On the company's own multimodal agent benchmarks, it approaches Anthropic's Opus 4.8 and sometimes beats it.",
-          "sources": [
-            {
-              "name": "The Decoder",
-              "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/"
-            }
-          ],
-          "tags": [
-            "DeepSeek",
-            "multimodal",
-            "vision",
-            "LLM",
-            "AI"
-          ]
-        },
-        {
-          "title": "Amazon hiked prices for Echo, Fire TV, and Kindle products by up to 60 percent",
-          "category": "End-User Tech",
-          "summary": "Amazon raised prices across its Echo, Fire TV, and Kindle hardware lines by as much as 60 percent, citing higher RAM and storage costs. The increases make popular consumer smart-home and reading devices noticeably more expensive.",
-          "sources": [
-            {
-              "name": "The Verge",
-              "url": "https://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv"
-            }
-          ],
-          "tags": [
-            "Amazon",
-            "Echo",
-            "Fire TV",
-            "Kindle",
-            "consumer tech"
-          ]
-        },
-        {
-          "title": "Pixel 11 Pro XL review: Snappier cameras can't hide an iterative upgrade",
-          "category": "End-User Tech",
-          "summary": "TechCrunch reviews Google's Pixel 11 Pro XL, finding snappier cameras and genuinely useful AI features like Rambler, but concludes the upgrades are iterative and may not be enough to tempt owners of recent Pixel models.",
-          "sources": [
-            {
-              "name": "TechCrunch",
-              "url": "https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "Pixel 11 Pro XL",
-            "smartphone",
-            "review",
-            "Android"
-          ]
-        },
-        {
-          "title": "Pixel Camera 11 gets new Quick access dials and Launch mode",
-          "category": "End-User Tech",
-          "summary": "Google's Pixel Camera 11 adds refreshed Quick access dial controls and a Launch mode for faster access to camera settings. The new controls are useful for photographers, though some features are hidden by default.",
-          "sources": [
-            {
-              "name": "Android Authority",
-              "url": "https://www.androidauthority.com/pixel-camera-11-new-quick-access-dials-launch-mode-3701763/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "Pixel Camera",
-            "camera",
-            "Android",
-            "creator tools"
-          ]
-        },
-        {
-          "title": "Motorola's GrapheneOS phones will launch in 2027 priced higher than Pixels",
-          "category": "Open Source",
-          "summary": "Motorola will ship phones running GrapheneOS, the privacy-focused Android-based operating system, starting in 2027. The move expands the hardened, de-Googled OS beyond Pixel devices, with pricing expected to come in above comparable Pixels.",
-          "sources": [
-            {
-              "name": "Ars Technica",
-              "url": "https://arstechnica.com/gadgets/2026/08/motorolas-grapheneos-phones-will-launch-in-2027-priced-higher-than-pixels/"
-            }
-          ],
-          "tags": [
-            "Motorola",
-            "GrapheneOS",
-            "privacy",
-            "Android",
-            "open source"
-          ]
-        },
-        {
-          "title": "Hackers infect Android car head units with proxy botnet malware",
-          "category": "Cybersecurity",
-          "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised units into a proxy botnet or uses them for ad fraud. The campaign highlights the security risk in connected in-car systems.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
-            }
-          ],
-          "tags": [
-            "Android",
-            "supply chain",
-            "malware",
-            "botnet",
-            "car head units"
-          ]
-        },
-        {
-          "title": "TikTok agrees to $400 million settlement in U.S. child privacy lawsuit",
-          "category": "Cybersecurity",
-          "summary": "TikTok will pay $400 million to settle a U.S. child privacy lawsuit alleging COPPA violations involving users under 13 and its Kids Mode. The settlement resolves the Department of Justice's 2024 case against the ByteDance-owned platform.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html"
-            }
-          ],
-          "tags": [
-            "TikTok",
-            "COPPA",
-            "child privacy",
-            "settlement",
-            "ByteDance"
           ]
         }
       ]
