@@ -1,8 +1,224 @@
 {
-  "updatedAt": "2026-09-01T21:06:20+03:00",
+  "updatedAt": "2026-09-02T21:07:55+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-09-02",
+      "items": [
+        {
+          "title": "US Army awards Palantir and Anduril $192M for eight TITAN mobile ground stations",
+          "category": "Tech Business",
+          "summary": "The US Army awarded two contracts worth a combined $192 million — $127 million to Palantir and $65 million to Anduril — to build eight TITAN AI-powered mobile ground stations, with deliveries planned over the next 18 months. The TITAN system is designed to move the Army's targeting and kill chain onto mobile platforms.",
+          "sources": [
+            {
+              "name": "Tectonic Defense",
+              "url": "https://www.tectonicdefense.com/the-army-awards-palantir-and-anduril-192m-for-eight-titan-mobile-ground-stations/"
+            }
+          ],
+          "tags": [
+            "Palantir",
+            "Anduril",
+            "TITAN",
+            "defense",
+            "AI"
+          ]
+        },
+        {
+          "title": "US court rules Google will not have to sell its ad exchange after antitrust loss",
+          "category": "Tech Business",
+          "summary": "A US court ruled that Google violated antitrust law but will not be forced to sell its advertising exchange, denying the Justice Department the major remedy it sought. The ruling caps a case in which the DOJ proved Google acted illegally in the digital advertising market.",
+          "sources": [
+            {
+              "name": "Ars Technica",
+              "url": "https://arstechnica.com/gadgets/2026/09/us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "antitrust",
+            "advertising",
+            "policy"
+          ]
+        },
+        {
+          "title": "US government sides with OpenAI on training LLMs on copyrighted material",
+          "category": "Tech Business",
+          "summary": "The US government has sided with OpenAI in a legal dispute over training large language models on copyrighted material, arguing the country has a strong interest in a competitive AI industry. The filing marks a notable federal position on AI training and copyright law.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "copyright",
+            "LLM",
+            "policy",
+            "AI"
+          ]
+        },
+        {
+          "title": "OpenAI's Astra becomes its first model to meet the Critical cybersecurity threshold",
+          "category": "AI & Agents",
+          "summary": "OpenAI has published its \"Path to Astra,\" describing Astra as the first model to meet the Critical cybersecurity capability threshold under the company's Preparedness Framework. The announcement details stronger safeguards put in place ahead of the model's release.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/path-to-astra"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "Astra",
+            "frontier model",
+            "safety",
+            "AI"
+          ]
+        },
+        {
+          "title": "World Labs unveils Atlas, a single AI model that generates and simulates 3D worlds",
+          "category": "AI & Agents",
+          "summary": "World Labs, co-founded by AI researcher Fei-Fei Li, has announced Atlas, a \"world model\" that generates, reconstructs, and simulates 3D scenes from just a few images. The company says Atlas anchors all inputs in 3D space rather than processing them as flat sequences, which it claims beats specialized models.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/world-labs-unveils-atlas-a-single-ai-model-that-generates-reconstructs-and-simulates-3d-worlds-from-just-a-few-photos/"
+            }
+          ],
+          "tags": [
+            "World Labs",
+            "Atlas",
+            "world model",
+            "3D",
+            "AI"
+          ]
+        },
+        {
+          "title": "iOS 27 gives Apple Pay its biggest upgrade in years with a redesigned checkout flow",
+          "category": "End-User Tech",
+          "summary": "iOS 27 introduces a fully overhauled Apple Pay checkout flow, described as the service's biggest upgrade in years. The redesign streamlines the payment experience across apps and the web.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/09/02/ios-27-gives-apple-pay-its-best-upgrade-in-years-with-redesign/"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "iOS 27",
+            "Apple Pay",
+            "mobile OS"
+          ]
+        },
+        {
+          "title": "Dell's new 14S laptop challenges the MacBook Neo at an even lower price",
+          "category": "End-User Tech",
+          "summary": "Dell has announced the 14S, a new laptop aimed squarely at Apple's MacBook Neo, promising similar build quality and reliability at an even lower price. The 14S positions itself as a direct rival in the thin-and-light laptop market.",
+          "sources": [
+            {
+              "name": "9to5Google",
+              "url": "https://9to5google.com/2026/09/02/dell-14s-laptop-announcement/"
+            }
+          ],
+          "tags": [
+            "Dell",
+            "laptop",
+            "MacBook Neo",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Qualcomm's Adreno 'Neural Fusion' GPU leans on AI to upgrade phone gaming",
+          "category": "End-User Tech",
+          "summary": "Qualcomm has detailed its Adreno \"Neural Fusion\" GPU, which uses AI-based rendering in its Elite chips to improve mobile gaming performance. The technology aims to step up phone graphics quality using on-device AI.",
+          "sources": [
+            {
+              "name": "Android Central",
+              "url": "https://www.androidcentral.com/phones/qualcomm/qualcomms-adreno-neural-fusion-gpu-will-lean-on-ai-to-make-phone-gaming-better"
+            }
+          ],
+          "tags": [
+            "Qualcomm",
+            "Adreno",
+            "GPU",
+            "mobile gaming",
+            "chips"
+          ]
+        },
+        {
+          "title": "Malicious .git configs can make Claude, Codex, Cursor, and other AI agents run attacker code",
+          "category": "Cybersecurity",
+          "summary": "Manifold Security has disclosed eight flaws across seven command-line AI coding agents that let a repository's own Git configuration run attacker commands on a developer's machine, with four still unpatched at publication. The issue affects tools including Claude, Codex, and Cursor.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html"
+            }
+          ],
+          "tags": [
+            "AI agents",
+            "Git",
+            "supply chain",
+            "vulnerability",
+            "Claude"
+          ]
+        },
+        {
+          "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
+          "category": "Cybersecurity",
+          "summary": "Attackers are exploiting a critical authentication bypass vulnerability (CVE-2026-82329) in JFrog Artifactory to forge tokens that grant administrative access. The flaw is under active exploitation.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/"
+            }
+          ],
+          "tags": [
+            "JFrog",
+            "Artifactory",
+            "CVE-2026-82329",
+            "vulnerability"
+          ]
+        },
+        {
+          "title": "Digital scans of more than 153 million driver's licenses leaked to the dark web",
+          "category": "Cybersecurity",
+          "summary": "Digital scans of more than 153 million US and Canadian driver's licenses have leaked to the dark web through an identity-theft service, prompting an FBI investigation. The source may be an ID verification service in Louisiana.",
+          "sources": [
+            {
+              "name": "Engadget",
+              "url": "https://www.engadget.com/2249522/digital-scans-of-153-million-drivers-licenses-leaked-to-the-dark-web/"
+            }
+          ],
+          "tags": [
+            "data breach",
+            "dark web",
+            "identity theft",
+            "FBI"
+          ]
+        },
+        {
+          "title": "CERN is transitioning to Debian after years as a RHEL/CentOS institution",
+          "category": "Open Source",
+          "summary": "CERN, the European Organization for Nuclear Research, is transitioning its computing infrastructure to Debian after being a longtime Red Hat Enterprise Linux and CentOS shop. The move is a notable shift for one of Linux's most prominent institutional users.",
+          "sources": [
+            {
+              "name": "Phoronix",
+              "url": "https://www.phoronix.com/news/CERN-Goes-Debian-Leaving-RHEL"
+            }
+          ],
+          "tags": [
+            "CERN",
+            "Debian",
+            "RHEL",
+            "Linux",
+            "open source"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-01",
       "items": [
@@ -1375,116 +1591,6 @@
             "creator",
             "streaming",
             "platform"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "items": [
-        {
-          "title": "Inherent, founded by DeepMind alumni, says its Faraday agent outperformed Anthropic and OpenAI at replicating research",
-          "category": "AI / Agents",
-          "summary": "London-based AI lab Inherent, founded by Google DeepMind alumni and backed by $50 million in seed funding, released Faraday, an AI teammate built to reproduce the findings of scientific research papers. The company says Faraday outperformed models from Anthropic and OpenAI at this task, which it sees as a stepping stone toward faster innovation.",
-          "sources": [
-            {
-              "name": "TechCrunch",
-              "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
-            }
-          ],
-          "tags": [
-            "Inherent",
-            "AI agents",
-            "DeepMind",
-            "Faraday",
-            "research"
-          ]
-        },
-        {
-          "title": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
-          "category": "AI / Industry",
-          "summary": "OpenRouter data shows AI agents have consumed more tokens than humans since February 2025, with agentic usage growing 14x since then versus 2.8x for human usage. Nearly 70 percent of agent token consumption comes from cheap cached prompts, so real costs are rising far more slowly than raw usage.",
-          "sources": [
-            {
-              "name": "The Decoder",
-              "url": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/"
-            }
-          ],
-          "tags": [
-            "OpenRouter",
-            "AI agents",
-            "tokens",
-            "industry data"
-          ]
-        },
-        {
-          "title": "Report: Apple launching updated iMac with M6 chip and new colors later this year",
-          "category": "End-User Tech",
-          "summary": "Apple is reportedly preparing an updated iMac with the M6 chip and refreshed color options, its first iMac update after a roughly two-year hiatus. The report points to a launch later this year, though Apple has not confirmed the details.",
-          "sources": [
-            {
-              "name": "9to5Mac",
-              "url": "https://9to5mac.com/2026/08/23/apple-refreshed-imac-m6-chip-new-colors/"
-            }
-          ],
-          "tags": [
-            "Apple",
-            "iMac",
-            "M6",
-            "Mac",
-            "report"
-          ]
-        },
-        {
-          "title": "Samsung Galaxy Z Flip 8 review: a familiar foldable with refinements",
-          "category": "End-User Tech",
-          "summary": "Android Central spent two weeks with the Samsung Galaxy Z Flip 8 and found it largely iterative but polished, with a refined cover-screen experience and dependable daily performance that nearly won over a longtime Motorola Razr user.",
-          "sources": [
-            {
-              "name": "Android Central",
-              "url": "https://www.androidcentral.com/phones/samsung-galaxy/samsung-galaxy-z-flip-8-review"
-            }
-          ],
-          "tags": [
-            "Samsung",
-            "Galaxy Z Flip 8",
-            "foldable",
-            "review"
-          ]
-        },
-        {
-          "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
-          "category": "Cybersecurity",
-          "summary": "The ToxicPanda Android banking trojan has gained new functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. It now abuses VPN permissions to block Google Play and other protective services, deepening the threat to Android users.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/"
-            }
-          ],
-          "tags": [
-            "Android",
-            "malware",
-            "ToxicPanda",
-            "banking trojan"
-          ]
-        },
-        {
-          "title": "Linux 7.3 introduces new AES encryption APIs expected to open up more performance",
-          "category": "Open Source",
-          "summary": "The Linux 7.3 kernel introduces new AES encryption APIs that are expected to unlock additional performance, as Google's Eric Biggers continues modernizing the kernel's cryptographic code. The change improves how AES operations are exposed to drivers and userspace.",
-          "sources": [
-            {
-              "name": "Phoronix",
-              "url": "https://www.phoronix.com/news/Linux-7.3-New-Crypto-AES-APIs"
-            }
-          ],
-          "tags": [
-            "Linux",
-            "kernel",
-            "crypto",
-            "AES",
-            "open source"
           ]
         }
       ]
