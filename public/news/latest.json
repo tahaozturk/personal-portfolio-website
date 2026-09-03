@@ -1,8 +1,169 @@
 {
-  "updatedAt": "2026-09-02T21:07:55+03:00",
+  "updatedAt": "2026-09-03T21:05:39+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-09-03",
+      "items": [
+        {
+          "title": "Nvidia acquires Hugging Face, the 'GitHub of AI,' for $13 billion",
+          "category": "Tech Business",
+          "summary": "Nvidia is acquiring Hugging Face, the popular open platform for AI models, datasets, and tools, for about $13 billion. Nvidia says Hugging Face will remain open even as the chipmaker takes control of a key hub for the AI community.",
+          "sources": [
+            {
+              "name": "Ars Technica",
+              "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/"
+            }
+          ],
+          "tags": [
+            "Nvidia",
+            "Hugging Face",
+            "acquisition",
+            "AI"
+          ]
+        },
+        {
+          "title": "Saudi Arabia's Humain unveils humain-m3, an Arabic-language model built with China's MiniMax",
+          "category": "Tech Business",
+          "summary": "Saudi AI company Humain has launched humain-m3, a national Arabic-language model developed with China's MiniMax as part of a broader sovereign AI platform. The move is drawing scrutiny among US allies over sovereign AI built on Chinese models.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-09-03/saudi-arabia-s-humain-unveils-ai-model-based-on-china-s-minimax"
+            }
+          ],
+          "tags": [
+            "Humain",
+            "MiniMax",
+            "sovereign AI",
+            "Arabic",
+            "LLM"
+          ]
+        },
+        {
+          "title": "OpenAI launches Astra, its powerful and controversial new model",
+          "category": "AI & Agents",
+          "summary": "OpenAI has released Astra, describing the model as 'a new frontier on computer and browser use' with unmatched speed, accuracy, and safety. The launch follows a period of heightened scrutiny over the model's capabilities and safeguards.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "Astra",
+            "frontier model",
+            "AI"
+          ]
+        },
+        {
+          "title": "Google launches WeatherNext 3, its most advanced global weather AI model",
+          "category": "AI & Agents",
+          "summary": "Google has announced WeatherNext 3, calling it its most advanced and accurate global weather AI model, with immediate benefits for Search and Gemini. The company says the model offers roughly 50% more accurate precipitation forecasts.",
+          "sources": [
+            {
+              "name": "9to5Google",
+              "url": "https://9to5google.com/2026/09/03/google-weathernext-3/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "WeatherNext",
+            "weather",
+            "AI",
+            "Gemini"
+          ]
+        },
+        {
+          "title": "Motorola returns to Wear OS with the Moto Watch Ultra smartwatch",
+          "category": "End-User Tech",
+          "summary": "Motorola has unveiled the Moto Watch Ultra, a new Wear OS smartwatch announced at IFA 2026 that marks the company's return to Google's wearable platform. The standard Wear OS watch arrives alongside a Polar fitness collaboration.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/gadgets/988734/moto-watch-ultra-release-date-price-specs-wear-os-ifa"
+            }
+          ],
+          "tags": [
+            "Motorola",
+            "Wear OS",
+            "smartwatch",
+            "wearable"
+          ]
+        },
+        {
+          "title": "Lenovo's Yoga Tab Gen 2 Android tablets promise seven years of OS updates",
+          "category": "End-User Tech",
+          "summary": "Lenovo has announced its Yoga Tab Gen 2 series of Android tablets at IFA 2026, pairing flagship silicon and 4K displays with a seven-year OS update commitment. The lineup targets long-term buyers with extended software support.",
+          "sources": [
+            {
+              "name": "Android Authority",
+              "url": "https://www.androidauthority.com/lenovo-yoga-tab-gen-2-series-3706782/"
+            }
+          ],
+          "tags": [
+            "Lenovo",
+            "Android",
+            "tablet",
+            "Yoga Tab"
+          ]
+        },
+        {
+          "title": "Nvidia's RTX Spark 'Superchip' ushers in the first AI PCs",
+          "category": "End-User Tech",
+          "summary": "At IFA 2026, Nvidia and its partners showed off the first laptops and mini PCs powered by the RTX Spark 'Superchip', designed to run AI models locally on-device. The systems mark the arrival of dedicated AI PCs from major manufacturers.",
+          "sources": [
+            {
+              "name": "Wired",
+              "url": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/"
+            }
+          ],
+          "tags": [
+            "Nvidia",
+            "RTX Spark",
+            "AI PC",
+            "chips",
+            "hardware"
+          ]
+        },
+        {
+          "title": "Critical Cisco Nexus 9000 flaw allows unauthenticated remote code execution as root",
+          "category": "Cybersecurity",
+          "summary": "Cisco has patched a critical vulnerability in 10 Silicon One-based Nexus 9000 switches that could let an unauthenticated, remote attacker execute code as root. The advisory also includes an IOS XR hardening release bundling seven umbrella CVEs, two rated 9.8.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html"
+            }
+          ],
+          "tags": [
+            "Cisco",
+            "Nexus 9000",
+            "CVE",
+            "RCE",
+            "vulnerability"
+          ]
+        },
+        {
+          "title": "Audacity 4.0 released",
+          "category": "Open Source",
+          "summary": "Version 4.0 of the open-source Audacity audio editor has been released, bringing notable changes to the popular free audio editing and recording tool.",
+          "sources": [
+            {
+              "name": "LWN.net",
+              "url": "https://lwn.net/Articles/1092439/"
+            }
+          ],
+          "tags": [
+            "Audacity",
+            "audio",
+            "open source"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-02",
       "items": [
@@ -1442,155 +1603,6 @@
             "AI",
             "LLM",
             "maintainers"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-24",
-      "items": [
-        {
-          "title": "Hugging Face reportedly in talks to be acquired for $13 billion",
-          "category": "AI / Tech Business",
-          "summary": "Open-source AI platform Hugging Face is reportedly in talks to be acquired for around $13 billion, according to TechCrunch. The company is said to have fielded acquisition offers at that valuation, though its founders' sense of responsibility to the community has raised doubts about whether a sale will actually happen.",
-          "sources": [
-            {
-              "name": "TechCrunch",
-              "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/"
-            }
-          ],
-          "tags": [
-            "Hugging Face",
-            "acquisition",
-            "open source",
-            "AI",
-            "reported"
-          ]
-        },
-        {
-          "title": "Apple releases iOS 27 beta 7 as it tests a major Siri AI upgrade",
-          "category": "End-User Tech",
-          "summary": "Apple released the seventh iOS 27 beta for developers, continuing to test a major Siri upgrade powered by Apple Intelligence. The release is part of Apple's summer beta cycle ahead of the public launch this fall.",
-          "sources": [
-            {
-              "name": "9to5Mac",
-              "url": "https://9to5mac.com/2026/08/24/ios-27-beta-7/"
-            }
-          ],
-          "tags": [
-            "Apple",
-            "iOS 27",
-            "Siri",
-            "Apple Intelligence",
-            "beta"
-          ]
-        },
-        {
-          "title": "Cerebras unveils CS-4 with double the performance on the same chip",
-          "category": "AI / Hardware",
-          "summary": "Cerebras introduced its CS-4 AI accelerator, which CEO Andrew Feldman calls the fastest AI system in the industry. The company says the new wafer-scale system delivers roughly double the performance of its predecessor.",
-          "sources": [
-            {
-              "name": "The Decoder",
-              "url": "https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip/"
-            }
-          ],
-          "tags": [
-            "Cerebras",
-            "AI hardware",
-            "chip",
-            "accelerator",
-            "CS-4"
-          ]
-        },
-        {
-          "title": "Critical Keycloak password reset flaw could let attackers take over any account",
-          "category": "Cybersecurity",
-          "summary": "A critical Keycloak vulnerability (CVE-2026-18963) could let unauthenticated attackers skip the emailed action token and reset any user's password in affected configurations. Administrators are urged to apply the patch immediately.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html"
-            }
-          ],
-          "tags": [
-            "Keycloak",
-            "CVE-2026-18963",
-            "authentication",
-            "vulnerability",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "Microsoft: August updates break printing and PDF export in WPF apps",
-          "category": "End-User Tech",
-          "summary": "Microsoft confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. The company is investigating a fix for the regression.",
-          "sources": [
-            {
-              "name": "BleepingComputer",
-              "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/"
-            }
-          ],
-          "tags": [
-            "Microsoft",
-            "Windows",
-            ".NET",
-            "WPF",
-            "Windows Update"
-          ]
-        },
-        {
-          "title": "GNU Emacs 31.1 released with mouse control enabled by default",
-          "category": "Open Source",
-          "summary": "The GNU project released Emacs 31.1, the newest feature update to the popular extensible text editor. It enables mouse control by default and adds a new theme for first-time users.",
-          "sources": [
-            {
-              "name": "Phoronix",
-              "url": "https://www.phoronix.com/news/GNU-Emacs-31.1-Released"
-            }
-          ],
-          "tags": [
-            "Emacs",
-            "GNU",
-            "open source",
-            "release",
-            "editor"
-          ]
-        },
-        {
-          "title": "Shokz launches OpenFit Air 2 open-ear earbuds, nearly 20 percent lighter",
-          "category": "End-User Tech",
-          "summary": "Shokz launched the OpenFit Air 2, its new open-ear earbuds that are nearly 20 percent lighter than the previous generation. The design reduces pressure and heat buildup for more comfortable all-day wear.",
-          "sources": [
-            {
-              "name": "Engadget",
-              "url": "https://www.engadget.com/2232481/new-shokz-openfit-air-2-earbuds/"
-            }
-          ],
-          "tags": [
-            "Shokz",
-            "earbuds",
-            "open-ear",
-            "audio",
-            "consumer tech"
-          ]
-        },
-        {
-          "title": "YouTube plans big expansion of 24/7 Stations feeds",
-          "category": "End-User Tech",
-          "summary": "YouTube is planning a major expansion of its 24/7 Stations feeds, which will soon include podcasts and creator content beyond the music videos currently available.",
-          "sources": [
-            {
-              "name": "Android Authority",
-              "url": "https://www.androidauthority.com/youtube-stations-expansion-3702269/"
-            }
-          ],
-          "tags": [
-            "YouTube",
-            "Stations",
-            "creator",
-            "streaming",
-            "platform"
           ]
         }
       ]
