@@ -1,8 +1,135 @@
 {
-  "updatedAt": "2026-09-05T21:05:44+03:00",
+  "updatedAt": "2026-09-06T21:04:53+03:00",
   "title": "Daily AI & Tech News Brief",
   "summary": "Concise AI, mobile, consumer-device, cybersecurity, and open-source technology news summaries with source links.",
   "days": [
+    {
+      "date": "2026-09-06",
+      "items": [
+        {
+          "title": "OpenAI shares an inside look at how coding agents are accelerating its research",
+          "category": "AI & Agents",
+          "summary": "OpenAI published an internal look at how coding agents are reshaping its AI research, sharing early data on agent usage, experiment velocity, task complexity, and overall research acceleration.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/research-acceleration-view-inside-openai"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "AI agents",
+            "coding agents",
+            "research"
+          ]
+        },
+        {
+          "title": "OpenAI quietly boosts some of Astra's evaluation metrics, and continues to change others post-launch",
+          "category": "Tech Business",
+          "summary": "OpenAI quietly changed several evaluation benchmarks for its GPT-6 Astra model after first publishing them, with some updates appearing to favor Astra and further revisions continuing after launch. It is unclear what delayed the company's official blog post on the model.",
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/09/04/openai-quietly-boosts-some-of-astras-evaluation-metrics-amid-rare-delay-in-publication-of-the-modeblog-post-announcement/"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "GPT-6 Astra",
+            "benchmarks",
+            "evaluation"
+          ]
+        },
+        {
+          "title": "Boox's tiny Picco e-reader should land in November",
+          "category": "End-User Tech",
+          "summary": "Boox's compact Picco e-reader, announced at IFA 2026, is expected to arrive in November. The small-screen reader will skip magnets, and the company has not yet announced pricing.",
+          "sources": [
+            {
+              "name": "The Verge",
+              "url": "https://www.theverge.com/tech/990895/boox-picco-tiny-e-reader-november-ifa"
+            }
+          ],
+          "tags": [
+            "Boox",
+            "e-reader",
+            "IFA",
+            "consumer device"
+          ]
+        },
+        {
+          "title": "Google brings AI music generation directly into the Gemini app with its Lyria 3.5 model",
+          "category": "Creator Tools",
+          "summary": "Google released its Lyria 3.5 music model in the Gemini app and via API, promising more expressive vocals and richer arrangements. It is also available through Flow Music, AI Studio, and Google Vids, and Google says the model was trained only on licensed content.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/"
+            }
+          ],
+          "tags": [
+            "Google",
+            "Gemini",
+            "Lyria",
+            "AI music",
+            "creator tools"
+          ]
+        },
+        {
+          "title": "Attackers hijack MikroTik routers through internet-exposed SSH without authentication",
+          "category": "Cybersecurity",
+          "summary": "Attackers are gaining full administrative control of MikroTik routers through internet-exposed SSH without authentication, according to CERT Polska. The campaign highlights the risk of leaving a router's SSH interface reachable from the internet.",
+          "sources": [
+            {
+              "name": "The Hacker News",
+              "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html"
+            }
+          ],
+          "tags": [
+            "MikroTik",
+            "routers",
+            "SSH",
+            "cybersecurity"
+          ]
+        },
+        {
+          "title": "Asahi Linux now officially supports Apple M3 Macs, with caveats",
+          "category": "Open Source",
+          "summary": "Asahi Linux developers announced that the Linux distribution is now officially supported on Apple M3-powered Macs, extending Linux support to Apple's newer silicon though with some caveats.",
+          "sources": [
+            {
+              "name": "Phoronix",
+              "url": "https://www.phoronix.com/news/Asahi-Linux-Official-M3"
+            }
+          ],
+          "tags": [
+            "Asahi Linux",
+            "Apple Silicon",
+            "M3",
+            "Linux",
+            "open source"
+          ]
+        },
+        {
+          "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+          "category": "AI & Agents",
+          "summary": "Seattle Times and Newsday are the latest news organizations to sue OpenAI and Microsoft, alleging the companies used their journalism to train AI models without permission.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "Microsoft",
+            "copyright",
+            "AI training",
+            "lawsuit"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-05",
       "items": [
@@ -1442,175 +1569,6 @@
             "Linux",
             "open source",
             "gaming"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "items": [
-        {
-          "title": "Nvidia to acquire open-source AI platform Hugging Face for $12.9 billion",
-          "category": "Tech Business",
-          "summary": "Nvidia is set to acquire Hugging Face, the open-source AI platform, for about $12.9 billion, The Decoder reports — roughly 80 times the company's annual revenue. The deal advances Nvidia's push to invest billions in open AI models even as closed labs like OpenAI and Anthropic shift away from Nvidia hardware.",
-          "sources": [
-            {
-              "name": "The Decoder",
-              "url": "https://the-decoder.com/nvidia-snaps-up-hugging-face-for-12-9-billion-as-closed-ai-labs-pull-away/"
-            }
-          ],
-          "tags": [
-            "Nvidia",
-            "Hugging Face",
-            "acquisition",
-            "open source",
-            "AI",
-            "reported"
-          ]
-        },
-        {
-          "title": "Google DeepMind pilots the world's first double-blind AI evaluations",
-          "category": "AI / Models",
-          "summary": "Google DeepMind is piloting double-blind AI evaluations that run external evaluations inside a cryptographically secure environment, aiming to stop benchmark contamination while protecting proprietary model IP. The approach is meant to build trust in benchmarks for closed models.",
-          "sources": [
-            {
-              "name": "Google DeepMind",
-              "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
-            }
-          ],
-          "tags": [
-            "Google DeepMind",
-            "AI",
-            "benchmark",
-            "evaluation",
-            "model"
-          ]
-        },
-        {
-          "title": "Anthropic previews a Model Hardware Standard for AI agents to operate physical devices",
-          "category": "AI / Hardware",
-          "summary": "Anthropic opened a research preview of the Model Hardware Standard (MHS), a shared specification that lets AI agents safely operate physical devices. The preview is available to a first group of scientific research labs and advanced manufacturers.",
-          "sources": [
-            {
-              "name": "Anthropic",
-              "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
-            }
-          ],
-          "tags": [
-            "Anthropic",
-            "AI agents",
-            "hardware",
-            "standard"
-          ]
-        },
-        {
-          "title": "Samsung launches Galaxy S26 FE, its new value-focused flagship phone",
-          "category": "End-User Tech",
-          "summary": "Samsung introduced the Galaxy S26 FE, the first phone in the Galaxy S26 lineup to ship with One UI 9. The Fan Edition pairs an advanced camera with the latest flagship experience, focused on the features users care about most.",
-          "sources": [
-            {
-              "name": "Samsung Newsroom",
-              "url": "https://news.samsung.com/global/samsung-galaxy-s26-fe-delivering-the-latest-flagship-experience-focused-on-what-matters-most"
-            }
-          ],
-          "tags": [
-            "Samsung",
-            "Galaxy S26 FE",
-            "smartphone",
-            "One UI 9",
-            "Android"
-          ]
-        },
-        {
-          "title": "Adobe Photoshop adds a prompt-based 'AI Assisted Editor' mode",
-          "category": "Creator Tools",
-          "summary": "Adobe announced a beta for AI Assisted Editor, a new optional mode in Photoshop with a simplified, prompt-based interface for editing images. It lets users describe edits in natural language instead of relying on traditional tools.",
-          "sources": [
-            {
-              "name": "9to5Mac",
-              "url": "https://9to5mac.com/2026/08/27/adobe-photoshop-adds-optional-ai-assisted-editor-mode-for-fully-prompt-based-image-editing/"
-            }
-          ],
-          "tags": [
-            "Adobe",
-            "Photoshop",
-            "AI",
-            "creator tools",
-            "image editing"
-          ]
-        },
-        {
-          "title": "Google's AI Mode adds flight tracking, hotel booking, and travel planning",
-          "category": "End-User Tech",
-          "summary": "Google is turning AI Mode in Search into a travel assistant, adding the ability to book hotels, track airfares, and view miles and rewards. The update brings trip planning directly into Google Search.",
-          "sources": [
-            {
-              "name": "Google",
-              "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/"
-            }
-          ],
-          "tags": [
-            "Google",
-            "AI Mode",
-            "Search",
-            "travel",
-            "AI"
-          ]
-        },
-        {
-          "title": "Next.js patches critical flaws enabling unauthenticated remote code execution",
-          "category": "Cybersecurity",
-          "summary": "Vercel released patches for two critical vulnerabilities in Next.js that allow unauthenticated remote code execution — one exploitable through specially crafted AVIF images and another through a path traversal flaw on Windows. Developers are advised to update promptly.",
-          "sources": [
-            {
-              "name": "The Hacker News",
-              "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html"
-            }
-          ],
-          "tags": [
-            "Next.js",
-            "Vercel",
-            "RCE",
-            "vulnerability",
-            "patch",
-            "security"
-          ]
-        },
-        {
-          "title": "Two alleged 'TeamPCP' hackers arrested in Australia over supply-chain attacks",
-          "category": "Cybersecurity",
-          "summary": "Australian authorities arrested two men believed to be members of TeamPCP, a cybercrime group blamed for the longest-running spree of software supply-chain attacks to date. The arrests were announced by the Australian Federal Police.",
-          "sources": [
-            {
-              "name": "KrebsOnSecurity",
-              "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/"
-            }
-          ],
-          "tags": [
-            "TeamPCP",
-            "supply chain",
-            "arrest",
-            "Australia",
-            "hacking",
-            "cybersecurity"
-          ]
-        },
-        {
-          "title": "AMD jumps to ROCm 10.0 with ROCm.AI for open-source GPU compute",
-          "category": "Open Source",
-          "summary": "AMD is moving its ROCm open-source GPU compute stack straight from version 7.14 to ROCm 10.0, introducing ROCm.AI. The update advances AMD's open software platform for AI and HPC workloads.",
-          "sources": [
-            {
-              "name": "Phoronix",
-              "url": "https://www.phoronix.com/news/AMD-ROCm-10.0"
-            }
-          ],
-          "tags": [
-            "AMD",
-            "ROCm",
-            "open source",
-            "GPU",
-            "AI"
           ]
         }
       ]
