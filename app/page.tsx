@@ -8,6 +8,50 @@ import { Github, Linkedin, FileText, Newspaper, Youtube } from "lucide-react"
 
 const youtubeSubscribeUrl = "https://www.youtube.com/@taha-ozturk?sub_confirmation=1"
 
+type ProjectItem = {
+  title: string
+  description: string
+  tags: string[]
+  link?: string
+  status?: string
+}
+
+function ProjectCard({ item, ctaLabel }: { item: ProjectItem; ctaLabel: string }) {
+  return (
+    <Card className="p-6 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
+      <div className="space-y-4">
+        <div className="flex items-start justify-between">
+          <h4 className="text-xl font-semibold">{item.title}</h4>
+          {item.status ? (
+            <span className="px-2.5 py-1 text-xs rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 whitespace-nowrap">
+              {item.status}
+            </span>
+          ) : null}
+        </div>
+        <p className="text-muted-foreground leading-relaxed">{item.description}</p>
+        <div className="flex flex-wrap gap-2">
+          {item.tags.map((tag, tagIndex) => (
+            <span key={tagIndex} className="px-3 py-1 text-xs rounded-full bg-secondary text-secondary-foreground">
+              {tag}
+            </span>
+          ))}
+        </div>
+        {item.link ? (
+          <a href={item.link} target="_blank" rel="noopener noreferrer">
+            <Button variant="ghost" size="sm" className="mt-2">
+              {ctaLabel}
+            </Button>
+          </a>
+        ) : (
+          <Button variant="ghost" size="sm" className="mt-2" disabled>
+            {ctaLabel}
+          </Button>
+        )}
+      </div>
+    </Card>
+  )
+}
+
 export default function Portfolio() {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
@@ -31,7 +75,7 @@ export default function Portfolio() {
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button size="lg" onClick={() => scrollToSection("apps-courses")} className="text-base bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 shadow-lg shadow-primary/20">
-                Apps & Courses
+                Apps, Games & Courses
               </Button>
               <Button size="lg" variant="outline" onClick={() => scrollToSection("contact")} className="text-base hover:border-primary/50 hover:text-primary">
                 Get in Touch
@@ -87,12 +131,12 @@ export default function Portfolio() {
 
 
 
-      {/* Apps & Courses Section */}
+      {/* Apps, Games & Courses Section */}
       <section id="apps-courses" className="py-24 px-6 border-t border-border/60 relative overflow-hidden">
         <div className="absolute top-1/2 right-0 w-[300px] h-[300px] bg-primary/3 rounded-full blur-[80px] pointer-events-none" />
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold mb-12">Apps & Courses</h2>
-          <div className="grid md:grid-cols-2 gap-12">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12">Apps, Games & Courses</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             <div>
               <h3 className="text-2xl font-semibold mb-6">Apps</h3>
               <div className="grid gap-6">
@@ -104,13 +148,15 @@ export default function Portfolio() {
                     tags: ["Mobile", "Android", "iOS", "Productivity"],
                     link: "https://motivatemequoteandhabittracker.netlify.app/",
                   },
-                  {
-                    title: "Release Note Generator",
-                    description:
-                      "A micro SaaS for generating app store release notes for mobile apps. Connect your GitHub repo and let AI automatically generate polished notes and their localized versions across languages.",
-                    tags: ["SaaS", "AI", "GitHub", "Localization", "Mobile"],
-                    link: "https://release-note-generator-frontend.vercel.app/",
-                  },
+                ].map((item, index) => (
+                  <ProjectCard key={`app-${index}`} item={item} ctaLabel="Go to app page →" />
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Games</h3>
+              <div className="grid gap-6">
+                {[
                   {
                     title: "Coastward",
                     description:
@@ -126,35 +172,7 @@ export default function Portfolio() {
                     link: "https://taha-ozturk.itch.io/long-position",
                   },
                 ].map((item, index) => (
-                  <Card key={`app-${index}`} className="p-6 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
-                    <div className="space-y-4">
-                      <div className="flex items-start justify-between">
-                        <h4 className="text-xl font-semibold">{item.title}</h4>
-                      </div>
-                      <p className="text-muted-foreground leading-relaxed">{item.description}</p>
-                      <div className="flex flex-wrap gap-2">
-                        {item.tags.map((tag, tagIndex) => (
-                          <span
-                            key={tagIndex}
-                            className="px-3 py-1 text-xs rounded-full bg-secondary text-secondary-foreground"
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                      {item.link ? (
-                        <a href={item.link} target="_blank" rel="noopener noreferrer">
-                          <Button variant="ghost" size="sm" className="mt-2">
-                            Go to app page →
-                          </Button>
-                        </a>
-                      ) : (
-                        <Button variant="ghost" size="sm" className="mt-2" disabled>
-                          Go to app page →
-                        </Button>
-                      )}
-                    </div>
-                  </Card>
+                  <ProjectCard key={`game-${index}`} item={item} ctaLabel="Play the game →" />
                 ))}
               </div>
             </div>
@@ -163,46 +181,14 @@ export default function Portfolio() {
               <div className="grid gap-6">
                 {[
                   {
-                    title: "Temel Seviye SQL Eğitimi",
+                    title: "SQL Training for Beginners",
                     description:
                       "A SQL course for complete beginners, taught in Turkish from a data engineer’s perspective with real-world examples and hands-on exercises.",
-                    status: "In progress",
                     tags: ["SQL", "Education", "Video", "Türkçe"],
                     link: "https://www.youtube.com/playlist?list=PLSa9aa4WB3pQ",
                   },
                 ].map((item, index) => (
-                  <Card key={`course-${index}`} className="p-6 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
-                    <div className="space-y-4">
-                      <div className="flex items-start justify-between">
-                        <h4 className="text-xl font-semibold">{item.title}</h4>
-                        <span className="px-2.5 py-1 text-xs rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 whitespace-nowrap">
-                          {item.status}
-                        </span>
-                      </div>
-                      <p className="text-muted-foreground leading-relaxed">{item.description}</p>
-                      <div className="flex flex-wrap gap-2">
-                        {item.tags.map((tag, tagIndex) => (
-                          <span
-                            key={tagIndex}
-                            className="px-3 py-1 text-xs rounded-full bg-secondary text-secondary-foreground"
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                      {item.link ? (
-                        <a href={item.link} target="_blank" rel="noopener noreferrer">
-                          <Button variant="ghost" size="sm" className="mt-2">
-                            Learn more →
-                          </Button>
-                        </a>
-                      ) : (
-                        <Button variant="ghost" size="sm" className="mt-2" disabled>
-                          Learn more →
-                        </Button>
-                      )}
-                    </div>
-                  </Card>
+                  <ProjectCard key={`course-${index}`} item={item} ctaLabel="Learn more →" />
                 ))}
               </div>
             </div>
