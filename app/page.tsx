@@ -111,6 +111,20 @@ export default function Portfolio() {
                     tags: ["SaaS", "AI", "GitHub", "Localization", "Mobile"],
                     link: "https://release-note-generator-frontend.vercel.app/",
                   },
+                  {
+                    title: "Coastward",
+                    description:
+                      "A gravity-assist puzzle game that runs in the browser. You get one burn at launch, then the ship belongs to physics — steal energy from moving planets to cross four star systems on as little fuel as possible.",
+                    tags: ["Game", "Browser", "Physics", "Puzzle"],
+                    link: "https://taha-ozturk.itch.io/coastward",
+                  },
+                  {
+                    title: "Long Position",
+                    description:
+                      "A financial-market board game for iOS, Android and the web. Every tile is repriced each turn by the market cycle, so rent groups, coupon-paying savings and assets you can only cash out by selling all behave differently.",
+                    tags: ["Game", "iOS", "Android", "Web", "Finance"],
+                    link: "https://taha-ozturk.itch.io/long-position",
+                  },
                 ].map((item, index) => (
                   <Card key={`app-${index}`} className="p-6 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
                     <div className="space-y-4">
@@ -149,11 +163,12 @@ export default function Portfolio() {
               <div className="grid gap-6">
                 {[
                   {
-                    title: "Solve SQL 50 With Me",
+                    title: "Temel Seviye SQL Eğitimi",
                     description:
-                      "A step-by-step video playlist where I solve 50 LeetCode SQL problems to build practical querying skills.",
+                      "A SQL course for complete beginners, taught in Turkish from a data engineer’s perspective with real-world examples and hands-on exercises.",
                     status: "In progress",
-                    tags: ["SQL", "LeetCode", "Education", "Video"],
+                    tags: ["SQL", "Education", "Video", "Türkçe"],
+                    link: "https://www.youtube.com/playlist?list=PLSa9aa4WB3pQ",
                   },
                 ].map((item, index) => (
                   <Card key={`course-${index}`} className="p-6 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
@@ -175,9 +190,17 @@ export default function Portfolio() {
                           </span>
                         ))}
                       </div>
-                      <Button variant="ghost" size="sm" className="mt-2">
-                        Learn more →
-                      </Button>
+                      {item.link ? (
+                        <a href={item.link} target="_blank" rel="noopener noreferrer">
+                          <Button variant="ghost" size="sm" className="mt-2">
+                            Learn more →
+                          </Button>
+                        </a>
+                      ) : (
+                        <Button variant="ghost" size="sm" className="mt-2" disabled>
+                          Learn more →
+                        </Button>
+                      )}
                     </div>
                   </Card>
                 ))}
