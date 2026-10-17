@@ -158,6 +158,13 @@ export default function Portfolio() {
               <div className="grid gap-6">
                 {[
                   {
+                    title: "Wingmate Racers",
+                    description:
+                      "Two-seat sky racing for iPhone, iPad and Android. Fly, fire, or both at once through a 25-level career, solo against AI or crewed up with a friend online.",
+                    tags: ["Game", "iOS", "Android", "Racing", "Co-op"],
+                    link: "/wingmate-racers/",
+                  },
+                  {
                     title: "Coastward",
                     description:
                       "A gravity-assist puzzle game that runs in the browser. You get one burn at launch, then the ship belongs to physics — steal energy from moving planets to cross four star systems on as little fuel as possible.",

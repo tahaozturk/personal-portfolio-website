@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wingmate Racers</title>
+<meta name="description" content="Two-seat sky racing: fly or fire, solo or with a friend online. 25-level career, eight courses, co-op crews. Free on iPhone, iPad and Android.">
+<link rel="canonical" href="https://taha-ozturk.com/wingmate-racers/">
+<meta name="theme-color" content="#0b1030">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wingmate Racers">
+<meta property="og:description" content="Two-seat sky racing: fly or fire, solo or with a friend online.">
+<meta property="og:url" content="https://taha-ozturk.com/wingmate-racers/">
+<meta property="og:image" content="https://taha-ozturk.com/wingmate-racers/img/og.jpg">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b1030;
+    --bg-2: #121946;
+    --panel: rgba(255,255,255,.045);
+    --line: rgba(160,180,255,.16);
+    --text: #eef1ff;
+    --muted: #a9b2d9;
+    --orange: #ff9a3c;
+    --orange-2: #ff5e3a;
+    --blue: #57c4ff;
+    --cyan: #3ee6e0;
+    --pink: #ff4fa3;
+    --green: #6fe07a;
+    --yellow: #ffd23f;
+    --radius: 18px;
+    --display: 'Orbitron', 'Rajdhani', system-ui, sans-serif;
+    --body: 'Rajdhani', system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--body);
+    font-size: 19px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+
+  /* Top bar */
+  .top {
+    position: sticky; top: 0; z-index: 20;
+    background: rgba(11,16,48,.78);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  .top .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--display); font-weight: 800; font-size: 15px; letter-spacing: .06em; }
+  .brand img { width: 32px; height: 32px; border-radius: 8px; }
+  .top nav { display: flex; gap: 22px; font-weight: 600; font-size: 16px; }
+  .top nav a { text-decoration: none; color: var(--muted); transition: color .15s; }
+  .top nav a:hover { color: var(--text); }
+  @media (max-width: 720px) { .top nav .hide-sm { display: none; } }
+
+  /* Hero */
+  .hero { position: relative; padding: 48px 0 72px; isolation: isolate; }
+  .hero::before {
+    content: ""; position: absolute; inset: 0; z-index: -1;
+    background:
+      radial-gradient(600px 380px at 15% 10%, rgba(255,120,60,.22), transparent 70%),
+      radial-gradient(700px 420px at 90% 30%, rgba(87,196,255,.18), transparent 70%);
+  }
+  .key-art {
+    border-radius: 24px; overflow: hidden;
+    border: 1px solid var(--line);
+    box-shadow: 0 30px 80px -20px rgba(0,0,0,.7), 0 0 0 1px rgba(255,255,255,.03) inset;
+    aspect-ratio: 1024 / 500;
+    background: var(--bg-2);
+  }
+  .key-art img { width: 100%; height: 100%; object-fit: cover; }
+  .hero-copy { text-align: center; max-width: 760px; margin: 40px auto 0; }
+  .eyebrow { font-family: var(--display); font-size: 12px; font-weight: 800; letter-spacing: .28em; color: var(--orange); text-transform: uppercase; }
+  h1 {
+    font-family: var(--display); font-weight: 900; font-style: italic;
+    font-size: clamp(30px, 5.4vw, 56px); line-height: 1.08; margin: 14px 0 16px;
+    letter-spacing: .01em;
+  }
+  h1 .o { background: linear-gradient(180deg, #ffd06a, var(--orange) 55%, var(--orange-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  h1 .b { background: linear-gradient(180deg, #bfeaff, var(--blue) 60%, #2f7fff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lede { color: var(--muted); font-size: 21px; margin: 0 auto; max-width: 620px; }
+
+  .cta { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-top: 30px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 12px;
+    padding: 13px 22px; border-radius: 14px; text-decoration: none;
+    font-weight: 700; font-size: 18px; line-height: 1.15;
+    border: 1px solid var(--line); background: var(--panel);
+    transition: transform .15s, border-color .15s, background .15s;
+  }
+  .btn svg { width: 26px; height: 26px; flex: none; }
+  .btn small { display: block; font-size: 13px; font-weight: 600; color: var(--muted); letter-spacing: .03em; }
+  .btn:hover { transform: translateY(-2px); border-color: rgba(160,180,255,.4); }
+  .btn.primary { background: linear-gradient(135deg, var(--orange), var(--orange-2)); border-color: transparent; color: #1b0d05; box-shadow: 0 12px 30px -10px rgba(255,110,50,.6); }
+  .btn.primary small { color: rgba(27,13,5,.72); }
+  .btn.disabled { opacity: .7; cursor: default; }
+  .btn.disabled:hover { transform: none; border-color: var(--line); }
+  .note { margin-top: 14px; color: var(--muted); font-size: 15px; }
+
+  /* Sections */
+  section { padding: 80px 0; scroll-margin-top: 60px; }
+  section + section { border-top: 1px solid var(--line); }
+  h2 { font-family: var(--display); font-weight: 800; font-size: clamp(24px, 3.6vw, 36px); margin: 10px 0 14px; line-height: 1.15; }
+  .section-head { max-width: 680px; margin-bottom: 40px; }
+  .section-head p { color: var(--muted); margin: 0; }
+
+  /* Seats */
+  .seats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  @media (max-width: 860px) { .seats { grid-template-columns: 1fr; } }
+  .seat { border: 1px solid var(--line); background: var(--panel); border-radius: var(--radius); padding: 26px; position: relative; overflow: hidden; }
+  .seat::after { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--accent); }
+  .seat .tag { font-family: var(--display); font-size: 12px; font-weight: 800; letter-spacing: .2em; color: var(--accent); }
+  .seat h3 { font-family: var(--display); font-size: 22px; margin: 8px 0 10px; }
+  .seat p { margin: 0 0 14px; color: var(--muted); }
+  .keys { display: flex; flex-wrap: wrap; gap: 6px; }
+  .keys span { font-size: 14px; font-weight: 700; padding: 3px 9px; border-radius: 7px; border: 1px solid var(--line); background: rgba(0,0,0,.25); }
+
+  /* Features */
+  .features { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  @media (max-width: 760px) { .features { grid-template-columns: 1fr; } }
+  .feature { display: grid; grid-template-columns: 52px 1fr; gap: 16px; padding: 22px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--panel); }
+  .feature .ico { width: 52px; height: 52px; border-radius: 14px; display: grid; place-items: center; background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
+  .feature .ico svg { width: 26px; height: 26px; }
+  .feature h3 { margin: 2px 0 4px; font-size: 21px; font-weight: 700; }
+  .feature p { margin: 0; color: var(--muted); }
+
+  /* Gallery */
+  .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  @media (max-width: 860px) { .gallery { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 520px) { .gallery { grid-template-columns: 1fr; } }
+  .gallery button { all: unset; cursor: zoom-in; border-radius: 14px; overflow: hidden; border: 1px solid var(--line); aspect-ratio: 16/9; background: var(--bg-2); transition: transform .2s, border-color .2s; }
+  .gallery button:hover, .gallery button:focus-visible { transform: translateY(-3px); border-color: rgba(160,180,255,.45); }
+  .gallery button:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+  .gallery img { width: 100%; height: 100%; object-fit: cover; }
+  .lightbox { position: fixed; inset: 0; z-index: 50; background: rgba(5,8,26,.92); display: none; align-items: center; justify-content: center; padding: 16px; }
+  .lightbox.open { display: flex; }
+  .lightbox img { max-height: 88vh; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,.6); }
+  .lightbox .x, .lightbox .nav { position: absolute; background: rgba(255,255,255,.08); border: 1px solid var(--line); color: var(--text); border-radius: 50%; width: 46px; height: 46px; font-size: 22px; cursor: pointer; }
+  .lightbox .x { top: 16px; right: 16px; }
+  .lightbox .nav.prev { left: 16px; top: 50%; transform: translateY(-50%); }
+  .lightbox .nav.next { right: 16px; top: 50%; transform: translateY(-50%); }
+
+  /* Courses + career */
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+  @media (max-width: 860px) { .split { grid-template-columns: 1fr; } }
+  .courses { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 0; margin: 0; list-style: none; }
+  .courses li { padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel); font-weight: 700; display: flex; align-items: center; gap: 10px; }
+  .courses li::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--c); box-shadow: 0 0 12px var(--c); flex: none; }
+  .leagues { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .leagues li { display: grid; grid-template-columns: 76px 1fr; align-items: center; gap: 14px; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel); }
+  .leagues .lv { font-family: var(--display); font-weight: 800; font-size: 13px; color: var(--muted); }
+  .leagues b { font-size: 19px; }
+  .leagues span.d { display: block; color: var(--muted); font-size: 15px; }
+  .bar { height: 6px; border-radius: 6px; background: rgba(255,255,255,.06); margin-top: 6px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--orange), var(--pink)); }
+
+  /* Get it */
+  .get { text-align: center; }
+  .get .section-head { margin: 0 auto 30px; }
+  .platforms { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; max-width: 900px; margin: 0 auto; text-align: left; }
+  @media (max-width: 760px) { .platforms { grid-template-columns: 1fr; } }
+  .platform { padding: 22px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--panel); }
+  .platform h3 { margin: 0 0 4px; font-size: 21px; }
+  .platform p { margin: 0 0 14px; color: var(--muted); font-size: 16px; }
+  .pill { display: inline-block; font-size: 13px; font-weight: 700; letter-spacing: .04em; padding: 4px 10px; border-radius: 99px; }
+  .pill.live { background: rgba(111,224,122,.15); color: var(--green); }
+  .pill.soon { background: rgba(255,210,63,.13); color: var(--yellow); }
+
+  footer { padding: 40px 0 56px; border-top: 1px solid var(--line); color: var(--muted); font-size: 16px; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 14px 28px; justify-content: space-between; align-items: center; }
+  footer nav { display: flex; flex-wrap: wrap; gap: 18px; }
+  footer a { text-decoration: none; }
+  footer a:hover { color: var(--text); }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+  @media (max-width: 520px) {
+    body { font-size: 18px; }
+    .wrap { padding: 0 16px; }
+    section { padding: 60px 0; }
+    .hero { padding: 24px 0 56px; }
+    .key-art { border-radius: 16px; }
+    .btn { width: 100%; justify-content: center; }
+    .courses { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="img/icon.png" alt="" width="32" height="32">WINGMATE RACERS</a>
+    <nav>
+      <a class="hide-sm" href="#seats">Seats</a>
+      <a class="hide-sm" href="#features">Features</a>
+      <a class="hide-sm" href="#screens">Screens</a>
+      <a href="#get">Get it</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div class="key-art">
+        <img src="img/hero.webp" alt="Two racing ships flying low along a river through a giant forest, with the Wingmate Racers logo above" width="1024" height="500" fetchpriority="high">
+      </div>
+      <div class="hero-copy">
+        <div class="eyebrow">Two-seat sky racing</div>
+        <h1><span class="o">One flies.</span> <span class="b">One fires.</span></h1>
+        <p class="lede">Every racer has two seats. Take the pilot's stick, the gunner's guns, or both at once, and race low and fast through canyons, forests, islands and storm coasts. Solo against AI, or crewed up with a friend online.</p>
+        <div class="cta">
+          <a class="btn primary" href="https://testflight.apple.com/join/tHWqYMr9" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.19-1.73-1.36-.14-2.65.8-3.34.8-.69 0-1.75-.78-2.88-.76-1.48.02-2.85.86-3.61 2.19-1.54 2.67-.39 6.62 1.11 8.79.73 1.06 1.6 2.25 2.75 2.2 1.1-.04 1.52-.71 2.85-.71 1.33 0 1.71.71 2.88.69 1.19-.02 1.94-1.08 2.67-2.14.84-1.23 1.19-2.42 1.21-2.48-.03-.01-2.32-.89-2.34-3.54zM14.2 6.15c.61-.74 1.02-1.76.91-2.78-.88.04-1.94.59-2.57 1.32-.56.65-1.06 1.69-.93 2.69.98.08 1.98-.5 2.59-1.23z"/></svg>
+            <span>Join the iPhone beta<small>TestFlight · iPhone &amp; iPad</small></span>
+          </a>
+          <span class="btn disabled" aria-disabled="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 2.2c-.2.2-.3.6-.3 1v17.6c0 .4.1.8.3 1l.1.1 9.9-9.9v-.2L3.7 2.1l-.1.1zm13.3 13.2-3.3-3.3v-.2l3.3-3.3.1.1 3.9 2.2c1.1.6 1.1 1.7 0 2.3l-3.9 2.2h-.1zm-.1.1L13.4 12 3.6 21.8c.4.4 1 .4 1.6.1l11.6-6.4M16.8 8.5 5.2 1.9c-.7-.4-1.3-.3-1.6.1l9.8 9.8 3.4-3.3z"/></svg>
+            <span>Google Play<small>Coming soon</small></span>
+          </span>
+        </div>
+        <p class="note">Free. No ads, no pay-to-win: everything is earned by racing.</p>
+      </div>
+    </div>
+  </div>
+
+  <section id="seats">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Pick your seat</div>
+        <h2>Pilot, gunner, or both</h2>
+        <p>Your AI crewmate takes whichever seat you leave. Human and AI play by the same numbers: same damage, same reload, same lock time.</p>
+      </div>
+      <div class="seats">
+        <article class="seat" style="--accent: var(--orange)">
+          <div class="tag">PILOT</div>
+          <h3>Fly it by hand</h3>
+          <p>The ship is heavy and slow to answer the stick. Steer into every bend, boost on the straights, and raise the shield when a missile closes in.</p>
+          <div class="keys"><span>WASD</span><span>Space boost</span><span>E shield</span></div>
+        </article>
+        <article class="seat" style="--accent: var(--blue)">
+          <div class="tag">GUNNER</div>
+          <h3>Own the fight</h3>
+          <p>Aim, lock on to rivals, swing the camera round to shoot behind, drop mines in your wake and shoot down the missiles coming for your ship.</p>
+          <div class="keys"><span>Mouse aim</span><span>Q look back</span><span>F mine</span></div>
+        </article>
+        <article class="seat" style="--accent: var(--pink)">
+          <div class="tag">SOLO</div>
+          <h3>Do both at once</h3>
+          <p>Fly with the keyboard and fight with the mouse, no crewmate at all. The hardest way to race, and the most satisfying win.</p>
+          <div class="keys"><span>Keyboard</span><span>+</span><span>Mouse</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Race by your wits</div>
+        <h2>Win by any means</h2>
+        <p>Nobody gets hurt for good: ships at zero hull are knocked out for a few seconds, then recover and rejoin the race.</p>
+      </div>
+      <div class="features">
+        <div class="feature" style="--accent: var(--cyan)">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 14.5c2.8-.3 6 1.4 6 5.5"/></svg></div>
+          <div><h3>Co-op crews</h3><p>Team up with a friend: one flies, one fights. Play over the internet with a crew code, or on the same Wi-Fi with no account needed.</p></div>
+        </div>
+        <div class="feature" style="--accent: var(--orange)">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg></div>
+          <div><h3>A real career</h3><p>25 levels across five leagues. Earn credits, unlock courses, and buy faster ships and heavier guns in the garage.</p></div>
+        </div>
+        <div class="feature" style="--accent: var(--blue)">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h7M3 7h11M3 17h11"/><path d="m15 9 6 3-6 3"/></svg></div>
+          <div><h3>Slipstream and slingshot</h3><p>Tail a rival to fill the slipstream bar, then pull out of the wake to slingshot past. Fast ships win the straights, nimble ones the bends.</p></div>
+        </div>
+        <div class="feature" style="--accent: var(--yellow)">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="2.5"/><path d="M12 2a10 10 0 0 1 8.7 5L14.2 10.7M3.3 7A10 10 0 0 1 12 2v7.5M12 22a10 10 0 0 1-8.7-5l6.5-3.7M20.7 17A10 10 0 0 1 12 22v-7.5"/></svg></div>
+          <div><h3>The nuke</h3><p>One shared nuke pod hides somewhere on every course. Grab it first and send it after the leader. The shield can't stop it; only gunfire can.</p></div>
+        </div>
+        <div class="feature" style="--accent: var(--pink)">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></div>
+          <div><h3>Leader draws the fire</h3><p>Every rival gunner favours whoever leads, and sends long-range missiles after them. Taking first place means taking all the heat.</p></div>
+        </div>
+        <div class="feature" style="--accent: var(--green)">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg></div>
+          <div><h3>Speaks your language</h3><p>Original music, every model built in code, and a race announcer who calls the action in all eight interface languages.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="screens">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Screenshots</div>
+        <h2>Low, fast, and loud</h2>
+      </div>
+      <div class="gallery" id="gallery">
+        <button data-i="0" aria-label="Open screenshot: Skyreach Isles"><img src="img/shot-1-sm.webp" alt="Ship racing between floating islands under a rainbow" width="640" height="360" loading="lazy"></button>
+        <button data-i="1" aria-label="Open screenshot: Elderwood Hollow"><img src="img/shot-2-sm.webp" alt="Missile warning while flying down a forest river" width="640" height="360" loading="lazy"></button>
+        <button data-i="2" aria-label="Open screenshot: Stormbreak Coast"><img src="img/shot-3-sm.webp" alt="Leading the race at night on a stormy coast with all rival guns aimed at you" width="640" height="360" loading="lazy"></button>
+        <button data-i="3" aria-label="Open screenshot: chasing through the isles"><img src="img/shot-4-sm.webp" alt="Chasing rivals through the floating islands" width="640" height="360" loading="lazy"></button>
+        <button data-i="4" aria-label="Open screenshot: nuke in flight"><img src="img/shot-5-sm.webp" alt="A nuke streaking across a dark sea toward a rival" width="640" height="360" loading="lazy"></button>
+        <button data-i="5" aria-label="Open screenshot: knockout"><img src="img/shot-6-sm.webp" alt="Knocking out a rival past the grandstands in the forest" width="640" height="360" loading="lazy"></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="world">
+    <div class="wrap split">
+      <div>
+        <div class="eyebrow">Eight courses</div>
+        <h2>Hand-built worlds</h2>
+        <p style="color:var(--muted);margin:0 0 22px">Pick up fuel, shield, repair and overcharge pods along every course. They're yours alone, so a rival ahead can't empty the track for you.</p>
+        <ul class="courses">
+          <li style="--c:#ff7a3c">Ember Canyon</li>
+          <li style="--c:#6fe07a">Elderwood Hollow</li>
+          <li style="--c:#7fd8ff">Skyreach Isles</li>
+          <li style="--c:#3ee6e0">Glimmerdeep</li>
+          <li style="--c:#ffd23f">Mirage Dunes</li>
+          <li style="--c:#ff4f4f">Cinder Forge</li>
+          <li style="--c:#3fd49a">Jade Karst Peaks</li>
+          <li style="--c:#8a9cff">Stormbreak Coast</li>
+        </ul>
+      </div>
+      <div>
+        <div class="eyebrow">Five leagues</div>
+        <h2>From rookie to legend</h2>
+        <p style="color:var(--muted);margin:0 0 22px">Rivals fly faster, aim better and carry heavier guns in every league. Clear the whole career to unlock Quick Match.</p>
+        <ul class="leagues">
+          <li><span class="lv">LV 1–9</span><div><b>Rookie Cup</b><span class="d">Flight Academy: one new skill per level</span><div class="bar"><i style="width:20%"></i></div></div></li>
+          <li><span class="lv">LV 10–13</span><div><b>Pro Circuit</b><span class="d">Heavier guns join the grid</span><div class="bar"><i style="width:40%"></i></div></div></li>
+          <li><span class="lv">LV 14–17</span><div><b>Elite Series</b><div class="bar"><i style="width:60%"></i></div></div></li>
+          <li><span class="lv">LV 18–20</span><div><b>Star Grand Prix</b><div class="bar"><i style="width:80%"></i></div></div></li>
+          <li><span class="lv">LV 21–25</span><div><b>Legend Series</b><span class="d">Purses up to ×2.1</span><div class="bar"><i style="width:100%"></i></div></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="get" class="get">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Get it</div>
+        <h2>Ready for the grid?</h2>
+        <p>Plays in landscape on phones and tablets with touch controls or a Bluetooth gamepad.</p>
+      </div>
+      <div class="platforms">
+        <div class="platform">
+          <span class="pill live">Public beta</span>
+          <h3 style="margin-top:12px">iPhone &amp; iPad</h3>
+          <p>Join through TestFlight. Install Apple's TestFlight app, then open the invite.</p>
+          <a class="btn primary" href="https://testflight.apple.com/join/tHWqYMr9" rel="noopener">Open TestFlight invite</a>
+        </div>
+        <div class="platform">
+          <span class="pill soon">Coming soon</span>
+          <h3 style="margin-top:12px">Android</h3>
+          <p>In testing on Google Play now. The public release follows once testing wraps up.</p>
+        </div>
+        <div class="platform">
+          <span class="pill soon">Coming soon</span>
+          <h3 style="margin-top:12px">App Store</h3>
+          <p>The full App Store release comes after the TestFlight beta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 <a href="/">Taha Ozturk</a> · Wingmate Racers</div>
+    <nav>
+      <a href="https://relay.taha-ozturk.com/privacy">Privacy</a>
+      <a href="https://relay.taha-ozturk.com/privacy#terms">Terms</a>
+      <a href="mailto:support@taha-ozturk.com">Support</a>
+      <a href="/">More games</a>
+    </nav>
+  </div>
+</footer>
+
+<div class="lightbox" id="lb" role="dialog" aria-modal="true" aria-label="Screenshot viewer">
+  <button class="nav prev" aria-label="Previous screenshot">‹</button>
+  <img alt="">
+  <button class="nav next" aria-label="Next screenshot">›</button>
+  <button class="x" aria-label="Close">×</button>
+</div>
+
+<script>
+(function () {
+  var lb = document.getElementById('lb'), img = lb.querySelector('img');
+  var thumbs = Array.prototype.slice.call(document.querySelectorAll('#gallery button'));
+  var i = 0, opener = null;
+  function show(n) {
+    i = (n + thumbs.length) % thumbs.length;
+    var t = thumbs[i].querySelector('img');
+    img.src = 'img/shot-' + (i + 1) + '.webp';
+    img.alt = t.alt;
+  }
+  function open(n) { opener = document.activeElement; show(n); lb.classList.add('open'); lb.querySelector('.x').focus(); }
+  function close() { lb.classList.remove('open'); if (opener) opener.focus(); }
+  thumbs.forEach(function (b, n) { b.addEventListener('click', function () { open(n); }); });
+  lb.querySelector('.x').addEventListener('click', close);
+  lb.querySelector('.prev').addEventListener('click', function () { show(i - 1); });
+  lb.querySelector('.next').addEventListener('click', function () { show(i + 1); });
+  lb.addEventListener('click', function (e) { if (e.target === lb) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') close();
+    else if (e.key === 'ArrowLeft') show(i - 1);
+    else if (e.key === 'ArrowRight') show(i + 1);
+  });
+})();
+</script>
+</body>
+</html>
